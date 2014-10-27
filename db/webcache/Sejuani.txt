@@ -1,0 +1,142 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Frost Armor
+|icon = Frost Armor.jpg
+|description  = Damaging an enemy with an ability or basic attack grants {{pp|4|10|15|20|25|1|7|12|17}} bonus armor and reduces movement-slowing effects on Sejuani by {{pp|4|10|15|20|25|1|7|12|17}}% for 2 seconds. 
+|description2 = Subsequent damage will increase the duration by 2 seconds up to a cap of 8 seconds, with further damage refreshing the duration.
+}}
+|{{Ability2
+|targeting='''Frost Armor''' is a [[buff|self-buff]] [[on-hit effect|on-hit]] and [[spell effect|on-spell effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Slow resistance stacks multiplicatively from all other sources. Sejuani may achieve a maximum of {{fd|49.375}}% slow resistance with the {{mi4|Swiftness}} mastery and {{ii|Boots of Swiftness}} at level 17.
+|video=Sejuani IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Arctic Assault
+|icon = Arctic Assault.png
+|description  = {{sbc|Active:}} Sejuani charges forward, knocking enemies into the air and dealing magic damage equal to a flat amount plus a percentage of their maximum health (max 300 damage to monsters). 
+|description2 = This charge stops after knocking an enemy champion into the air, but has a small area of effect that allows multiple champions to be knocked up if they are close enough together.
+|leveling ={{lcapss|Magic damage|40|70|100|130|160|(+ 40% AP)|(+ {{ap|4|6|8|10|12}}% of enemy's maximum health)}}
+|cooldown={{ap|15|14|13|12|11}}
+|cost={{ap|80|85|90|95|100}}
+|costtype=mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Arctic Assault''' is a linear colliding [[dash]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and knockup.
+|additional=
+* ''Arctic Assault'' does not have an area of affect while colliding with an enemy champion; however, if multiple champions are hit by the charge itself, you may deal damage to multiple enemies.
+|video=Sejuani QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Flail of the Northern Winds
+|icon = Flail of the Northern Winds.png
+|description  = {{sbc|Active:}} Sejuani's next basic attack deals bonus magic damage to the target and enemies near it. She then swings her flail, dealing magic damage each second to enemies within range for 4 seconds. 
+<br><br>If this ability is reactivated, Sejuani immediately starts swinging her flail.
+|leveling = {{lcaps|Bonus Magic Damage|40|60|80|100|120|(+ 30% AP)}}
+{{lcapss|AoE Damage per Second|20|30|40|50|60|(+ {{fd|2.5}}% of bonus health)|(+ 15% AP)}}
+{{lcapss|Total AoE Damage|80|120|160|200|240|(+ 10% of bonus health)|(+ 60% AP)}}
+{{lcapss|Maximum Damage to One Target|120|180|240|300|360|(+ 10% of bonus health)|(+ 90% AP)}}
+|cooldown={{ap|11|10|9|8|7}}
+|cost=40
+|costtype=Mana
+|range=350
+}}
+|{{Ability2
+|targeting='''Flail of the Northern Winds''' is an [[on-hit effect]] with a [[area of effect|point blank area of effect]] component.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes will not interact with ''Flail of the Northern Wind's'' bonus damage.
+* Jax's counter strike WILL dodge this attack, so be sure to wait till it's on CD to use.
+** {{Pending for test}} ''Flail of the Northern Wind's''  interaction with {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested.
+|spellshield=will only block the damage from the enhanced autoattack portion of the ability
+|additional=
+* ''Flail of the Northern Winds'' has no cast time and does not interrupt Sejuani's previous orders.
+* ''Flail of the Northern Wind'' resets Sejuani's attack timer on cast.
+|video=Sejuani WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Permafrost
+|icon = Permafrost.png
+|description  = {{sbc|Passive:}} Sejuani's abilities and basic attacks apply [[File:Frost.png|20px|link=]] '''Frost''' to enemies for 4 seconds. While nearby enemies with '''Frost''', Sejuani can active '''Permafrost'''.
+|description2  = {{sbc|Active:}} All nearby enemies with ''Frost'' take magic damage and are slowed, and the ''Frost'' debuff is removed from the targets of ''Permafrost''.
+|leveling2 ={{lcaps|Magic Damage|60|110|160|210|260|(+ 50% AP)}}
+{{lcap|Slow|50|55|60|65|70%}}
+{{lcap|Duration|1.5|1.75|2|2.25|2.5}}
+|cooldown=11
+|cost=55
+|costtype=Mana
+|range=1000
+}}
+|{{Ability2
+|targeting='''Permafrost''' is a point blank [[auto-targeted]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the detonation of [[File:Frost.png|20px|link=]] Frost.
+|additional=
+* The [[File:Frost.png|20px|link=]] Frost debuff itself is not a form of CC and hence cannot be cleansed by items or abilities that remove CC. ''Permafrost'', however, is CC and can be removed.
+* ''Frost'' cannot be applied to any target affected by ''Permafrost'' until {{tt|3|Estimated}} seconds after the Permafrost debuff expires. Due to this, ''Permafrost'' is the only of Sejuani's abilities that do not apply ''Frost''.
+|video=Sejuani EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Glacial Prison
+|icon = Glacial Prison.png
+|description  = {{sbc|Active:}} Sejuani throws her frost-forged bola in a line. If the bola hits an enemy champion, it shatters, stunning the target and nearby enemies for a duration. If the bola reaches its maximum range, it shatters and slows enemies by 90% instead for the same duration. All enemies in the shatter area take magic damage.
+|leveling ={{lcaps|Magic Damage|150|250|350|(+ 80% AP)}}
+{{lcap|Stun/Slow Duration|1.25|1.5|1.75}}
+|cooldown={{ap|130|115|100}}
+|cost=100
+|costtype=Mana
+|range=1175
+}}
+|{{Ability2
+|targeting='''Glacial Prison''' is a linear [[area of effect]] [[skill shot|colliding skillshot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and stun or slow as both the primary and secondary targets.
+|additional=
+*''Glacial Prison'' cannot hit and detonate on minions, but they will be damaged and stunned if they are within range of the detonation.
+|video=Sejuani RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Sejuani]]
+[[de:Sejuani]]
+[[es:Sejuani]]
+[[fr:Sejuani]]
+[[pl:Sejuani]]
+[[pt-br:Sejuani]]
+[[ru:Sejuani]]
+[[zh:瑟庄妮]]

@@ -1,0 +1,130 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+==Abilities==
+{{Ability|I|
+|name=Aegis Protection
+|icon=Aegis Protection.png
+|description = After autoattacking or using an ability 4 times, Pantheon will block the next incoming turret attack or basic attack from an enemy champion, siege minion or large monster.
+|details=true
+|targeting='''Aegis Protection''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Aegis Protection'' does not consistently negate [[on-hit effects]] that would be applied with the blocked attack. 
+**On-hit crowd control effects are never blocked, such as {{ai|Shield of Daybreak|Leona}} and {{ai|Ruthless Predator|Renekton}}, although their damage may be. 
+**Three abilities that are not blocked are {{cai|Pick A Card|Twisted Fate}}, {{cai|Devastating Blow|Poppy}} and {{cai|Mace of Spades|Mordekaiser}}, as these attacks are entirely magic damage and do not deal any physical damage to trigger ''Aegis Protection''.
+*''Aegis Protection'' will also block all abilities that apply on-hit effects, such as {{ai|Parrrley|Gangplank}} or {{ai|Mystic Shot|Ezreal}}.
+|video=Pantheon IVideo
+}}
+
+{{Ability|Q|
+|name=Spear Shot
+|icon=Spear Shot.png
+|description={{sbc|Active:}} Pantheon hurls his spear at a target enemy unit within 600 range, dealing physical damage.
+|description2=If {{ai|Heartseeker Strike|Pantheon}} has been ranked, ''Spear Shot'' will deal 100% additional damage to targets below 15% health.
+|leveling={{lcaps|Physical Damage|65|105|145|185|225|(+ 140% bonus AD)}}
+|leveling2={{lcaps|Certain Death Damage|130|210|290|370|450|(+ 280% bonus AD)}}
+|cooldown=4
+|cost=45
+|costtype=mana
+|range=600
+|details=true
+|targeting='''Spear Shot''' is a single targeted ability.
+|damagetype=physical
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*Triggering ''Spear Shot's'' bonus damage counts as a critical strike for the purposes of {{mi4|Frenzy}}.
+*''Spear Shot'' benefits from bonus [[critical strike damage]] from effects such as {{ii|Infinity Edge}}.
+|video=Pantheon QVideo
+}}
+
+{{Ability|W|
+|name=Aegis of Zeonia
+|icon=Aegis of Zeonia.png
+|description={{sbc|Active:}} Pantheon leaps upon a target enemy unit within 600 range, dealing magic damage and [[crowd control|stunning]] them for 1 second, while refreshing {{ai|Aegis Protection|Pantheon}}.
+|leveling={{lcaps|Magic Damage|50|75|100|125|150|(+ 100% AP)}}
+|cooldown={{ap|13|12|11|10|9}}
+|cost=55
+|costtype=mana
+|range=600
+|details=true
+|targeting='''Aegis of Zeonia''' is a single targeted [[dash]].
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the damage and stun.
+|additional=
+*Unlike most dashes, ''Aegis of Zeonia'' will stop short and cease to function if Pantheon is afflicted with [[crowd control]] during the animation.
+*''Aegis of Zeonia'' will still stun and damage targets who move out of its range while Pantheon is in flight (such as using {{si|Flash}}).
+|video=Pantheon WVideo
+}}
+
+{{Anchor|Certain Death}}
+{{Ability|E|
+|name=Heartseeker Strike
+|icon=Heartseeker Strike.png
+|description={{MiniAbility|icon=Certain_Death.jpg|description={{sbc|Certain Death - Passive}}: Pantheon gains 100% critical strike chance when targeting an enemy unit below 15% of thier health with a basic attack. Additionally, {{ai|Spear Shot|Pantheon}} will deal 100% bonus damage against targets below 15% health.}}
+|description2={{sbc|Active:}} Pantheon [[channel]]s for {{fd|0.75}} seconds, dealing physical damage to all enemies within a '''700'''-range cone in front of him at 0.25 second intervals. Damage is doubled against champions.
+|leveling2=
+{{lcaps|Physical Damage Per Strike|13|23|33|43|53|(+ 60% bonus AD)}}
+{{lcaps|Total Physical Damage|40|70|100|130|160|(+ 180% bonus AD)}}
+{{lcaps|Physical Damage Per Strike Against Champions|26|46|66|86|106|(+ 120% bonus AD)}}
+{{lcaps|Total Physical Damage Against Champions|80|140|200|260|320|(+ 360% bonus AD)}}
+|cooldown={{ap|10|9|8|7|6}}
+|cost={{ap|45|50|55|60|65}}
+|costtype=mana
+|range=600
+|details=true
+|targeting='''Heartseeker Strike''' is a [[channel]]ed [[area of effect|conic area of effect]] ability.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block a single tick of damage.
+|additional=*''Heartseeker Strike's'' {{ai|Certain Death|Pantheon}} will not take effect until Pantheon has leveled the ability at least once.
+|video=Pantheon EVideo
+}}
+
+{{Ability|R|
+|name=Grand Skyfall
+|icon=Grand Skyfall.png
+|description={{sbc|Active:}} Pantheon begins channelling. If Pantheon goes uninterrupted for 2 seconds he will leap into the air, becoming untargetable. Pantheon will then begin plummeting toward the ground at the target location within 5500 range, striking after {{fd|1.5}} seconds and becoming targetable once more.
+|description2= Enemies within a '''700'''-unit radius of the point of impact will take magic damage and are slowed by 35% for 1 second. The magic damage diminishes over the area down to 50% to enemies at the edge. 
+|description3= If the channeling is cancelled, ''Grand Skyfall'' is put on a 10 second cooldown.
+|leveling2 =
+{{lcaps|Magic Damage|400|700|1000|(+ 100% AP)}}
+{{lcaps|Minimum Magic Damage|200|350|500|(+ 50% AP)}}
+|cooldown={{ap|150|135|120}}
+|cost=125
+|costtype=mana
+|range=5500
+|details=true
+|targeting='''Grand Skyfall''' is a [[channel]]ed, ground targeted, [[area of effect|point blank area of effect]] [[blink]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Grand Skyfall'' will go on a reduced cooldown regardless of how the channeling was cancelled, whether it was manually done or via [[crowd control|hard crowd control]]. However, the mana cost of the cast is not refunded.
+*Pantheon is considered to have moved to his target location as soon as he completes his first channel.
+**Although he visually leaves the entire screen midway through the ability, Pantheon is still considered to be targetable for the entire channel. The damage of the ability will still occur if Pantheon is CC'd before he lands.
+|video=Pantheon RVideo
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Pantheon]]
+[[de:Pantheon]]
+[[es:Pantheon]]
+[[fr:Pantheon]]
+[[pl:Pantheon]]
+[[pt-br:Pantheon]]
+[[ru:Pantheon]]
+[[zh:潘森]]

@@ -1,0 +1,147 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Grog Soaked Blade
+|icon = GrogSoakedBlade.jpg
+|description = '''Gangplank's''' basic attacks apply a poison debuff for 3 seconds that can stack up to 3 times. Each stack deals 3{{plus}}(''Gangplank's level'') magic damage per second and slows the target by 7%.
+}}
+|{{Ability2
+|targeting='''Grog Soaked Blade''' is a passive ability that grants Gangplank an [[on-hit effect]].
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=
+|spellshield=will not trigger.
+|additional=
+* ''Grog Soaked Blade'' does not count as a poison for {{cai|Twin Fang|Cassiopeia}}.
+|video=Gangplank IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Parrrley
+|icon = Parrrley.jpg
+|description  = {{sbc|Active:}} '''Gangplank''' shoots a target enemy with his pistol, dealing physical damage. This ability can critically strike and applies on-hit effects, including {{ai|Grog Soaked Blade|Gangplank}}.
+|description2 = If the unit is killed with this ability, '''Gangplank''' gains extra gold and refunds half the mana cost. 
+|leveling  = {{lc|Physical Damage}} {{ap|20|45|70|95|120}} {{as|(+ 100% AD)}} 
+|leveling2 ={{lc|Extra Gold}} {{ap|4|5|6|7|8}}
+|range = 625
+|cooldown = 5
+|cost = {{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting ='''Parrrley''' is a single targeted ability.
+|damagetype   = Physical
+|projectile   = true
+|spelleffects =
+|onhiteffects = Applies [[On-attack_effects#On-Hit_Effects|on-hit effects]], [[On-attack_effects#On-Attack_Effects|on-attack effects]], [[life steal]] and fully [[critical strike|critically strike]].
+* ''Parrrley'' behaves like a [[melee]] [[auto-attack]].
+** ''Parrrley'' can be affected by [[On-attack_effects#On_Being_Hit|on-being hit effects]] coming from champions and [[On-attack_effects#On_Being_Hit_2|items]].
+** {{ii|Frozen Mallet}} and {{ii|Iceborn Gauntlet}} will apply the strongest melee version of their slows.
+** {{ii|Phage}} and {{ii|Trinity Force}} will trigger the strongest melee version of the movement speed bonus.
+** {{iis|Tiamat}} and {{iis|Ravenous Hydra}} splash damage will trigger, and ''Parrrley''  will not interact in any way with {{iis|Runaan's Hurricane}} passive.
+* ''Parrrley'' can be {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Counter Strike|Jax|dodged}} or {{ai|Riposte|Fiora|parried}}.
+|spellshield = will block the ability.
+|additional=
+* ''Parrrley'' resets Gangplank's autoattack timer.
+* Every unit killed by {{ii|Tiamat|Tiamat's}} or {{ii|Ravenous Hydra|Ravenous Hydra's}} splash damage or the procs from {{ii|Statikk Shiv}}  and {{ii|Iceborn Gauntlet|Iceborn Gauntlet}} will grant ''Parrrley's'' bonus gold and refund mana. 
+** This makes it possible to refund more mana than the ability costs (returning the full mana used with 2 kills and returning more than the used mana with 3+ kills).
+|video=Gangplank QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Remove Scurvy
+|icon = RemoveScurvy.jpg
+|description = {{sbc|Active:}} '''Gangplank''' eats a large amount of citrus fruit, instantly removing all crowd control effects and healing himself.
+|leveling = {{lc|Heal}} {{ap|80|150|220|290|360}} {{as|(+ 100% AP)}} 
+|cooldown = {{ap|22|21|20|19|18}}
+|cost = 65
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Remove Scurvy''' is a self-target ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Remove Scurvy'' does not remove {{si|Ignite}}, the damage reduction from {{si|Exhaust}}, any 'airborne' crowd control effects (pulls, knock-backs and knock-ups) or {{cai|Malefic Visions|Malzahar}}.
+* ''Remove Scurvy'' is one of the few abilities that can remove suppression.
+** The suppression from {{cai|Hyper-Kinetic Position Reverser|Urgot}} will be removed, but if the channel completes both champions will still be moved.
+** The suppression from {{cai|Nether Grasp|Malzahar}}, {{cai|Impale|Skarner}}, and {{cai|Infinite Duress|Warwick}} will be removed, however {{cis|Malzahar}} ultimate will continue dealing damage unless you move out of the tether range or the channel is disrupted.
+|video=Gangplank WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Raise Morale
+|icon = RaiseMorale.jpg
+|description = {{sbc|Passive:}} '''Gangplank's''' attack damage and movement speed are increased.
+|description2 = {{sbc|Active:}} '''Gangplank''' fires into the air, disabling his passive boost but inspiring himself to gain additional attack damage and movement speed for 7 seconds, with allied champions within range receiving half that amount.
+|leveling = {{lc|Passive Attack Damage Bonus}} {{ap|8|10|12|14|16}}
+{{lc|Passive Movement Speed Bonus}} {{ap|3|4|5|6|7%}}
+|leveling2 = {{lc|Active Self Attack Damage Bonus}} {{ap|12|19|26|33|40}}
+{{lc|Active Self Movement Speed Bonus}} {{ap|8|11|14|17|20%}}
+|range = 600
+|cooldown = 20
+|cost = {{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Raise Morale''' passively increases Gangplank's stats. When activated, '''Raise Morale''' is a [[area of effect|point blank area of effect]] ability.
+{{lc|Area of Effect}} ~1400
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* When the active buff expires, Gangplank regains the passive bonuses of ''Raise Morale''. It is not removed for the duration of the ability's cooldown.
+* ''Raise Morale's'' active is not an aura, and allies who move near Gangplank after the skill is used will not receive the buff. Likewise allies will keep the buff for the full duration once gained even if Gangplank dies or they move away from him.
+|video=Gangplank EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Cannon Barrage
+|icon = CannonBarrage.jpg
+|description = {{sbc|Active:}} '''Gangplank''' signals his ship to fire a cannonball barrage upon a target '''600'''-radius area for 7 seconds, dealing damage every second; granting vision of the area; and slowing enemies inside it by 25%.
+|leveling = {{lc|Magic Damage Per Second}} {{ap|75|120|165}} {{as|(+ 20% AP)}}
+{{lc|Max Magic Damage}} {{ap|525|840|1155}} {{as|(+ 140% AP)}}
+|range = Global
+|cooldown = {{ap|125|110|95}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Cannon Barrage''' is a [[global]] [[area of effect#Ground targeted|ground targeted area of effect]] ability.
+{{lc|Area of Effect}} {{ap|~575}}
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the damage of one cannonball.
+|additional=
+* ''Cannon Barrage'' grants vision of the targeted area to Gangplank's team for the duration.
+* Slows will linger for 0.25 seconds after leaving the marked area.
+|video=Gangplank RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Gangplank]]
+[[de:Gangplank]]
+[[es:Gangplank]]
+[[fr:Gangplank]]
+[[pl:Gangplank]]
+[[pt-br:Gangplank]]
+[[ru:Gangplank]]
+[[zh:普朗克]]

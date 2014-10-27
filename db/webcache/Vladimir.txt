@@ -1,0 +1,175 @@
+{{C-top}} 
+{{champion info|Vladimir}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Crimson Pact
+|icon = CrimsonPact.jpg
+|description = Vladimir gains ability power equal to {{as|{{fd|2.5%}} of his bonus health}} and bonus health equal to {{as|140% of his ability power}}. These bonuses do not stack with themselves.
+}}
+|{{Ability2
+|targeting='''Crimson Pact''' is a self-[[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* While stated that the bonuses do not stack with themselves, that is not entirely true. When the bonus AP granted by ''Crimson Pact'' interacts with ability power modifiers, such as {{ii|Rabadon's Deathcap}} or {{mi4|Archmage}}, the bonus AP gained from those modifiers triggers more health from ''Crimson Pact''. This creates a cyclic loop. The same is also true for health modifiers, such as {{mi4|Juggernaut}} and {{ii|Spirit of the Ancient Golem}}. 
+** For every 1% of a respective modifier grants an {{fd|0.035%}} bonus to the opposite statistic component.
+# '''Ability Power''' Modifiers:
+#* {{ii|Rabadon's Deathcap}} increases Vladimir's bonus health by {{fd|1.05%}}.
+#* {{ii|Wooglet's Witchcap}} increases Vladimir's bonus health by {{fd|0.875%}}.
+#* {{mi4|Archmage}} increases Vladimir's bonus health by {{ap|0.07%|0.1225%|0.175%}}.
+#* {{mi4|Archmage}} & {{ii|Rabadon's Deathcap}} in combination increases Vladimir's bonus health by {{ap|1.141%|1.20925%|1.2775%}} as they stack mutiplicatively.
+#* {{mi4|Archmage}} & {{ii|Wooglet's Witchcap}} in combination increases Vladimir's bonus health by {{ap|0.9625%|1.028125%|1.09375%}} as they stack mutiplicatively.
+# '''Max. Health''' Modifiers:
+#* {{mi4|Juggernaut}} increases Vladimir's ability power by {{fd|0.105%}}.
+#* {{ii|Spirit of the Ancient Golem}} increases Vladimir's ability power by {{fd|0.875%}}
+#* {{mi4|Juggernaut}} & {{ii|Spirit of the Ancient Golem}} increases Vladimir's ability power by {{fd|1.00625%}}.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Transfusion
+|icon = Transfusion.jpg
+|description = {{sbc|Active:}} Vladimir drains the lifeforce of his target, dealing magic damage and healing himself.
+|leveling = {{lc|Magic Damage}} {{ap|90|125|160|195|230}} {{as|(+ 60% AP)}}  
+{{lc|Health Regained}} {{ap|15|25|35|45|55}} {{as|(+ 25% AP)}}
+|cooldown = {{ap|10|8.5|7|5.5|4}}
+|range = 600
+}}
+|{{Ability2
+|targeting='''Transfusion''' is a single target ability that deals magic damage to a target enemy unit. A mist of blood travels back to Vladimir afterwards, healing him upon return.
+|damagetype=magic
+|projectile=true
+|name=The healing projectile
+|spelleffects=single
+|onhiteffects=
+|spellshield=Will block the damage but will not prevent the healing
+|additional=
+*The spell has a 0.25 second cast time.
+*The healing effect of ''Transfusion'' does not occur until the projectile returns to Vladimir.
+**If Vladimir has any [[Spell vamp]] he will be healed instantly, not waiting for the particle to return. He will be then healed by the particle as it arrives.
+*If Vladimir uses {{ai|Sanguine Pool|Vladimir}} or [[Stasis]] item immediately after ''Transfusion'' or the target is behind {{ai|Wind Wall|Yasuo}}, the healing projectile will fizzle and Vladimir will not be healed.
+|video=Vladimir QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Sanguine Pool
+|icon = SanguinePool.jpg
+|description  = {{sbc|Active:}} Vladimir sinks into a pool of blood, gaining {{fd|37.5}}% bonus movement speed that decays exponentially for 1 second and becoming untargetable for 2 seconds. 
+|description2 = Enemies who stand upon the pool are slowed by 40%, and are dealt magic damage every half second while Vladimir heals himself for {{fd|15}}% of the damage done.
+|leveling  = 
+{{lc|Pool Radius}} {{ap|150}}
+|leveling2 = 
+{{lc|Magic Damage Per Half-Second}} {{ap|20|33.75|47.5|61.25|75}} {{as|(+{{fd|3.75}}% of bonus health)}}
+{{lc|Maximum Magic Damage}} {{ap|80|135|190|245|300}} {{as|(+15% of bonus health)}} 
+|cooldown = {{ap|26|23|20|17|14}} 
+|cost = 20%
+|costtype = current health
+}}
+|{{Ability2
+|targeting='''Sanguine Pool''' is a [[Area of effect|self-targeted point blank area of effect]] ability that turns Vladimir into a pool of blood for 2 seconds, making him untargetable for the duration. The damage begins immediately, so the final tick of damage occurs 0.5 seconds before he comes out of pool. The slow ends immediately once the enemy unit steps off the pool.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will not block damage
+|additional=
+*''Sanguine Pool'' has no cast time. 
+*''Sanguine Pool'' also scales with {{as|0.21 per ability power}} due to his passive. (which is {{as|0.0525 per ability power}} every half second.)
+*While using ''Sanguine Pool'', Vladimir cannot [[autoattack]] or use his other [[Ability|abilities]]. However, he can use [[Spell|summoner spells]] and activate [[items]].
+*Even though not stated in the tooltip, ''Sanguine Pool'' also gives Vladimir a {{fd|37.5}}% [[movement speed]] boost for 1 second upon activating the ability. The boost decays exponentially over that time.
+**Some abilities such as {{cai|Feral Scream|Cho'Gath}} and {{cai|Petrifying Gaze|Cassiopeia}} can still affect Vladimir as he enters ''Sanguine Pool''. He will take damage and crowd control effects, but ''Sanguine Pool'' will still take effect regardless.
+*Vladimir is still affected by [[damage over time]] effects (like {{si|Ignite}} and {{cai|Torment|Swain}}) that were applied before going into Sanguine Pool.
+*Vladimir is untargetable by allied abilities during the duration, such as {{cai|Monsoon|Janna}} and {{cai|Aria of Perseverance|Sona}}.
+**{{cai|Wish|Soraka}} will still heal him, because it will affect untargetable allies.
+**Vladimir is not healed by the allied fountain while in his pool.
+*When Vladimir uses ''Sanguine Pool'' he is not affected by any [[auras]], such as {{iis|Abyssal Scepter}} aura or {{ai|Tailwind|Janna}}.
+*Vladimir cannot use ''Sanguine Pool'' to pass through temporary terrain created by abilities such as {{cai|Crystallize|Anivia}}, {{cai|Cataclysm|Jarvan IV}}, or {{cai|Pillar of Ice|Trundle}}.
+*When in ''Sanguine Pool'', Vladimir is still stunned when passing through {{cai|Event Horizon|Veigar}}. If he does this, he will remain in his pool for its duration and remain stunned when coming out of the pool form, if the stun has not expired.
+|pet=
+|video=Vladimir WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Tides of Blood
+|icon = TidesofBlood.jpg
+|description = {{sbc|Active:}} Vladimir unleashes a torrent of blood, damaging all enemies within range.
+|description2 =
+Each cast of ''Tides of Blood'' gives him an [[File:TidesofBlood.jpg|20px|link=]] '''Empowered''' stack that lasts 10 seconds and stacks up to 4 times. Each '''Empowered''' stack increases both the base damage <ref>[http://www.youtube.com/watch?v=4DM7t9mIcB0 Vladimir's Tides of Blood ability power interaction test]</ref> and cost of his next ''Tides of Blood'' by 25% per stack, and increases Vladimir's healing, spell vamp, and regeneration by a percentage.
+|leveling = {{lc|Magic Damage}} {{ap|60|85|110|135|160}} {{as|(+ 45% AP)}}
+|leveling2 =
+{{lc|Healing and Regeneration increase per stack}} {{ap|4|5|6|7|8}}%
+{{lc|Maximum Magic Damage}} {{ap|120|170|220|270|320}} {{as|(+ 45% AP)}}
+{{lc|Maximum Cost}} {{ap|60|80|100|120|140}} health
+|range = 610
+|cooldown = {{fd|4.5}}
+|cost = {{ap|30|40|50|60|70}}
+|costtype = Health
+}}
+|{{Ability2
+|targeting='''Tides of Blood''' is a point blank [[auto-targeted]] ability with a [[buff|self-buff]] component.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block damage
+|additional=
+* ''Tides of Blood'' can be activated even if there are no valid targets in range. Vladimir will still gain a stack of the [[File:TidesofBlood.jpg|20px|link=]] '''Empowered''' buff.
+* The spell has a 0.25 second cast time.
+* ''Tides of Blood'' can target and hit enemy champions that are not visible to Vladimir, including those in [[Fog of War]], in brush or in stealth.
+* The '''Empowered''' buff increases the effectiveness of {{ai|Transfusion|Vladimir}},  {{ai|Sanguine Pool|Vladimir}} healing effect, allied champions' [[heal]]s, Vladimir's [[health regeneration]], [[spell vamp]], and {{si|Heal}}.
+* The '''Empowered''' buff stacks with  {{iis|Spirit Visage}} passive ability multiplicatively.
+* The '''Empowered''' buff does not affect bonus [[ability power]] damage on ''Tides of Blood'' in any way.
+* ''Tides of Blood'' can hit "out of range" enemies about 50 extra units away due to the in-game indicator being slightly smaller than the actual range.
+|video=Vladimir EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Hemoplague
+|icon = Hemoplague.jpg
+|description  = {{sbc|Active:}} Vladimir infects all enemies in the target '''175'''-radius area with a virulent plague which increases the damage they take from all sources by 12% for 5 seconds. 
+|description2 = After these 5 seconds, infected enemies take magic damage. 
+|leveling2 = {{lc|Magic Damage}} {{ap|150|250|350}} {{as|(+ 70% AP)}}
+{{lc|Amplified Magic Damage}} {{ap|168|280|392}} {{as|(+ 78.4% AP)}}
+|range = 700
+|cooldown = {{ap|150|135|120}}
+}}
+|{{Ability2
+|targeting=Hemoplague is a [[Area of effect|ground targeted area of effect]] ability that debuffs enemy units in the target location for 5 seconds. Debuffed units have all incoming damage amplified, and upon debuff expiration they take magic damage.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block debuff, preventing damage
+|additional=
+* Hemoplague's amplification applies to its own damage, meaning that the effective damage and scaling are {{ap|168|280|392}} {{as|(+ 78.4% AP)}}.
+* Hemoplague has no cast time and affects the target area instantly. However, there is a {{fd|0.5}} second animation time that prevents Vladimir from using Transfusion and Tides of Blood. Sanguine Pool, summoner spells, and items can be used during this suppression time.
+* Hemoplague will amplify almost all sources and types of damage, including damage from neutral monsters. Only [[true damage]] is exempt from amplification.
+* Hemoplague's bonus and damage received stacks additively with {{ii|Deathfire Grasp}} on magic damage, resulting in 32% increased damage. Other percent damage modifiers stack multiplicately, such as Havoc.
+* Casting Hemoplague on a recalling enemy will not cancel the recall, because the damage is delayed.
+|video=Vladimir RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Vladimir]]
+[[de:Vladimir]]
+[[es:Vladimir]]
+[[fr:Vladimir]]
+[[pl:Vladimir]]
+[[pt-br:Vladimir]]
+[[ru:Vladimir]]
+[[zh:弗拉基米尔]]

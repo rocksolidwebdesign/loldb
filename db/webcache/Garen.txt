@@ -1,0 +1,148 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Perseverance
+|icon=Perseverance.png
+|description=Garen will regenerate {{as|{{pp|3|0.4|0.8|2.0|1|11|16}}}}% of his maximum health every second if he has not been hit with an enemy ability or taken damage from any source (''excluding minions'') in the last {{pp|3|9|6|4|1|11|16}} seconds. <br>''At Level 11 or above, damage from non-epic monsters will no longer stop Perseverance.''
+}}
+|{{Ability2
+|targeting='''Perseverence''' is a self-[[buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Garen IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Decisive Strike
+|icon=Decisive Strike.png
+|description={{sbc|Active:}} Garen breaks free from all slows affecting him and gains 35% movement speed for a few seconds. Additionally, his next basic attack within {{fd|4.5}} seconds will deal additional physical damage and will silence his target.
+|leveling={{lc|Physical Damage}} {{ap|30|55|80|105|130}} {{as|(+ 140% AD)}}
+{{lc|Movement Speed Duration}} {{ap|1.5|2.25|3|3.75|4.5}}
+{{lc|Silence Duration}} {{ap|1.5|1.75|2|2.25|2.5}}
+|cooldown=8
+}}
+|{{Ability2
+|targeting='''Decisive Strike''' is a self-[[buff]], [[on-hit effect]] ability.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** As with most on-hit physical damage, the bonus damage from ''Decisive Strike'' will apply [[life steal]].
+** Critical strikes will not interact with the bonus damage from ''Decisive Strike''.
+** The bonus damage will affect structures.
+** The entire damage will go through {{ai|Counter Strike|Jax|dodge}}.
+** The entire damage will be mitigated if Garen's attack is {{ai|Aegis Protection|Pantheon|blocked}} or {{ai|Riposte|Fiora|parried}}.
+** ''Decisive Strike's'' empowerment will be consumed if the attack [[Blind|misses]].
+*** In all 3 cases listed above the target will still be silenced.
+|spellshield=will block the enhanced autoattack.
+|additional=
+* ''Decisive Strike'' has no cast time and does not interrupt Garen's previous orders.
+* ''Decisive Strike'' will reset Garen's attack timer on cast.
+* ''Decisive Strike's'' on-hit effect and movement speed buff are independent. Using the enhanced autoattack will not remove the movement speed buff. 
+|video=Garen QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Courage
+|icon=Courage.png
+|description={{sbc|Passive:}} Garen's bonus armor and magic resistance are increased by 20%.
+|description2={{sbc|Active:}} Garen gains a defensive shield for a few seconds, reducing incoming damage by 30% and granting 30% crowd control reduction for the duration.
+|leveling2={{lc|Duration}} {{ap|2|3|4|5|6}}
+|cooldown={{ap|24|23|22|21|20}}
+|cost=
+|costtype=No cost
+}}
+|{{Ability2
+|targeting='''Courage's''' ''passive'' is a defensive [[buff|self-buff]] ability.
+<br>'''Courage's''' ''active'' is both a defensive and utility [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Courage'' has no cast time and does not interrupt Garen's previous orders.
+* ''Courage's'' passive benefits are not lost while the ability is on cooldown.
+* ''Courage's'' passive bonuses are calculated after armor and magic resistance reductions are taken into account. If the value of bonus resistance is inferior to the amount reduced, Garen will be considered as having no bonus resistances and will therefore not get any resistances from Courage's passive. 
+* ''Courage's'' damage reduction does not affect [[true damage]].
+|video=Garen WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Judgment
+|icon=Judgment.png
+|description={{sbc|Active:}} Garen rapidly spins his sword around his body for 3 seconds, dealing physical damage each second to enemies within range. Minions take 75% damage from Judgment. Garen ignores unit collision while spinning, but moves 20% slower when traveling through minions.
+|description2=Judgment can critically strike, multiplying the total AD component by (Garen's critical strike damage modifier{{minus}} 50%).
+|leveling={{lc|Physical Damage per Second}} {{ap|20|45|70|95|120}} {{as|(+ {{ap|70|80|90|100|110%}} AD)}}
+{{lc|Total Physical Damage}} {{ap|60|135|210|285|360}} {{as|(+ {{ap|210|240|270|300|330%}} AD)}}
+|leveling2={{lc|Damage per second with Base Crit Modifier}} {{ap|20|45|70|95|120}} {{as|(+ {{ap|105|120|135|150|165%}} AD)}}
+|cooldown={{ap|13|12|11|10|9}}
+|cost=
+|costtype=No cost
+|range=165
+}}
+|{{Ability2
+|targeting='''Judgment''' is a [[area of effect|point blank area of effect]] ability.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will not block the ability.
+|additional=
+* While ''Judgment'' is active, Garen cannot use basic attacks, but may still move and use his other champion abilities, summoner spells and item actives.
+** Although Garen will benefit from {{ais|Decisive Strike|Garen}} slow removal and movement speed boost, he cannot apply its autoattack modifier since Garen cannot attack while Judgment is active.
+** Garen may cast {{ai|Demacian Justice|Garen}} while ''Judgment'' is active - however, he will cancel the ability to do so.
+* ''Judgment'' is not a [[channel]]ed ability. As such, crowd control will not stop its effects. Silences will, however, prevent Garen from deactivating the ability early.
+* ''Judgment'' can [[critical strike|critically strike]], but only the AD ratio damage portion of the ability will be affected by a crit.
+** ''Judgment'' is subject to a flat [[Critical strike#Damage|critical strike damage]] penalty of 50% for a total critical strike ratio of 150% (normally 200%). An {{ii|Infinity Edge}}, for example, would increase this to 200% (normally 250%).
+* Although ''Judgment'' lasts for 3 seconds, the first tick of damage occurs as soon as the ability is cast, with 5 more ticks of damage occuring every half second afterward. As a result, the last 0.5 seconds of the ability deals no damage.
+* After {{fd|1}} second (3 ticks of damage), Garen can reactivate Judgment to cancel it early. 
+* If other sources of anti-collision (such as {{si|Ghost}} or {{ii|Phantom Dancer}}) are affecting Garen as he uses ''Judgment'', Garen will still be slowed when pathing through units.
+|video=Garen EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Demacian Justice
+|icon=Demacian Justice.png
+|description={{sbc|Active:}} Garen calls upon the might of Demacia to attempt to execute an enemy champion, dealing magic damage plus additional damage based on his target's missing health.
+|leveling={{lc|Magic Damage}} {{ap|175|350|525}} {{as|(+ {{ap|28.57|33.33|40}}% of target's missing health)}}
+|cooldown={{ap|160|120|80}}
+|range=400
+|cost=
+|costtype=No cost
+}}
+|{{Ability2
+|targeting='''Demacian Justice''' is a single targeted ability.
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* The percentual damage component displayed in the tooltip is presented in simple digits rather than percentages, displaying that the ability deals 1 additional damage per {{as|{{ap|3.5|3|2.5}} health the target is missing}}.
+|video=Garen RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Garen]]
+[[de:Garen]]
+[[es:Garen]]
+[[fr:Garen]]
+[[pl:Garen]]
+[[pt-br:Garen]]
+[[ru:Garen]]
+[[zh:盖伦]]

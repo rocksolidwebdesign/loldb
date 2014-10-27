@@ -1,0 +1,136 @@
+{{C-top}} {{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Carrion Renewal
+|icon = CarrionRenewal.jpg
+|description = Whenever Swain kills an enemy unit, he regains 9{{plus}}(1{{times}}''Swain's level'') mana. On a champion kill or assist, he regains an additional {{as|9% of his maximum mana}}.
+}}
+|{{Ability2
+|targeting = '''Carrion Renewal''' is a [[buff|self-buff]] ability that triggers whenever Swain [[Kill#Skills_benefiting_from_kills|kills]] an enemy unit or assists in a champion kill.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+*''Carrion Renewal'' will trigger if Swain lands the final blow on a structure such as a tower.
+|video=Swain_IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Decrepify
+|icon = Decrepify.jpg
+|description  = {{sbc|Active:}} Swain releases his raven at his current location to cripple an enemy, creating a tether between the target and the raven. 
+|description2 = Over the next 3 seconds, the target takes magic damage each second and is [[slow]]ed. If enemies walk out '''{{tt|900|Estimated}}'''-range of the tether, the effect ends immediately.
+|leveling2 = {{lcaps|Magic Damage Per Second|25|40|55|70|85|(+ 30% AP)}}
+{{lcaps|Maximum Magic Damage|75|120|165|210|255|(+ 90% AP)}}
+{{lcap|Slow|20|25|30|35|40%}}
+|cooldown  = 8
+|cost      = {{ap|60|70|80|90|100}}
+|costtype  = Mana
+|range     = 625
+}}
+|{{Ability2
+|targeting='''Decrepify''' is a single-target [[Damage_over_time#Tether-like_DoTs|tether]] ability.
+|damagetype   = magic
+|spelleffects = damage over time
+|onhiteffects =
+|spellshield  = will block the application of the ability. They will not remove or mitigate a tether already applied.
+|additional =
+*''Decrepify'' has no cast time and does not interrupt Swain's previous orders.
+|video=Swain QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Nevermove
+|icon = Nevermove.jpg
+|description  = {{sbc|Active:}} Swain marks a target '''{{tt|125|Estimated}}'''-radius area. After a {{tt|short delay|0.875 s}} talons grab onto enemy units within the area, dealing magic damage and [[root]]ing them for 2 seconds.
+|leveling = {{lcaps|Magic Damage|80|120|160|200|240|(+ 70% AP)}}
+|cooldown = {{ap|18|16|14|12|10}}
+|cost     = {{ap|80|90|100|110|120}}
+|costtype = Mana
+|range    = 900
+}}
+|{{Ability2
+|targeting='''Nevermove''' is a ground-targeted [[area of effect]] ability.
+|damagetype   = magic
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional =
+|video=Swain_WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Torment
+|icon = Torment.jpg
+|description  = {{sbc|Active:}} Swain afflicts his target with a curse that deals magic damage to them over 4 seconds, and causes any further damage dealt by Swain during this period to be increased by a percentage (''includes items used by Swain'').
+|leveling = {{lcaps|Magic Damage|75|115|155|195|235|(+ 80% AP)}}
+{{lcap|Extra Damage|8|11|14|17|20%}}
+{{lcaps|Total Magic Damage|81|127.65|176.7|228.15|282|(+ {{ap|86.4|88.8|91.2|93.6|96}}% AP)}}
+|cooldown = 10
+|cost     = {{ap|65|70|75|80|85}}
+|costtype = Mana
+|range    = 625
+}}
+|{{Ability2
+|targeting = '''Torment''' is a single targeted ability.
+|damagetype   = magic
+|projectile   = true
+|spelleffects = damage over time
+|onhiteffects =
+|spellshield  = will block the application of the ability. They will not remove or mitigate a DoT already applied.
+|additional = * ''Torment's'' damage amplifier stacks ''multiplicatively'' with {{ii|Deathfire Grasp}} for a total amplifier of {{ap|29.6|33.2|36.8|40.4|44%}} for the target's incoming magic damage only.
+|video=Swain_EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Ravenous Flock
+|icon = RavenousFlock.jpg
+|description  = {{sbc|Toggle:}} Swain transforms into the form of a vicious raven. During this time up to 3 lesser ravens strike out each second to deal magic damage to nearby enemies, one raven per enemy and prioritizing champions. Swain is [[heal]]ed for 75% of the damage dealt to champions, and 25% against minions and monsters. 
+|description2 = The mana cost to sustain ''Ravenous Flock'' increases every second.
+|leveling  ={{lcaps|Magic Damage per Raven|50|70|90|(+ 20% AP)}}
+|leveling2 = {{lcap|Additional mana cost each second|5|6|7}}
+|cooldown  = 8
+|cost      = 25
+|costtype  = initial mana per second
+|range     = {{tt|700|Estimated}}
+}}
+|{{Ability2
+|targeting = '''Ravenous Flock''' is a [[toggle]]d ability with a persistent point blank [[auto-targeted]] component when active.
+|damagetype   = magic
+|projectile   = true
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = will not block the ability.
+|additional =
+*''Ravenous Flock'' has no cast time and does not interrupt Swain's previous orders.
+*''Ravenous Flock'' is not a [[channel|channeled]] ability. As such, [[crowd control]] will not stop its effects and will persist throughout the untargetability of {{ii|Zhonya's Hourglass}}.
+*Although the projected ravens appear to return to Swain after striking a unit, this is purely visual and does not affect his healing in any way.
+|video=Swain RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+
+
+[[cs:Swain]]
+[[de:Swain]]
+[[es:Swain]]
+[[fr:Swain]]
+[[pl:Swain]]
+[[pt-br:Swain]]
+[[ru:Swain]]
+[[zh:斯维因]]

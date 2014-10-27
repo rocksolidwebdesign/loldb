@@ -1,0 +1,159 @@
+{{redirect|LB|the item|Lich Bane}}
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Mirror Image
+|icon = Mirror Image.png
+|description  = Whenever LeBlanc is below 40% health, she creates a controllable clone of herself for 8 seconds with 53{{plus}}(17{{times}}''LeBlanc's level'') less health. She and her clone become stealthed for {{fd|1}} second.  
+|static = 60
+}}
+|{{Ability2
+|targeting = '''Mirror Image''' is a passive ability that triggers whenever LeBlanc has less than 40% of her maximum health.
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|damagetype   =
+|additional =
+* ''Mirror Image'' will trigger whenever it is off cooldown and LeBlanc has less than 40% of her maximum health, even if LeBlanc does not take any damage when it becomes available. 
+{{ci|Mirror Image}}:
+* Classified as a [[pet|clone]].
+** ''Mirror Image'' can be controlled by Alt + Right-Click (''default Hotkeys'').
+** ''Mirror Image'' can be commanded to move or attack (''and it will automatically move to follow its attack target'').
+** ''Mirror Image'' has a leash range of approximately 1125.
+* When summoned, the clone will automatically run away from the source of damage that brought LeBlanc below 40% health. If ''Mirror Image'' triggered without damage, the clone will run in the direction LeBlanc is facing.
+* Does not benefit from {{ii|Captain}} or {{ii|Banner of Command}}.
+* ''Mirror Image's'' basic attacks apply [[on-hit effects]].
+* ''Mirror Image's'' basic attacks do not apply [[spell effects]].
+* The ''Mirror Image'' does not benefit from attack damage (''it attacks as if it had 0 AD''). As such, it will not apply life steal and critical strikes will have no effect.
+* While LeBlanc is unable to activate her basic abilities, she cannot command her clone.
+|video=LeBlanc IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Sigil of Malice
+|icon = Sigil of Silence.png
+|description  = {{sbc|Active:}} LeBlanc projects an orb towards her target, dealing magic damage and marking the target for {{fd|3.5}} seconds. 
+|description2 = If the target takes damage from one of LeBlanc's abilities, the mark will trigger, dealing bonus magic damage.
+|leveling  =
+{{lcaps|Initial Magic Damage|55|80|105|130|155|(+ 40% AP)}}
+|leveling2 =
+{{lcaps|Secondary Magic Damage|55|80|105|130|155|(+ 40% AP)}}
+{{lcaps|Total Magic Damage|110|160|210|260|310|(+ 80% AP)}}
+|range     = 700
+|cooldown  = 6
+|cost      = {{ap|50|60|70|80|90}}
+|costtype  = mana
+}} 
+|{{Ability2
+|targeting = '''Sigil of Malice''' is a single target ability. 
+* '''Projectile Speed:'''  2000
+|damagetype   = magic
+|projectile   = true
+|spelleffects = single target
+|onhiteffects =
+|spellshield  = Will block the ability. Spell shields will also block the detonation of the mark.
+|additional =
+* {{ai|Mimic: Sigil of Malice|LeBlanc}} and {{ai|Sigil of Malice|LeBlanc}} can detonate the other's mark.
+|video=LeBlanc QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Distortion
+|icon = false
+|description = {{MiniAbility|icon=Distortion.png|description={{sbc|First Cast:}} LeBlanc rapidly dashes to a target location, damaging enemies within a '''250'''-radius area and leaving behind a return pad. LeBlanc can activate ''Distortion'' again in the following 4 seconds.}}{{MiniAbility|icon=Distortion 2.png|description={{sbc|Second Cast:}} LeBlanc blinks to the return pad.}}
+|leveling = {{lcaps|Magic Damage|85|125|165|205|245|(+ 60% AP)}}
+|range    = 600
+|cooldown = {{ap|18|16|14|12|10}}
+|cost     = {{ap|80|85|90|95|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting = '''Distortion's''' first cast is a [[dash|ground-targeted dash]] that deals [[area of effect]] damage. The second cast is a auto-targeted [[blink]].
+|spelleffects = area of effect
+|onhiteffects = 
+|spellshield  = Will block the ability.
+|damagetype   = magic
+|additional =
+* LeBlanc can use the second cast of ''Distortion'' no matter the distance between her and the return pad, unlike {{cai|Living Shadow|Zed}}.
+* {{ai|Mimic: Distortion|LeBlanc}} and {{ai|Distortion|LeBlanc}} have independent return pads and LeBlanc can reactivate both abilities within the given 3 seconds. 
+|video=LeBlanc WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Ethereal Chains
+|icon = Ethereal Chains.png
+|description  = {{sbc|Active:}} LeBlanc flings illusionary chains in a line, dealing magic damage and leashing for {{fd|1.5}} seconds to the first enemy unit it hits. While the leash persists, the target's movement speed is decreased by 25%.
+<br><br>  If LeBlanc remains within '''1000'''-range of the target for the full duration, the target takes additional magic damage and is rooted for {{fd|1.5}} seconds.
+|leveling  =
+{{lcaps|Initial Magic Damage|40|65|90|115|140|(+ 50% AP)}}
+{{lcaps|Delayed Magic Damage|40|65|90|115|140|(+ 50% AP)}}
+{{lcaps|Total Magic Damage|80|130|180|230|280|(+ 100% AP)}}
+|range    = 950
+|cooldown = {{ap|14|12.5|10|9.5|8}}
+|cost     = 80
+|costtype = mana
+}}
+|{{Ability2
+|targeting = '''Ethereal Chains''' is a [[skill shot|linear, colliding skill shot]].
+|damagetype   = magic
+|projectile   = true
+|spelleffects = single target
+|onhiteffects =
+|spellshield  = Will block the ability.
+|additional =
+* The tether can be removed with [[Quicksilver]].
+* Both the initial and delayed damage can detonate {{ai|Sigil of Malice|LeBlanc}}. 
+* The slow of {{ai|Mimic: Ethereal Chains|LeBlanc}} and {{ai|Ethereal Chains|LeBlanc}} does not stack and the snares will occur concurrently. 
+|video=LeBlanc EVideo
+}}
+}}
+
+{{Anchor|Mimic: Sigil of Malice}}{{Anchor|Mimic: Distortion}}{{Anchor|Mimic: Ethereal Chains}}
+{{Ability frame|R|
+{{Ability info
+|name = Mimic
+|icon = Mimic.png
+|description = {{sbc|Active:}} LeBlanc re-casts the spell she previously cast. The mimicked spell's effects are the same, but the damage is replaced with a different amount based on the rank of ''Mimic''.
+|leveling = {{lcaps|[[File:Mimic Sigil of Silence.png|20px|link=]] Mimic: Sigil of Malice|100|200|300|(+ 65% AP)}}
+{{lcaps|[[File:Mimic Distortion.png|20px|link=]] Mimic: Distortion|150|300|450|(+ {{fd|97.5%}} AP)}}
+{{lcaps|[[File:Mimic Ethereal Chains.png|20px|link=]] Mimic: Ethereal Chains|100|200|300|(+ 65% AP)}}
+{{lcaps|Maximum Damage on Q and E|200|400|600|(+ 130% AP)}}
+|cooldown = {{ap|40|32|24}}
+}}
+|{{Ability2
+|targeting = '''Mimic''' will cast LeBlanc's previously cast spell, copying its targeting and damaging parameters. 
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|damagetype   =
+|additional =
+* {{ai|Mimic: Sigil of Malice|LeBlanc}} and {{ai|Sigil of Malice|LeBlanc}} can detonate the other's mark.
+* {{ai|Mimic: Distortion|LeBlanc}} and {{ai|Distortion|LeBlanc}} have independent return pads and LeBlanc can reactivate both abilities within the given 4 seconds. 
+* The slow of {{ai|Mimic: Ethereal Chains|LeBlanc}} and {{ai|Ethereal Chains|LeBlanc}} does not stack, but the snares will occur concurrently. 
+* If LeBlanc ranks ''Mimic'' without having cast any spells, it will default to {{ai|Mimic: Sigil of Malice|LeBlanc}} - even if she has not yet learned {{ai|Sigil of Malice|LeBlanc}}. 
+* Both {{ai|Mimic: Ethereal Chains|LeBlanc}} and {{ai|Mimic: Sigil of Malice|LeBlanc}} will apply damage twice if the condition for the original spell to deal damage twice is met.  
+|video=LeBlanc RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:LeBlanc]]
+[[de:LeBlanc]]
+[[es:LeBlanc]]
+[[fr:LeBlanc]]
+[[pl:LeBlanc]]
+[[pt-br:LeBlanc]]
+[[ru:LeBlanc]]
+[[zh:乐芙兰]]

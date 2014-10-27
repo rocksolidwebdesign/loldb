@@ -1,0 +1,185 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}|dam_base = 44|as_base = 0.638}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Prowl
+|icon = Prowl.png
+|description  = {{sbc|Prowl:}} Moving through brush increases Nidalee's movement speed by 10% for 2 seconds, which increases to 30% if she is moving toward a visible enemy champion within '''5500'''-range. 
+|description2 = {{sbc|Hunt:}} Hitting enemy champions with {{ai|Javelin Toss|Nidalee}} or {{ai|Bushwhack|Nidalee}} will mark them as ''Hunted'' for 4 seconds, revealing them. While moving toward ''Hunted'', Nidalee gains ''Prowl's'' bonus movement speed and ignores unit collision. Additionally, Nidalee's first use of {{ai|Takedown|Nidalee}} and {{ai|Pounce|Nidalee}} against ''Hunted'' will have an empowered effect.
+}}
+|{{Ability2
+|targeting='''Prowl''' is a [[self-targeted]] [[buff]].<br />
+'''Hunt''' is a [[spell effect]] [[debuff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Javelin Toss
+|icon = Javelin Toss.png
+|description  = {{sbc|Active:}} Nidalee hurls her javelin forward in a line, dealing magic damage to the first enemy it hits. 
+|description2 = After having traveled 525 units, the javelin's damage will be increase by 2% per {{fd|7.75}} units traveled, capping at 200% bonus damage (''300% total damage'') after traveling 1300 units.
+|leveling  = {{lcaps|Base Magic Damage|50|75|100|125|150|(+40% AP)}}
+|leveling2 = {{lcaps|Maximum Magic Damage|150|225|300|375|450|(+120% AP)}}
+|cooldown  = 6
+|cost      = {{ap|50|60|70|80|90}}
+|costtype  = Mana
+|range     = 1500
+}}
+{{Ability info
+|name = Takedown
+|icon = Takedown.png
+|description  = {{sbc|Active:}} Nidalee's next attack gains '''75'''-range (''200 total range'') and is modified to deal magic damage.
+|description2 = The damage is increased by {{fd|1.5}}% for every 1% of the target's missing health, for a maximum of 150% bonus damage (''250% total damage'').
+|description3 = {{sbc|{{ai|Prowl|Nidalee|Hunt}} Bonus:}} If the target is marked as ''Hunted'', ''Takedown'' deals 33% increased damage.
+|leveling  = ''Scales with ranks in {{ai|Aspect of the Cougar|Nidalee}}''
+|leveling2 = {{lcapss|Base Magic Damage|4|20|50|90|(+75% AD)|(+36% AP)}}
+{{lcapss|Maximum Damage|10|50|125|225|(+187.5% AD)|(+90% AP)}}
+|leveling3 = {{lcapss|Hunt Maximum Damage|13|67|167|300|(+220.5% AD)|(+120% AP)}}
+|cooldown  = 5
+}}
+|{{Ability2
+|targeting='''Javelin Toss''' is a collision [[skill shot]].<br />
+'''Takedown''' is an [[on-hit effect]] ability.
+|damagetype=magic
+|projectile=true
+|name={{ai|Javelin Toss|Nidalee}}
+|spelleffects=
+|onhiteffects=The triggering attack for ''Takedown'' will apply other [[on-hit effects]] and can critically strike as normal.
+**''Takedown'''s damage will apply [[life steal]] in spite of being magic damage.
+**The attack is alaways displayed as a critical strike as long as the target is marked as ''Hunted'', presumably for reasons of clarity.
+**The bonus damage from ''Takedown'' is effective against structures.
+**''Takedown''-enhanced attacks will ignore {{ai|Counter Strike|Jax|dodge}}, but will be blocked if they are {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}} or if Nidalee is [[blind]]ed.
+|spellshield=will block both abilities and prevent the application of {{ai|Prowl|Nidalee|Hunt}}.
+|additional=
+* ''Takedown'' does not apply spell effects.
+* ''Javelin Toss'' applies [[spell effects]] as a single target ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is applied.
+** {{ii|Rylai's Crystal Scepter}} will apply a 35% slow.
+* ''Takedown'' has no cast time and does not interrupt Nidalee's previous orders.
+* ''Takedown'' resets Nidalee's attack timer on cast.
+* If an autoattack enhanced by ''Takedown'' applies the [[Named item effect#Spellblade|Spellblade]] effect of {{ii|Sheen}}, {{ii|Iceborn Gauntlet}} or {{ii|Trinity Force}}, the proc is converted into magic damage as the base attack is.
+|video=Nidalee QVideo.ogv
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Bushwhack
+|icon = Bushwhack.png
+|description  = {{sbc|Active:}} Nidalee lays a trap at a target location that arms after a very brief delay. When sprung by an enemy unit, they will take magic damage plus a percentage of their current health over 4 seconds (''max. damage 150 vs. monsters''). Traps last for 2 minutes.
+|leveling = {{lcaps|Total Magic Damage|20|40|60|80|100|(+{{ap|10|12|14|16|18}}% {{as|(+ 2% per 100 AP)}} of target's current health)}} 
+|cooldown = {{ap|13|12|11|10|9}}
+|cost     = {{ap|40|45|50|55|60}}
+|costtype = Mana
+|range    = 900
+}}
+{{Ability info
+|name = Pounce
+|icon = Pounce.png
+|description  = {{sbc|Active:}} Nidalee lunges a fixed 375 units in the direction of the cursor, dealing magic damage to enemies within a '''{{tt|75|Estimated}}'''-radius area around her landing point. 
+|description2 = Killing a unit will reduced ''Pounce's'' current cooldown to {{fd|1.5}} second if it's currently higher. 
+|description3 = {{sbc|{{ai|Prowl|Nidalee|Hunt}} Bonus:}} If the cursor is near an enemy marked as ''Hunted'' within '''750'''-range, ''Pounce'' becomes a unit-targeted dash. Current cooldown resets to {{fd|1.5}} seconds if Nidalee pounces to a Hunted target
+|leveling  = ''Scales with ranks in {{ai|Aspect of the Cougar|Nidalee}}''
+|leveling2 = {{lcaps|Magic Damage|50|100|150|200|(+ 30% AP)}}
+|cooldown = 5
+|range    = 375 (''750 against {{ai|Prowl|Nidalee|Hunted}}'' )
+}}
+|{{Ability2
+|targeting='''Bushwhack''' is a [[ground-targeted]] ability.<br />
+'''Pounce''' is a fixed-length [[ground-targeted]] [[dash]] or [[unit-targeted]] [[dash]].
+|damagetype=magic
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the damage from both abilities and prevent the application of {{ai|Prowl|Nidalee|Hunt}}.
+|additional=
+* ''Pounce's'' Reset time scales with cooldown reduction. ({{fd|0.9}} seconds at 40% CDR)
+* ''Pounce'' applies [[spell effects]] as an [[area of effect]] ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+* ''Bushwhack'' applies [[spell effects]] as a [[damage over time]] ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is applied.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+|video=Nidalee WVideo.ogv
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Primal Surge
+|icon = Primal Surge.png
+|description  = {{sbc|Active:}} Nidalee evokes the spirit of the cougar, healing a target allied champion or herself and granting them bonus attack speed for 7 seconds.
+|leveling = {{lcaps|Heal|45|85|125|165|205|(+ 50% AP)}}
+{{lcap|Attack Speed|20|30|40|50|60%}}
+|cooldown = 12
+|cost     = {{ap|60|75|90|105|120}}
+|costtype = Mana
+|range    = 600
+}}
+{{Ability info
+|name = Swipe
+|icon = Swipe.png
+|description  = {{sbc|Active:}} Nidalee claws at enemies in a '''180'''-degree cone in the direction of the cursor, dealing magic damage to all enemies hit. 
+|leveling = ''Scales with ranks in {{ai|Aspect of the Cougar|Nidalee}}''
+{{lcaps|Magic Damage|70|130|190|250|(+ 45% AP)}}
+|cooldown = 5
+|range    = {{tt|300|Estimated}}
+}}
+|{{Ability2
+|targeting='''Primal Surge''' is an [[unit-targeted|ally-targeted]] [[heal]].<br />
+'''Swipe''' is a [[direction-targeted|conic]] [[area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage of ''Swipe''.
+|additional=
+|video=Nidalee EVideo.ogv
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Aspect of the Cougar
+|icon = Aspect of the Cougar.png
+|description  = {{sbc|Active:}} Nidalee transforms herself into a cougar, gaining a new set of abilities and melee attacks (''125 range''). 
+<br/><br/>Triggering {{ai|Prowl|Nidalee|Hunt}} resets ''Aspect of the Cougar's'' cooldown if Nidalee is in Human Form.
+|leveling = ''Each rank in ''Aspect of the Cougar'' increases the ranks of all of Nidalee's cougar abilities.''
+|cooldown = 3
+}}
+{{Ability info
+|name =
+|icon =  Aspect of the Cougar 2.jpg
+|description  = {{sbc|Active:}} Nidalee transforms back into her human form.
+|description2 = Nidalee begins the game with one rank in Aspect of the Cougar and can increase it at levels 6, 11, and 16.
+}}
+|{{Ability2
+|targeting='''Aspect of the Cougar''' is a [[Toggle#Ability_types|toggled]] [[Shapeshifter|shapeshift]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Nidalee RVideo.ogv
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Nidalee]]
+[[de:Nidalee]]
+[[es:Nidalee]]
+[[fr:Nidalee]]
+[[pl:Nidalee]]
+[[pt-br:Nidalee]]
+[[ru:Nidalee]]
+[[zh:奈德丽]]

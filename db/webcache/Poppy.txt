@@ -1,0 +1,150 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Valiant Fighter
+|icon=Valiant Fighter.png
+|description= All physical and magic damage dealt to Poppy that exceeds 10% of her current health is reduced by 50%. ''Valiant Fighter'' does not reduce damage from structures. 
+}}
+|{{Ability2
+|targeting='''Valiant Fighter''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Valiant Fighter's'' damage reduction is calculated after the reduction from [[armor]] and [[magic resist]].
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Devastating Blow
+|icon=Devastating Blow.png
+|description={{sbc|Active:}} Poppy's next basic attack is converted into magic damage and deals bonus magic damage equal to a flat amount plus 8% of the target's maximum health. ''Devastating Blow's'' flat bonus plus percent health component cannot exceed a damage threshold.
+|leveling=
+{{lcapss|Total Magic Damage|20|40|60|80|100|(+ 100% AD)|(+ 60% AP)}} {{as|(+ 8% of target's maximum health)}}
+{{lcap|Maximum Bonus Damage|75|150|225|300|375}}
+|cooldown={{ap|8|7|6|5|4}}
+|cost=55
+|costtype=mana
+|range=
+}}
+|{{Ability2
+|targeting='''Devastating Blow''' is an [[On-hit effect#On-Attack Effects.2FAuto-attack Modifiers|autoattack modifier]].
+|damagetype=magic
+|spelleffects=
+|onhiteffects= Applies [[On-attack_effects#On-Hit_Effects|on-hit effects]].
+** Note however, only the attack damage portion may [[critical strike|critically strike]], but the damage will remain magic.
+* ''Devastating Blow'' cannot be {{ai|Counter Strike|Jax|dodged}} nor {{ai|Riposte|Fiora|parried}}; however, this can both [[blind|miss]] and be {{ai|Aegis Protection|Pantheon|blocked}}.
+*''Devastating Blow's'' damage does not trigger against structures.
+|spellshield=will block the ability.
+|additional=
+*  The minimum health on the enemy target to reach the damage cap is, {{ap|688|1375|2063|2750|3438}}.
+* ''Devastating Blow'' resets Poppy's autoattack timer on-cast.
+* ''Devastating Blow'' has no cast time and does not interrupt Poppy's previous orders.
+* Despite applying [[On-attack_effects#On-Hit_Effects|on-hit effects]], ''Devastating Blow's'' damage will apply [[spell effects]] as a [[Unit-targeted|single targeted]] ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is fully applied.
+** {{ii|Rylai's Crystal Scepter}} will apply a 35% slow
+|video=Poppy QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Paragon of Demacia
+|icon=Paragon of Demacia.png
+|description={{sbc|Passive:}} Upon receiving damage from or dealing damage with a basic attack, Poppy's armor and damage are increased for 5 seconds, stacking up to 10 times.
+|description2={{sbc|Active:}} Poppy receives maximum stacks of ''Paragon of Demacia''. Additionally, she gains increased movement speed for 5 seconds.
+|leveling=
+{{lcap|Armor & Attack Damage per Stack|1.5|2|2.5|3|3.5}}
+{{lcap|Max Armor & Attack Damage|15|20|25|30|35}}
+|leveling2={{lcap|Movement Speed|17|19|21|23|25%}}
+|cooldown=12
+|cost={{ap|70|75|80|85|90}}
+|costtype=mana
+|range=
+}}
+|{{Ability2
+|targeting='''Paragon of Demacia''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Paragon of Demacia'' has no cast time and does not interrupt Poppy's previous orders.
+|video=Poppy WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Heroic Charge
+|icon=Heroic Charge.png
+|description={{sbc|Active:}} Poppy charges at an enemy, dealing magic damage and carrying it '''{{tt|300|Estimated}}''' units along with her. If they collide with terrain, she stuns her target for {{fd|1.5}} seconds, dealing additional magic damage.
+|leveling=
+{{lcaps|Magic Damage|50|75|100|125|150|(+ 40% AP)}}
+{{lcaps|Collision Magic Damage|75|125|175|225|275|(+ 40% AP)}}
+{{lcaps|Total Magic Damage|125|200|275|350|425|(+ 80% AP)}}
+|cooldown={{ap|12|11|10|9|8}}
+|cost={{ap|60|65|70|75|80}}
+|costtype=mana
+|range=525
+}}
+|{{Ability2
+|targeting='''Heroic Charge''' is a single targeted [[dash]].
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the knockback and damage and cause Poppy to stop short at her target.
+|additional=
+* Each burst of damage when ''Heroic Charge'' collides with a wall will proc spell effects.
+* ''Heroic Charge'' can pass Poppy through walls provided her target is on the opposite side upon cast.
+* ''Heroic Charge'' takes into account impassable player-created terrain such as {{cai|Cataclysm|Jarvan IV}} {{cai|Crystallize|Anivia}}, {{cai|Emperor's Divide|Azir}} and {{cai|Pillar of Ice|Trundle}}.
+|video=Poppy EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Diplomatic Immunity
+|icon=Diplomatic Immunity.png
+|description={{sbc|Active:}} Poppy focuses intently on a single enemy champion, dealing amplified damage to them, and becoming immune to all damage and abilities from enemies other than her target.
+|leveling=
+{{lcap|Duration|6|7|8}}
+{{lcap|Increased Damage|20|30|40%}}
+|cooldown={{ap|140|120|100}}
+|cost=100
+|costtype=mana 
+|range=900
+}}
+|{{Ability2
+|targeting='''Diplomatic Immunity''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* ''Diplomatic Immunity'' blocks all damage from all sources, including [[true damage]]. The only exceptions are the [[Nexus Obelisk]], the target of ''Diplomatic Immunity'', and any pets belonging to that champion.
+** ''Diplomatic Immunity'' can, however, be cast on champion clones, such as {{ai|Children of the Grave|Mordekaiser}}. In this case, she will also be immune to the champion who spawned them.
+* ''Diplomatic Immunity's'' invulnerability can only be cancelled prematurely if Poppy or her target is killed.
+* ''Diplomatic Immunity's'' damage amplification [[debuff]] can be removed with [[Named item effect#Quicksilver|Quicksilver]]. However, it will not remove Poppy's invulnerability.
+|video=Poppy RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Poppy]]
+[[de:Poppy]]
+[[es:Poppy]]
+[[fr:Poppy]]
+[[pl:Poppy]]
+[[pt-br:Poppy]]
+[[ru:Poppy]]
+[[zh:波比]]

@@ -1,0 +1,152 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Mark of the Storm
+|icon = Mark of the Storm.png
+|description  = Enemies hit by Kennen's abilities receive one ''Mark of the Storm'', which lasts for {{fd|6.25}} seconds and stacks up to three times. At three stacks, the marks detonate to stun the target for 1 second and grant Kennen 25 Energy. 
+|description2 = If the stun is applied more than once within 7 seconds, it has a diminished effect and will only stun for approximately {{fd|0.5}} seconds
+}}
+|{{Ability2
+|targeting='''Mark of the Storm''' is a [[debuff]] that automatically applies to any enemy Kennen damages with an ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=will block application of the debuff.
+|additional=
+*If the target dies from a third application of ''Mark of the Storm'', it will not refund 25 Energy to Kennen.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Thundering Shuriken
+|icon=Thundering Shuriken.png
+|description={{sbc|Active:}} Kennen throws a charged shuriken in a line in front of him, dealing magic damage to the first enemy that it hits.
+|leveling={{lc|Magic damage}} {{ap|75|115|155|195|235}} {{as|(+ 75% AP)}}
+|cooldown={{ap|8|7|6|5|4}}
+|cost={{ap|65|60|55|50|45}}
+|costtype=energy
+|range=1050
+}}
+|{{Ability2
+|targeting='''Thundering Shuriken''' is a linear, colliding [[skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Kennen QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Electrical Surge
+|icon=Electrical Surge.png
+|description={{sbc|Passive:}} Every 5<sup>th</sup> basic attack will deal bonus magic damage proportional to Kennen's attack damage.
+|description2={{sbc|Active:}} Sends a surge of electricity through all nearby enemies afflicted by {{ai|Mark of the Storm|Kennen}}, dealing magic damage.
+|leveling={{lc|Magic damage}} {{as|{{ap|40|50|60|70|80%}} AD}}
+|leveling2={{lc|Magic damage}} {{ap|65|95|125|155|185}} {{as|(+ 55% AP)}}
+|cooldown={{ap|14|12|10|8|6}}
+|cost=45
+|costtype=energy
+|range=800
+}}
+|{{Ability2
+|targeting= '''Electrical Surge's''' ''passive'' is an [[on-hit effects|on-hit effect]].
+<br>'''Electrical Surge's''' ''active'' is a [[auto-targeted]] [[Area_of_effect#Point_Blank|point blank]] [[area of effect]].
+|damagetype=magic
+|spelleffects=single, area
+|spelleffects-single=The passive
+|spelleffects-aoe=The active
+|onhiteffects=The triggering attack can apply other [[on-hit effects]] and critically strike as normal.
+** Critical strikes will not interact with ''Electrical Surge's'' bonus damage.
+** ''Electrical Surge's'' bonus damage will not be applied if Kennen is [[blind]]ed and will consume the empowered autoattack.
+**{{ai|Counter Strike|Jax|dodge}} and {{ai|Aegis Protection|Pantheon|block}} won't negate passive portion of ''Electrical Surge''. 
+**{{ai|Riposte|Fiora|parry}} will negate passive portion completely, however mark will be placed.
+|spellshield=will block the active portion of the ability.
+**Spell shields do not interact with the passive portion of the ability.
+|additional=
+*Basic attacks against structures do not increment the counter nor consume the enhanced autoattack.
+*''Electrical Surge's'' active will still hit stealthed champions and champions hidden in the [[Fog of War]]; in such cases, the surging bolts will reveal their position (although it does not grant [[sight]] of them).
+|video=Kennen WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Lightning Rush
+|icon=Lightning Rush.png
+|description={{sbc|Active:}} Kennen transforms into a ball of electricity, ignoring unit collision and gaining 100% base movement speed for 2 seconds. Any enemies he passes through take magic damage (''half to minions and monsters''). 
+|description2= For 4 seconds Kennen's armor and magic resistance are increased. 
+|description3= Kennen also gains 40 Energy from the first enemy he hits. While ''Lightning Rush'' is active, Kennen cannot use basic attacks, but can activate other abilities.
+|leveling={{lc|Magic damage}} {{ap|85|125|165|205|245}} {{as|(+ 60% AP)}}
+{{lc|Magic damage to Minions & Monsters}} {{ap|42.5|62.5|82.5|102.5|122.5}} {{as|(+ 30% AP)}}
+|leveling2={{lc|Armor & Magic Resist}} {{ap|10|20|30|40|50}}
+|cooldown={{ap|10|9|8|7|6}}
+|cost={{ap|100|95|90|85|80}}
+|costtype=energy
+}}
+{{Ability info
+|name=
+|icon = Lightning Rush 2.png
+|description = {{sbc|Active:}} Cancel the first part of {{ai|Lightning Rush|Kennen}}.
+}}
+|{{Ability2
+|targeting='''Lightning Rush''' is a [[area of effect|point-blank area of effect]] [[haste]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*''Lightning Rush'' will only damage any particular enemy once per cast.
+*The full movement speed boost of ''Lightning Rush'' brings Kennen over the first soft movement speed cap. Assuming Kennen is not being affected by any other movement speed modifiers, ''Lightning Rush'' is effectively a 230 movement speed boost.
+*The movement speed bonus and damage is separate from the bonus resistances. Cancelling the ability early will not remove the bonus defenses.
+|video=Kennen EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Slicing Maelstrom
+|icon=Slicing Maelstrom.png
+|description={{sbc|Active:}} Kennen summons a magical storm around himself that zaps a random enemy champion within range every fraction of a second, dealing magic damage. 
+|description2=The storm hits several times, increasing with level, and cannot hit the same target more than 3 times.
+|leveling={{lc|Magic damage per bolt}} {{ap|80|145|210}} {{as|(+ 40% AP)}}
+{{lc|Maximum single target damage}} {{ap|240|435|630}} {{as|(+ 120% AP)}}
+|leveling2={{lc|Duration}} {{ap|3|4|5}}
+{{lc|Number of bolts}} {{ap|6|10|15}}
+{{lc|Time between bolts}} {{ap|0.5|0.4|0.33}}
+|cooldown=120
+|range=550
+}}
+|{{Ability2
+|targeting='''Slicing Maelstrom''' is an autotargeted point-blank area of effect ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block one bolt.
+|additional=
+*''Slicing Maelstrom'' is not a channeled ability, and as such will persist through the effects of [[crowd control]] and the untargetability of {{ii|Zhonya's Hourglass}}.
+*''Slicing Maelstrom'' will continue its effect through pseudo-death states like when reviving with {{ii|Guardian Angel}} or  {{cai|Chrono Shift|Zilean}}.
+*''Slicing Maelstrom'' will actually strike the same opponent in at least twice the time stated in the tooltip, as it cannot strike the same enemy for two consecutive ticks. If no other valid targets are available, it will not cast a bolt at all.
+|video=Kennen RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Kennen]]
+[[de:Kennen]]
+[[es:Kennen]]
+[[fr:Kennen]]
+[[pl:Kennen]]
+[[pt-br:Kennen]]
+[[ru:Kennen]]
+[[zh:凯南]]

@@ -1,0 +1,181 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Ionian Fervor
+|icon = IonianFervor.jpg
+|description = For each nearby enemy champion, Irelia reduces the duration of stuns, slows, taunts, fears, snares, immobilizes, blinds and silences.
+|leveling = {{lc|1 champion}} 10%
+{{lc|2 champions}} 25%
+{{lc|3 or more champions}} 40%
+|range = {{tt|1200|Sight Range}}
+}}
+|{{Ability2
+|targeting='''Ionian Fervor''' is a passive ability that reduces the duration of  most [[crowd control]] effects on Irelia by a percentage dependent on the number of visible enemy champions within sight range.
+|spelleffects=hide
+|onhiteffects=
+|spellshield=
+|damagetype=
+|cc=
+|cleansing=
+|liandry=
+|additional=
+* When ''Ionian Fervor'' activates, Irelia's headdress will glow red and the Ionian Fervor buff will appear on her status bar.
+** If ''Ionian Fervor'' triggers for multiple enemy champions, the glow will become stronger and the buff will gain further stacks.
+* ''Ionian Fervor'' does not reduce the duration of knock-ups, knock-backs, or suppression.
+* ''Ionian Fervor'' stacks [[Stacking#Stacks multiplicatively|multiplicatively]] with [[tenacity]] and {{mi4|Tenacious}} for a total of:
+** '''1 champion:''' 50.28%
+** '''2 champions:''' 58.56%
+** '''3 or more champions:''' 66.85%
+|pet=
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Bladesurge
+|icon = Bladesurge.jpg
+|description = {{sbc|Active:}} Irelia dashes forward to strike her target, dealing physical damage and applying on-hit effects. If it kills the target, ''Bladesurge's'' cooldown refreshes and refunds 35 mana.
+|leveling = {{lc|Physical Damage}} {{ap|20|50|80|110|140}} {{as|(+ 100% AD)}}
+|range = 650
+|cooldown = {{ap|14|12|10|8|6}}
+|cost = {{ap|60|65|70|75|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Bladesurge''' is a targeted [[dash]] ability that brings Irelia to the target enemy unit, and applying [[on-hit effects]] on arrival.
+|spelleffects=
+|onhiteffects=Does apply [[on-hit effects]], [[life steal]] but can NOT critically strike.
+** Classified as a [[melee]] attack.
+** The damage will be mitigated by {{ai|Counter Strike|Jax}}, {{ai|Aegis Protection|Pantheon}}, {{ai|Riposte|Fiora}}, and will miss if Irelia is [[blind]]ed.
+|spellshield=Will block the damage.
+|damagetype=physical
+|cc=
+|cleansing=
+|liandry=
+|additional=
+* ''Bladesurge'' will only allow Irelia to dash through walls if there is enough space for her on the other side.
+** Damage is dealt to the target regardless of whether she reaches their location or not.
+* If the target dies within a very short time (approx. 0.5 seconds) of performing ''Bladesurge'', its cooldown will still refresh.
+|pet=
+|video=Irelia QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Hiten Style
+|icon = HitenStyle.jpg
+|description = {{sbc|Passive:}} Irelia's basic attacks restore health.
+|description2 = {{sbc|Active:}} Irelia's basic attacks deal additional true damage for 6 seconds and ''Hiten Style's'' passive on-hit health restore is doubled for the duration.
+|leveling = {{lc|Health Restored}} {{ap|5|7|9|11|13}}
+|leveling2 = {{lc|True Damage}} {{ap|15|30|45|60|75}}
+{{lc|Health Restored}} {{ap|10|14|18|22|26}}
+|cooldown = 15
+|cost = 40
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Hiten Style''' passively grants Irelia an [[on-hit effect]]. When activated, '''Hiten Style''' is a self-target ability that buffs Irelia for a short duration, adding bonus on-hit [[true damage]].
+|spelleffects=hide
+|onhiteffects=
+|spellshield=
+|damagetype=true
+|cc=
+|cleansing=
+|liandry=
+|additional=
+* ''Hiten Style's'' true damage does not apply [[spell effects]].
+* ''Hiten Style's'' true damage does not work on structures, but the passive healing does.
+* ''Hiten Style's'' passive health gain is '''not''' lost while the ability is on cooldown.
+|pet=
+|video=Irelia WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Equilibrium Strike
+|icon = EquilibriumStrike.jpg
+|description = {{sbc|Active:}} Irelia pierces her target, dealing magic damage and slowing the target by 60% for the duration. If the target has a higher health % than Irelia, she stuns the target for the same duration instead.
+|leveling = {{lc|Magic Damage}} {{ap|80|130|180|230|280}} {{as|(+ 50% AP)}}
+{{lc|Duration}} {{ap|1|1.25|1.5|1.75|2}}
+|range = 425
+|cooldown = 8
+|cost = {{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Equilibrium Strike''' is a targeted ability.
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the damage and slow/stun.
+|damagetype=magic
+|cc=
+|cleansing=[[Stun]] is a form of crowd control that prevents the target from moving, declaring attacks or casting abilities. However, they may still cast summoner spells (excluding {{si|Flash}} and {{si|Teleport}}). [[Slow]] is a form of crowd control that reduces the target's movement speed. 
+*Slows stack with diminishing returns. Slows that would reduced below 220 movement speed are further modified, and the target's movement speed cannot be reduced below 110. 
+*The stun will interrupt [[channel]]ed and [[channel|charged]] abilities.
+*The duration of both is reduced by [[tenacity]], although the slow is refreshed so long as you remain in the field. 
+*The slow's strength is reduced by [[slow resist]]. 
+*Both can be removed with [[Quicksilver]], {{ii|Mikael's Crucible}}, {{si|Cleanse}} and [[Crowd control#Champion abilities|certain champion abilities]].
+*Both will be ignored by targets with [[Crowd control#Preventing|crowd control immunity]], such as {{ai|Black Shield|Morgana}}.
+*{{ii|Liandry's Torment}} will deal double damage against stunned and slowed enemies.
+|liandry=
+|additional=
+|pet=
+|video=Irelia EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Transcendent Blades
+|icon = TranscendentBlades.jpg
+|description = {{sbc|Active:}} Irelia summons 4 spirit blades and fires one in a line towards the cursor, dealing physical damage to enemies it passes through. Irelia is healed for 25% of the damage dealt to champions and 10% of the damage dealt to minions and monsters.
+|leveling = {{lc|Physical Damage Per Blade}} {{ap|80|120|160}} {{as|(+ 50% AP)}} {{as|(+ 60% bonus AD)}}
+|range = 1000
+|cooldown = {{ap|70|60|50}}
+|cost = 100
+|costtype = mana
+}}
+{{Ability info
+|name=
+|icon=TranscendentBladesReady.jpg
+|description= Within the next 15 seconds, ''Transcendent Blades'' can be used up to three more times at no cost.
+|leveling = {{lc|Maximum Physical Damage to One Target}} {{ap|320|480|640}} {{as|(+ 200% AP)}} {{as|(+ 240% bonus AD)}}
+|range = 1000
+|cooldown = {{ap|0.5}}
+|cost = No cost
+|costtype =
+}}
+|{{Ability2
+|targeting='''Transcendent Blades''' is a [[skillshot#Pass-through linear skillshot|pass-through linear skillshot]].
+|damagetype=physical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage of one blade.
+|additional=
+* All activations of ''Transcendent Blades'' have no cast time and do not interrupt Irelia's movement.
+* When first activated, ''Transcendent Blades'' has a 1 second cooldown before the 2nd blade can be fired. Between each remaining activation, a 0.5 second cooldown is applied.
+* Each activation of ''Transcendent Blades'' counts as a spellcast for the purpose of items such as {{ii|Sheen}}.
+* If Irelia dies and is resurrected by {{ii|Guardian Angel}} or {{cai|Chrono Shift|Zilean}} while ''Transcendent Blades'' is active, she will revive with four blades, no matter how many were used before dying.
+|video=Irelia RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Irelia]]
+[[de:Irelia]]
+[[es:Irelia]]
+[[fr:Irelia]]
+[[pl:Irelia]]
+[[pt-br:Irelia]]
+[[ru:Irelia]]
+[[zh:艾瑞莉娅]]

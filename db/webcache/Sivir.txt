@@ -1,0 +1,132 @@
+{{C-top}}{{champion info|Sivir}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Fleet of Foot
+|icon=Fleet of Foot.png
+|description=Sivir gains {{pp|5|30|35|40|45|50|1|6|11|16|18}} movement speed for 2 seconds when she hits an enemy champion with her abilities or basic attacks.
+}}
+|{{Ability2
+|targeting='''Fleet of Foot''' is an [[on-hit effect]] and [[spell effect]] [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*[[Summoner spells]] and [[items]] will not trigger ''Fleet of Foot''.
+|video=Sivir IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Boomerang Blade
+|icon=Boomerang Blade2.png
+|description={{sbc|Active:}} Sivir hurls her crossblade to a target location, which then returns to her. Enemies in its path take physical damage, with 15% reduced damage to each subsequent target, down to a minimum of 40%. 
+<br><br>Each enemy can be damaged only twice.
+|leveling={{lcaps|Physical Damage|25|45|65|85|105|(+ {{ap|70|80|90|100|110%}} AD)}} {{as|(+ 50% AP)}}
+{{lcaps|Maximum Physical Damage (Single target)|46.25|83.25|120.25|159.1|194.25|(+ {{ap|129.5|148|166.5|185|203.5%}} AD)}} {{as|(+ 92.5% AP)}}
+{{lcaps|Minimum Physical Damage|10|18|26|34|42|(+ {{ap|28|32|36|40|44%}} AD)}} {{as|(+ 20% AP)}}
+|cooldown=9
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+|range=1250
+}}
+|{{Ability2
+|targeting='''Boomerang Blade''' is a [[skill shot|linear, pass-through skill shot]] that returns to Sivir upon reaching maximum range.
+|damagetype=physical
+|projectile=true
+|spelleffects=aoe
+|onhiteffects=
+|spellshield=Will block a single instance of damage.
+|additional=
+* The damage reduction per enemy hit does not reset back to full damage upon changing direction. 
+* ''Boomerang Blade'' will still return to Sivir even if she dies before it changes direction.
+|video=Sivir QVideo
+}}}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Ricochet
+|icon=Ricochet.png
+|description={{sbc|Active:}} Sivir's next 3 basic attacks bounce to nearby enemies, dealing a percentage of her attack damage to each additional enemy hit. Only the first target is affected by on-hit effects.
+|description2= There is no limit on how many enemies that can be hit, but each enemy unit can only be hit once per attack. 
+|leveling={{lc|Bounce Damage}} {{as|{{ap|50|55|60|65|70%}} AD}}
+|cooldown={{ap|9|8|7|6|5}}
+|cost=60
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Ricochet''' is an [[on-hit effect|auto-attack modifier]].
+|damagetype=physical
+|spelleffects=false
+|onhiteffects=Attacks on Sivir's primary target will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal. Hits to secondary targets ''do not'' apply on-hit effects and cannot critically strike.
+** On-hit effects and critical strikes on the primary target will not affect damage dealt to secondary targets.
+|spellshield=do not block the ability.
+|additional=
+* ''Ricochet'' resets Sivir's attack timer on cast.
+* ''Ricochet''-enhanced autoattacks can bounce from structures onto secondary targets but cannot bounce from nearby units onto structures.
+* ''Ricochet'' will apply {{iis|The Black Cleaver}} armor reduction on each secondary target as this effect is not an [[on-hit effect]].
+|video=Sivir WVideo
+}}}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Spell Shield
+|icon=Spell Shield.png
+|description={{sbc|Active:}} Sivir creates a magical barrier that lasts up to {{fd|1.5}} seconds, blocking the next enemy ability used on Sivir. 
+|description2= If an ability is blocked by the shield, Sivir gains mana.
+|leveling2 ={{lcap|Mana restored|80|95|110|125|140}} 
+|cooldown={{ap|22|19|16|13|10}}
+}}
+|{{Ability2
+|targeting='''Spell Shield''' is a self-targeted [[spell shield]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Spell Shield'' can block multiple abilities if they strike Sivir at the same time, as is the case with all [[spell shield]]s.
+* ''Spell Shield'' will not take priority over {{ii|Banshee's Veil}} - a single ability can/will pop both shields. 
+* ''Spell Shield'' will take priority over {{cai|Black Shield|Morgana}} and will block the ability before it damages the shield. 
+|video=Sivir EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name=On The Hunt
+|icon=On The Hunt.png
+|description={{sbc|Passive:}} Sivir gains bonus [[attack speed]] while {{ai|Ricochet|Sivir}} is active.
+|description2={{sbc|Active:}} Sivir rallies her allies for 8 seconds, granting all nearby allies an initial 60% movement Speed bonus that reduces to 20% after a few seconds. 
+|leveling={{lcap|Bonus Attack Speed|40|60|80%}}
+|leveling2={{lcap|Initial Movement Speed Duration|2|4|6}}
+|cooldown={{ap|120|100|80}}
+|cost=100
+|costtype=mana
+|range=1000
+}}
+|{{Ability2
+|targeting='''On The Hunt''' passively grants a self-targeted buff and can also be activated to grant Sivir an [[aura]] for 8 seconds. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Bonuses to allies persist until the aura duration ends even if the buffed unit moves out of range of Sivir.
+* The active affects [[minions]].
+* Sivir can grant the buff to allies who weren't in range upon activation by moving in range of them.
+|video=Sivir RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Sivir]]
+[[de:Sivir]]
+[[es:Sivir]]
+[[fr:Sivir]]
+[[pl:Sivir]]
+[[pt-br:Sivir]]
+[[ru:Sivir]]
+[[zh:希维尔]]

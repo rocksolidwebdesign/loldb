@@ -1,0 +1,137 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+
+{{Ability frame|I|
+{{Ability info
+|name = Aspect of the Serpent
+|icon = Aspect_ot_the_Serpent.jpg
+|description  = Cassiopeia gains a stack of ''Aspect of the Serpent'' for each second that an enemy champion is poisoned, for each poisoned unit that she kills and when she hits an enemy champion with {{ai|Twin Fang|Cassiopeia}}, up to a max. of 400 stacks.
+{{lc|75 Stacks}} 5% increased [[ability power]], and {{ai|Twin Fang|Cassiopeia}} now heals for {{pp|6|6|8|10|12|14|16|1|4|7|10|13|16}} {{as|(+ 10% AP)}}.
+{{lc|200 Stacks}} 10% increased [[ability power]] and 25% bonus [[cooldown reduction]].
+{{lc|400 Stacks}} 30% increased [[ability power]].
+}}
+|{{Ability2
+|targeting='''Aspect of the Serpent''' is a [[self-buff]]. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Aspect of the Serpent'' can effectively increase Cassiopeia's [[ability power]] up to 30%.
+** ''Aspect of the Serpent's'' stacks ''multiplicatively'' with both {{ii|Rabadon's Deathcap}} and {{mi4|Archmage}}. The three combined increase her ability power by {{fd|77.45%}} or by {{fd|70.625%}} when using {{ii|Wooglet's Witchcap}} instead.
+|video=
+}}}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Noxious Blast
+|icon = NoxiousBlast.jpg
+|description  = {{sbc|Active:}} Cassiopeia hurls poison at the cursor's location, which strikes after a {{fd|0.65}} second delay. All enemies within the '''75'''-radius area are poisoned, taking magic damage over 3 seconds.
+|description2 = Cassiopeia gains a movement speed boost for 3 seconds if ''Noxious Blast'' damages a champion.
+|leveling  = 
+{{lc|Magic Damage Per Second}} {{ap|25|38.33|51.67|65|78.33}} {{as|(+ {{fd|15}}% AP)}}
+{{lc|Total Magic Damage}} {{ap|75|115|155|195|235}} {{as|(+ 45% AP)}}
+|leveling2 = {{lc|Movement Speed}} {{ap|10|15|20|25|30%}}
+|range = 850
+|cooldown = 4
+|cost = {{ap|40|45|50|55|60}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Noxious Blast''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=magic
+|spelleffects=aoe
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* ''Noxious Blast'' uses [[quick cast]]ing by default.
+|video=Cassiopeia QVideo
+}}}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Miasma
+|icon = Miasma.jpg
+|description = {{sbc|Active:}} Cassiopeia throws a growing cloud of poison to a target location, granting sight of the area and growing from a radius of '''125''' to '''250''' over 7 seconds. Enemies in the area are poisoned, slowed, and take magic damage per second for 2 seconds. Continual exposure renews the poison.
+|leveling = {{lc|Magic Damage Per Second}} {{ap|10|15|20|25|30}} {{as|(+ 10% AP)}}
+{{lc|Max. Magic Damage}} {{ap|90|135|180|225|270}} {{as|(+ 90% AP)}}
+{{lc|Slow}} {{ap|25|30|35|40|45%}}
+|range = 850
+|cooldown = {{ap|14|13|12|11|10}}
+|cost = {{ap|40|50|60|70|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Miasma''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=magic
+|spelleffects=aoe
+|onhiteffects=
+|spellshield=Has no effect.
+|additional=
+*'''Miasma''' provides [[sight]] in a 250 unit radius for the full duration.
+|video=Cassiopeia WVideo
+}}}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Twin Fang
+|icon = TwinFang.jpg
+|description  = {{sbc|Active:}} Cassiopeia fires fangs at an enemy, dealing magic damage. If her target is poisoned, ''Twin Fang's'' cooldown is reduced to {{fd|0.5}} seconds.
+|description2 = If ''Twin Fang'' kills the target, refunds its mana cost plus {{as|3% of her maximum mana}}.
+|leveling = {{lc|Magic Damage}} {{ap|55|80|105|130|155}} {{as|(+ {{ap|40|45|50|55|60%}} AP)}}
+|range = 700
+|cooldown = 5
+|cost = {{ap|30|45|60|75|90}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Twin Fang''' is a single target ability.
+|damagetype=Magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability but will not prevent the cooldown from being reduced. 
+|additional=
+* If the target becomes untargetable before ''Twin Fang'' hits, ''Twin Fang'' will go on full cooldown.
+* Unlike many newer champions, such as {{ci|Diana}}, there is no grace period on ''Twin Fang's'' cooldown reduction effect for in-air {{ai|Noxious Blast|Cassiopeia|Noxious Blasts}} or {{ai|Miasma|Cassiopeia|Miasmas}}. The target must be poisoned before ''Twin Fang'' hits.
+* ''Twin Fang's'' cooldown reduction effect will also trigger on the poisons of {{ci|Teemo}}, {{ci|Twitch}} and {{ci|Singed}}.
+|video=Cassiopeia EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Petrifying Gaze
+|icon = PetrifyingGaze.jpg
+|description = {{sbc|Active:}} After a brief delay, Cassiopeia blasts all enemies in a '''80º''' cone in front of her with her gaze, dealing magic damage to them. Enemies facing her when damaged are stunned for 2 seconds, while enemies facing away are slowed by 60% for 2 seconds instead.
+|leveling = {{lc|Magic Damage}} {{ap|150|250|350}} {{as|(+ 50% AP)}}
+|range = 825
+|cooldown = {{ap|120|110|100}}
+|cost = {{ap|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Petrifying Gaze''' is a [[area of effect|conic area of effect]].
+|damagetype=magic
+|spelleffects=aoe
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* The facing direction of champions whose abilities/animations cause them to spin is always the direction they are moving in. In the event of abilities that cause the champion to spin on the spot, such as {{cai|Death Lotus|Katarina}}, it will factor the direction they were facing on-cast. 
+* {{ci|Lucian}} is facing in the direction he is moving during {{ai|The Culling|Lucian}}, not the direction his model is facing. 
+|video=Cassiopeia RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Cassiopeia]]
+[[de:Cassiopeia]]
+[[es:Cassiopeia]]
+[[fr:Cassiopeia]]
+[[pl:Cassiopeia]]
+[[pt-br:Cassiopeia]]
+[[ru:Cassiopeia]]
+[[zh:卡西奥佩娅]]

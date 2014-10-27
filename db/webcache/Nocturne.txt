@@ -1,0 +1,152 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Umbra Blades
+|icon = Umbra Blades.png
+|description  = Nocturne's next attacks are periodically enhanced, damaging surrounding enemies for {{as|120% of his total attack damage}} and healing himself for {{pp|3|10|18|26|1|7|13}} per enemy hit. 
+|description2 = Every basic attack reduces the cooldown by 1 second.
+|static = 10
+}}
+|{{Ability2
+|targeting = '''Umbra Blades''' is an [[on-hit effect]] that periodically causes Nocturne's basic attacks to [[splash]] around his main target.
+|damagetype   = physical
+|spelleffects = false
+|onhiteffects = The triggering autoattack will apply other [[on-hit effects]] and can critically strike as normal.
+** On-hit effects are applied only to Nocturne's main target.
+** Critical strikes do not factor in the bonus damage of the ability.
+|spellshield=will not block the ability.
+|additional =
+* Basic attacks against structures will reduce the cooldown of the ability but will not trigger the splash.
+|video=Nocturne IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Duskbringer
+|icon = Duskbringer.png
+|description  = {{sbc|Active:}} Nocturne sends out a shadow blade in a line that leaves a ''Dusk Trail'' on its path, dealing physical damage to enemies it passes through and causing enemy champions hit to also leave a ''Dusk Trail'' behind their movements for 5 seconds. 
+|description2 = While on the ''Dusk Trail'', Nocturne ignores unit collision and gains bonus movement speed and attack damage.
+|leveling  =
+{{lcaps|Physical damage|60|105|150|195|240|(+ 75% bonus AD)}}
+|leveling2 =
+{{lcap|Movement speed|15|20|25|30|35%}}
+{{lcap|Attack damage|15|25|35|45|55}}
+|range    = 1200
+|cooldown = 10
+|cost     = {{ap|60|65|70|75|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting = '''Duskbringer''' is a [[skill shot|pass-through linear skill shot]].
+|damagetype   = physical
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the ability and prevent the target from leaving a ''Dusk Trail''.
+|additional =
+* Although ''Duskbringer'' does not directly grant true sight on stealthed units, the ''Dusk Trail'' left behind by units hit by the ability will compromise the position of said unit until the trail wears off.
+|video=Nocturne QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Shroud of Darkness
+|icon = Shroud of Darkness.png
+|description  = {{sbc|Passive:}} Nocturne empowers his blades, permanently gaining attack speed.
+|description2 = {{sbc|Active:}} Nocturne creates a barrier that blocks the next enemy spell that hits him within the next {{fd|1.5}} seconds. If Nocturne blocks a spell, the passive attack speed bonus is doubled for 5 seconds.
+|leveling  = {{lcap|Attack speed|20|25|30|35|40%}}
+|leveling2 = {{lcap|Doubled speed|40|50|60|70|80%}}
+|cooldown  = {{ap|20|18|16|14|12}}
+|cost      = 50
+|costtype  = mana
+}}
+|{{Ability2
+|targeting = '''Shroud of Darkness's''' ''passive'' is an statistic [[buff]].
+<br/> '''Shroud of Darkness's''' ''active'' is a [[Self-targeting|self-targeted]] [[spell shield]].
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+* ''Shroud of Darkness'' has no cast time and does not interrupt Nocturne's previous orders.
+* ''Shroud of Darkness''' passive buff is not lost when the ability is on cooldown.
+* If ''Shroud of Darkness'' is active at the same time as {{ii|Banshee's Veil}} and Nocturne is hit by an ability, both spell shields will pop. There is no order of priority where one pops before the other. 
+|video=Nocturne WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Unspeakable Horror
+|icon = Unspeakable Horror.png
+|description  = {{sbc|Active:}} Nocturne plants nightmares into his target's mind, dealing magic damage over 2 seconds. 
+|description2 = If the target remains within '''465'''-range of Nocturne for the full duration, it turns and flees from him for a short duration.
+|leveling  = {{lcaps|Magic damage|50|100|150|200|250|(+ 100% AP)}}
+|leveling2 = {{lcap|Fear|1|1.25|1.5|1.75|2}}
+|range     = 425
+|cooldown  = {{ap|15|14|13|12|11}}
+|cost      = {{ap|60|65|70|75|80}}
+|costtype  = mana
+}}
+|{{Ability2
+|targeting = '''Unspeakable Horror''' is [[Unit-targeted|single targeted]] [[Damage_over_time#Tether-like_DoT|tether]] ability.
+|damagetype   = magic
+|spelleffects = damage over time
+|onhiteffects =
+|spellshield  = will block the application of the tether but will not block the fear from a tether already present.
+|additional =
+* ''Unspeakable Horror'' has no cast time and does not interrupt Nocturne's previous orders.
+* ''Unspeakable Horror's'' tether will not break if the target enters stealth or uses abilities like {{ai|Playful|Fizz}} or {{ai|Sanguine Pool|Vladimir}}.
+|video=Nocturne EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Paranoia
+|icon = Paranoia.png
+|description  = {{sbc|Active:}} Nocturne reduces the sight radius of all enemy champions and removes their shared vision for 4 seconds; this includes champions, minions, wards, towers, and [[Clairvoyance]].
+|description2 = While ''Paranoia'' is active, Nocturne can activate it again to launch himself at a target enemy champion within range, dealing physical damage.
+|leveling2 =
+{{lcap|Launch Range|2000|2750|3500}}
+{{lcaps|Physical damage|150|250|350|(+ 120% bonus AD)}}
+|range     = Global
+|cooldown  = {{ap|180|140|100}}
+|cost      = 100
+|costtype  = mana
+}}
+|{{Ability2
+|targeting = '''Paranoia''' is a global [[debuff]] ability. When activated again, it becomes a long ranged [[Unit-targeted|single targeted]] [[dash]] ability.
+|damagetype   = physical
+|spelleffects = single
+|onhiteffects =
+|spellshield  = will block the sight reduction for the spell shielded unit only and will block the damage of the dash.
+|additional =
+* The first cast of ''Paranoia'' has no cast time and does not interrupt Nocturne's previous orders.
+* Nocturne is immune to all crowd control while performing the dash.  
+* ''Paranoia'' blocks ''all'' forms of sight, up to and including sight granted by [[minions]], [[pets]], [[wards]], {{si|Clairvoyance}} and {{cai|Destiny|Twisted Fate}}.
+** Vision granted before ''Paranoia'' was cast will be removed, and vision granted after ''Paranoia'' is cast will be negated.
+** However, {{si|Clairvoyance}} and {{ai|Destiny|Twisted Fate}} will continue to grant vision for their remaining duration after Paranoia ends.
+** Although vision is lost across the map, champions will still retain their own (''but slightly reduced'') field of vision and can spot any enemy or unit that they could see normally.
+* ''Paranoia's'' sight reduction does not grant assists.
+* Nocturne will track a target that changes location such as by moving, using a [[dash]] ability or using {{si|Flash}}. He will not follow targets that move a great distance using {{si|Recall}} or {{si|Teleport}}, however. In such cases he will simply dash to the target's previous location.
+* ''Paranoia'' will prevent an enemy {{ci|Shen}} from using {{ai|Stand United|Shen}} on an ally while it is active, regardless of whether or not he actually has sight of his ally. This includes disabling the ability to cast it by clicking on one of the champion portraits on the left of the screen.
+|video=Nocturne RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Nocturne]]
+[[de:Nocturne]]
+[[es:Nocturne]]
+[[fr:Nocturne]]
+[[pl:Nocturne]]
+[[pt-br:Nocturne]]
+[[ru:Nocturne]]
+[[zh:魔腾]]

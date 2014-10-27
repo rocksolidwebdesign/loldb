@@ -1,0 +1,137 @@
+{{C-top}} {{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Equilibrium
+|icon = Equilibrium.jpg
+|description = Veigar's mana regeneration is increased by 1% for each 1% of his missing mana. 
+}}
+|{{Ability2
+|targeting='''Equilibrium''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Equilibrium'' stacks with the similar [[Named item passive#Mana Font|Mana Font]] passive of {{ii|Chalice of Harmony}}, {{ii|Athene's Unholy Grail}} and {{ii|Mikael's Crucible}}.
+*''Equilibrium'' increases bonus mana regeneration gained from the {{bi|Crest of the Ancient Golem}}, {{bi|Exalted with Baron Nashor}} buffs, and {{ii|Mana Potion}}. 
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Baleful Strike
+|icon = Baleful Strike.jpg
+|description  = {{sbc|Passive:}} Veigar gains permanent bonus ability power when he kills a champion from any source of damage. This stacks with the active ability's AP gain. 
+|description2 = {{sbc|Active:}} Unleashes dark energy at target enemy, dealing magic damage. If this ability deals a killing blow, Veigar gains 1 ability power permanently (doubled against large minions, large monsters, and champions).
+|leveling  = {{lc|Ability Power per Champion Kill}} {{ap|1|2|3|4|5}}
+|leveling2 = {{lc|Magic Damage}} {{ap|80|125|170|215|260}} {{as|(+ 60% AP)}}
+|cooldown={{ap|8|7|6|5|4}}
+|cost={{ap|60|65|70|75|80}}
+|costtype=mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Baleful Strike''' is a single targeted ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*Any of Veigar's damage sources can trigger ''Baleful Strike's'' champion kill passive, including autoattacks, champion abilities, summoner spells and item actives.
+*If Veigar kills a champion with ''Baleful Strike'', both bonuses of the ability are granted, allowing him to gain up to 7 bonus AP.
+*Champion clones (such as {{cai|Mirror Image|LeBlanc}}) will not grant the champion-kill bonus if they are killed by ''Baleful Strike''. They will, however, grant the active kill bonus of 1 AP. 
+|video=Veigar QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Dark Matter
+|icon = Dark Matter.jpg
+|description = {{sbc|Active:}} Veigar calls a great mass of dark matter to fall from the sky to the target location, which lands after a {{fd|1.25}} second delay, dealing magic damage in a {{fd|112.5}}-radius area.
+|description2 = This ability also provides sight of the target area through Fog of War or brushes before it lands.
+|leveling = {{lc|Magic Damage}} {{ap|120|170|220|270|320}} {{as|(+ 100% AP)}}
+|cooldown=10
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+|range=900
+}}
+|{{Ability2
+|targeting='''Dark Matter''' is a [[area of effect|ground targeted area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Dark Matter'' grants a short instance of [[sight]] around where it is cast.
+|video=Veigar WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Event Horizon
+|icon = Event Horizon.jpg
+|description = {{sbc|Active:}} Veigar twists the edges of space around the '''375'''-radius target area for 3 seconds, stunning enemies who pass through the perimeter for a short duration.
+|leveling = {{lc|Stun Duration}} {{ap|1.5|1.75|2|2.25|2.5}}
+|cooldown={{ap|20|19|18|17|16}}
+|cost={{ap|80|90|100|110|120}}
+|costtype=mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Event Horizon''' is a [[area of effect|ground targeted area of effect]] ability.
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=will block the stun and provide immunity to stuns from the same instance of ''Event Horizon''.
+|additional=
+*''Event Horizon'' can only stun an enemy once per cast. An enemy will not be stunned twice if they walk through the perimeter again after recovering from an initial stun.
+*Abilities that cause enemy champions to move interact with ''Event Horizon'' differently:
+**[[Dash]] abilities will cause enemy champions to be stunned if they move across the barrier. The dash movement will still be completed even if the moving champion is stunned mid-dash.
+**Forced movement through knockbacks and pulls such as {{ai|Rocket Grab|Blitzcrank}} work similarly to dashes.
+**[[Blink]] abilities such as {{ai|Riftwalk|Kassadin}} and {{si|Flash}} are not inhibited by ''Event Horizon''. 
+|video=Veigar EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Primordial Burst
+|icon = Primordial Burst.jpg
+|description = {{sbc|Active:}} Blasts an enemy champion, dealing magic damage equal to a base amount plus {{as|80% of the target's AP}}.
+|leveling = {{lc|Magic Damage}} {{ap|250|375|500}} {{as|(+ 120% AP)}}
+|cooldown={{ap|130|110|90}}
+|cost={{ap|125|175|225}}
+|costtype=mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Primordial Burst''' is a single targeted ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Veigar RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Veigar]]
+[[de:Veigar]]
+[[es:Veigar]]
+[[fr:Veigar]]
+[[pl:Veigar]]
+[[pt-br:Veigar]]
+[[ru:Veigar]]
+[[zh:维迦]]

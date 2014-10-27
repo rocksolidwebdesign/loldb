@@ -1,0 +1,167 @@
+ {{redirect|Cripple|the Season One mastery|Cripple (Season One)}}
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Flurry
+|icon=Flurry.jpg
+|description=After using an ability, Lee Sin's next 2 basic attacks within 3 seconds gain 40% attack speed and return 15 energy each.
+}}
+|{{Ability2
+|targeting='''Flurry''' is a passive self-[[buff]] that triggers after Lee Sin uses an ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*''Flurry'' does not activate when using summoner spells or items.
+*''Flurry'' will still return energy even if the attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}}, {{ai|Aegis Protection|Pantheon|blocked}}, or if Lee Sin is [[blind]]ed. 
+|video=Lee Sin IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Sonic Wave
+|icon=SonicWave.jpg
+|description={{sbc|Active:}} Lee Sin shoots a wave of sound in a line, dealing physical damage to the first enemy it hits and granting true sight of it for 3 seconds. If ''Sonic Wave'' hits, Lee Sin can cast {{ai|Resonating Strike|Lee Sin}} within the next 3 seconds.
+|leveling={{lcaps|Physical Damage|50|80|110|140|170|(+ 90% bonus AD)}}
+|cooldown={{ap|11|10|9|8|7}}
+|cost=50
+|costtype=energy
+|range=1100
+}}
+{{Ability info
+|name=Resonating Strike
+|icon=ResonatingStrike.jpg
+|description={{sbc|Active:}} Lee Sin dashes to the enemy marked by {{ai|Sonic Wave|Lee Sin}}, dealing physical damage including 8% of the target's missing health. Minions and monsters take a maximum of 400 damage.
+|leveling={{lcapss|Physical Damage|50|80|110|140|170|(+ 90% bonus AD)|(+ 8% target's missing health)}}
+{{lcapss|Combined Damage|100|160|220|280|340|(+ 180% bonus AD)|(+ 8% target's missing health)}}
+|cost=30
+|costtype=energy
+|range=1300
+}}
+|{{Ability2
+|targeting= '''Sonic Wave''' is a single target [[skill shot|collision linear skill shot]]. 
+'''Resonating Strike''' is an [[auto-targeted]] [[dash]].
+|damagetype=physical
+|projectile=true
+|name={{ai|Sonic Wave|Lee Sin}}
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the damage from both abilities and will prevent ''Sonic Wave'' from marking a target.
+|additional=*''Sonic Wave's'' mark grants [[true sight]] on enemies hit but is consumed when Lee Sin casts ''Resonating Strike''.
+*If ''Resonating Strike'' is activated and the target dies mid-flight, Lee Sin will travel to their last location.
+|video=Lee Sin QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Safeguard
+|icon=Safeguard.jpg
+|description={{sbc|Active:}} Lee Sin dashes to a target ally. If the ally is a champion, they and Lee Sin receive a shield that lasts 2 seconds and ''Safeguard's'' cooldown is halved. Lee Sin can activate ''Safeguard'' on himself to receive the shield, and can cast {{ai|Iron Will|Lee Sin}} within 3 seconds.
+|leveling={{lcaps|Shield|40|80|120|160|200|(+ 80% AP)}}
+|cooldown=14
+|cost=50
+|costtype=energy
+|range=700
+}}
+{{Ability info
+|name=Iron Will
+|icon=IronWill.jpg
+|description={{sbc|Active:}} For 4 seconds, Lee Sin gains bonus life steal and spell vamp.
+|leveling={{lcap|Life steal & spell vamp|5|10|15|20|25%}}
+|cost=30
+|costtype=energy
+}}
+|{{Ability2
+|targeting='''Safeguard''' is a targeted [[dash]] ability that can be cast on allied units or Lee Sin himself. 
+'''Iron Will''' is a self-targeted [[buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*Lee Sin cannot self-cast ''Safeguard'' on himself if he is immobilized.
+*''Safeguard'' can be used on '''any''' targetable allied or enemy unit except for towers and inhibitors. This can include champions, minions, wards and champion pets such as {{cai|Noxious Trap|Teemo}}, {{cai|Demacian Standard|Jarvan IV}} and {{cai|Dark Passage|Thresh|Lantern}}.
+*Casting ''Safeguard'' will interrupt an in-flight {{ai|Resonating Strike|Lee Sin}}, canceling its dash and preventing any damage from being dealt.
+|video=Lee Sin WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Tempest
+|icon=Tempest.jpg
+|description={{sbc|Active:}} Lee Sin smashes the ground, dealing magic damage to all nearby enemies and granting true sight of them for 4 seconds. If ''Tempest'' hits an enemy, Lee Sin can cast {{ai|Cripple|Lee Sin}} within the next 3 seconds.
+|leveling={{lcaps|Magic damage|60|95|130|165|200|(+ 100% bonus AD)}}
+|cooldown=10
+|cost=50
+|costtype=energy
+|range=350
+}}
+{{Ability info
+|name=Cripple
+|icon=Cripple.jpg
+|description={{sbc|Active:}} Lee Sin cripples all enemies within range that are marked by {{ai|Tempest|Lee Sin}}, reducing their movement speed for 4 seconds, decaying over the duration.
+|leveling={{lcap|Slow|20|30|40|50|60%}}
+|cost=30
+|costtype=energy
+|range=500
+}}
+|{{Ability2
+|targeting='''Tempest''' is a [[area of effect|point blank area of effect]] ability.
+'''Cripple''' is a point blank autotargeted [[debuff]].
+|damagetype=magic
+|spelleffects=area, false
+|spelleffects-aoe=''Tempest''
+|spelleffects-false=''Cripple''
+|onhiteffects=
+|spellshield=Spell shields will block ''Tempest'' and ''Cripple'' and prevent the target from being marked for ''Cripple''.
+|additional=*''Tempest'' grants true sight around all enemies hit. Unlike {{ai|Sonic Wave|Lee Sin}}, this is not removed when he casts ''Cripple''.
+**''Tempest'' cannot directly reveal [[wards]], {{cai|Noxious Trap|Teemo}} or {{cai|Jack In The Box|Shaco}}. However, if an enemy unit already affected by ''Tempest'' walks close to the location of one of them, they will be revealed.
+|video=Lee Sin EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Dragon's Rage
+|icon=Dragon'sRage.jpg
+|description={{sbc|Active:}} Lee Sin launches a powerful roundhouse kick, dealing physical damage to a target champion and knocking it back 1200 units over 1 second. Enemies the target collides with take the same damage and are knocked airborne for 1 second.
+|leveling={{lcaps|Physical damage|200|400|600|(+ 200% bonus AD)}}
+|cooldown={{ap|90|75|60}}
+|cost=
+|costtype=No cost
+|range=375
+}}
+|{{Ability2
+|targeting='''Dragon's Rage''' is a single targeted area of effect ability.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=* [[Spell effects]] are applied as a single target ability to the main target.
+**[[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is applied at full effectiveness.
+**{{ii|Rylai's Crystal Scepter}} will apply a 35% slow.
+*[[Spell effects]] are applied as an [[area of effect]] ability to all secondary targets. 
+**[[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+**{{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+*If the target of ''Dragon's Rage'' dies from the initial damage, they will not be knocked back and no knock ups will occur.
+|video=Lee Sin RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+
+
+[[cs:Lee Sin]]
+[[de:Lee Sin]]
+[[es:Lee Sin]]
+[[fr:Lee Sin]]
+[[pl:Lee Sin]]
+[[pt-br:Lee Sin]]
+[[ru:Lee Sin]]
+[[zh:李青]]

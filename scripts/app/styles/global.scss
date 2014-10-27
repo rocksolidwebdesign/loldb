@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', 'Helvetica', 'Trebuchet MS', sans-serif;
+  background: #222;
+}
+
+table, td, th, tr {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  margin: 4px 0;
+  padding: 2px 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.clear {
+  clear: both;
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+}
+
+.loldbApp {
+  padding: 20px;
+}
+
+.mainHeadline {
+  color: white;
+}

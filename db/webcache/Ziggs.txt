@@ -1,0 +1,161 @@
+{{C-top}} 
+{{champion info|Ziggs}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Short Fuse
+|icon = ShortFuse.jpg
+|description = Ziggs' next basic attack deals {{pp18|20|24|28|32|36|40|48|56|64|72|80|88|100|112|124|136|148|160}} {{as|(+ {{pp|3|25|30|35|1|7|13}}% AP)}} bonus magic damage (150% damage against enemy structures).
+|description2 = This cooldown is reduced by 4 seconds whenever Ziggs uses an ability.
+|static = 12
+}}
+|{{Ability2
+|targeting='''Short Fuse''' is a one-use [[on-hit effect]] that triggers periodically.
+|damagetype=magic
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** {{Pending for test}} ''Short Fuse's'' relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested.
+** ''Short Fuse'' will only apply to the primary target if Ziggs is using {{ii|Runaan's Hurricane}}, as with all other one-use on-hit effects. 
+|spellshield={{Pending for test}}
+|additional=
+|video=Ziggs IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Bouncing Bomb
+|icon = BouncingBomb.jpg
+|description  = {{sbc|Active:}} Ziggs throws a bouncing bomb to a target area, it bounces up to twice. The distance of each bounce is dependent on how far it was originally thrown.
+|description2 = After either the bomb comes within 150 range of an enemy or after it has bounced twice, it explodes, dealing magic damage in a 240 radius area.
+|leveling  = {{lc|Initial Throw Speed}} 1700
+|leveling2 = {{lc|Magic damage}} {{ap|75|120|165|210|255}} {{as|(+ 65% AP)}}
+|range = 850 - {{tt|1400|Maximum Range}}
+|cooldown = {{ap|6|5.5|5|4.5|4}}
+|cost = {{ap|50|60|70|80|90}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Bouncing Bomb''' is a [[Area of effect#Ground targeted|ground-targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=can block the impact and the explosion. Note that blocking the impact will not prevent the explosion. 
+|additional=
+* The bomb obeys game physics and can be thrown over or bounce over units or terrain if there is sufficient air-time.
+** The bomb may sail over enemies without exploding.
+** If the bomb lands on impassible terrain, it will explode.
+|video=Ziggs QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Satchel Charge
+|icon = SatchelCharge.jpg
+|description = {{sbc|Active:}} Ziggs flings an explosive charge to the target area. The charge gives sight nearby and detonates after 4 seconds or when this ability is activated again. 
+|description2 = The explosion deals magic damage and enemies hit are knocked away. Ziggs is also knocked away, but takes no damage.
+|leveling = {{lc|Charge Radius}} 325
+|leveling2 = {{lc|Magic damage}} {{ap|70|105|140|175|210}} {{as|(+ 35% AP)}}
+|range = 1000
+|cooldown ={{ap|26|24|22|20|18}}
+|cost = 65
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Satchel Charge''' is a [[Area of effect#Ground targeted|ground-targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* The cooldown starts on-cast.
+* Reactivating mid-flight will cause it to explode immediately after landing.
+* The knockback obeys game physics. Being closer to the charge increases the knockback distance. Aligning directly on top of the charge will only result in a knockup.
+** Ziggs can be knocked a maximum of distance of 400.
+** Enemies can be knocked a maximum of distance of 250.
+* Ziggs is unaffected by ''Satchel Charge'' if he is using {{si|Teleport}}.
+* Ziggs will be interrupted and knocked back when using {{si|Recall}}.
+|video=Ziggs WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Hexplosive Minefield
+|icon = HexplosiveMinefield.jpg
+|description  = {{sbc|Active:}} Ziggs scatters 11 proximity mines that detonate on enemy contact, dealing magic damage and slowing the enemy for {{fd|1.5}} seconds.<br>Enemies take 40% damage for each mine they detonate beyond the first.
+|description2 = Mines disarm automatically after 10 seconds.
+|leveling  = {{lc|Magic Damage per Mine}} {{ap|40|65|90|115|140}} {{as|(+ 30% AP)}}
+{{lc|Reduced Damage per Mine}} {{ap|16|26|36|46|56}} {{as|(+ 12% AP)}}
+{{lc|Max Single Target Damage}} {{ap|200|325|450|575|700}} {{ability scaling|(+ 150% AP)}}
+{{lc|Slow}} {{ap|20|25|30|35|40%}}
+|leveling2 =
+{{lc|Scatter Radius}} 250
+|range = 900
+|cooldown = 16
+|cost = {{ap|70|80|90|100|110}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Hexplosive Minefield''' is a [[Area of effect#Ground targeted|ground-targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block a single mine.
+|additional=
+* Gives sight of the target area for a short duration on-cast and when each mine explodes.
+* An exploding mine only effects one enemy but is still classified as an area of effect ability.
+|video=Ziggs EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Mega Inferno Bomb
+|icon = MegaInfernoBomb.jpg
+|description  = {{sbc|Active:}} Ziggs deploys his ultimate creation, the ''Mega Inferno Bomb'', hurling it an enormous distance, dealing magic damage to enemies within the area (doubled against minions).
+|description2 = Enemies in the primary blast zone take full magic damage while those further away take 80%. 
+|leveling  =
+{{lc|Primary Radius}} 275
+{{lc|Secondary Radius}} 550
+|leveling2 =
+{{lc|Magic Damage}} {{ap|250|375|500}} {{as|(+ 90% AP)}}
+{{lc|Secondary Magic Damage}} {{ap|200|300|400}} {{as|(+ 72% AP)}}
+|range = 5300
+|cooldown = {{ap|120|}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Mega Inferno Bomb''' is a [[Area of effect#Ground targeted|ground-targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* The target area is only visible to allies until shortly before the bomb lands.
+* The bomb grants sight within 350 range as it travels and has its own minimap icon.
+* At max range, it takes {{ap|3.5}} seconds to land. At point blank, 2 seconds.
+|video=Ziggs RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Ziggs]]
+[[de:Ziggs]]
+[[es:Ziggs]]
+[[fr:Ziggs]]
+[[pl:Ziggs]]
+[[pt-br:Ziggs]]
+[[ru:Ziggs]]
+[[zh:吉格斯]]

@@ -1,0 +1,213 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Spider Swarm
+|icon=Spider Swarm.png
+|description={{sbc|[[Elise#Spider Form / Human Form|Human Form]]:}} When Elise's spells hit an enemy, she readies a {{ai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderling]]. 
+|description2={{sbc|[[Elise#Spider Form / Human Form|Spider Form]]:}} Elise summons ''Spiderlings'' to attack nearby foes. The maximum number of ''Spiderlings'' increases with the level of {{ai|Spider Form / Human Form|Elise|Spider Form}}.
+}}
+|{{Ability2
+|targeting='''Spider Swarm''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Elise will always begin the game and respawn with the maximum available ''Spiderling'' charges.
+* Each of Elise's ability casts in [[Elise#Spider Form / Human Form|Human Form]] can only grant one ''Spiderling'' charge.
+|video=Elise IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Neurotoxin
+|icon=Neurotoxin.png
+|description={{sbc|Active:}} Launches a blast of corrosive poison at target enemy, dealing magic damage equal to a base amount plus 8% {{as|(+ 3% per 100 AP)}} {{as|of target's current health}}. Damage is capped against monsters.
+|leveling=
+{{lcap|Magic Damage|40|75|110|145|180}}
+{{lcap|Maximum % health damage vs. Monsters|50|75|100|125|150}}
+|cooldown=6
+|cost={{ap|80|85|90|95|100}}
+|costtype=mana
+|range=625
+}}
+{{Ability info
+|name=Venomous Bite
+|icon=Venomous Bite.png
+|description={{sbc|Active:}} Lunges at a target enemy with a poisonous bite, dealing magic damage equal to a base amount plus 8% {{as|(+ 3% per 100 AP)}} {{as|of target's missing health}}. Damage is capped against monsters.
+|leveling=
+{{lcap|Magic Damage|60|100|140|180|220}}
+{{lcap|Maximum % health damage vs. Monsters|50|75|100|125|150}}
+|cooldown=6
+|range=475
+}}
+|{{Ability2
+|targeting='''Neurotoxin''' is a single targeted ability.
+'''Venomous Bite''' is a single target [[dash]].
+|damagetype=magic
+|name={{ai|Neurotoxin|Elise}}
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the damage from both abilities.
+|additional=
+* The monster damage cap only applies to the % health portion of the damage.
+* Any {{cai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderlings]] currently has active will leap with her when she uses the ability and will reprioritize this new target.
+** A {{ai|Volatile Spiderling|Elise}} will also leap to the target of ''Venomous Bite'' if one is nearby. 
+* Elise '''cannot''' cross walls or impassable terrain using ''Venomous Bite''. The ability's damage will be dealt to the target regardless.
+** {{ai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderlings]], however, '''can''' cross walls and terrain to the target of ''Venomous Bite'', and will attack it provided Elise stays within their leash range.
+|video=Elise QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Volatile Spiderling
+|icon=Volatile Spiderling.png
+|description={{sbc|Active:}} Summons a venom-gorged Spiderling that moves to the target location and explodes, dealing magic damage to nearby enemies when it nears an enemy unit or after 3 seconds. If the Spiderling does not hit an enemy before reaching the target location it will re-target itself and chase down a nearby enemy, prioritizing champions. The Spiderling's movement speed increases as it gets closer to its target.
+|leveling={{lc|Magic Damage}} {{ap|75|125|175|225|275}} {{as|(+ 80% AP)}}
+|cooldown=12
+|cost={{ap|60|70|80|90|100}}
+|costtype=mana
+|range=950
+}}
+{{Ability info
+|name=Skittering Frenzy
+|icon=Skittering Frenzy.jpg
+|description={{sbc|Passive:}} {{ai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderlings]] gain bonus attack speed.
+|description2={{sbc|Active:}} Increases the attack speed of Elise and her ''Spiderlings'' for 3 seconds. While active, Elise heals 4 {{as|(+ 4% AP)}} health when she or her spiderlings attack.
+|leveling={{lcap|Spiderling attack speed|5|10|15|20|25%}}
+|leveling2={{lcap|Attack Speed|60|80|100|120|140%}}
+|cooldown=12
+}}
+|{{Ability2
+|targeting='''Volatile Spiderling''' is a [[skill shot|collision skill shot]] ability.
+
+'''Skittering Frenzy''' is a [[buff|self-buff]] ability.
+|damagetype=magic
+|spelleffects=area
+|spelleffects-aoe=''Volatile Spiderling''
+|onhiteffects=
+|spellshield=
+|additional=
+* The {{ai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderlings]] will first travel to the target location, exploding if any enemy units are in its path. It will then move towards enemy units if they are close enough to perform the explosion.
+* ''Volatile Spiderling'' will prioritize chasing enemy champions if they are in range.
+* ''Skittering Frenzy'' has no cast time and does not interrupt Elise's previous orders.
+* ''Skittering Frenzy'' resets Elise's attack timer upon cast.
+* ''Skittering Frenzy's'' heal will not trigger when attacking structures.
+* Elise loses the attack speed bonus immediately when transforming back into [[Elise#Spider Form / Human Form|Human Form]].
+** However, if she is able to transform back in less than 3 seconds (achievable only with sufficient [[cooldown reduction]]) she gets the bonus back for its remaining duration.
+|video=Elise WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Cocoon
+|icon=Cocoon.png
+|description={{sbc|Active:}} Elise fires a web in a line that stuns the first enemy hit.
+|leveling={{lc|Stun Duration}} {{ap|1|1.25|1.5|1.75|2}}
+|cooldown={{ap|14|13|12|11|10}}
+|cost=50
+|costtype=mana
+|range=1075
+}}
+{{Ability info
+|name=Rappel
+|icon=Rappel.png
+|description={{sbc|Active (on enemy cast):}} Elise and her {{ai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderlings]] lift up into the air, becoming untargetable for 1 second and revealing nearby enemy targets for the duration. She then descends upon the target enemy.
+|description2={{sbc|Active (on ground cast):}} Elise and her ''Spiderlings'' lift up into the air, becoming untargetable for up to 2 seconds. During that time she can cast ''Rappel'' again to descend upon a targeted enemy. If no enemy is targeted within 2 seconds, she will descend at her original location.
+|cooldown={{ap|26|23|20|17|14}}
+|range=750
+}}
+|{{Ability2
+|targeting='''Cocoon''' is a [[skill shot|collision linear skill shot]].
+
+'''Rappel''' is a targeted [[blink]].
+|damagetype=
+|name={{ai|Cocoon|Elise}}
+|projectile=true
+|spelleffects=false
+|onhiteffects=
+|spellshield=Will block ''Cocoon''.
+|additional=
+* When ''Rappel'' is cast, a circle around Elise's shows the area in which a target or location can be selected. Elise cannot descend outside of the bounds of this circle.
+* Both abilities will grant [[sight]]; ''Cocoon'' grants sight on affected units for 1 second while ''Rappel'' will grant sight on the ~1000 radius area the ability can reach.
+** Neither ''Rappel'' nor ''Cocoon'' will reveal [[stealth]]ed units, however.
+* Elise can cast ''Rappel'' on '''any''' targetable enemy unit, including [[minions]], [[monsters]], enemy [[champions]] and [[pets]], {{ii|Stealth Ward|Stealth}} and {{ii|Vision Ward|Vision Wards}} (provided she has [[true sight]] on the former) and traps such as {{cai|Noxious Trap|Teemo}}.
+|video=Elise EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Spider Form / Human Form
+|icon=Spider Form.png
+|description={{sbc|Toggle:}} Elise transforms into a menacing spider, summoning her readied {{ai|Spider Swarm|Elise||}}[[Elise#Pets|Spiderlings]] and granting access to arachnid abilities. While in ''Spider Form'', Elise becomes melee and loses 425 range, deals bonus magic damage with her autoattacks and gains 10 movement speed.
+|description2=<br>Elise begins with one rank in ''Spider Form / Human Form'' and can increase it at levels 6, 11, and 16.
+|leveling={{lcaps|On-Hit Magic Damage|10|20|30|40|(+ 30% AP)}}
+{{lc|Maximum Spiderlings}} {{ap|2|3|4|5}}
+|cooldown=4
+}}
+|{{Ability2
+|targeting='''Spider Form''' and '''Human Form''' are [[Toggle#Ability_types|toggled]] [[Shapeshifter|shapeshift]] abilities.
+|damagetype=magic
+|spelleffects=
+|onhiteffects=The triggering attacks will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes do not interact with the bonus damage of ''Spider Form''.
+** The bonus damage of ''Spider Form'' does not affect structures.
+** {{Pending for test}} ''Spider Form's'' relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested. 
+|spellshield=Do not block the on-hit damage of ''Spider Form''.
+|additional=
+* Both ''Spider Form'' and ''Human Form'' have no cast time and do not interrupt Elise's previous orders.
+* Her ''Spider Form'' and ''Human Form'' abilities have separate cooldowns.
+* Neither transformation counts as a spellcast for the purposes of items such as {{ii|Tear of the Goddess}} and abilities suh as {{ai|Force Pulse|Kassadin}}.
+|video=Elise RVideo
+}}
+}}
+
+== Pets ==
+{{Ability pet
+||name={{ai|Spider Swarm|Elise|Spiderling}}
+|image=
+|description=''Spiderlings'' are [[Pet#Minion|autonomous minions]] that attack nearby enemy units. 
+* The ''Spiderlings''' attacks do not apply [[spell effects]].
+* The ''Spiderlings''' attacks do not apply [[on-hit effects]].
+* The ''Spiderlings''' attacks can be {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} and {{ai|Aegis Protection|Pantheon|blocked}} and will miss if they are [[blind]]ed.
+* If Elise {{ai|Human Form|Elise|transforms}} back into [[Elise#Spider Form / Human Form|Human Form]] after having summoned the ''Spiderlings'', any ''Spiderlings'' that were alive will be retained as ''Spiderling'' charges and will be re-summoned at Elise's next transformation with the same life they retracted with plus any that was gained from natural health regeneration.
+* ''Spiderlings'' last until killed.
+* ''Spiderlings'' cannot be controlled, though they will prioritize Elise's target when attacking. If Elise has no current target, ''Spiderlings'' will automatically attack nearby enemies. However, they will not attack neutral [[monsters]] on their own. 
+* Enemy turrets will prioritize ''Spiderlings'' directly above the chain of melee minions.
+* [[Turret]]s kill ''Spiderlings'' with one hit regardless of the ''Spiderlings''' armor and HP.
+|health={{tt|85|Level 1}} - {{tt|390|Level 18}}
+|hpregen=Unknown
+|damage={{ap|10|20|30|40}} {{as|(+ 10% AP)}}
+|damagetype=physical
+|range=~100
+|sight=?
+|armor={{ap|30|50|70|90}}
+|mr={{ap|50|70|90|110}}
+|attackspeed={{fd|0.665}}
+|movespeed=370
+|gold=5 gold
+|exp=0 exp
+|aoe=25%
+}}
+
+{{-}}
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Elise]]
+[[de:Elise]]
+[[es:Elise]]
+[[fr:Elise]]
+[[pl:Elise]]
+[[pt-br:Elise]]
+[[ru:Elise]]
+[[zh:伊莉丝]]

@@ -1,0 +1,149 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Deadly Venom
+|icon = Deadly Venom.png
+|description  = Twitch's basic attacks apply a stack of ''Deadly Venom'', dealing {{as|{{pp|6|1|2|3|4|5|6|1|4|7|10|13|16}} true damage}} per second for 6 seconds. This effect can stack up to 6 times for a minimum of {{pp|6|6|12|18|24|30|36|1|4|7|10|13|16}} and maximum of {{pp|6|36|72|108|144|180|216|1|4|7|10|13|16}} total true damage over the duration.
+}}
+|{{Ability2
+|targeting='''Deadly Venom''' is an [[on-hit effect]].
+|damagetype=true
+|spelleffects=
+|onhiteffects=The triggering attacks will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+**Critical strikes do not interact with the bonus damage of ''Deadly Venom''.
+**The bonus damage does not affect structures.
+**The bonus damage from ''Deadly Venom'' can be {{ai|Counter Strike|Jax|dodged}}, but not {{ai|Riposte|Fiora|parried}}, or {{ai|Aegis Protection|Pantheon|blocked}}, and will miss if Twitch is [[blind]]ed.
+|spellshield=will not block its application.
+|additional=*''Deadly Venom'' will count as poison for the purposes of the cooldown reset of {{cai|Twin Fang|Cassiopeia}}.
+*''Deadly Venom'' can be removed with [[Named item effect#Quicksilver|Quicksilver]].
+|video=Twitch IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Ambush
+|icon = Ambush.png
+|description  = {{sbc|Active:}} For {{fd|1.5}} seconds, Twitch attempts to enter stealth, which may be delayed by up to 6 seconds if he takes damage before he goes invisible. 
+|description2 = While in stealth, Twitch gains 20% bonus movement speed.
+|description3 = Casting spells or attacking will end his stealth prematurely. When Twitch unstealths, he gains bonus attack speed for 5 seconds.
+|leveling = {{lc|Stealth Duration}} {{ap|4|5|6|7|8}}
+|leveling3 = {{lc|Attack Speed}} {{ap|30|40|50|60|70%}}
+|cooldown=16
+|cost=60
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Ambush''' is a [[buff|self-buff]] ability 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*''Ambush'' has no cast time and does not interrupt Twitch's previous orders.
+*Taking damage while stealthed will not break stealth, even if revealed by [[true sight]]. 
+*Using {{si|Recall}} or {{si|Teleport}} when ''Ambush'' is activated will cause Twitch to exit stealth.
+**Using {{si|Recall}} or {{si|Teleport}} during ''Ambush's'' fade timer will cause Twitch to enter stealth, but continue channeling the spell.
+*Activating consumable items will not break stealth (such as placing a {{ii|Stealth Ward}} or using a {{ii|Health Potion}}). However, activating most items, such as {{ii|Blade of the Ruined King}} will break stealth.
+**Activating {{ii|Zhonya's Hourglass}} after activating ''Ambush'' but before entering stealth will not break stealth.
+
+|video=Twitch QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Venom Cask
+|icon = Venom Cask.png
+|description  = {{sbc|Active:}} Twitch hurls a cask of venom at an area, infecting struck enemies with 2 stacks of {{ai|Deadly Venom|Twitch}} and slowing them for 3 seconds.
+{{lc|Projectile Speed}} 1400
+|leveling = {{lc|Slow}} {{ap|25|30|35|40|45%}}
+|cooldown={{ap|13|12|11|10|9}}
+|cost=50
+|costtype=mana 
+|range=950
+}}
+|{{Ability2
+|targeting='''Venom Cask''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype=
+|projectile=true
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the application of {{ai|Deadly Venom|Twitch}} and the slow.
+|additional=
+|video=Twitch WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Contaminate
+|icon = Contaminate.png
+|description  = {{sbc|Active:}} Twitch damages all nearby enemies afflicted by {{ai|Deadly Venom|Twitch}}, dealing physical damage equal to a base amount plus bonus damage for each stack of {{ai|Deadly Venom|Twitch}} on an enemy.
+|leveling = {{lc|Base Physical Damage}} {{ap|20|35|50|65|80}}
+{{lc|Bonus Damage per Stack}} {{ap|15|20|25|30|35}} {{as|(+ 20% AP)}} {{as|(+ 25% bonus AD)}}
+{{lc|Max Physical Damage}} {{ap|110|155|200|245|290}} {{as|(+ 120% AP)}} {{as|(+ 150% bonus AD)}}
+|cooldown={{ap|12|11|10|9|8}}
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana 
+|range=1200
+}}
+|{{Ability2
+|targeting='''Contaminate''' is a point blank [[auto-targeted]] ability.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the detonation.
+|additional=
+*{{ai|Deadly Venom|Twitch}} stacks are NOT removed when this ability is used.
+*Upon infecting an enemy champion with {{ai|Deadly Venom|Twitch}}, Twitch receives a range indicator showing ''Contaminate's'' radius.
+**The actual range is very slightly bigger than the shown radius.
+**Damage from ''Contaminate'' is not applied if {{ai|Deadly Venom|Twitch}} wears off or the targeted unit moves out of range prior to the damage being applied.
+|video=Twitch EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Rat-Ta-Tat-Tat
+|icon = Rat-Ta-Tat-Tat.png
+|description  = {{sbc|Active:}} For 7 seconds, Twitch gains bonus attack damage and 300 bonus attack range (''850 total range'').
+|description2 = Additionally, each of his basic attacks will pierce enemies in an 850 length line, with each unit struck reducing the attack's damage by 20% down to a minimum of 40% damage.
+|leveling = {{lc|Attack Damage}} {{ap|20|28|36}}
+|cooldown={{ap|120|110|100}}
+|cost={{ap|100|125|150}}
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Rat-Ta-Tat-Tat''' is a [[buff|self-buff]] ability that also causes Twitch's basic attacks to be replaced by pass-through linear [[skill shot]]s.
+|damagetype=physical
+|projectile=true
+|spelleffects=false
+|onhiteffects=The enhanced autoattacks will apply [[on-hit effects]] to all targets hit. [[Critical strike]]s are applied per attack - if it crits on one target, it will crit on all of them.
+**The enhanced autoattacks will trigger [[life steal]] on all targets hit for full effect.
+**Enhanced autoattacks can be {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} and {{ai|Aegis Protection|Pantheon|blocked}}, and will miss if Twitch is [[blind]]ed.
+|spellshield=will not block the enhanced autoattacks.
+|additional=
+*''Rat-Ta-Tat-Tat'' has no cast time and does not interrupt Twitch's previous orders.
+**Twitch's attacks during ''Rat-Ta-Tat-Tat'' can outrange turrets (''850 range opposed to the turrets' 800'') meaning he can damage them during ''Rat-Ta-Tat-Tat'' without taking damage from them.
+*Twitch's attacks will pass through structures and terrain, but will not damage structures unless they were directly targeted for the attack. The exception is the [[Nexus]] - Twitch's attacks will not deal any damage to it. This is likely a bug.
+*For purposes of {{ii|Runaan's Hurricane}}, attacking with ''Rat-Ta-Tat-Tat'' counts as a single auto-attack against a single targeted enemy, and as such will only launch one pair of ordinary single-target bolts to nearby enemies. However, the range bonus applies for all three bolts.
+*Twitch will gain a stack of {{mi4|Spell Weaving}} for each enemy hit. He will also gain a stack of {{mi4|Frenzy}} for each enemy hit with a [[critical strike]].
+|video=Twitch RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Twitch]]
+[[de:Twitch]]
+[[es:Twitch]]
+[[fr:Twitch]]
+[[pl:Twitch]]
+[[pt-br:Twitch]]
+[[ru:Twitch]]
+[[zh:图奇]]

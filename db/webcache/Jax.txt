@@ -1,0 +1,147 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Relentless Assault
+|icon=Relentless Assault.png
+|description=Basic attacks increase Jax's attack speed by {{pp|6|4%|6%|8%|10%|12%|14%|1|4|7|10|13|16}}. ''Relentless Assault'' lasts for {{fd|2.5}} seconds and stacks up to 6 times for a maximum of {{pp|6|24%|36%|48%|60%|72%|84%|1|4|7|10|13|16}}.
+}}
+|{{Ability2
+|targeting='''Relentless Assault''' is a [[self-buff]] [[on-hit effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+* ''Relentless Assault'' will be triggered on attacking structures.
+* Attacks that trigger ''Relentless Assault'' will always refresh the duration of the buff, including when at maximum stacks.
+|video=Jax IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Leap Strike
+|icon=Leap Strike.png
+|description={{sbc|Active:}} Jax leaps to target unit, dealing physical damage if the target is an enemy.
+|leveling={{lcapss|Physical damage|70|110|150|190|230|(+ 60% AP)|(+ 100% bonus AD)}} 
+|cooldown={{ap|10|9|8|7|6}}
+|cost=65
+|costtype=mana
+|range=700
+}}
+|{{Ability2
+|targeting='''Leap Strike''' is a single target [[dash]] ability that can be used on both enemies and allies.
+|damagetype=physical
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability's damage (including when {{ai|Empower|Jax|empowered}}) but will not prevent Jax from dashing to the target.
+|additional=
+* ''Leap Strike'' will always deal its damage whether or not the target remains where it was when Jax cast the ability or whether or not Jax successfully completes the dash.
+* ''Leap Strike'' can be used on '''any''' targetable allied or enemy unit except for [[towers]] and [[inhibitors]]. This can include [[champions]], [[minions]], [[wards]] and champion pets such as {{cai|Noxious Trap|Teemo}}, {{cai|Demacian Standard|Jarvan IV}} and {{cai|Dark Passage|Thresh|Lantern}}.
+|video=Jax QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Empower
+|icon=Empower.png
+|description={{sbc|Active:}} Jax's next basic attack or {{ai|Leap Strike|Jax}} within the next 10 seconds deals additional magic damage. ''Empower'' resets the autoattack timer.
+|leveling={{lcaps|Magic damage|40|75|110|145|180|(+ 60% AP)}}
+|cooldown={{ap|7|6|5|4|3}}
+|cost=30
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Empower''' is an [[on-hit effect]].
+|damagetype=magic
+|spelleffects=single target
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes will not interact with ''Empower's'' bonus damage.
+** The bonus damage will not trigger on structures. 
+** The enhanced attack can not be {{ai|Counter Strike|Jax|dodged}}.
+** ''Empower'''s damage will not be mitigated if Jax's attack is {{ai|Aegis Protection|Pantheon|blocked}} or {{ai|Riposte|Fiora|parried}}.
+** ''Empower'''s empowerment will not be consumed if the attack [[Blind|misses]].
+|spellshield=will block the ability.
+|additional=
+* ''Empower'' has no cast time and does not interrupt Jax's previous orders.
+* ''Empower'' will reset Jax's attack timer on cast.
+* ''Empower's'' damage will cause {{iis|Muramana}} bonus damage to trigger twice with one autoattack.
+|video=Jax WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Counter Strike
+|icon=Counter Strike.png
+|description={{sbc|Active:}} For up to 2 seconds, Jax dodges all basic attacks and takes 25% less damage from area of effect abilities. At the end of the duration or if ''Counter Strike'' is activated again, Jax deals physical damage and stuns nearby enemies for 1 second. This spell deals 20% additional damage for each attack dodged to a maximum of 100% increased damage.
+|leveling=
+{{lcaps|Physical damage|50|75|100|125|150|(+ 50% bonus AD)}}
+{{lcaps|Max damage|100|150|200|250|300|(+ 100% bonus AD)}}
+|range={{fd|187.5}}
+|cooldown={{ap|18|16|14|12|10}}
+|cost={{ap|70|75|80|85|90}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Counter Strike''' is a point blank [[area of effect]] ability.
+|damagetype=physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* ''Counter Strike'' has no cast time and does not interrupt Jax's previous orders.
+* ''Counter Strike'' is not a [[channel]]ed ability and Jax will hence still dodge attacks and stun opponents when the buff duration ends even if he is suffering from [[crowd control]] effects.
+* ''Counter Strike'' will also dodge spells that can proc [[on-hit effects]], including {{cai|Parrrley|Gangplank}}, {{cai|Mystic Shot|Ezreal}} and {{cai|Blade Waltz|Fiora}}, among others. These dodged abilities will count towards Counter Strike's increased damage.
+|video=Jax EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Grandmaster's Might
+|icon=Grandmaster's Might.png
+|description={{sbc|Passive:}} Jax deals additional magic damage on every third basic attack. The counter will reset if he does not attack for {{fd|2.5}} seconds.
+|description2={{sbc|Active:}} Jax gains bonus armor and magic resistance for 8 seconds.
+|leveling={{lcaps|Magic damage|100|160|220|(+ 70% AP)}}
+|leveling2=
+{{lcaps|Armor|25|35|45|(+ 30% bonus AD)}}
+{{lcaps|Magic resist|25|35|45|(+ 20% AP)}}
+|cooldown=80
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Grandmaster's Might''' is a [[self-buff]] ability that passive grants Jax an [[on-hit effect]] on all his basic attacks.
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes will not interact with ''Grandmaster's Might's'' bonus damage.
+** The bonus damage will not trigger on structures.
+** {{Pending for test}} ''Grandmaster's Might's'' interaction with {{ai|Counter Strike|Jax|dodge}}, {{ai|Aegis Protection|Pantheon|block}}, {{ai|Riposte|Fiora|parry}}, and [[blind]] has yet to be tested.
+|spellshield=will block the ability.
+|additional=
+* ''Grandmaster's Might'' has no cast time and does not interrupt Jax's previous orders.
+* Despite being an on-hit effect, ''Grandmaster's Might's'' damage will trigger spell effects as a single-target spell, including [[spell vamp]], {{ii|Rylai's Crystal Scepter|Rylai's slow}} and will cause {{iis|Muramana}} bonus damage to trigger twice with one autoattack.
+* Although the bonus damage cannot affect structures, hits against them will still increment the counter, resulting in Jax repeatedly triggering the loud sound effect after three strikes.
+* The bonus armor and magic resistance is calculated when the ability is cast. Further changes to Jax's attack damage and ability power will not cause the bonus stats to dynamically adjust.
+|video=Jax RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Jax]]
+[[de:Jax]]
+[[es:Jax]]
+[[fr:Jax]]
+[[pl:Jax]]
+[[pt-br:Jax]]
+[[ru:Jax]]
+[[zh:贾克斯]]

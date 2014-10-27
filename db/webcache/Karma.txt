@@ -1,0 +1,158 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+==Abilities==
+{{Ability frame|I
+|{{Ability info
+|name=Gathering Fire 
+|icon=Gathering Fire.jpg
+|description=Damaging enemy champions with Karma's abilities refreshes 2 seconds of {{ais|Mantra|Karma}} cooldown, and half that amount on basic attacks against enemy champions.
+}}
+|{{Ability2
+|targeting='''Gathering Fire''' is a [[on-hit effect]] and [[spell effect]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*The flat cooldown reduction of ''Gathering Fire'' for {{ai|Inner Flame|Karma}}, {{ai|Soulflare|Karma}} and {{ai|Defiance|Karma}} is applied '''per target hit''', not per spell that hits a target. For example, an ''Inner Flame'' hitting all five enemy champions at once will reduce the cooldown of {{ai|Mantra|Karma}} by 10 seconds.
+*The flat cooldown reduction of ''Gathering Fire'' for {{ai|Focused Resolve|Karma}} and {{ai|Renewal|Karma}} is applied '''per tick of damage'''. A max-duration tether will reduce the cooldown of ''Mantra'' by 6 seconds.
+|video=Karma IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Inner Flame
+|icon=Inner Flame.jpg
+|description={{sbc|Active:}} Karma fires a ball of energy that detonates on hitting an enemy, dealing magic damage and slowing surrounding enemies by 25% for {{ap|1.5}} seconds. If it hits an unseen enemy, the detonation effect will still be visible.
+|leveling={{lcaps|Magic Damage|80|125|170|215|260|(+ 60% AP)}}
+|range=950
+|cooldown={{ap|7|6.5|6|5.5|5}}
+|cost={{ap|50|55|60|65|70}}
+|costtype=mana
+}}
+{{Ability info
+|name=Soulflare
+|icon=Soulflare.jpg
+|description={{sbc|{{ai|Mantra|Karma}} bonus:}} ''Inner Flame'' deals bonus magic damage and leaves a '''250'''-radius AoE that slows enemies inside by 50%. After {{fd|1.5}} seconds the area detonates, dealing magic damage to enemies inside. If ''Inner Flame'' does not strike a target, the area is created at maximum range.
+|leveling=''Soulflare scales with ranks in {{ai|Mantra|Karma}}''
+{{lcaps|Bonus Magic Damage|25|75|125|175|(+ 30% AP)}}
+{{lcaps|Detonation Magic Damage|50|150|250|350|(+ 60% AP)}}
+{{lcaps|Total Magic Damage|75|225|375|525|(+ 90% AP)}}
+}}
+|{{Ability2
+|targeting='''Inner Flame''' is a [[skill shot|linear, colliding skill shot]] that hits in an [[area of effect]] around the target. 
+<br>'''Soulflare''' is a [[skill shot|linear, colliding skill shot]] that also hits in an [[area of effect]] around the target and has a delayed [[area of effect|ground-targeted area of effect]] component.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the initial tick of damage from both abilities but do not block the delayed damage from Soulflare.
+|additional=
+|video=Karma QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Focused Resolve
+|icon=Focused Resolve.jpg
+|description={{sbc|Active:}} Karma forms a ''675''-range tether to target enemy champion, revealing and dealing magic damage to the target over 2 seconds at {{fd|0.66}}-second intervals. If the tether is not broken after the 2 seconds, the target is rooted for a short time.
+|leveling={{lcaps|Magic Damage|60|110|160|210|260|(+ 60% AP)}}
+{{lcap|Root Duration|1|1.25|1.5|1.75|2}}
+|range=675
+|cooldown={{ap|16|15|14|13|12}}
+|cost={{ap|70|75|80|85|90}}
+|costtype=mana
+}}
+{{Ability info
+|name=Renewal
+|icon=Renewal.jpg
+|description={{sbc|{{ai|Mantra|Karma}} bonus:}} ''Focused Resolve'' deals bonus damage and heals Karma for 20% {{as|(+ 1% per 100 AP)}} {{as|of her missing health}} upon casting. If the tether is not broken after the 2 seconds, Karma is once again healed for  20% {{as|(+ 1% per 100 AP)}} {{as|of her missing health}}.
+|leveling=''Renewal scales with ranks in {{ai|Mantra|Karma}}''
+{{lcaps|Bonus Magic Damage|75|150|225|300|(+ 60% AP)}}
+}}
+|{{Ability2
+|targeting='''Focused Resolve''' and '''Renewal''' are single targeted [[Damage over time#Types of DoTs and their sources|tether]] abilities.
+|damagetype=magic
+|spelleffects=damage over time
+|onhiteffects=
+|spellshield=will block the application of the tether, but do not prevent the root of a tether already applied.
+|additional=
+*{{ai|Focused Resolve|Karma}} and {{ai|Renewal|Karma}} grant [[true sight]] on targets that have a tether applied to them.
+*If the target of ''Renewal'' dies midway through the tether, Karma will instantly receive the second half of the heal.
+|video=Karma WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Inspire
+|icon=Inspire.jpg
+|description={{sbc|Active:}} Karma shields a target ally for 4 seconds and grants them bonus movement speed for {{fd|1.5}} seconds.
+|leveling={{lcaps|Shield|80|120|160|200|240|(+ 50% AP)}} 
+{{lcap|Bonus Movement Speed|40|45|50|55|60%}}
+|range=800
+|cooldown=10
+|cost={{ap|60|70|80|90|100}}
+|costtype=mana
+}}
+{{Ability info
+|name=Defiance
+|icon=Defiance.jpg
+|description={{sbc|{{ai|Mantra|Karma}} bonus:}} ''Inspire's'' shield overflows with energy, shielding allied champions within '''600'''-range of the target for 4 seconds. Additionally, allied champions are granted 60% bonus movement speed for {{fd|1.5}} seconds and enemies within the shield range are dealt magic damage. 
+|leveling=''Defiance scales with ranks in {{ai|Mantra|Karma}}''
+{{lcaps|AoE Shield|30|70|110|150|(+ 30% AP)}}
+{{lcaps|Magic damage|60|140|220|300|(+ 60% AP)}}
+}}
+|{{Ability2
+|targeting='''Inspire''' is an ally-targeted [[buff]] ability. 
+<br>'''Defiance''' is an ally-targeted [[area of effect|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Inspire'' and ''Defiance'' have no cast time and do not interrupt Karma's previous orders. 
+* ''Defiance'' does not grant Karma's target any bonus shield amount, but their bonus movement speed is increased to 60%.
+|video=Karma EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Mantra
+|icon=Mantra.jpg
+|description={{sbc|Active:}} Karma empowers her next ability cast within the next 8 seconds, adding an additional effect. Empowered abilities share the same cooldown as their basic form.
+|description2=Karma begins with one rank in ''Mantra'' and can increase it at levels 6, 11, and 16.
+|leveling=''Ranks in Mantra improve the additional effects of empowered abilities.''
+|cooldown={{ap|45|42|39|36}}
+}}
+|{{Ability2
+|targeting='''Mantra''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Mantra'' has no cast time and does not interrupt Karma's previous orders.
+*''Mantra's'' bonus effects will stack on top of her abilities' normal effects.
+*Casting ''Mantra'' does not reset the cooldowns on Karma's basic abilities.
+*The cooldown of ''Mantra'' will begin when the ability is first cast, not when the buff is consumed.
+*Mantra can be cast while under any form of crowd control as it has no effect on its own.
+|video=Karma RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Karma]]
+[[de:Karma]]
+[[es:Karma]]
+[[fr:Karma]]
+[[pl:Karma]]
+[[pt-br:Karma]]
+[[ru:Karma]]
+[[zh:卡尔玛]]

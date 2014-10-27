@@ -1,0 +1,202 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}|image2=Mega GnarSquare.png|date = 2014-08-14}}
+{{C-ref}}
+== Abilities ==
+Gnar's abilities have no cost and are only limited by cooldowns. His secondary resource bar instead displays his '''Rage'''. Gnar starts the game in [[File:GnarSquare.png|20px|link=]] '''Mini Gnar''' form with '''0 Rage'''.
+
+'''Mini Gnar''' will generate {{tt|2-4|Levels 1 to 11, specific scaling unknown.}} Rage whenever he deals damage to any source or takes damage from an enemy champion, plus an additional {{tt|4-8|Levels 1 to 11, specific scaling unknown.}} over 3 seconds. If '''Mini Gnar''' has not dealt or received damage in the last 13 seconds, his Rage will start to decay. Rage generation from combat with minions is reduced. <!--Despite the fact some Riot guy said it was 25%, it doesn't seem consistent and was 50% at one point. Tested by attacking a minion once and attacking a champion once, then seeing how much was generated fully.--> The over-time Rage generation cannot exceed 99 Rage from combat with minions if '''Mini Gnar''' kills the minion.
+{{Ability frame|I|
+{{Ability info
+|name = Rage Gene
+|icon = Rage Gene.png
+|description  = When '''Gnar''' reaches 100 Rage, he gains access to an alternate set of abilities. After either {{tt|5|Estimated}} seconds or upon casting an ability, '''Gnar''' will transform into '''Mega Gnar''' for 15 seconds while his Rage depletes. Once his Rage is exhausted, he will turn back into '''Mini Gnar'''  and cannot gain Rage again for {{tt|13|Estimated}} seconds.
+|description2 = '''Gnar''' gains different bonuses based on his current form:
+{{{!}}
+{{!}} style="width:310px; vertical-align:top;" {{!}}[[File:GnarSquare.png|20px|link=]] '''Mini Gnar:'''
+* [[Movement Speed]]: {{tt|10 - 25|Gnar gains 10 movement speed at level 1 (+1 per level up to level 14, then +0.5 per level there after)}}
+* [[Range#Attack_Range_Modifiers|Bonus]] [[Attack Range]]: {{tt|245{{plus}}(5{{times}}''Gnar's level'')|Gnar's attacks are classified as Ranged while in Mini form (400 to 485 Total Range).}}
+* [[Attack Speed]]: ({{fd|5.5}}{{times}}''Gnar's level'') % 
+{{!}} style="width:310px; vertical-align:top;" {{!}}[[File:Mega GnarSquare.png|20px|link=]] '''Mega Gnar:'''
+* [[Health]]: {{tt|30{{plus}}(40{{times}}''Gnar's level'')|Mega Gnar will gain health equal to this amount upon transforming, effectively healing him. However, the transformation back into Mini Gnar will only retain his current health percentage (unlike other health-gained effects).}}
+* [[Armor]] / [[Magic Resist]]: (2{{times}}''Gnar's level'')
+* [[Health Regeneration|Health Regen.]] per 5: (2{{times}}''Gnar's level'')
+* ''Base'' [[Attack Damage]]: 4{{plus}}(2{{times}}''Gnar's level'')
+{{!}}}
+}}
+|{{Ability2
+|targeting = '''Rage Gene''' is a [[self-buff]] [[Shapeshifter|shapeshift]] ability.
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional   =
+* [[File:Mega GnarSquare.png|20px]] '''Mega Gnar's''' gained health is not affected by [[Healing#Healing_reduction|Grievous Wounds]].
+* When returning to [[File:GnarSquare.png|20px]] '''Mini Gnar''', '''Gnar''' will only retain his current health percentage, not current health total. This is a conscious design change to prevent Gnar from simply triggering ''Rage Gene'' in order to heal himself over time.
+|video = Gnar IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Boomerang Throw
+|icon = Boomerang Throw.png
+|description  = {{sbc|[[File:GnarSquare.png|20px|link=]] '''Mini Gnar''' - Active:}} '''Gnar''' throws his boomerang forward in a line, dealing physical damage and slowing all enemies hit for 2 seconds.  Upon striking an enemy or reaching maximum range, the boomerang will slowly come to an end, travelling back towards '''Gnar''' in a {{tt|fixed direction|The direction that the boomerang returns is calculated using similar algorithms as Draven's Spinning Axe — factoring direction of movement and movement speed — when the boomerang reaches the apex of its flight (and not when it hits the initial target).}}. Enemies beyond the first take only 50% damage and an enemy can only be damaged once.
+|description2 = The returning boomerang will accelerate and can travel up to {{tt|2500|Estimated}} units. If '''Gnar''' catches it, ''Boomerang Throw's'' cooldown is reduced by 60%. 
+|leveling  = 
+{{lc|Physical Damage}} {{ap|10|45|80|115|150}} {{as|(+100% AD)}}
+{{lc|Reduced Damage}} {{ap|5|22.5|40|57.5|75}} {{as|(+50% AD)}}
+{{lc|Slow}} {{ap|15|20|25|30|35%}}
+|leveling2 = 
+|cooldown  = {{ap|20|17.5|15|12.5|10}}
+|cost      =
+|costtype  = No Cost
+|range     = 1100
+}}
+{{Ability info
+|name = Boulder Toss
+|icon = Boulder Toss.png
+|description  = {{sbc|[[File:Mega GnarSquare.png|20px]] '''Mega Gnar''' - Active:}} '''Gnar''' throws a boulder that stops when it hits an enemy, dealing physical damage and slowing all enemies hit within '''X'''-range. 
+|description2 = If '''Gnar''' picks up his boulder, ''Boulder Toss's'' cooldown is reduced by 60%. 
+|leveling = 
+{{lc|Physical Damage}} {{ap|10|50|90|130|170}} {{as|(+ 120% AD)}}
+{{lc|Slow}} {{ap|15|20|25|30|35%}}
+|cooldown = {{ap|20|17.5|15|12.5|10}}
+|cost     =
+|costtype =
+|range    = 1100
+|cost     =
+|costtype =
+|range    = 1100
+}}
+|{{Ability2
+|targeting = '''Boomerang Throw''' is a [[skill shot|pass through skill shot]].
+'''Boulder Toss''' is a [[unit-targeted|single targeted]] colliding [[skill shot]].
+|damagetype   = physical
+|projectile   = true
+|name         = These abilities
+|spelleffects = area
+|onhiteffects =
+|spellshield  =
+|additional   = *The 60% cooldown reduction is calculated at the moment this ability is used, not when the boomerang is caught/boulder is picked up.
+*Because both abilities share the same cooldown, Mini-Gnar may pick up a boulder and Mega-Gnar may catch a boomerang.
+*The boomerang has a width of 60 on its way out, but increases to 75 on the return. The boulder has a width of 90 and flies faster than the boomerang.
+|video = Gnar QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Hyper
+|icon = Hyper.png
+|description  = {{sbc|[[File:GnarSquare.png|20px]] '''Mini Gnar''' - Passive:}} Gnar's basic attacks and damaging abilities apply marks to enemy units, up a maximum of 3 marks. Upon applying the 3rd mark upon an enemy, '''Gnar''' deals magic damage equal to a base amount plus a percentage of the target's max. health (capped against monsters), and grants '''Gnar''' 30% bonus movement speed that decays over 3 seconds, and 
+|description2 = Additionally, '''Gnar''' gains the same bonus movement speed whenever he transforms back into [[File:GnarSquare.png|20px|link=]] '''Mini Gnar''' from [[File:Mega GnarSquare.png|20px]] '''Mega Gnar'''.
+|leveling = 
+{{lc|Magic Damage}} {{ap|25|30|35|40|45}} {{as|(+100% AP)}} {{as|(+{{ap|6|8|10|12|14%}} of target's max. health)}} 
+{{lc|Max. Damage Vs. Monsters}} {{ap|75|125|175|225|275}}
+|cooldown =
+|cost     =
+|costtype =
+|range    =
+}}
+{{Ability info
+|name = Wallop
+|icon = Wallop.png
+|description = {{sbc|[[File:Mega GnarSquare.png|20px|link=]] '''Mega Gnar''' - Active:}} '''Gnar''' stands on his back legs before slamming his fists into the ground, dealing physical damage and stunning enemies in a large area in front of him for {{fd|1.25}} seconds.
+|leveling = {{lc|Physical Damage}} {{ap|25|45|65|85|105}} {{as|(+100% AD)}}
+|cooldown = {{ap|12|11|10|9|8}}
+|cost     =
+|costtype =
+}}
+|{{Ability2
+|targeting = '''Hyper''' is both a statistic [[buff]] and a [[On-hit_effect#Non-Physical_Damage|non-physical]] [[on-hit effect]].
+'''Wallop''' is a [[Area_of_effect#Linear|linear]] [[area of effect]].
+|damagetype   = magic
+|spelleffects = false, aoe
+|spelleffects-false = {{ai|Hyper|Gnar}}
+|spelleffects-aoe   = {{ai|Wallop|Gnar}}
+|onhiteffects =
+|spellshield  = will block '''Wallop''' but will not block '''Hyper'''.
+|additional   =
+|video = Gnar WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Hop
+|icon = Hop.png
+|description  = {{sbc|[[File:GnarSquare.png|20px|link=]] '''Mini Gnar''' - Active:}} '''Gnar''' leaps to a location, gaining bonus attack speed for 3 seconds. 
+|description2 = If '''Gnar''' lands on {{tt|any unit|Ally, enemy, or neutral unit}}, he will bounce off it to cover twice the distance. If the unit is an enemy, he will deal physical damage and slow it by {{tt|60%|Estimated}} for {{tt|0.5s|Estimated}}.
+|leveling  = {{lc|Attack Speed}} {{ap|20|30|40|50|60%}}
+|leveling2 = {{lc|Physical Damage}} {{ap|20|60|100|140|180}} {{as|(+ 6% of Gnar's max. health)}}
+|cooldown = {{ap|18|16.5|15|13.5|12}}
+|cost     =
+|costtype =
+|range    = 475
+}}
+{{Ability info
+|name = Crunch
+|icon = Crunch.png
+|description = {{sbc|[[File:Mega GnarSquare.png|20px|link=]] '''Mega Gnar''' - Active:}} '''Gnar''' leaps to a location, dealing physical damage to all nearby enemies on impact and also briefly slowing enemies hit directly.
+|description2 = If ''Crunch'' is the ability used to trigger the {{ai|Rage Gene|Gnar}}, '''Gnar''' will still be able to perform {{ais|Hop}} bounce. '''Gnar''' will apply ''Crunch's'' area of effect on both jumps, although enemies can only be damaged once. 
+|leveling = {{lc|Physical Damage}} {{ap|20|60|100|140|180}} {{as|(+ 6% of Gnar's max. health)}}
+|cooldown = {{ap|18|16.5|15|13.5|12}}
+|cost     =
+|costtype =
+|range    =
+}}
+|{{Ability2
+|targeting = '''Hop''' is a statistic [[self-buff]] and [[ground-targeted]] [[dash]].
+'''Crunch''' is a [[ground-targeted]] [[dash]].
+|damagetype   = physical
+|spelleffects = single, aoe
+|spelleffects-single = {{ai|Hop|Gnar}}
+|spelleffects-aoe    = {{ai|Crunch|Gnar}}
+|onhiteffects =
+|spellshield  =
+|additional   =
+* {{ai|Hop|Gnar}} does not allow Gnar to bounce off wards.
+|video = Gnar EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = GNAR!
+|icon = GNAR!.png
+|description  = {{sbc|[[File:GnarSquare.png|20px|link=]] '''Mini Gnar''' - Passive:}} {{ais|Hyper|Gnar}} movement speed bonus is increased.
+|description2 = {{sbc|[[File:Mega GnarSquare.png|20px|link=]] '''Mega Gnar''' - Active:}} '''Gnar''' knocks all nearby enemies in the specified direction, dealing physical damage and slowing them by 45% for a short duration. 
+|description3 = Any enemy that hits terrain takes 50% increased damage and are stunned instead of slowed for the same duration.
+|leveling  = {{lc|Total Movement Speed}} {{ap|45|60|75%}}
+|leveling2 = 
+{{lc|Physical Damage}} {{ap|200|300|400}} {{as|(+20% bonus AD)}} {{as|(+50% AP)}}
+{{lc|Slow Duration}} {{ap|1.25|1.5|1.75}}
+|leveling3 = 
+{{lc|Bonus Damage}} {{ap|100|150|200}} {{as|(+10% bonus AD)}} {{as|(+25% AP)}}
+{{lc|Total Damage}} {{ap|300|450|600}} {{as|(+30% bonus AD)}} {{as|(+75% AP)}}
+|cooldown  = {{ap|120|100|80}}
+|cost      =
+|costtype  =
+|range     = 590
+}}
+|{{Ability2
+|targeting = '''GNAR!'s''' ''Passive'' is a statistic [[buff]].
+'''GNAR!'s''' ''Active'' is a [[Area_of_effect#Point_Blank|point blank]] and [[Area_of_effect#Linear|linear]] [[area of effect]] ability.
+|damagetype   = physical
+|spelleffects = area
+|onhiteffects =
+|spellshield  =
+|additional   = *'''GNAR!'s''' ''Active'' takes into account impassable player-created terrain such as {{cai|Cataclysm|Jarvan IV}} {{cai|Crystallize|Anivia}}, {{cai|Emperor's Divide|Azir}} and {{cai|Pillar of Ice|Trundle}}.
+|video = Gnar RVideo
+}}
+}}
+
+==References==
+<references />
+{{C-bot}}
+
+[[cs:Gnar]]
+[[de:Gnar]]
+[[es:Gnar]]
+[[fr:Gnar]]
+[[pl:Gnar]]
+[[pt-br:Gnar]]

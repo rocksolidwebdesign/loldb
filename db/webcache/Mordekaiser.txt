@@ -1,0 +1,164 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Iron Man
+|icon = IronMan.jpg
+|description  = Mordekaiser converts 35% of the damage dealt from his abilities into a temporary absorption shield (half as effective against minions and monsters). 
+|description2 = Maximum shield strength is 90{{plus}}(30{{times}}''Mordekaiser's level''). The shield decays by 3% per second.
+}}
+|{{Ability2
+|targeting='''Iron Man''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*''Iron Man'' does not benefit from item damage (like {{ii|Deathfire Grasp}} or {{ii|Nashor's Tooth}}).
+*''Iron Man'' will not benefit from damage absorbed by {{ai|Black Shield|Morgana}}. 
+*''Iron Man'' '''does''', however, benefit from the basic attacks of a Ghost granted by {{ai|Children of the Grave|Mordekaiser}}.
+*Mordekaiser's ability costs are always applied to his health; ''Iron Man's'' shield is not used for the health costs.
+*{{Pending for test}} Other shields, such as [[Relic Shield]], will be used for ability costs.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Mace of Spades
+|icon = MaceofSpades.jpg
+|description  = {{sbc|Active:}} Mordekaiser enhances his next attack, converting it to deal magic damage and replacing the base attack damage component with a base amount of damage. He swings his mace with such force that it echoes out, striking up to 3 additional nearby targets.<br><br>
+If the target is alone, the ability deals 65% more damage.
+|leveling = {{lcapss|Magic Damage|80|110|140|170|200|(+ 40% AP)|(+ 100% bonus AD)}}
+{{lcapss|Single Target Magic Damage|132|181.5|231|280.5|330|(+ 66% AP)|(+ 165% bonus AD)}}
+|cooldown={{ap|8|7|6|5|4}}
+|cost={{ap|25|32|39|46|53}}
+|costtype=health
+|range=600
+}}
+|{{Ability2
+|targeting='''Mace of Spades''' is an [[on-attack effects|autoattack modifier]] with an autotargeted [[area of effect|point blank area of effect]] component.
+|damagetype   = magic
+|projectile   = true
+|name         = An echo
+|spelleffects =
+|onhiteffects = ''Mace of Spades''' attack will apply [[On-attack_effects#On-Hit_Effects|on-hit effects]] to the primary target, but won't [[critical strike|critically strike]] nor apply [[life steal]].
+* ''Mace of Spades''' attack can not be {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Counter Strike|Jax|dodged}} or {{ai|Riposte|Fiora|parried}}; however, the empowerment will not be consumed if the attack [[Blind|misses]].
+* ''Mace of Spades''' damage does not trigger against structures.
+|spellshield = will block the damage, but do not prevent the attack from echoing.
+|additional=
+*''Mace of Spades'' resets Mordekaiser's attack timer on cast.
+* Despite being an on-hit effect, ''Mace of Spades''' damage will apply spell effects.
+**Used against a lone enemy applies [[spell effects]] as a [[Unit-targeted|single targeted]] ability.
+***[[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is fully applied.
+***{{ii|Rylai's Crystal Scepter}} will apply a 35% slow
+**Used against a group of enemies applies [[spell effects]] as an [[area of effect]] ability. 
+***[[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+***{{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+|video=Mordekaiser QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Creeping Death
+|icon =  CreepingDeath.jpg
+|description  = {{sbc|Active:}} Mordekaiser creates a protective cloud of metal shards to surround an ally unit or himself for 6 seconds, increasing the target's armor and magic resistance and dealing magic damage each second to enemies within '''250'''-range.
+|leveling ={{lcaps|Magic Damage Per Second|24|38|52|66|80|(+ 20% AP)}}
+{{lcap|Armor & Magic Resist|10|15|20|25|30}}
+|cooldown={{ap|20|18|16|14|12}}
+|cost={{ap|26|32|38|44|50}}
+|costtype=health
+|range=750
+}}
+|{{Ability2
+|targeting='''Creeping Death''' is an ally targeted [[area of effect|point blank area of effect]] ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+*When self-cast only, ''Creeping Death'' has no cast time and does not interrupt Mordekaiser's previous orders.
+|video=Mordekaiser WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Siphon of Destruction
+|icon =  SiphonofDestruction.jpg
+|description  = {{sbc|Active:}} Mordekaiser afflicts all enemies in a cone in front of him, dealing magic damage.
+|leveling ={{lcaps|Magic Damage|70|115|160|205|250|(+ 60% AP)}}
+|cooldown=6
+|cost={{ap|24|36|48|60|72}}
+|costtype=health
+|range=700
+}}
+|{{Ability2
+|targeting='''Siphon of Destruction''' is a [[skillshot#Conic skillshot|conic area of effect skill shot]].
+|damagetype=magc
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+|video=Mordekaiser EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Children of the Grave
+|icon =  ChildrenoftheGrave.jpg
+|description  = {{sbc|Active:}} Mordekaiser deals magic damage to a target enemy champion and curses it for 10 seconds, dealing additional magic damage over time and healing himself for the damage done.
+<br><br>If the target dies while under the effect of the curse, their soul is enslaved as a controllable ghost and will follow Mordekaiser for 30 seconds. The Ghost cannot use any active skills or items and deals magic damage with its basic attacks.
+|description2 =
+The Ghost's stats are:
+{{lc|Health}} The enslaved champion's total health plus 15% of Mordekaiser's total health.
+{{lc|Attack Damage}} The enslaved champion's base AD at Lv. 1 plus its bonus AD from items and 75% of Mordekaiser's total AD.
+{{lc|Ability Power}} The enslaved champion's AP plus 75% of Mordekaiser's AP.
+{{lc|Movement Speed}} The enslaved champion's base movement speed plus the bonus from Mordekaiser's boots.
+{{lc|Leash Range}} 1125
+
+During this time, Mordekaiser gains 20% of the enslaved champion's total AP and AD. This bonus does not affect the ghost's stats.
+|leveling ={{lcapss|Initial Magic Damage|12|14.5|17%|(+ 2% per 100 AP)|of target's maximum health}}
+{{lcapss|Magic Damage Per Second|1.2|1.45|1.7%|(+ {{fd|0.2}}% per 100 AP)|of target's maximum health}}
+{{lcapss|Total Magic Damage|24|29|34%|(+ 4% per 100 AP)|of target's maximum health}}
+|cooldown={{ap|120|105|90}}
+|range=850
+|cost=
+|costtype=No cost
+}}
+|{{Ability2
+|targeting='''Children of the Grave''' is a single-targeted ability.
+|damagetype=magic
+|spelleffects=single target
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=* Even though Mordekaiser is already healed for the full damage dealt, {{ai|Iron Man|Mordekaiser}} triggers as well, effectively giving Mordekaiser 135% of the damage dealt's worth in health.
+* If ''Children of the Grave'' kills {{ci|Karthus}}, {{ci|Kog'Maw}} or {{ci|Zyra}}, Mordekaiser will not gain the ghost until the end of their passives.
+** While those champions are under the effect of their passive, Mordekaiser will not gain the stat increase because the ghost is not yet alive.
+** Similarly, if ''Children of the Grave'' kills a unit affected by {{cai|Omen of Death|Yorick}}, then the Omen will trigger first, and Mordekaiser will not gain the bonus stats until it ends.
+* If ''Children of the Grave'' kills a target protected by {{cai|Chrono Shift|Zilean}} or {{iis|Guardian Angel}}, or a {{ci|Zac}} or {{ci|Aatrox}} with {{ai|Cell Division|Zac}} or {{ai|Blood Well|Aatrox}} available, respectively, the ''Children of the Grave'' debuff is removed and Mordekaiser will no longer gain the effects.
+* The ghost does not disappear when the corresponding champion respawns, or uses {{si|Revive}}. That means a champion and his ghost can exist simultaneously, and potentially fight each other.
+* While in stasis from effects such as {{ii|Zhonya's Hourglass}} or {{ai|Chrono Shift|Zilean}}, Mordekaiser cannot issue commands to his ghost. His ghost will continue with its previous orders, or stand idle if it has none.
+* ''Children of the Grave'' debuff can be removed with [[Named item effect#Quicksilver|Quicksilver]].
+* The ghost's basic attacks can critically strike.
+* The ghost dances if Mordekaiser dances too.
+|video=Mordekaiser RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Mordekaiser]]
+[[de:Mordekaiser]]
+[[es:Mordekaiser]]
+[[fr:Mordekaiser]]
+[[pl:Mordekaiser]]
+[[pt-br:Mordekaiser]]
+[[ru:Mordekaiser]]
+[[zh:莫德凯撒]]

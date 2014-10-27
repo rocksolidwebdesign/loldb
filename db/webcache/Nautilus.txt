@@ -1,0 +1,153 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Staggering Blow
+|icon=StaggeringBlow.jpg
+|description=Nautilus's basic attacks deal an additional 2{{plus}}(6{{times}}''Nautilus's level'') physical damage and root his target for {{pp|5|0.5|0.75|1|1.25|1.5|1|6|11|16|18}} seconds.
+|description2 = This effect cannot trigger on the same target more than once every {{pp|4|9|8|7|6|1|6|11|16}} seconds.
+}}
+|{{Ability2
+|targeting='''Staggering Blow''' is an [[on-hit effect]].
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+**The bonus damage from ''Staggering Blow'' will apply life steal.
+**Critical strikes will not interact with the bonus damage from ''Staggering Blow''.
+**The bonus damage does not affect structures.
+**If Staggering Blow is {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}}, or if Nautilus is [[blind]]ed, the root will still be applied but the bonus damage will not.
+|spellshield=will block the immobilize, but will not block the additional damage.
+|additional=
+|video=Nautilus IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Dredge Line
+|icon=DredgeLine.jpg
+|description={{sbc|Active:}} Nautilus hurls his anchor forward in a line. If it hits an enemy unit, Nautilus drags himself and the unit together, dealing magic damage and briefly stunning the enemy. 
+|description2 = If the anchor hits terrain, Nautilus will drag himself forward and the cooldown is reduced by 50%.
+|leveling={{lcaps|Magic damage|60|105|150|195|240|(+ 75% AP)}}
+|cooldown={{ap|18|16|14|12|10}}
+|cost={{ap|60|70|80|90|100}}
+|costtype=mana
+|range=1100
+}}
+|{{Ability2
+|targeting='''Dredge Line''' is a [[skillshot-targeted]] projectile and [[dash]].
+* '''Projectile Speed:''' 2000
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=will block the damage and pull but will not prevent Nautilus from dashing partway to the target.
+|additional=
+*''Dredge Line'' will also take into account player-created terrain such as {{ai|Cataclysm|Jarvan IV}}.
+*If ''Dredge Line'' lands the killing blow on a unit, Nautilus will instead pull himself all the way to their location.
+*''Dredge Line'' will preserve Nautilus' previous movement orders if the dash direction is roughly along the path he is scheduled to take. This is a convenience feature meant to aid Nautilus if he is using the ability for casual travel.
+*The dash on ''Dredge Line'' has a significant cast time due to its low projectile speed. With sufficient timing, it is possible to override most [[crowd control]] effects on Nautilus if they are applied during this period, ''including'' all [[airborne]] abilities.
+|video=Nautilus QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Titan's Wrath
+|icon=Titan'sWrath.jpg
+|description={{sbc|Active:}} Nautilus gains a shield that absorbs damage. The shield lasts up to 10 seconds. 
+|description2=While the shield persists, Nautilus's basic attacks apply a debuff to all enemies within 175 range of his target, dealing bonus magic damage over 2 seconds. ''Titan's Wrath'' resets Nautilus' basic attack timer when cast.
+|leveling={{lcaps|Shield Strength|100|150|200|250|300|(+ 15% bonus health)}}
+|leveling2={{lcaps|Magic damage|40|55|70|85|100|(+ 40% AP)}}
+|cooldown=18
+|cost=80
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Titan's Wrath''' is an [[on-hit effect]] and [[shield]] that applies a [[damage over time]] to enemies around the target of Nautilus' basic attacks.
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=The triggering attacks will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+**The bonus damage from ''Titan's Wrath'' does not interact with critical strikes.
+**The bonus damage does not affect structures.
+**If ''Titan's Wrath'' is {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}} or [[blind|misses]], the initial tick of damage and the debuff will both be applied, but the damage from the triggering attack will not.
+|spellshield=will block one application of the ability only. Further applications from the same instance of ''Titan's Wrath'' will not be blocked.
+|additional=
+*''Titan's Wrath'' resets Nautilus' attack timer on cast.
+*''Titan's Wrath'' has no cast time and does not interrupt Nautilus' previous orders.
+*''Titan's Wrath'' will always deal half of its listed damage on every hit while it persists, with the second half of the damage being applied over the next second regardless of how fast Nautilus attacks.
+*While ''Titan's Wrath'' is active, Nautilus' will utilise a different animation for his basic attacks. Autoattacks using these animations will '''always''' apply the damage over time, even if the shield expires before the damage has been applied.
+*If the shield is about to break, ''Titan's Wrath'' can be artificially extended by applying another shield, such as {{cai|Eye of the Storm|Janna}}, on top of it. This is still subject to the 10 second maximum duration, with further autoattacks not applying the debuff regardless of whether Nautilus is still shielded or not.
+|video=Nautilus WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Riptide
+|icon=Riptide.jpg
+|description={{sbc|Active:}} Nautilus slams the ground, causing a ring of explosions to radiate out from him in 3 waves. Each explosion deals magic damage to enemies in the area and slows them, decaying over 2 seconds.
+|description2=An enemy can be hit by more than one explosion, but take 50% reduced damage after the first.
+|leveling={{lcaps|Magic Damage per Wave|60|100|140|180|220|(+ 50% AP)}}
+{{lcap|Slow|30|35|40|45|50%}}
+|leveling2={{lcaps|Maximum Magic Damage|120|200|280|360|440|(+ 100% AP)}}
+|cooldown=10
+|cost={{ap|60|70|80|90|100}}
+|costtype=mana
+|range=600
+}}
+|{{Ability2
+|targeting='''Riptide''' is a point-blank [[area of effect]] ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block one wave of the ability.
+|additional=
+*''Riptide'' will radiate out from where Nautilus cast the ability, not his current location. Moving will not cause ''Riptide'' to cover any additional ground.
+*{{iis|Rylai's Crystal Scepter}} slow will be diminished beyond the 15% (down to 5.25%) due to ''Riptide's'' slow being more effective. 
+|video=Nautilus EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Depth Charge
+|icon=DepthCharge.jpg
+|description={{sbc|Active:}} Nautilus fires a shockwave that chases a target enemy champion, dealing magic damage and knocking up enemies it passes through for 0.5 seconds. The shockwave explodes upon hitting its target, dealing magic damage, knocking them up for 1 second and stunning the target.
+|leveling={{lcaps|Passthrough magic damage|125|175|225|(+ 40% AP)}}
+{{lcaps|Explosion magic damage|200|325|450|(+ 80% AP)}}
+{{lcap|Stun Duration|1|1.5|2}}
+|cooldown={{ap|140|110|80}}
+|cost=100
+|costtype=mana
+|range=825
+}}
+|{{Ability2
+|targeting='''Depth Charge''' is a [[unit-targeted]] [[area of effect]] ability that sends a chasing projectile towards an enemy champion. Enemies hit by this projectile along the way are also affected by the ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block both passthrough instances and the explosion when being directly targeted.
+|additional=
+*Despite being a projectile, ''Depth Charge'' is not intercepted by {{cai|Wind Wall|Yasuo}} or {{cai|Unbreakable|Braum}}. This may be due to balance concerns or for flavour.
+*The stun and knockup on the ability are applied ''concurrently'' and ''not'' sequentially; the total CC duration on a target is not actually 2 / {{fd|2.5}} / 3 seconds but 1 / {{fd|1.5}} / 2 seconds.
+*''Depth Charge's'' projectile does not path around terrain or units.
+*''Depth Charge's'' projectile will accelerate over time, generally ensuring it is impossible to outrun for all but the most extreme of movement speeds. However, a target moving a vast distance away such as with {{si|Recall}} or {{si|Teleport}} will cause the projectile to vanish.
+|video=Nautilus RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Nautilus]]
+[[de:Nautilus]]
+[[es:Nautilus]]
+[[fr:Nautilus]]
+[[pl:Nautilus]]
+[[pt-br:Nautilus]]
+[[ru:Nautilus]]
+[[zh:诺提勒斯]]

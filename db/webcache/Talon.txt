@@ -1,0 +1,144 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Mercy
+|icon = Mercy.jpg
+|description = Talon's autoattacks deal 10% additional damage to any target that is slowed, stunned, immobilized or suppressed.
+}}
+|{{Ability2
+|targeting='''Mercy''' is an [[on-hit effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=''Mercy'' does not amplify the damage from [[on-hit]] effects, such as {{ii|Sheen}} or {{ai|Noxian Diplomacy|Talon}}.
+|spellshield=
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Noxian Diplomacy
+|icon = NoxianDiplomacy.jpg
+|description = {{sbc|Active:}} Talon's next autoattack within the next 6 seconds deals bonus physical damage. 
+<br><br>If the target is a champion they will also bleed for 6 seconds, granting [[sight]] of their location to Talon and taking additional physical damage each second for the duration.
+|leveling = {{lcaps|Bonus Physical Damage|30|60|90|120|150|(+ 30% bonus AD)}}
+{{lcaps|Damage Over Time|10|20|30|40|50|(+ 100% bonus AD)}}
+{{lcaps|Total Physical Damage|40|80|120|160|200|(+ 130% bonus AD)}}
+|cooldown = {{ap|8|7|6|5|4}}
+|cost = {{ap|40|45|50|55|60}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Noxian Diplomacy''' is an [[on-hit effect]].
+|damagetype=physical
+|spelleffects=false
+|onhiteffects=''Noxian Diplomacy'' will apply the passive armor shred of {{ii|The Black Cleaver|Black Cleaver}} for every tick of the bleed effect.
+|spellshield=Will block ''Noxian Diplomacy''
+|additional=
+* ''Noxian Diplomacy'' resets Talon's attack timer on cast.
+* ''Noxian Diplomacy'' will proc on structures.
+* ''Noxian Diplomacy'' does not grant true sight and will not reveal [[stealth]]ed champions.
+|video=Talon QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Rake
+|icon = Rake.jpg
+|description = {{sbc|Active:}} Talon sends out a volley of daggers in a cone that then quickly return back to him, dealing physical damage to any enemies it passes through. Additionally the enemy is [[slow]]ed for 2 seconds, refreshing the duration of the slow if they are hit twice. 
+|description2 = Each enemy can only be damaged once at the start of the ability and once at the end. 
+|leveling = {{lcaps|Physical Damage Per Hit|30|55|80|105|130|(+ 60% bonus AD)}}
+{{lcaps|Total Physical Damage|60|110|160|210|260|(+ 120% bonus AD)}}
+{{lcap|Slow|20|25|30|35|40%}}
+|range = 600
+|cooldown = 10
+|cost = {{ap|60|65|70|75|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Rake''' is a [[skillshot#Pass-through conic skillshot|pass-through conic skillshot]].
+|damagetype=physical
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block Rake.
+|additional=
+* ''Rake's'' projectiles take about 0.8 seconds to travel out and back to Talon.
+* If Talon dies, ''Rake's'' projectiles are disjointed and will not deal damage even though its animation continues.
+* ''Rake'' is the only means included within Talon's kit to trigger {{ais|Mercy|Talon}} additional damage.
+|video=Talon WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Cutthroat
+|icon = Cutthroat.jpg
+|description = {{sbc|Active:}} Talon [[blink]]s behind his target, [[slow]]ing them for 99% for {{fd|0.25}} seconds and [[amplify]]ing his damage against that target for 3 seconds.
+|leveling = {{lcap|Damage Amplification|3|6|9|12|15%}}
+|range = 700
+|cooldown = {{ap|18|16|14|12|10}}
+|cost = {{ap|35|40|45|50|55}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Cutthroat''' is a single targeted [[dash#Blink|blink]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=Will not block ''Cutthroat''.
+|additional=
+|video=Talon EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Shadow Assault
+|icon = ShadowAssault.jpg
+|description = {{sbc|Active:}} Talon disperses blades outwards in a '''500'''-radius ring and gains [[stealth]] for up to {{fd|2.5}} seconds while gaining 40% [[movement speed]]. When Talon emerges from stealth, the blades converge on his location. When the ring of blades expands and contracts, enemies hit receive physical damage. 
+|description2= Each enemy can only be damaged once at the start of the ability and once at the end.
+|leveling = {{lcaps|Physical Damage Per Hit|120|170|220|(+ 75% bonus AD)}}
+{{lcaps|Total Physical Damage|240|340|440|(+ 150% bonus AD)}}
+|cooldown = {{ap|75|65|55}}
+|cost = {{ap|80|90|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Shadow Assault''' is a [[area of effect#Point blank|point blank area of effect]] ability.
+|damagetype=physical
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block ''Shadow Assault''.
+|additional=
+* Using a spell or item without an attached animation does not break stealth.
+* Similarly to {{ai|Rake|Talon}}, if Talon dies, ''Shadow Assault's'' projectiles are disjointed and will not deal damage even though its animation continues.
+|video=Talon RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]]
+* {{ai|Noxian Diplomacy|Talon}}
+** Base damage is {{ap|30|55|80|105|130}} instead of {{ap|30|60|90|120|150}}.
+* {{ai|Shadow Assault|Talon}}
+** Cooldown is {{ap|85|75|65}} instead of {{ap|75|65|55}}.
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Talon]]
+[[de:Talon]]
+[[es:Talon]]
+[[fr:Talon]]
+[[pl:Talon]]
+[[pt-br:Talon]]
+[[ru:Talon]]
+[[zh:泰隆]]

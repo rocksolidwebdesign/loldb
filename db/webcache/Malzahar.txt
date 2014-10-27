@@ -1,0 +1,185 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Summon Voidling
+|icon =  SummonVoidling.jpg
+|description  = {{sbc|Passive:}} On every fourth ability use, Malzahar summons a [[File:VoidlingSquare.png|20px|link=Malzahar#Pets]] [[Malzahar#Pets|Voidling]] that remains on the field until it is killed or 21 seconds have passed. If Malzahar dies, the ''Voidling'' stays behind but stops attacking.
+|description2 = ''Voidlings'' '''Grow''' after 7 seconds (+50% Damage/Armor), and '''Frenzy''' after 14 seconds (+100% Attack Speed). 
+}}
+|{{Ability2
+|targeting='''Summon Voidling''' is a passive ability that gains a charge every time Malzahar uses a champion ablity. After gaining 3 charges, Malzahar's next ability cast will consume the charges to summon a ''Voidling'' [[pet]].
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|damagetype=
+|video=Malzahar IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Call of the Void
+|icon = CalloftheVoid.jpg
+|description = {{sbc|Active:}} Malzahar opens up two portals to the Void {{tt|400|Estimated}} range from each other. After a {{tt|short delay|0.5 second}}, power erupts from them, damaging and silencing all enemies caught between the portals. 
+|leveling = {{lcaps|Magic Damage|80|135|190|245|300|(+ 80% AP)}}
+{{lcap|Silence Duration|1.4|1.8|2.2|2.6|3}}
+|range = 900
+|cooldown = 9
+|cost = {{ap|80|85|90|95|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Call of the Void''' is a [[area of effect#Line|linear area of effect]] ability. After a 0.5 second delay, two waves of void energy are fired from each end point to the other.
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability.
+|damagetype=magic
+|additional=
+* ''Call of the Void'' provides vision of a small area around it.
+|video=Malzahar QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Null Zone
+|icon = NullZone.jpg
+|description = {{sbc|Active:}} Malzahar creates a '''250'''-radius zone of negative energy for 5 seconds. Enemies that stand in the zone take magic damage every second equal to a percentage of their maximum health (capped at 120 to monsters and minions). 
+|leveling = {{lcapss|Magic damage per second|4|5|6|7|8%|(+1% per 100 AP)|of enemies' maximum health}}
+{{lcapss|Max damage|20|25|30|35|40%|(+5% per 100 AP)|of enemies' maximum health}}
+|range = 800
+|cooldown = 14
+|cost = {{ap|90|95|100|105|110}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Null Zone''' is a [[area of effect#Ground targeted|ground targeted area of effect]] ability.
+|spelleffects=area of effect
+|onhiteffects=
+|liandry=Will deal up to 16% of the targets' current health in magic damage over 8 seconds. A single instance of damage will deal 6% of the targets' current health over 3 seconds, and any further damage will refresh the effect. 
+|spellshield=Will not block the damage.
+|damagetype=magic
+|additional=
+* ''Null Zone'' begins dealing damage 0.25 seconds after being cast.
+* ''Null Zone'' has no cast time and does not interrupt Malzahar's previous orders.
+|video=Malzahar WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Malefic Visions
+|icon = MaleficVisions.jpg
+|description = {{sbc|Active:}} Infects target enemy's mind, dealing magic damage every {{fd|0.5}} seconds for a total of 4 seconds. 
+<br><br>If the target dies during this time, the target passes ''Malefic Visions'' to the closest enemy, refreshing the duration and restoring mana to Malzahar.
+|leveling = {{lcaps|Magic damage per half-second|10|17.5|25|32.5|40|(+ 10% AP)}}
+{{lcaps|Total Magic Damage|80|140|200|260|320|(+ 80% AP)}}
+{{lcap|Mana restored|10|14|18|22|26}}
+|range = 650
+|cooldown = {{ap|15|13|11|9|7}}
+|cost = {{ap|60|75|90|105|120}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Malefic Visions''' is a single target [[damage over time]] ability that deals magic damage every 0.5 seconds.
+|spelleffects=damage over time
+|onhiteffects=
+|spellshield=will not block the ability.
+|damagetype=magic
+|additional=
+* [[File:VoidlingSquare.png|20px|link=Malzahar#Pets]] [[Malzahar#Pets|Voidlings]] will automatically attack the nearest target affected by ''Malefic Visions'', prioritizing champions, if no target is affected by {{ai|Nether Grasp|Malzahar}}.
+* ''Malefic Visions'' cannot be removed with {{si|Cleanse}}, however it WILL be removed by {{ii|Quicksilver Sash}}.
+* For the purposes of the Furor Enchantment and Hextech Gunblade, Malefic Visions does not count as a single target spell.
+|video=Malzahar EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Nether Grasp
+|icon = NetherGrasp.jpg
+|description = {{sbc|Active:}} Malzahar channels an engulfing void of energy for up to {{fd|2.5}} seconds, suppressing and dealing magic damage to a target enemy champion every 0.5 seconds while the channel holds.
+|leveling = {{lcaps|Magic damage per Half-second|50|80|110|(+ 26% AP)}}
+{{lcaps|Total Magic damage|250|400|550|(+ 130% AP)}}
+|range = 700
+|cooldown = {{ap|120|100|80}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Nether Grasp''' is a [[channel]]ed [[damage over time#Tether-like DoTs|tether-like damage over time]] ability. While in range of the tether, the target takes magic damage every 0.5 seconds. Both the suppression and tether are removed if the channel is stopped or interrupted.
+|spelleffects=damage over time
+|onhiteffects=
+|liandry=Will deal 16% of the target's current health in magic damage over 5.5 seconds.
+|spellshield=Will block the damage and prevent the tether. 
+|damagetype=magic
+|additional=
+* ''Nether Grasp's'' suppression can be removed with abilities like {{ai|Unbreakable Will|Alistar}} and {{ai|Remove Scurvy|Gangplank}}, and by {{ii|Quicksilver Sash}}.
+* ''Nether Grasp's'' suppression and tethered damage effects are separate. If the suppression is removed, ''Nether Grasp'' will continue to deal damage unless the channel is interrupted or the tether is broken by moving away.
+** Probably Bug: {{cai|Ragnarok|Olaf}} will remove both the suppression and the tethered damage, and it will also prevent Malzahar from forming the tether if Ragnarok is already active (putting ''Nether Grasp'' on cooldown with no effect). 
+* Like all [[channel]]ed abilities, ''Nether Grasp'' will be interrupted by hard [[crowd control]] like [[stun]]s and [[silence]]s, and will end prematurely if Malzahar attempts another action, e.g. moving or casting other abilities.
+** Malzahar can still use summoner spells (excluding {{si|Flash}} and {{si|Teleport}}) and item activatables without interrupting the channel provided that Malzahar does not need to move to use them.
+* Malzahar is unable to make actions for the first 0.5 seconds of the ability to prevent Malzahar from accidentally cancelling his ultimate.
+** This was made due to high community demand, as the accident was often between players who like to click too much.
+* The target of ''Nether Grasp'' may themselves interrupt the channeling, if their crowd control abilities are mid-flight or cannot be interrupted. Notable examples:{{ci|Irelia}}, {{ci|Elise}}, {{ci|Jayce}}, {{ci|Garen}}, {{ci|Orianna}}, {{ci|Fizz}}, {{ci|Alistar}}, {{ci|Maokai}}, {{ci|Shyvana}}, {{ci|Tristana}}, {{ci|Quinn}}, {{ci|Xerath}} and {{ci|Draven}}.
+|video=Malzahar RVideo
+}}
+}}
+
+== Pets ==
+{{Ability pet
+||name={{ai|Summon Voidling|Malzahar|Voidling}}
+|icon=VoidlingSquare.png
+|description=''Voidlings'' are [[Pet#Minion|autonomous minions]] that attack nearby enemy units. 
+* Voidlings have a leash range of {{tt|1700|Estimated}}
+* Voidlings are classified as a [[pet|minion]] for targeting purposes.
+* Benefits from {{ii|Captain}} and {{ii|Banner of Command}}.
+* The ''Voidlings''' attacks do not apply [[spell effects]].
+* The ''Voidlings''' attacks do not apply [[on-hit effects]].
+* The ''Voidlings''' attacks can be {{ai|Riposte|Fiora|parried}} and {{ai|Aegis Protection|Pantheon|blocked}} and will miss if they are [[blind]]ed.
+* The "Voidlings" attacks <b>CAN'T</b> be {{ai|Counter Strike|Jax|dodged}}.
+* ''Voidlings'' gain bonuses to their [[attack damage]], [[armor]] and [[attack speed]] as they last out on the field. After 7 seconds, they gain 50% increased armor and attack damage. After 14 seconds, they gain increased attack speed.
+** {{sbc|Attack damage after 7 seconds:}} 30{{plus}}(7.5{{times}}''Malzahar's level'') {{as|(+ 150% bonus AD)}}
+** {{sbc|Armor after 7 seconds:}} 45
+** {{sbc|Attack speed after 14 seconds:}} {{fd|1.496}}
+* Voidlings' attack priorities (don't conflict with each other):
+** The target of {{ai|Nether Grasp|Malzahar}}
+** The nearest champion affected by {{ai|Malefic Visions|Malzahar}}
+** The nearest non-champion affected by {{ai|Malefic Visions|Malzahar}}
+** The current target of Malzahar's basic attacks
+** The nearest enemy unit.
+* ''Voidlings'' will benefit from Malzahar's [[armor penetration]].
+* Enemy turrets will prioritize ''Voidlings'' directly above the chain of melee minions.
+* Possible Bug: When Malzahar dies, any active ''Voidlings'' will become idle for the rest of their lifespan. Occasionally, if Voidlings have an attack target when Malzahar dies, they will continue to chase their target - but they will ''not'' deal damage. 
+|health=200{{plus}}(50{{times}}''Malzahar's level'')
+|hpregen=N/A
+|damage=20{{plus}}(5{{times}}''Malzahar's level'') {{as|(+ 100% bonus AD)}}
+|damagetype=physical
+|range={{tt|100|Estimated}}
+|sight=?
+|armor=30
+|mr=50
+|attackspeed={{fd|0.831}}
+|movespeed=451
+|gold=12 gold
+|exp=0 exp
+|aoe=N/A
+|render=Malzahar Voidling Render.png|
+}}
+{{ClearBoth}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Malzahar]]
+[[de:Malzahar]]
+[[es:Malzahar]]
+[[fr:Malzahar]]
+[[pl:Malzahar]]
+[[pt-br:Malzahar]]
+[[ru:Malzahar]]
+[[zh:玛尔扎哈]]

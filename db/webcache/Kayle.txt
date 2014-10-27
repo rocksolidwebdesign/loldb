@@ -1,0 +1,143 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Holy Fervor
+|icon=Holy Fervor.png
+|description=Kayle's autoattacks against enemy champions reduce their armor and magic resistance by 3% for 5 seconds. This debuff stacks up to 5 times.
+}}
+|{{Ability2
+|targeting='''Holy Fervor''' is an on-hit and on-spell effect.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=will not block the application of the ability.
+|additional=
+* The debuff stacks additively with itself. At five stacks the enemy will have its armor and magic resistance reduced by 15%. With other forms of percentage reduction, it will stack multiplicatively.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Reckoning
+|icon=Reckoning.png
+|description={{sbc|Active:}} Kayle blasts a target enemy, dealing magic damage, slowing its movement speed for 3 seconds and applying a stack of {{ai|Holy Fervor|Kayle}}.
+|leveling=
+{{lcapss|Magic Damage|60|110|160|210|260|(+ 60% AP)|(+ 100% Bonus AD)}}
+{{lcap|Slow|35|40|45|50|55%}}
+|cooldown=8
+|cost={{ap|70|75|80|85|90}}
+|costtype=Mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Reckoning''' is a single-target ability.
+{{lc|Missile Speed}} 1500
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Kayle QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Divine Blessing
+|icon=Divine Blessing.png
+|description={{sbc|Active:}} Blesses a target allied champion, healing them and increasing their movement speed for 3 seconds.
+|leveling=
+{{lcaps|Heal|60|105|150|195|240|(+ 45% AP)}}
+{{lcaps|Movement Speed|18|21|24|27|30%|(+7% per 100 AP)}}
+|cooldown=15
+|cost={{ap|60|70|80|90|100}}
+|costtype=Mana
+|range=900
+}}
+|{{Ability2
+|targeting='''Divine Blessing''' is a single-targeted ability that can only be cast on allied champions.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Divine Blessing'' has no cast time and does not interrupt Kayle's previous orders.
+|video=Kayle WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Righteous Fury
+|icon=Righteous Fury.png
+|description={{sbc|Active:}} Kayle ignites her sword and becomes ranged for 10 seconds, granting her bonus magic damage on her attacks and increasing her attack range by 400 (''525 total range''). Additionally, attacks on non-tower units damage other enemies within 150 range of the target.
+|leveling=
+{{lcaps|Bonus Magic Damage|20|30|40|50|60|(+ 25% AP)}}
+{{lcapss|Magic Splash Damage|20|30|40|50|60|(+ 25% AP)|(+ {{ap|20|25|30|35|40%}} AD)}}
+|cooldown=16
+|cost=45
+|costtype=Mana
+|range=
+}} 
+|{{Ability2
+|targeting='''Righteous Fury''' is [[buff|self-buff]] [[on-hit effect]] ability. 
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=The triggering attacks will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes do not interact with the bonus damage of ''Righteous Fury''.
+** {{iis|Tiamat|cleave}} and {{iis|Ravenous Hydra|Cleave}} Cleave will not proc while ''Righteous Fury'' is active while the {{iia|Runaan's Hurricane}} passive will. 
+* {{ai|Counter Strike|Jax|Counter Strike}} and {{ai|Aegis Protection|Pantheon|Aegis Protection}} will block the AD damage from ''Righteous Fury'', but not the bonus magic damage. The AOE will still proc. 
+* {{ai|Blinding Dart|Teemo|Blinds}} will cause ''Righteous Fury'' to miss. The AOE will still proc.  
+* {{Pending for test}} ''Righteous Fury's'' relationship with {{ai|Riposte|Fiora|parry}} has yet to be tested.
+* The bonus damage does not affect structures. 
+|spellshield=will not block the ability.
+|additional=
+* Despite being an on-hit effect, both ''Righteous Fury's'' damage to the primary target and the area of effect component apply [[spell effects]] as an [[area of effect]] ability. 
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+* The splash will ''not'' trigger upon attacking towers, but ''will'' upon attacking inhibitors.
+* A [[Cooldown reduction]] of 37.5% or greater will allow Kayle to have a continuous use of ''Righteous Fury'' until her mana is depleted.
+* ''Righteous Fury'' has no projectile and thus bypasses [[Yasuo|Yasuo's]] {{ai|Wind Wall|yasuo|Wind Wall}}.
+|video=Kayle EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Intervention
+|icon=Intervention.png
+|description={{sbc|Active:}} Kayle bathes a target ally champion or herself in holy light, rendering the champion immune to all damage for a few seconds.
+|leveling={{lcap|Duration|2|2.5|3}}
+|cooldown={{ap|100|90|80}}
+|range=900
+}}
+|{{Ability2
+|targeting='''Intervention''' is a single-target ability that can only be cast on allied champions.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Intervention'' has no cast time and does not interrupt Kayle's previous orders.
+* The invincibility applies to all forms of damage, '''including''' true damage. The only exception is damage applied by the [[Nexus Obelisk]], which will ignore the ability's effect.
+|video=Kayle RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Kayle]]
+[[de:Kayle]]
+[[es:Kayle]]
+[[fr:Kayle]]
+[[pl:Kayle]]
+[[pt-br:Kayle]]
+[[ru:Kayle]]
+[[zh:凯尔]]

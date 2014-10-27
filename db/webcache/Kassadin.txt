@@ -1,0 +1,138 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Void Stone
+|icon=Void Stone.png
+|description=Kassadin takes 15% reduced magic damage and ignores unit collision.
+}}
+|{{Ability2
+|targeting='''Void Stone''' is a [[buff|self-buff]] ability.
+|additional=
+|video=Kassadin IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Null Sphere
+|icon=Null Sphere.png
+|description={{sbc|Active:}} Kassadin fires an orb of void energy at a target enemy, dealing magic damage and interrupting channels. The excess energy forms around himself, granting a shield that absorbs magic damage for {{fd|1.5}} seconds.
+|leveling={{lcaps|Magic Damage|80|105|130|155|180|(+ 70% AP)}}
+{{lcaps|Shield Strength|40|70|100|130|160|(+ 30% AP)}}
+|cooldown=9
+|cost={{ap|70|75|80|85|90}}
+|costtype=Mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Null Sphere''' is a single target ability.
+{{lc|Projectile Speed}} 1400
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+|video=Kassadin QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Nether Blade
+|icon=Nether Blade.png
+|description={{sbc|Passive:}} Kassadin's basic attacks deal 20 {{as|(+10% AP)}} bonus magic damage on-hit.
+|description2={{sbc|Active:}} Kassadin charges his ''Nether Blade'', causing his next basic attack to deal bonus magic damage, gains 50 range (''200 total range'') and restore a percentage of his missing mana (quintupled against champions).
+|leveling=
+|leveling2={{lcaps|Magic Damage|40|65|90|115|140|(+ 60% AP)}}
+{{lcaps|Mana Restored|4|5|6|7|8|% missing mana}}
+{{lcaps|Mana Restored against Champions|20|25|30|35|40|% missing mana}}
+|cooldown=9
+|cost=
+|costtype=No cost
+}}
+|{{Ability2
+|targeting=Passively, '''Nether Blade''' is an on-hit effect and won't trigger spell effects.
+When activated, '''Nether Blade''' is a [[buff|self-buff]] [[on-hit effect]] ability. 
+|damagetype=magic
+|spelleffects=single target
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** {{Pending for test}} ''Nether Blade's'' relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested.
+** The passive damage will trigger on structures while the active damage won't trigger on structures.
+|spellshield=will block the attack enhanced by the active part.
+|video=Kassadin WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Force Pulse
+|icon=Force Pulse.png
+|description={{sbc|Passive:}} Kassadin draws energy from spells cast in his vicinity, gaining a charge whenever a spell is cast near him (including his own spells). Upon reaching 6 charges, Kassadin gains the ability to cast ''Force Pulse''.
+|description2={{sbc|Active:}} Kassadin can emit a pulse of void energy, dealing magic damage and slowing enemies in a '''80º''' cone in front of him for 1 second.
+|leveling2= {{lcaps|Magic Damage|80|105|130|155|180|(+ 70% AP)}}
+{{lcap|Slow|50|60|70|80|90%}}
+|cooldown=6
+|cost=80
+|costtype=Mana
+|range=700
+}}
+|{{Ability2
+|targeting='''Force Pulse''' is a [[area of effect|conic area of effect]] ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+|video=Kassadin EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Riftwalk
+|icon=Riftwalk.png
+|description={{sbc|Active:}} Kassadin teleports to a nearby location, dealing magic damage to enemy units within 150 range upon arrival. 
+|description2=Each subsequent ''Riftwalk'' within the next 20 seconds costs double the mana and deals bonus damage, stacking up to 4 times.
+{{lc|Total cost of using Riftwalk ''n'' times}} {{tt|75|0 stacks/1st use}} / {{tt|225|1 stack/2nd use}} / {{tt|525|2 stacks/3rd use}} / {{tt|1125|3 stacks/4th use}} / {{tt|2325|4 stacks/5th or more}}
+|leveling={{lcaps|Magic Damage|80|100|120|(+ 2% of max mana)}}
+|leveling2={{lcaps|Bonus Damage per stack|40|50|60|(+ 1% max mana)}}
+{{lcaps|Maximum magic damage|240|300|360|(+ 6% max mana)}}
+|cooldown={{ap|7|5|3}}
+|cost={{tt|75|0 stacks}} / {{tt|150|1 stack}} / {{tt|300|2 stacks}} / {{tt|600|3 stacks}} / {{tt|1200|4 stacks}}
+|costtype=Mana
+|range=700
+}}
+|{{Ability2
+|targeting='''Riftwalk''' is a [[blink|ground targeted blink]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+*There's a brief delay before Kassadin blinks to the chosen in-range location.
+|video=Kassadin RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]]
+* {{ai|Riftwalk|Kassadin}}
+** Cooldown is {{ap|9|7|5}} instead of {{ap|7|5|3}}.
+** Range is 600 instead of 700.
+
+==References==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Kassadin]]
+[[de:Kassadin]]
+[[es:Kassadin]]
+[[fr:Kassadin]]
+[[pl:Kassadin]]
+[[pt-br:Kassadin]]
+[[ru:Kassadin]]
+[[zh:卡萨丁]]

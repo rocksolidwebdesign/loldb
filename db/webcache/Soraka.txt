@@ -1,0 +1,141 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+All Soraka's abilities have a {{fd|0.5}} seconds cast time but will not cancel Soraka's previous orders.
+
+{{Ability frame|I|
+{{Ability info
+|name = Salvation
+|icon = Salvation.png
+|range = 2500
+|description = Soraka gains 70% [[movement speed]] when moving towards allied champions below 40% of their maximum health who are outside of {{ai|Astral Infusion|Soraka|Astral Infusion's}} range.
+}}
+|{{Ability2
+|targeting='''Salvation''' is a [[self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* The movement speed stop when you get in the range to use {{ai|Astral Infusion|Soraka}}.
+* A line of arrows points to ally targets, similar to that displayed by {{cai|Dark Passage|Thresh}} or {{cai|Last Breath|Yasuo}}, indicating the direction in which she can gain the bonus movement speed.
+* Similar to {{cai|Feast|Cho'Gath}}, Soraka will be able to recognize champions under the heath treshold for the sake of both ''Salvation'' and {{ai|Wish|Soraka}}.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Starcall
+|icon = Starcall.png
+|description  = {{sbc|Active:}} Soraka calls down a star at a target location, enemies standing in the point of impact take magic damage. ''Starcall'' takes more time to fall the farther the ability is cast.
+|description2 =  Enemies standing in the center take 50% increased damage and are [[slow]]ed for 2 seconds.
+|leveling = {{lcaps|Magic Damage|70|110|150|190|230|(+ 35% AP)}}
+|leveling2= {{lcaps|Max Magic Damage|105|165|225|285|345|(+ {{fd|52.5}}% AP)}}
+{{lcap|Slow|30|35|40|45|50}}%
+|cooldown = {{ap|7|6.5|6|5.5|5}}
+|cost     = {{ap|70|75|80|85|90}}
+|costtype = Mana
+|range    = 970
+}}
+|{{Ability2
+|targeting='''Starcall''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Soraka QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Astral Infusion
+|icon = Astral Infusion.png
+|description  = {{sbc|Passive:}} Each enemy champion hit by {{ai|Starcall|Soraka}} heals Soraka, increased by 1% for every 1% of Soraka's missing health.
+|description2 = {{sbc|Active:}} Soraka blesses a friendly unit, restoring its health. ''Astral Infusion'' cannot be self-cast, and nor can it be cast if Soraka is below 5% of her max health.
+|leveling  = 
+{{lcaps|Heal|25|35|45|55|65|(+ 20% AP)}}
+{{lcaps|Maximum Heal|50|70|90|110|130|(+ 40% AP)}}
+|leveling2 = {{lcaps|Heal|120|150|180|210|240|(+ 60% AP)}}
+|cooldown = {{ap|4|3.5|3|2.5|2}}
+|cost     = 10%
+|costtype = Maximum Health {{plus}} {{ap|20|25|30|35|40}} Mana
+|range    = 450
+}}
+|{{Ability2
+|targeting='''Astral Infusion''' is a ally, single-targeted ability.
+|damagetype=
+|spelleffects= false
+|onhiteffects=
+|spellshield=
+|additional=
+* Can be targeted on allied [[minions]] and [[pets]].
+|video=Soraka WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Equinox
+|icon = Equinox.png
+|description = {{sbc|Active:}} Soraka creates a zone at a target location for {{fd|1.5}} seconds, enemy champions standing in the zone take magic damage and are [[silence]]d until they leave. At the end of the zone's duration, all enemy champions inside are [[root]]ed for a few seconds and take additional magic damage.
+|leveling  = {{lcaps|Initial Magic Damage|70|110|150|190|230|(+ 40% AP)}}
+{{lcaps|Secondary Magic Damage|70|110|150|190|230|(+ 40% AP)}}
+{{lcaps|Total Magic Damage|140|220|300|380|460|(+ 80% AP)}}
+{{lcap|Root Duration|1|1.25|1.5|1.75|2}}
+|cooldown = {{ap|18|17|16|15|14}} 
+|range    = 925
+|cost     = 70
+|costtype = Mana
+}}
+|{{Ability2
+|targeting='''Equinox''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Soraka EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Wish 
+|icon = Wish.png
+|description  = {{sbc|Active:}} Soraka calls upon the stars, first removing Grievous Wounds and then restoring health to all allied champions on the field, including untargetable allies.
+|description2 = ''Wish's'' healing is increased by 50% on allied champions who are below 40% of their maximum health.
+|leveling  = {{lcaps|Heal|150|250|350|(+ 55% AP)}}
+|leveling2 = {{lcaps|Increased Heal|225|375|525|(+ {{fd|82.5}}% AP)}}
+|cooldown = {{ap|160|145|130}}
+|cost     = 100
+|costtype = Mana
+|range    = Global
+}}
+|{{Ability2
+|targeting='''Wish''' is a [[global|global area of effect]] autotargeted  ability.
+|damagetype=
+|spelleffects= false
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Soraka RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Soraka]]
+[[de:Soraka]]
+[[es:Soraka]]
+[[fr:Soraka]]
+[[pl:Soraka]]
+[[pt-br:Soraka]]
+[[ru:Soraka]]
+[[zh:索拉卡]]

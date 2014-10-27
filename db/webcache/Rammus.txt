@@ -1,0 +1,135 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Spiked Shell
+|icon = SpikedShell.jpg
+|description = Rammus receives bonus attack damage equal to {{as|25% of his total armor}}.
+}}
+|{{Ability2
+|targeting='''Spiked Shell''' is a [[buff|self-buff]] ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Due to his base armor and armor increase per level, Rammus effectively receives a bonus to his base attack damage (~5) and additional attack damage per level (~1) up to ~21 bonus attack damage at level 18.
+* Any buff or debuff that affects Rammus' armor will increase or reduce the bonus damage respectively as well. (e.g. {{ai|Bulwark|Galio}} or {{ai|Spirit Fire|Nasus}})
+** Similarly to {{cai|Runic Skin|Galio}}, ''Spiked Shell'' will cause a decrease in attack damage if Rammus' armor is reduced below 0.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Powerball
+|icon = Powerball.jpg
+|description = {{sbc|Active:}} Rammus enters a rolling ball state for up to 7 seconds, constantly accelerating from an initial bonus 3% move speed up to a bonus 165% move speed. 
+|description2 = Upon colliding with an enemy unit, all nearby enemies are briefly knocked back, take magic damage, and are slowed for 3 seconds afterwards, and Rammus reverts to his normal state as well.
+|description3 = While in this state, Rammus cannot attack or use {{ai|Puncturing Taunt|Rammus}}. Activating {{ai|Defensive Ball Curl|Rammus}} or re-activating ''Powerball'' during its duration will end the effect after 1 second.
+|leveling2 ={{lcaps|Magic Damage|100|150|200|250|300|(+ 100% AP)}}
+{{lcap|Slow|20|25|30|35|40%}}
+{{lc|Impact Radius}} {{tt|200|Estimated}}
+{{lc|Knock Back Distance}} {{tt|100|Estimated}}
+|cooldown=10
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Powerball''' is a self-target ability.
+|damagetype=magic
+|spelleffects=area of damage
+|onhiteffects=
+|spellshield=will block the impact's effects.
+|additional=
+* ''Powerball's'' knockback disable lasts about 0.75 seconds.
+* ''Powerball'' will hit enemies, including minions, even if Rammus is ignoring unit collision from {{si|Ghost}} or {{ii|Phantom Dancer}}.
+* ''Powerball'' can hit [[stealth]]ed enemy champions, but it will not reveal them unless the target's stealth state depends on their location or movement (e.g. {{cai|Camouflage|Teemo}} or {{cai|Twilight Shroud|Akali}}).
+* Activating ''Powerball'' and ending it prematurely will both trigger [[Mana Charge]].
+|video=Rammus QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Defensive Ball Curl
+|icon = DefensiveBallCurl.jpg
+|description = {{sbc|Active:}} Rammus enters a defensive stance for 6 seconds, increasing his armor and magic resistance and dealing magic damage to enemies whenever they use a basic attack against him.
+|description2 = Activating {{ai|Powerball|Rammus}} will end the effect after 1 second.
+|leveling ={{lcap|Armor & Magic Resist|40|60|80|100|120}}
+{{lcaps|Magic Damage Returned|15|25|35|45|55|(+ 10% armor)}}
+|cooldown=14
+|cost=40
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Defensive Ball Curl''' is a self-target ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Defensive Ball Curl'' will not return damage from turret attacks, {{cai|Jack In The Box|Shaco}}, {{cai|H-28G Evolution Turret|Heimerdinger}} or {{ci|Yorick|Yorick's}} ghouls (except {{ai|Omen of Death|Yorick}}).
+|video=Rammus WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Puncturing Taunt
+|icon = PuncturingTaunt.jpg
+|description  = {{sbc|Active:}} Rammus taunts an enemy champion or monster, reducing their armor and forcing them to attack Rammus for a few seconds.
+|leveling ={{lcap|Armor Reduction|10|15|20|25|30}}
+{{lcap|Duration|1.25|1.5|1.75|2|2.25}}
+|cooldown=12
+|cost=50
+|costtype=mana
+|range=325
+}}
+|{{Ability2
+|targeting='''Puncturing Taunt''' is a single targeted ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=will block it.
+|additional=
+|video=Rammus EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Tremors
+|icon = Tremors.jpg
+|description  = {{sbc|Active:}} Rammus creates an earthquake around himself for 8 seconds, dealing magic damage to units and structures within 300 range each second. ''Tremors'' does not hinder Rammus' actions.
+|leveling ={{lcaps|Magic Damage Per Second|65|130|195|(+ 30% AP)}}
+{{lcaps|Maximum Magic Damage|520|1040|1560|(+ 240% AP)}}
+|cooldown=60
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Tremors''' is a [[area of effect#Point blank|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=
+|additional=
+*''Tremors'' has no cast time and does not interrupt Rammus' previous orders.
+|video=Rammus RVideo
+}}
+}}
+
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Rammus]]
+[[de:Rammus]]
+[[es:Rammus]]
+[[fr:Rammus]]
+[[pl:Rammus]]
+[[pt-br:Rammus]]
+[[ru:Rammus]]
+[[zh:拉莫斯]]

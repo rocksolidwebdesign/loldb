@@ -1,0 +1,136 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Granite Shield
+|icon = GraniteShield.jpg
+|description  = Malphite's skin produces a layer of rock as a shield which absorbs damage equal to {{as|10% of his maximum health}}. 
+|description2 =The shield will refresh if Malphite has not received damage in the last {{pp|3|10|8|6|1|7|13}} seconds.
+}}
+|{{Ability2
+|targeting='''Granite Shield''' is a passive ability that grants Malphite an [[absorption shield]]
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Malphite IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Seismic Shard
+|icon = SeismicShard.jpg
+|description  = {{sbc|Active:}} Malphite sends a shard of the earth through the ground at his target, dealing magic damage upon impact and slowing them for 4 seconds.
+|description2 = Additionally, Malphite will increase his own movement speed for 4 seconds by the same amount of flat movement speed that the target lost.
+|leveling = {{lcaps|Magic Damage|70|120|170|220|270|(+ 60% AP)}}
+|leveling2 = {{lcap|Movement Speed Stolen|14|17|20|23|26%}}
+|cooldown=8
+|cost={{ap|70|75|80|85|90}}
+|costtype=Mana
+|range=625
+}}
+|{{Ability2
+|targeting='''Seismic Shard''' is a single-targeted ability with a [[self-buff]] component.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*As long as ''Seismic Shard'' impacts its target, Malphite's movement speed is increased for the full duration of 4 seconds even if:
+**The target dies, either to ''Seismic Shard'' or during the slow,
+**The target removes the slow with crowd control removal such as {{si|Cleanse}}.
+**The slow's duration is reduced by [[tenacity]] and other forms of crowd control reduction.
+*The bonus movement speed granted to Malphite is always equal to what amount of movement speed ''Seismic Shard's'' target would have lost from the slow, even if the slow was not applied.
+|video=Malphite QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Brutal Strikes
+|icon = BrutalStrikes.jpg
+|description  = {{sbc|Passive:}} Malphite's basic attacks deal a percentage of his attack damage to enemies within '''200'''-range of the target.
+|description2 = {{sbc|Active:}} For 6 seconds, Malphite increases his armor and attack damage by a percentage.
+|leveling ={{lcaps|Splash Damage|30|38|46|54|62%| AD}}
+|leveling2 = {{lcap|AD & Armor Increase|20|25|30|35|40%}}
+|cooldown=14
+|cost=25
+|costtype=Mana
+}}
+|{{Ability2
+|targeting='''Brutal Strikes''' is a [[self-buff]] ability.
+|damagetype=Physical
+|spelleffects=false
+|onhiteffects=
+|spellshield= Will have no effect.
+|additional=*''Brutal Strikes'' has no cast time and does not interrupt Malphite's previous orders.
+*''Brutal Strikes''' splash damage is amplified by critical strikes.
+|video=Malphite WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Ground Slam
+|icon = GroundSlam.jpg
+|description  = {{sbc|Active:}} Malphite slams the ground, dealing magic damage to enemies within range and reducing their attack speed for 3 seconds.
+|leveling ={{lcapss|Magic Damage|60|100|140|180|220|(+ 30% armor)|(+ 20% AP)}}
+{{lcap|Attack Speed Reduction|30|35|40|45|50%}}
+|range=200
+|cooldown=7
+|cost={{ap|50|55|60|65|70}}
+|costtype=Mana
+}}
+|{{Ability2
+|targeting='''Ground Slam''' is a [[area of effect|point-blank area of effect]] [[debuff]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Malphite EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Unstoppable Force
+|icon = Unstoppable Force.jpg
+|description  = {{sbc|Active:}} Malphite charges to the target location, and on arrival deals magic damage to enemies within '''300'''-range and knocks them into the air for {{fd|1.5}} seconds. Malphite cannot be interrupted during his charge by anything except his own death.
+{{lc|Missile Speed}} 1500 + Malphite's movement speed at time of cast
+|leveling ={{lcaps|Magic Damage|200|300|400|(+ 100% AP)}}
+|cooldown={{ap|130|115|100}}
+|cost=100
+|costtype=Mana
+|range=1000
+}}
+|{{Ability2
+|targeting='''Unstoppable Force''' is a ground targeted [[area of effect]] [[dash]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and knockup.
+|additional=
+*''Unstoppable Force'' applies a stun to enemies hit that expires slightly after the knockup ends.
+*During the dash, Malphite gains [[crowd control]] immunity, but can still take damage.
+|video=Malphite RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Malphite]]
+[[de:Malphite]]
+[[es:Malphite]]
+[[fr:Malphite]]
+[[pl:Malphite]]
+[[pt-br:Malphite]]
+[[ru:Malphite]]
+[[zh:墨菲特]]

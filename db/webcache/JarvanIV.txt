@@ -1,0 +1,151 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Martial Cadence
+|icon =  MartialCadence.jpg
+|description  = Jarvan IV's first basic attack on a target deals {{as|10% of their current health}} as bonus physical damage (caps at 400 damage). 
+|description2 = This effect cannot occur on the same target more than once every {{pp|3|10|8|6|1|7|13}} seconds.
+}}
+|{{Ability2
+|targeting='''Martial Cadence''' is an [[on-hit effect]] ability.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering autoattack will apply other on-hit effects and can [[critical strike|critically strike]] as normal.
+**Unlike most other on-hit physical damage, ''Martial Cadence's'' bonus damage does not apply life steal. This is a special case, perhaps to prevent abuse or for flavor. The triggering attack will still apply life steal.
+**''Martial Cadence's'' bonus damage does not affect structures.
+**''Martial Cadence'' will deal 0.5 points of bonus damage to wards.
+**Critical strikes do not interact with ''Martial Cadence's'' bonus damage.
+**''Martial Cadence'' not be applied if the attack is {{ai|Riposte|Fiora|parried}}, {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, or Jarvan is [[blind]]ed.
+|spellshield=will not block the ability.
+|additional=
+|video=Jarvan IV IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Dragon Strike
+|icon =  DragonStrike.jpg
+|description  = {{sbc|Active:}} Jarvan IV extends his lance in a straight line, dealing physical damage and lowering the armor of all enemies hit for 3 seconds.<br><br>
+If the lance connects with a deployed {{ai|Demacian Standard|Jarvan IV}}, it will pull Jarvan IV to it, knocking up enemies within 180 range along his path for {{fd|0.75}} seconds.
+|leveling ={{lc|Physical Damage}} {{ap|70|115|160|205|250}} {{as|(+ 120% bonus AD)}}
+{{lc|Armor Reduction}} {{ap|10|14|18|22|26%}}
+|cooldown={{ap|10|9|8|7|6}}
+|cost={{ap|45|50|55|60|65}}
+|costtype=mana
+|range=770
+}}
+|{{Ability2
+|targeting='''Dragon Strike''' is a [[skillshot|pass-through linear skillshot]].
+|damagetype=physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+*''Dragon Strike'' will still pull Jarvan IV to his {{ai|Demacian Standard|Jarvan IV}} if he is [[root|immobilized]], though it will not remove the immobilize itself.
+|video=Jarvan IV QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Golden Aegis
+|icon =  GoldenAegis.jpg
+|description  = {{sbc|Active:}} Jarvan IV slows enemies within range for 2 seconds and shields himself for up to 5 seconds. The shield gains strength for each enemy champion within range upon activation.
+|leveling ={{lc|Shield Strength}} {{ap|50|90|130|170|210}} (+ {{ap|20|30|40|50|60 per nearby enemy champion}})
+{{lc|Max Shield Strength}} {{ap|150|240|330|420|510}}
+{{lc|Slow}} {{ap|15|20|25|30|35%}}
+|range=300
+|cooldown={{ap|20|18|16|14|12}}
+|cost=30
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Golden Aegis''' is a [[area of effect|point-blank area of effect slow]] and a self-targeted [[absorption shield]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=Will block the slow.
+|additional=
+*''Golden Aegis'' has no cast time and will not interrupt Jarvan's previous orders.
+|video=Jarvan IV WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Demacian Standard
+|icon =  DemacianStandard.jpg
+|description  = {{sbc|Passive:}} Permanently grants Jarvan IV bonus armor and attack speed.
+|description2 = {{sbc|Active:}}Jarvan IV throws a Demacian flag to the target location, dealing magic damage to enemies within {{tt|75|Estimated}} range. The flag will remain for 8 seconds, granting sight within 700 range and providing an aura that increases the attack speed of allies within {{tt|600|Estimated}} range. 
+|leveling = {{lc|Armor}} {{ap|10|13|16|19|22}}
+{{lc|Attack Speed}} {{ap|10|13|16|19|22%}} 
+|leveling2 ={{lc|Magic Damage}} {{ap|60|105|150|195|240}} {{as|(+ 80% AP)}}
+{{lc|Attack Speed Aura}} {{ap|10|13|16|19|22%}}
+|cooldown=13
+|cost=55
+|costtype=mana
+|range=830
+}}
+|{{Ability2
+|targeting='''Demacian Standard''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+*The attack speed aura bonus will apply to Jarvan IV himself and will stack with the passive bonus.
+*The ''Standard'' can be targeted by allied minion-targetable abilities such as {{si|Teleport}} and {{cai|Safeguard|Lee Sin}}.
+*Although the ''Standard'' has a finite amount of health, it is untargetable to enemy basic attacks and immune to damage from [[area of effect]] abilities, so it is effectively invincible and unable to be destroyed in normal gameplay.
+|video=Jarvan IV EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Cataclysm
+|icon =  Cataclysm.jpg
+|description  = {{sbc|Active:}} Jarvan IV leaps to an enemy champion, dealing physical damage to it and creating a '''325'''-radius circle of impassable terrain around themselves. This circle lasts for {{fd|3.5}} seconds and also grants sight within 825 range. 
+|description2 =Jarvan IV can prematurely destroy the impassable terrain by activating this ability again.
+|leveling ={{lc|Physical Damage}} {{ap|200|325|450}} {{as|(+ 150% bonus AD)}}
+|cooldown={{ap|120|105|90}}
+|cost={{ap|100|125|150}}
+|costtype=mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Cataclysm''' is a [[dash|single target dash]] that creates an impassable wall around Jarvan when he lands.
+|damagetype=physical
+|spelleffects=single
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+*''Cataclysm's'' cooldown takes effect when the ability is first cast, not when Jarvan lands. If Jarvan is killed during the dash and before the terrain is created, the cooldown is not refunded.
+*''Cataclysm'' does not track targets who change their location such as with [[dash]] abilities or {{si|Flash}}.
+*''Cataclysm's'' ring is considered terrain for the purposes of abilities that interact with it such as {{cai|Condemn|Vayne}} and {{cai|Heroic Charge|Poppy}}.
+|video=Jarvan IV RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Twisted Treeline]] and [[Crystal Scar]]
+* {{ai|Martial Cadence|Jarvan IV}}
+** Per-target timer increased to {{ap|10|9|8}} seconds from {{ap|10|8|6}} seconds.
+* {{ai|Dragon Strike|Jarvan IV}}
+** Armor shred reduced to {{ap|10|12|14|16|18}}% from {{ap|10|14|18|22|26}}%.
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Jarvan IV]]
+[[de:Jarvan IV]]
+[[es:Jarvan IV]]
+[[fr:Jarvan IV]]
+[[pl:Jarvan IV]]
+[[pt-br:Jarvan IV]]
+[[ru:Jarvan IV]]
+[[zh:嘉文四世]]

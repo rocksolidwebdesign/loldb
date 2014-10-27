@@ -1,0 +1,144 @@
+{{C-top}}
+{{champion info|Vel'Koz}}{{C-ref}} 
+
+== Abilities ==
+*{{cis|Vel'Koz}} basic attacks do not utilize projectiles. As such, they will not be blocked by {{ai|Wind Wall|Yasuo}} or {{ai|Unbreakable|Braum}}. 
+{{Ability frame|I|
+{{Ability info
+|name        = Organic Deconstruction
+|icon        = Organic Deconstruction.png
+|description = Each of Vel'Koz's damaging abilities apply a stack of [[File:Organic Deconstruction.png|20px]] '''Deconstruction''' to enemy units for 7 seconds, up to a maximum of 3 stacks. Upon reaching 3 stacks, they will detonate and deal {{pp18|35|45|55|65|75|85|95|105|115|125|135|145|155|165|175|185|195|205}} true damage to the enemy unit.
+|description2 = Basic attacks will refresh the duration of the [[File:Organic Deconstruction.png|20px]] '''Deconstruction''' stacks, but will not add additional stacks.
+}}
+|{{Ability2
+|targeting = '''Organic Deconstruction''' is an [[spell effect]] and a [[debuff]] that detonates upon reaching 3 stacks. The stacks' duration can be refreshed [[on-hit]].
+|damagetype   = true
+|spelleffects = single targeted
+|onhiteffects =
+|spellshield  =
+|additional =
+|video=Vel'Koz IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Plasma Fission
+|icon = false
+|description  = {{MiniAbility|icon=Plasma Fission.png|description={{sbc|First Active:}} Vel'Koz fires an energy bolt that deals magic damage and slows the first enemy hit by 70% for a few seconds. The slow decays over the duration. After a brief delay, Vel'Koz can activate ''Plasma Fission'' again.}} {{MiniAbility|icon=Plasma Fission 2.png|description={{sbc|Second Active:}} Vel'Koz splits the energy bolt in two, each in opposite directions perpendicular to the original bolt. Each of the secondary bolts deal magic damage and slow the first enemies they hit, respectively.}}
+|description2 = The initial bolt will split automatically upon reaching maximum range or hitting an enemy unit. 
+|leveling =
+{{lcaps|Magic Damage|80|120|160|200|240|(+ 60% AP)}}
+{{lcap|Slow Duration|1|1.25|1.5|1.75|2}}
+|cost     = {{ap|40|45|50|55|60}}
+|costtype = mana
+|cooldown = 7
+|range    = 1050
+}}
+|{{Ability2
+|targeting = '''Plasma Fission''' is a [[skill shot|linear, colliding skill shot]] that splits into two additional [[skill shot|linear, colliding skill shots]] upon detonation.
+|damagetype   = Magic
+|projectile   = true
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the ability, but will not prevent the split. 
+|additional =
+* An enemy cannot be hit by multiple bolts. If blocked by a spell shield, you still count as having been hit and cannot be hit again.
+* There is a short delay before the ability can be reactivated. While primarily to prevent accidental detonations, it adds a minimum distance travelled of approximately 500 units.
+* 1050 is the maximum distance that each bolt can travel. Factoring in the split, ''Plasma Fission'' can hit targets up to 1485 units away.
+|video=Vel'Koz QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Void Rift
+|icon = Void Rift.png
+|description  = Vel'Koz stores a charge of ''Void Rift'' every few seconds and can store up to 2 charges. The recharge time is affected by cooldown reduction.
+|description2 = {{sbc|Active:}} Vel'Koz opens a rift to the void that cuts through the ground in a line, dealing magic damage and leaving behind a trail. {{tt|After a 0.25 second delay|Starting once the entire trail has been drawn.}}, the entire trail detonates, dealing magic damage to enemies standing upon it.
+|leveling  =
+{{lcap|Recharge Time|19|18|17|16|15}}
+|leveling2 =
+{{lcaps|Initial Magic Damage|30|50|70|90|110|(+ 25% AP)}}
+{{lcaps|Detonation Magic Damage|45|75|105|135|165|(+ {{fd|37.5%}} AP)}}
+{{lcaps|Maximum Damage|75|125|175|225|275|(+ {{fd|62.5%}} AP)}}
+|cost={{ap|50|55|60|65|70}}
+|costtype = mana + 1 charge
+|static   ={{fd|1.5}}
+|range    = 1050
+}}
+|{{Ability2
+|targeting = '''Void Rift''' is a [[skill shot|linear, pass-through skill shot]] that leaves behind a trail. The trail detonates after a short delay, dealing damage as a [[area of effect|linear area of effect]].
+|damagetype   = Magic
+|projectile   = true
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block one component of the ability.
+|additional =
+* Both damage portions will apply {{ai|Organic Deconstruction|Viktor}} stacks.
+* ''Void Rift'' utilizes a [[Ability#Ability types|stock system]].
+* It is not possible to have more than one ''Void Rift'' active at a time. 
+* Vel'Koz can cast ''Void Rift'' while moving, but not while attacking.
+|video=Vel'Koz WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Tectonic Disruption
+|icon = Tectonic Disruption.png
+|description = {{sbc|Active:}} Vel'Koz hurls an anomaly at the target location. When it lands, it collapses, dealing magic damage and suspending enemies hit for {{fd|0.75}} seconds. Enemies close to Vel'Koz at the time of impact are also slightly knocked back.
+|leveling = {{lcaps|Magic Damage|70|100|130|160|190|(+ 50% AP)}}
+|cost     = {{ap|50|55|60|65|70}}
+|costtype = mana
+|cooldown = {{ap|16|15|14|13|12}}
+|range    = 850
+}}
+|{{Ability2
+|targeting = '''Tectonic Disruption''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype   = Magic
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the ability.
+|additional =
+* '''Suspension''' is a sub-type of [[Types of Crowd Control#Stun|Stun]], not a sub-type of [[Types of Crowd Control#Airborne|Airborne]]. As such, it is affected by crowd control reduction and can be removed.
+* The direction of the knockback is relative to point of cast, not Vel'Koz's position at the time of impact. 
+* The time required for ''Tectonic Disruption'' to land is continuous, roughly {{fd|0.5}} seconds, meaning the travel time is not dependent on how far from Vel'Koz the spell is cast.
+|video=Vel'Koz EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Lifeform Disintegration Ray
+|icon = Life Form Disintegration Ray.png
+|description  = {{sbc|Active:}} Vel'Koz roots himself in place and unleashes a disintegrating energy beam forward in a line, damaging all enemies caught in its wake in {{fd|0.25}} second intervals and slowing them by 20% for 1 second.
+|description2 = The ray's trajectory will update over the duration to face the cursor and will end after {{fd|2.5}} seconds have elapsed, by being interrupted or if Vel'Koz recasts the ability.
+|description3 = {{ai|Organic Deconstruction|Vel'Koz}} can not be applied more frequently than once every {{fd|0.5}} seconds. 
+|leveling = {{lcaps|Maximum Damage|500|700|900|(+ 60% AP)}}
+|cost     = 100
+|costtype = mana
+|cooldown = {{ap|130|110|90}}
+|range    = 1550
+}}
+|{{Ability2
+|targeting = '''Lifeform Disintegration''' is an [[area of effect|linear area of effect]] whose trajectory can be updated over the duration.
+|damagetype   = Magic
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = will only block one interval of damage.
+|additional =
+* ''Lifeform Disintegration Ray's'' trajectory does not update instantly should you move the cursor from one side of Vel'Koz to the other - it rotates gradually.
+* The damage dealt at each interval is not regular. The pattern for the damage appears to be X, X, 2X, repeat.
+|video=Vel'Koz RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+[[es:Vel'Koz]]
+[[cs:Vel'Koz]]
+[[de:Vel'Koz]]
+[[fr:Vel'Koz]]
+[[pl:Vel'Koz]]

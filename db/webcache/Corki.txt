@@ -1,0 +1,137 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Hextech Shrapnel Shells
+|icon = HextechShrapnelShells.jpg
+|description = Corki's basic attacks deal additional true damage equal to {{as|10% of his attack damage}}. This bonus damage is not affected by critical hits, nor can it damage structures.
+}}
+|{{Ability2
+|targeting='''Hextech Shrapnel Shells''' passively grants an [[on-hit effect]].
+|damagetype=true
+|spelleffects=
+|onhiteffects=Triggering attacks will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes will not interact with ''Hextech Shrapnel Shell's'' bonus damage.
+** The bonus damage will not apply to structures.
+** The bonus damage will not apply if the auto attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Riposte|Fiora|parried}}, or if the attack [[blind|misses]]. 
+|spellshield=
+|additional=
+|video=Corki IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Phosphorus Bomb
+|icon = PhosphorusBomb.jpg
+|description = {{sbc|Active:}} Corki launches a bomb at a target '''250'''-radius area, granting sight of the location as it travels and for 6 seconds afterward. Enemies within the area take magic damage and Corki gains sight of them for 6 seconds. 
+|leveling = {{lc|Magic Damage}} {{ap|80|130|180|230|280}} {{as|(+50% bonus AD)}} {{as|(+ 50% AP)}}
+|range    = 825
+|cooldown = 8
+|cost     = {{ap|60|70|80|90|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Phosphorus Bomb''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* Lobs a bomb through the air that explodes at the targeted location.
+* ''Phosphorous Bomb'' grants standard sight, which does not reveal stealth, and additionally grants vision while the missile is in the air.
+|video=Corki QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Valkyrie
+|icon = Valkyrie.jpg
+|description = {{sbc|Active:}} Corki flies to a target location at 650 speed, dropping bombs that leave up to 4 blazing patches along his path, depending on his distance traveled. The fire lasts for 2 seconds, dealing magic damage to enemies that remain in the area every {{fd|0.5}} seconds, for a maximum of 5 ticks of damage.
+|leveling = {{lc|Magic damage Per Second}} {{ap|60|90|120|150|180}} {{as|(+ 40% AP)}}
+{{lc|Max damage}} {{ap|150|225|300|375|450}} {{as|(+ 100% AP)}}
+|range    = 800
+|cooldown = {{ap|26|23|20|17|14}}
+|cost     = 50
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Valkyrie''' is a [[dash|linear dash]]. 
+|damagetype=magic
+|spelleffects=damage over time
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+* The trail is made up of three individual area of effects, unlike the trails of champions such as {{ci|Singed}} and {{ci|Shyvana}} which leave a more fluid trail. 
+|video=Corki WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Gatling Gun
+|icon = GatlingGun.jpg
+|description = {{sbc|Active:}} Corki activates his gatling gun, spraying bullets in a '''35°''' cone in front of him for 4 seconds. Enemies inside the cone take physical damage and have their armor reduced by a stacking amount every {{fd|0.5}} seconds they remain in the gunfire.<br><br>
+''Gatling Gun'' does not hinder Corki's actions, and its cone will remain in front of him as he moves.
+|leveling = {{lc|Physical damage Per Second}} {{ap|20|32|44|56|68}} {{as|(+ 40% bonus AD)}}
+{{lc|Max damage}} {{ap|80|128|176|224|272}} {{as|(+ 160% bonus AD)}}
+{{lc|Armor reduction Per Second}} {{ap|2|4|6|8|10}}
+{{lc|Max reduction}} {{ap|8|16|24|32|40}}
+|range    = 600
+|cooldown = 16
+|cost     = 50
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Gatling Gun''' is a [[area of effect|conic area of effect]].
+|damagetype=physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+|video=Corki EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Missile Barrage
+|icon = MissileBarrage.jpg
+|description = {{sbc|Active:}} Corki fires a missile in a line that explodes if it hits an enemy, dealing magic damage to all enemies within '''75''' range. <br><br>
+Corki reloads a missile every few seconds, up to a maximum of 7 stored at once; this reload time is affected by cooldown reduction. Upon death, Corki will respawn with 4 missiles.
+|description2 = {{sbc|Big One:}} Every third missile Corki fires becomes a ''Big One'', dealing 50% additional damage and doubling its explosion range to 150.
+|leveling = {{lc|Magic Damage}} {{ap|100|180|260}} {{as|(+ 30% AP)}} {{as|(+ {{ap|20|30|40}}% AD)}}
+{{lc|Missile Reload Time}} {{ap|12|10|8}}
+|leveling2= {{lc|Big One Magic Damage}} {{ap|150|270|390}} {{as|(+ 45% AP)}} {{as|(+ {{ap|30|45|60}}% AD)}}
+|range    = 1225
+|static   = 2
+|cost     = 20
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Missile Barrage''' is a [[skill shot|linear, colliding skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage. 
+|additional=
+|video=Corki RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Corki]]
+[[de:Corki]]
+[[es:Corki]]
+[[fr:Corki]]
+[[pl:Corki]]
+[[pt-br:Corki]]
+[[ru:Corki]]
+[[zh:库奇]]

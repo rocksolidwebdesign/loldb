@@ -1,0 +1,147 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}
+{{C-ref}}
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name         = Glory in Death
+|icon         = Glory in Death.png
+|description  = Upon taking fatal damage, '''Sion''' briefly becomes invulnerable then enters a frenzy, restoring himself to full health but begins to drain a percentage of his maximum health per second, draining faster the longer he is alive. '''Sion''' can freely move and attack during this time, gaining 100% [[lifesteal]], attacking at {{fd|1.75}} [[attack speed]] and dealing {{as|10% of his target's maximum health}} as on-hit physical damage (''capped at 75 bonus damage against monsters'').
+|description2 = Additionally, '''Sion''' gains the ability to cast {{ai|Death Surge|Sion}} using any learned ability. 
+}}
+{{Ability info
+|name         = Death Surge
+|icon         = Death Surge.png
+|description  = {{sbc|Active:}} '''Sion''' gains 50% bonus [[movement speed]] that decays over {{fd|1.5}} seconds. 
+|static       = 100
+}}
+|{{Ability2
+|targeting    ='''Glory in Death''' is a [[buff|self-buff]] ability, which triggers upon Sion's [[death]].
+<br/>'''Death Surge''' is a [[buff|self-buff]] ability.
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional   = 
+*Sion can cast item actives during "Glory in Death".
+* The attack speed granted by ''Glory in Death'' isn't additive with Sion's base attack speed: it sets his attack speed to a '''static''' number. If Sion's standard attack speed exceeds {{fd|1.75}} attacks per second, ''Glory in Death'' will actually '''decrease''' his attack speed.
+* Sion's death timer will begin to tick down when he is first killed, not when ''Glory in Death's'' reanimation expires.
+* The cooldown of ''Death Surge'' is refreshed upon triggering ''Glory in Death'', meaning it is always available to cast at least once. Realistically, it is unlikely that a reanimated Sion will survive to cast ''Death Surge'' more than once.
+* Sion cannot use [[summoner spells]] while in the ''Glory in Death'' state.
+* ''Glory in Death'' will still trigger if Sion is killed by the [[Nexus Obelisk]].
+* ''Glory in Death'' occupies a low priority for effects that trigger upon death: it will always trigger '''after''' effects such as {{iis|Guardian Angel}} or {{cai|Omen of Death|Yorick}}.
+* {{cai|Children of the Grave|Mordekaiser}} will spawn its ghost only if Sion dies in both normal state and ''Glory in Death'' state while under its effect.
+|video       = Sion IVideo
+}}}}
+
+{{Ability frame|Q|
+{{Ability info
+|name         = Decimating Smash
+|icon         = Decimating Smash.png
+|description  = {{sbc|First Cast:}} '''Sion''' starts channeling, increasing the damage of ''Decimating Smash'' over the next 2 seconds. If Sion's channel is interrupted by crowd control, ''Decimating Smash'' will have a reduced cooldown.
+|description2 = {{sbc|Second Cast:}} '''Sion''' smashes his axe into the ground, dealing physical damage in an area in front of himself and briefly slowing enemies hit. If he charges ''Decimating Smash'' for at least 1 second, enemies hit will be knocked up for {{fd|1.25}} seconds, up to {{fd|2.25}} if ''Decimating Smash'' is fully channeled. If Sion casts ''Decimating Smash'' before 1 second, he will slow whomever he hits instead. Minions take 60% damage.
+|leveling2    =
+{{lc|Minimum Physical Damage}} {{ap|20|40|60|80|100}} {{as|(+ 60% AD)}}
+{{lc|Maximum Physical Damage}} {{ap|60|120|180|240|300}} {{as|(+ 180% AD)}}
+|range        = X
+|cooldown     = {{ap|10|9|8|7|6}}
+|cost         = {{ap|50|55|60|65|70}}
+|costtype     = mana
+}}
+|{{Ability2
+|targeting='''Decimating Smash''' is a channeled [[area of effect]] that deals physical damage and can either slow or knock-up enemies.
+|spelleffects = aoe
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional   =
+|video        = Sion QVideo
+}}}}
+
+{{Ability frame|W|
+{{Ability info
+|name         = Soul Furnace
+|icon         = Soul Furnace.png
+|description  = {{sbc|Passive:}} '''Sion''' permanently gains 2 bonus [[health]] whenever he kills a unit, increased to 8 against large units and champion kills and assists.
+|description2 = {{sbc|Active:}} '''Sion''' surrounds himself with a shield that absorbs damage for up to 6 seconds. After 2 seconds, ''Soul Furnace'' can be recast to detonate the shield if it hasn't been destroyed, dealing magic damage to all nearby enemies. Bonus damage from the target's maximum health is capped at 400 against minions and monsters. The shield will detonate automatically if it persists for the full 6 seconds. 
+|description3 = ''Soul Furnace'' can be activated and detonated while using any of his abilities. 
+|leveling2    = 
+{{lc|Shield Strength}} {{ap|30|55|80|105|130}} {{as|(+ 40% AP)}} {{as|(+ 10% of maximum health)}}
+{{lc|Magic Damage}} {{ap|40|65|90|115|140}} {{as|(+ 40% AP)}} {{as|(+ {{ap|10|11|12|13|14}}% of target's maximum health)}}
+|range        = 550
+|cooldown     = 13 seconds after shield expires
+|cost         = {{ap|70|75|80|85|90}}
+|costtype     = mana
+}}
+|{{Ability2
+|targeting    = '''Soul Furnace's''' ''Passive'' is a [[buff|self-buff]].
+'''Soul Furnace's''' ''Active'' is both a self-targeted and [[area of effect]] ability.
+|damagetype   = magic
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the damage.
+|additional   =
+*The health bonus can be triggered by killing an enemy unit with any of Sion's damage sources, including autoattacks, champion abilities, summoner spells and item actives.
+*Both the initial cast and shield detonation have no cast time and do not interrupt Sion's previous orders. 
+|video=Sion WVideo
+}}}}
+
+{{Ability frame|E|
+{{Ability info
+|name         = Roar of the Slayer
+|icon         = Roar of the Slayer.png
+|description  = {{sbc|Active:}} '''Sion''' bellows in the target direction, dealing magic damage to the first enemy he hits, as well as slowing it and reducing its armor by 20% for {{fd|2.5}} seconds.
+|description2 = If the target is not a champion, it will be knocked back X units - dealing 150% damage to all enemies it passes through and slowing them by the same amount for {{fd|2.5}} seconds. Minions and monsters cannot be knocked through terrain.
+|leveling     = {{lc|Magic Damage}} {{ap|70|105|140|175|210}} {{as|(+ 40% AP)}}
+{{lc|Slow}} {{ap|40|45|50|55|60%}}
+|leveling2    = {{lc|Increased Damage}} {{ap|105|157.5|210|262.5|315}} {{as|(+ 60% AP)}}
+|range        = X
+|cooldown     = {{ap|12|11|10|9|8}}
+|cost         = 25
+|costtype     = mana
+}}
+|{{Ability2
+|targeting    = '''Roar of the Slayer''' is primarily a [[skill shot|linear, colliding skillshot]], but if the first unit struck is not a champion, it becomes an [[area of effect]] ability.
+|damagetype   = magic
+|projectile   = true
+|spelleffects = aoe
+|onhiteffects =
+|spellshield  = will block the ability
+|additional   =
+|video        = Sion EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name         = Unstoppable Onslaught
+|icon         = Unstoppable Onslaught.png
+|description  = {{sbc|First Cast:}} A distinct sound is heard by all players (like Nocturne's ultimate) and '''Sion''' begins charging in the target direction for up to 8 seconds, during which time he cannot cast abilities nor attack, but is immune to all crowd control effects. '''Sion's''' trajectory will update toward the mouse cursor over the duration, but his rotation speed is significantly slow. 
+|description2 = If '''Sion''' collides with an enemy champion or terrain, charges for the full 8 seconds, or recasts the ability, he will slam the ground with earth-shattering force, dealing physical damage and knocking up enemies nearby enemies, while slowing enemies further away. The damage and crowd control duration increase over the first few seconds of the charge, capping at 200% damage and {{fd|1.75}} seconds respectively.
+|leveling2    = 
+{{lc|Minimum Physical Damage}} {{ap|150|300|450}} {{as|(+ 40% bonus AD)}}
+{{lc|Maximum Physical Damage}} {{ap|300|600|900}} {{as|(+ 80% bonus AD)}}
+|cooldown     = {{ap|140|100|60}}
+|cost         = 100
+|costtype     = mana
+}}
+|{{Ability2
+|targeting    = '''Unstoppable Onslaught''' is an [[area of effect]] ability.
+|spelleffects = aoe
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional   =
+* ''Unstoppable Onslaught'' takes into account impassable player-created terrain such as {{cai|Cataclysm|Jarvan IV}} {{cai|Crystallize|Anivia}}, {{cai|Emperor's Divide|Azir}} and {{cai|Pillar of Ice|Trundle}}.
+* While ''Unstoppable Onslaught'' is active, Sion's [[movement speed]] is capped at 950.
+|video=Sion RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Sion]]
+[[de:Sion]]
+[[es:Sion]]
+[[fr:Sion]]
+[[pl:Sion]]
+[[pt-br:Sion]]
+[[ru:Sion]]
+[[zh:赛恩]]

@@ -1,0 +1,144 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Visionary
+|icon=Visionary.jpg
+|description= After 5 autoattacks, Nunu's next ability costs no mana.
+}}
+|{{Ability2
+|targeting='''Visionary''' is a [[self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Consume
+|icon=Consume.jpg
+|description={{sbc|Active:}} Nunu commands his yeti to take a bite out of target enemy [[minion]] or neutral [[monster]], dealing true damage to it and restoring Nunu's health. 
+|description2=Nunu gains a bonus depending on what Willump consumed. Consume does not need to score the killing blow to trigger the bonuses and the individual bonuses stack.
+
+{{lc|Rough Rock Candy}} {{ci|Golem|Golems}} of any size
+** Nunu increases his maximum health and size by 10%. 
+{{lc|Ornery Monster Tails}} {{ci|Young Lizard|Reptiles}} of any size, including {{ci|Dragon}}, {{ci|Vilemaw}} and {{ci|Baron Nashor|Baron}}.
+** Nunu's attacks and spells deal {{as|1% of his maximum health}} as bonus magic damage. 
+{{lc|Spooky Mystery Meat}} {{ci|Wraith|Wraiths}} and {{ci|Wolf|wolves}} of any size.
+** Killing a unit grants Nunu 15% bonus movement speed for 3 seconds.
+|leveling={{lcap|True Damage|400|550|700|850|1000}}
+{{lcaps|Health Restored|70|115|160|205|250|(+ 75% AP)}}
+|leveling2={{lcap|Bonus Duration|120|150|180|210|240}}
+|cooldown={{ap|13|12|11|10|9}}
+|cost=60
+|costtype=mana
+|range=125
+}}
+|{{Ability2
+|targeting='''Consume''' is a targeted ability that can only be used on [[minions]], [[monsters]] and [[pets]] with a [[buff|self-buff]] component.
+|damagetype=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=
+|additional=
+*''Consume'' cannot be used on champions, with the sole exception being that it can kill the blobs made from {{ai|Cell Division|Zac}}.
+**''Consume'' can, however, be used on champion clones such as those from {{ai|Mirror Image|LeBlanc}} and {{ai|Hallucinate|Shaco}}. 
+*''Consume's'' heal is independent of its damage. If the damage is prevented or blocked by an absorption shield such as {{ai|Intervention|Kayle}}, Nunu will still be healed.
+*''Consume'' can be used on certain pets such as {{cai|H-28G Evolution Turret|Heimerdinger}} and {{cai|Jack In The Box|Shaco}}.
+|video=Nunu QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Blood Boil
+|icon=Blood Boil.jpg
+|description={{sbc|Active:}} Invigorates an allied unit by heating their blood, increasing their attack speed and movement speed for 12 seconds. If cast on an ally, Nunu also gains the effect of ''Blood Boil''.
+|leveling={{lcap|Attack Speed|25|30|35|40|45%}}
+{{lcap|Movement Speed|8|9|10|11|12%}}
+|cooldown=15
+|cost=50
+|costtype=mana
+|range=700
+}}
+|{{Ability2
+|targeting='''Blood Boil''' is an ally-targeted [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Blood Boil'' can be used on any allied unit, including [[champions]], [[minions]] and [[pets]].
+|video=Nunu WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Ice Blast
+|icon=Ice Blast.jpg
+|description={{sbc|Active:}} Nunu throws a ball of ice at an enemy unit, dealing magic damage and slowing their movement speed by a percentage and attack speed by 25% for 3 seconds.
+|leveling={{lcaps|Magic damage|85|130|175|225|275|(+ 100% AP)}}
+{{lcap|Slow|20|30|40|50|60%}}
+|cooldown=6
+|cost={{ap|75|85|95|105|115}}
+|costtype=mana
+|range=550
+}}
+|{{Ability2
+|targeting='''Ice Blast''' is a single targeted ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Nunu EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Absolute Zero
+|icon=Absolute Zero.jpg
+|description={{sbc|Active:}} Nunu starts channeling and begins to sap a large area around him of heat, slowing all nearby enemies movement speed by 50% and attack speed by 25%.
+|description2=After channeling for 3 seconds, he deals massive damage to all enemies caught in the area. 
+|description3=If the channel is cancelled or interrupted early, it will deal between {{fd|12.5%}} and {{fd|87.5%}} damage, depending on how long it was channeled before being cancelled.
+|leveling2={{lcaps|Magic damage|625|875|1125|(+250% AP)}}
+|leveling3={{lcaps|Minimum Interrupted Magic damage|78.125|109.375|140.625|(+ 31.25% AP)}}
+{{lcaps|Maximum Interrupted Magic damage|546.875|765.625|984.375|(+ 218.75% AP)}}
+|cooldown={{ap|110|100|90}}
+|cost=100
+|costtype=mana
+|range=650
+}}
+|{{Ability2
+|targeting='''Absolute Zero''' is a [[channel]]ed [[area of effect|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*The reduced damage of the ability scales linearly with channel time <ref>[http://na.leagueoflegends.com/board/showthread.php?t=2325425 Reduced Damage of Absolute Zero]</ref>. For example, cancelling after 1.5 seconds will deal around 50% of the full damage, cancelling after 0.1 seconds will deal around 12.5%, and cancelling after 2.9 seconds will deal around 87%. 
+*''Absolute Zero's'' area of effect is only visible to enemies if they have vision of Nunu. If he is in the [[Fog of War]] or in [[brush]] while channeling, enemies will not see the spell animation but they can still be affected by it. 
+|video=Nunu RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Nunu]]
+[[de:Nunu]]
+[[es:Nunu]]
+[[fr:Nunu]]
+[[pl:Nunu]]
+[[pt-br:Nunu]]
+[[ru:Nunu]]
+[[zh:努努]]

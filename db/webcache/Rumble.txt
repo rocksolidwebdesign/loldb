@@ -1,0 +1,156 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+Rumble's abilities have no cost related to them, and the use of his abilities is only limited by cooldowns. Instead, he uses '''HEAT''' as his secondary resource. Rumble starts with '''0 HEAT''', and it caps at 100.
+
+While not overheated, after 4 seconds of not using his basic abilities he will start losing '''HEAT''' at a rate of '''10 HEAT''' per second, then at a rate of '''20 HEAT''' per second {{fd|2.5}} seconds later.
+
+{{Ability frame|I
+|{{Ability info
+|name = Junkyard Titan
+|icon = Junkyard Titan.png
+|description = Rumble's basic abilities generate '''20 HEAT''' when used. 
+{{MiniAbility|icon=Junkyard Titan 2.png|description=<span style="color:yellow">{{sbc|Danger Zone}}</span> - '''50-99 HEAT''': Rumble's basic abilities temporary have enhanced effects.}} {{MiniAbility|icon=Junkyard Titan 3.png|description=<span style="color:orange">{{sbc|Overheating}}</span> - '''100 HEAT''': Rumble's spells are disabled for 6 seconds, but his basic attacks deal an additional 20{{plus}}(5{{times}}''Rumble's level'') {{as|(+ 25% AP)}} magic damage over the duration. Rumble's Heat resets to 0 after the effect ends.}}
+}}
+|{{Ability2
+|targeting = '''Junkyard Titan''' is composed of two separated effects.
+* '''Danger Zone''' is both a [[Damage_Modifier#Damage_dealt_modifier|damage modifier]] and [[spell effect]] ability.
+* '''Overheat''' is both a [[debuff|Self-debuff]] and [[On-hit_effects#Non-Physical_Damage|non-physical]] [[on-hit effect]] ability.
+|damagetype   = magic
+|spelleffects = false
+|onhiteffects = The triggering attacks will apply other [[on-hit effects]] and can critically strike as normal.
+** ''Junkyard Titan's'' damage does not interact with [[critical strike]].
+** ''Junkyard Titan'' will not be applied if Rumble is [[blind]]ed or if his attacks are {{ai|Riposte|Fiora|parried}}, {{ai|Counter Strike|Jax|dodged}} or {{ai|Aegis Protection|Pantheon|blocked}}.
+** ''Junkjard Titan's'' damage does not affect structures.
+|spellshield  = will not block the on-hit effect.
+|additional =
+* Although it visually appears as and is termed a [[silence]], overheating does not prevent Rumble from using [[summoner spells]] or [[item]] actives, only his own spells. The exception is the second cast of {{ai|Electro-Harpoon|Rumble}}, assuming the first cast overheats him.
+* The duration of the silence cannot be reduced by absolutely '''any''' means. This includes [[Named item effect#Tenacity|Tenacity]] such as from {{ii|Mercury's Treads}} or CC removal such as [[Named item effect#Quicksilver|Quicksilver]].
+|video=Rumble IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Flamespitter
+|icon = Flamespitter.png
+|description  = {{sbc|Active:}} Rumble activates his flamethrower for 3 seconds, dealing magic damage every {{fd|0.5}} seconds to enemy units in a cone in front of him (''half to minions and neutral monsters'') <!-- I'll check about neutral monsters. Rumble's profile page said that! -->. Rumble can perform other actions while ''Flamespitter'' is active.
+|description2 = <span style="color:yellow">{{sbc|[[File:Junkyard Titan 2.png|20px|link=Rumble#Junkyard Titan]] Danger Zone:}}</span> ''Flamespitter's'' damage is increased by 50%.
+|leveling  =
+{{lc|Magic Damage Per Second}} {{ap|25|45|65|85|105}} {{as|(+ 33% AP)}}
+{{lc|Total Magic Damage}} {{ap|75|135|195|255|315}} {{as|(+ 100% AP)}}
+|leveling2 =
+{{lc|Enhanced Magic Damage Per Second}} {{ap|37.5|67.5|97.5|127.5|157.5}} {{as|(+ 50% AP)}}
+{{lc|Total Enhanced Magic Damage}} {{ap|112.5|202.5|292.5|382.5|472.5}} {{as|(+ 150% AP)}}
+|cooldown  = 6
+|range     = 600
+}}
+|{{Ability2
+|targeting = '''Flamespitter''' is a [[area of effect|conic area of effect]] ability.
+|damagetype   = magic
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will not block the ability.
+|additional =
+* ''Flamespitter'' has no cast time and does not interrupt Rumble's previous orders.
+|video=Rumble QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Scrap Shield
+|icon = Scrap Shield.png
+|description  = {{sbc|Active:}} Rumble pulls up a shield, protecting him from damage for up to 2 seconds. In addition, he gains a quick burst of speed for 1 second.
+|description2 = <span style="color:yellow">{{sbc|[[File:Junkyard Titan 2.png|20px|link=Rumble#Junkyard Titan]] Danger Zone:}}</span> ''Scrap Shield's'' effects are increased by 50%.
+|leveling  =
+{{lc|Shield Strength}} {{ap|50|80|110|140|170}} {{as|(+ 40% AP)}}
+{{lc|Movement Speed}} {{ap|10|15|20|25|30%}}
+|leveling2 =
+{{lc|Enhanced Shield Strength}} {{ap|75|120|165|210|255}} {{as|(+ 60% AP)}}
+{{lc|Enhanced Movement Speed}} {{ap|15|22.5|30|37.5|45%}}
+|cooldown  = 6
+}}
+|{{Ability2
+|targeting = '''Scrap Shield''' is a [[buff|self-buff]] ability.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+* '''Scrap Shield''' has no cast time and does not interrupt Rumble's previous orders.
+|video=Rumble WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Electro-Harpoon
+|icon = false
+|description  =
+{{MiniAbility|icon=Electro-Harpoon.png|description={{sbc|First Cast:}} Rumble shoots a taser that deals magic damage and applies a slow on the first enemy it hits for 3 seconds. A second shot can be fired for no additional cost within the next 3 seconds, even if Rumble [[File:Junkyard Titan 3.png|20px|link=Rumble#Junkyard Titan]] <span style="color:orange">overheats</span>.}} {{MiniAbility|icon=Electro-Harpoon 2.png|description={{sbc|Second Cast:}} Same effects as the {{ai|Electro-Harpoon|Rumble|first active}}. If both tasers hit the same target, the slow duration is refreshed and its movement speed reduction is doubled.}}
+|description2 = <span style="color:yellow">{{sbc|[[File:Junkyard Titan 2.png|20px|link=Rumble#Junkyard Titan]] Danger Zone:}}</span> ''Electro-Harpoon's'' effects are increased by 50%.
+|leveling  =
+{{lc|Magic Damage}} {{ap|45|70|95|120|145}} {{as|(+ 40% AP)}}
+{{lc|Total Magic Damage}} {{ap|90|140|190|240|290}} {{as|(+ 80% AP)}}
+{{lc|Slow}} {{ap|15|20|25|30|35%}}
+{{lc|Max. Slow}} {{ap|30|40|50|60|70%}}
+|leveling2 =
+{{lc|Enhanced Damage}} {{ap|67.5|105|142.5|180|217.5}} {{as|(+ 60% AP)}}
+{{lc|Enhanced Total Damage}} {{ap|135|210|285|360|435}} {{as|(+ 120% AP)}}
+{{lc|Enhanced Slow}} {{ap|22.5|30|37.5|45|52.5%}}
+{{lc|Enhanced Max. Slow}} {{ap|45|60|75|90|105%}}
+|cooldown  = 10
+|range     = 850
+}}
+|{{Ability2
+|targeting = '''Electro-Harpoon''' is a [[skill shot|collision linear skill shot]].
+|damagetype   = magic
+|projectile   = true
+|spelleffects = single
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional =
+* Unlike all other forms of [[Movement_speed#Slow_stacking|slow stacking]], two harpoons on the same target will have their slows calculated '''''additively'''''.
+** Movement speed cannot be reduced below 110, and that slows that would reduce below 220 are modified. To put it another way: a reduction of 105% will not reduce you to 0 movement speed, but rather it will reduce you closer to 110 than a weaker slow would.
+* Each cast counts as a separate spellcast for the purposes of abilities such as {{ai|Force Pulse|Kassadin}} and {{ii|Sheen}}.
+|video=Rumble EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = The Equalizer
+|icon = The Equalizer.png
+|description = {{sbc|Active:}} Rumble calls down a line of rockets over a {{tt|1000|Estimated}}-length area, using a click and drag targeting system. The rockets leave a trail of destruction for 5 seconds, dealing magic damage every second and slowing all enemies standing on the area by 35%.
+|leveling =
+{{lc|AoE Damage Per Second}} {{ap|130|185|240}} {{as|(+ 30% AP)}}
+{{lc|Total Magic Damage}} {{ap|650|925|1200}} {{as|(+ 150% AP)}}
+|cooldown = {{ap|105|90|75}}
+|range    = 1700
+}}
+|{{Ability2
+|targeting = '''The Equalizer''' is a [[skill shot|vector-targeted linear skill shot]].
+|damagetype   = magic
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will not block the ability.
+|additional =
+* The rockets land over a 1 second duration.
+|video=Rumble RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Rumble]]
+[[de:Rumble]]
+[[es:Rumble]]
+[[fr:Rumble]]
+[[pl:Rumble]]
+[[pt-br:Rumble]]
+[[ru:Rumble]]
+[[zh:兰博]]

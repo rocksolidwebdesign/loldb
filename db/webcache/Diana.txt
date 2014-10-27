@@ -1,0 +1,141 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Moonsilver Blade
+|icon = Moonsilver Blade.jpg
+|description = Every 3<sup>rd</sup> attack cleaves nearby enemies for {{pp18|20|25|30|35|40|50|60|70|80|90|105|120|135|155|175|200|225|250}} (''15{{plus}}{{ap|{{tt|5|Damage increase at levels 1-5}}|{{tt|10|Damage increase at levels 6-10}}|{{tt|15|Damage increase at levels 11-13}}|{{tt|20|Damage increase at levels 14-15}}|{{tt|25|Damage increase at levels 16-18}}}} at each level'') {{as|(+ 80% AP)}} magic damage. The counter will reset if Diana hasn't attacked for {{fd|3.5}} seconds.
+|description2= In addition, Diana permanently has 20% bonus attack speed.
+}}
+|{{Ability2
+|targeting='''Moonsilver Blade''' is a passive ability with two separated effects, granting Diana a permanent passive [[attack speed]] [[buff]] and her autoattacks generate stacks on-hit. At 2 stacks, Diana gains an [[on-hit effect]] which deals damage in a [[area of effect|point blank area of effect]].
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=
+* The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes will not interact with ''Moonsilver Blade's'' damage.
+** ''Moonsilver Blade'' will damage structures, but deals only 50% damage. 
+** {{Pending for test}} Diana will not generate stacks or consume the empowered attack if her autoattacks are {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Riposte|Fiora|parried}}, or if the attack [[blind|misses]]. 
+|spellshield=Will block the damage.
+|additional=
+* Diana's target is guaranteed to take the damage, even if they flash out of range before the attack completes (''and visually aren't within the area of effect''). 
+* Unlike similar effects, such as {{ai|Double Strike|Master Yi}} and {{ai|Headshot|Caitlyn}}, there is no visible counter. However, each of the three attacks in the cycle has a distinct animation and her blade will glow when the empowered attack is ready. 
+* The area of effect is centered on Diana - not her target. 
+|video=Diana IVideo
+}}}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Crescent Strike
+|icon = Crescent Strike.jpg
+|description = {{sbc|Active:}} Diana unleashes a bolt of lunar energy that travels in an arc. Enemies struck take magic damage and are afflicted with ''Moonlight'', granting sight of them for 3 seconds.
+|leveling = {{lc|Magic Damage}} {{ap|60|95|130|165|200}} {{as|(+ 70% AP)}}
+|range = 830
+|cooldown = {{ap|10|9|8|7|6}}
+|cost = 55
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Crescent Strike''' is a [[skill shot|curved, pass-through skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the damage and Moonlight debuff.
+|additional=
+* ''Moonlight'' grants standard sight, and does not reveal stealthed units.
+|video=Diana QVideo
+}}}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Pale Cascade
+|icon = Pale Cascade.jpg
+|description = {{sbc|Active:}} Diana gains a temporary [[absorption shield]] and creates three spheres that orbit her, both for up to 5 seconds. The spheres detonate on contact with an enemy unit, dealing magic damage to all nearby enemies.
+|description2 = If all three spheres detonate, the shield is reapplied and the duration is refreshed. This second shield stacks with the original shield.
+|leveling =
+{{lc|Magic Damage per Orb}} {{ap|22|34|46|58|70}} {{as|(+ 20% AP)}}
+{{lc|Max Magic Damage}} {{ap|66|102|138|174|210}} {{as|(+ 60% AP)}}
+|leveling2 = 
+{{lc|Shield Strength}} {{ap|40|55|70|85|100}} {{as|(+ 30% AP)}}
+{{lc|Max Shield Strength}} {{ap|80|110|140|170|200}} {{as|(+ 60% AP)}}
+|range = 200
+|cooldown = 10
+|cost = {{ap|60|70|80|90|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Pale Cascade''' is a self-targeted ability that shields Diana and summons three spheres that will detonate on collision with an enemy. 
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage of a single sphere's detonation.
+|additional=
+* ''Pale Cascade'' has no cast time and does not interrupt Diana's movement. 
+|video=Diana WVideo
+}}}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Moonfall
+|icon = Moonfall.jpg
+|description = {{sbc|Active:}} Diana draws in all nearby enemies to her location, slowing them for 2 seconds afterwards.
+|leveling = {{lc|Slow}} {{ap|35|40|45|50|55%}}
+|range = 350
+|cooldown = {{ap|26|24|22|20|18}}
+|cost = 70
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Moonfall''' is a [[area of effect|point-blank area of effect]].
+|damagetype=
+|spelleffects=hide
+|onhiteffects=
+|spellshield=Will block the pull and slow.
+|additional=
+* Will interupt channeling abilities.
+* Enemies are in the area for approximately .5 seconds maximum while being pulled towards Diana.
+|video=Diana EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Lunar Rush
+|icon = Lunar Rush.jpg
+|description = {{sbc|Active:}} Diana becomes the living embodiment of the vengeful moon, rushing at an enemy and dealing magic damage to it.
+
+|description2 = When used to teleport to an enemy afflicted with {{ai|Crescent Strike|Diana|Moonlight}}, ''Lunar Rush's'' cooldown is refreshed and the ''Moonlight'' debuff is consumed. All other enemies will have the ''Moonlight'' debuff removed regardless of whether they were the target of ''Lunar Rush''.
+|leveling = {{lc|Magic Damage}} {{ap|100|160|220}} {{as|(+ 60% AP)}}
+|range = 825
+|cooldown = {{ap|25|20|15}}
+|cost = {{ap|50|65|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Lunar Rush''' is a [[dash|single target dash]].
+|damagetype=magic
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the damage. 
+**{{Pending for test}} If blocked, {{ai|Crescent Strike|Diana|Moonlight}} debuff is still consumed and ''Lunar Rush's'' cooldown is refreshed.
+|additional=
+* If Diana is next to her target when ''Lunar Rush'' is cast, it will place her on the reverse side. 
+* ''Lunar Rush'' can be interrupted if Diana is hit with crowd control while dashing. The ability will receive the full cooldown.
+|video=Diana RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Diana]]
+[[de:Diana]]
+[[es:Diana]]
+[[fr:Diana]]
+[[pl:Diana]]
+[[pt-br:Diana]]
+[[ru:Diana]]
+[[zh:黛安娜]]

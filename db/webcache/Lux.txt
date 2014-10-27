@@ -1,0 +1,152 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Illumination
+|icon=Illumination.png
+|description=Lux's damaging spells mark any enemies with light energy for 6 seconds. Her autoattacks or {{ai|Final Spark|Lux}} will consume the mark, dealing 10{{plus}}(8{{times}}''Lux's level'') {{as|(+ 20% AP)}} magic damage to the target.
+}}
+|{{Ability2
+|targeting='''Illumination''' is a debuff that is triggered [[on-hit]] or by {{ai|Final Spark|Lux}}.
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes will not interact with ''Illumination's'' bonus damage.
+** The bonus damage will still be applied if Lux's attack is {{ai|Aegis Protection|Pantheon|blocked}}.
+** If Lux's attack is {{ai|Counter Strike|Jax|dodged}} or she is [[blind]]ed, the mark will not be detonated.
+** Illumination will be blocked by {{ai|Riposte|Fiora|parry}} and will detonate the mark.
+|spellshield=Will block the bonus magic damage.
+|additional=
+* The mark can be removed with {{ii|Quicksilver Sash}} or {{ii|Mercurial Scimitar}}.
+* Dealing damage with ''Illumination'' will trigger the damage over time from {{ii|Liandry's Torment}}.  It will also interact with the slow from {{ai|Lucent Singularity|Lux}}.
+|video=Lux IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Light Binding
+|icon=Light Binding.png
+|description={{sbc|Active:}} Lux releases a sphere of light in a line, striking up to two enemy units along its path. It deals magic damage to the first enemy it touches and half that damage to a second enemy behind it. Additionally, the first enemy struck is rooted for 2 seconds, and the second enemy is rooted for 1 second.
+{{lc|Missile Speed}} 1200
+|leveling=
+{{lcaps|Magic Damage|60|110|160|210|260|(+ 70% AP)}}
+{{lcaps|Second Target Magic Damage|30|55|80|105|130|(+ 35% AP)}}
+|range=1175
+|cooldown={{ap|15|14|13|12|11}}
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Light Binding''' is a [[skill shot|linear, colliding skill shot]] that [[snare]]s and damages up to two enemies.
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* Striking a target that is protected by a [[spell shield]] or {{cai|Black Shield|Morgana}} will still count as one of the two targets that ''Light Binding'' can hit.
+|video=Lux QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Prismatic Barrier
+|icon=Prismatic Barrier.png
+|description={{sbc|Active:}} Lux shields herself for up to 3 seconds and throws out her wand in a line, applying the same shield to allied champions in its path. Her wand then returns to her, again shielding allied champions in its path and Lux herself upon return. When reapplied, the shield does not stack, but is refreshed.
+{{lc| Missile Speed}} 1400
+|leveling={{lcaps|Shield Strength|80|105|130|155|180|(+ 35% AP)}}
+|range=1075
+|cooldown={{ap|14|13|12|11|10}}
+|cost=60
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Prismatic Barrier''' is a [[skill shot|linear, pass-through skill shot]] that returns to Lux upon reaching maximum range.
+|damagetype=
+|projectile=Yasuo
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Prismatic Barrier'' will immediately shield Lux upon activation.
+* Hitting a target a second time will refresh the shield strength, not stack it.
+* If Lux dies before the projectile changes direction, it will fizzle upon reaching maximum range.
+|video=Lux WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Lucent Singularity
+|icon=Lucent Singularity.png
+|description  = {{sbc|Active:}} Lux sends an anomaly of twisted light to a target area, slowing enemies within '''300'''-range and granting sight of a slightly larger area for up to 5 seconds.
+|description2 = At the end of the duration or if ''Lucent Singularity'' is activated again, the zone will detonate and deal magic damage to enemies in the area.
+|leveling  =
+{{lcap|Slow|20|24|28|32|36%}}
+|leveling2 =
+{{lcaps|Magic Damage|60|105|150|195|240|(+ 60% AP)}}
+|range=1100
+|cooldown=10
+|cost={{ap|70|85|100|115|130}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Lucent Singularity''' is a [[area of effect|ground targeted area of effect]] that applies a [[slow|persistent slow]] until detonated. 
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability's detonation.
+|additional=
+* ''Lucent Singularity'' grants sight while in flight and while on the ground.
+* The slow lingers for {{fd|0.25}} seconds after leaving the area of effect. 
+* If Lux dies while ''Lucent Singularity'' is on the field, it will detonate instantly. If the ability is in flight when Lux dies, it will remain on the field for the full duration and cannot be detonated early.
+|video=Lux EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Final Spark
+|icon=Final Spark.png
+|description={{sbc|Active:}} After gathering energy for half a second, Lux fires a broad and long-range beam of light in a line that deals magic damage to all enemies in the area.
+|description2= Any enemies that are already marked by {{ai|Illumination|Lux}} have it ignited for additional magic damage, then re-applied.
+|leveling={{lcaps|Magic Damage|300|400|500|(+ 75% AP)}}
+|range=3340
+|cooldown={{ap|80|65|50}}
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Final Spark''' is an [[skill shot|linear, instant skill shot]]. 
+|damagetype=Magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+*Lux can not cast any ability, summoner spell, or item acitve while she channels.
+* ''Final Spark'' grants vision during the cast time and of enemies hit for a short duration afterwards.
+* Cast times cannot be interrupted by crowd control effects. During the cast time, Lux will ignore crowd control effects but still suffers from them if the duration persists. 
+* If Lux is displaced by a knockback or pull effect during the cast time, the laser will fire from the original point of casting.
+** There is a small area in front of Lux's character model which will still deal damage after being displaced. The rest of the laser however will damage from the original point.
+* ''Final Spark'' goes on cooldown when the laser fires, not when Lux begins to cast it. If Lux dies during the cast time, ''Final Spark'' will not be placed on cooldown. 
+|video=Lux RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Lux]]
+[[de:Lux]]
+[[es:Lux]]
+[[fr:Lux]]
+[[pl:Lux]]
+[[pt-br:Lux]]
+[[ru:Lux]]
+[[zh:拉克丝]]

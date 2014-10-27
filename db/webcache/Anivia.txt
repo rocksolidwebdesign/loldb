@@ -1,0 +1,155 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Rebirth
+|icon=Rebirth.png
+|description=Upon taking lethal damage, Anivia will transform into an egg with 100% health. While in egg form, Anivia is unable to make any actions and her armor and magic resistance are modified by {{pp|5|&minus;40|&minus;25|&minus;10|+5|+20|1|5|8|12|15}}. If her egg survives for 6 seconds, Anivia is revived with the same percentage health that her egg had.
+|static=240
+}}
+|{{Ability2
+|targeting='''Rebirth''' is a [[passive ability]] that triggers when Anivia takes lethal damage.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Triggering ''Rebirth'' will remove all debuffs from Anivia, including {{ai|Children of the Grave|Mordekaiser}}.
+* Triggering ''Rebirth'' while affected by a channelled ability like {{ai|Drain|Fiddlesticks}} or {{ai|Nether Grasp|Malzahar}} will not end the channel early and the egg will still take damage.
+*Triggering ''Rebirth'' while supressed by {{ai|Hyper-Kinetic Position Reverser|Urgot}} will remove the cc and the swap will not happen (unlike with other forms of CC removal).
+*Triggering ''Rebirth'' while leashed by an ability like {{ai|Ethereal Chains|LeBlanc}} will make the secondary effect trigger at the moment of Anivia's "death" and the egg will not take the damage.
+* {{ii|Guardian Angel}} and {{ai|Chrono Shift|Zilean}} will take precedence over ''Rebirth''. {{ai|Omen of Death|Yorick}} will trigger after ''Rebirth'', if its duration persists. 
+* Anivia can be moved by [[crowd control|knock-abouts]], but is unaffected by other forms of crowd control. 
+* While in egg form, Anivia is still classified as a champion (''unlike {{cai|Cell Division|Zac}}'').
+|video=Anivia IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Flash Frost
+|icon=Flash Frost.png
+|description={{sbc|First Cast:}} Anivia unleashes an orb of ice that travels in a line, dealing magic damage to any enemy it passes through. At maximum range, ''Flash Frost'' will detonate automatically.<br><br>
+{{sbc|Second Cast:}} Anivia detonates the orb, dealing magic damage and stunning enemies in a '''75'''-radius area for 1 second. Enemies can be damaged by both parts of ''Flash Frost''.
+|description2=Enemies damaged by ''Flash Frost'' are Chilled for 3 seconds, slowing their movement speed by 20%. 
+|leveling=
+{{lcaps|Magic damage|60|90|120|150|180|(+ 50% AP)}}
+{{lcaps|Maximum Damage|120|180|240|300|360|(+ 100% AP)}}
+|range=1100
+|cooldown={{ap|12|11|10|9|8}}
+|cost={{ap|80|90|100|110|120}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Flash Frost''' is a [[skill shot|linear, pass-through skill shot]] that can be detonated to deal damage in an [[area of effect|area]].
+*'''Projectile Speed:''' 850
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the detonation effect, but will not block the pass-through effects.
+|additional=
+* Both instances of damage will apply [[spell effects]].
+* Anivia cannot detonate ''Flash Frost'' while [[crowd control|unable to activate abilities]].
+* Chill is considered a slow for the purposes of [[Tenacity]], [[Named item effect#Slow Resist|Slow Resist]] and abilities which interact with slows, such as {{ai|Highlander|Master Yi}}  and {{ai|Dark Frenzy|Evelynn}}.
+* Both activations counts as an ability activate for the purposes of effects such as {{ii|Sheen}} and {{ai|Force Pulse|Kassadin}}.
+|video=Anivia QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Crystallize
+|icon=Crystallize.png
+|description={{sbc|Active:}} Anivia constructs an impassable wall of ice at the target location for 5 seconds, perpendicular to Anivia's facing. The wall grants sight in a large area around it.
+|leveling={{lcap|Wall length|400|500|600|700|800}}
+|range=1000
+|cooldown=25
+|cost=70
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Crystallize''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* When the wall is erected, units that would be inside it are "nudged" into an open space. This is considered as a knockback and it will interrupt channeled abilities. <!--This was confirmed by a Rioter.-->
+** This excludes champions with the ability to ignore unit collision. It's unknown if this is intentional.
+* The wall is considered terrain for the purposes of abilities such as {{ai|GNAR!|Gnar}} and {{ai|Condemn|Vayne}} or {{ai|Dredge Line|Nautilus}}.
+* {{ai|Crystallize|Anivia}} grants [[Sight]] around the wall.
+*It grants assists if it touches an enemy when its created and deals them 1 true damage
+|video=Anivia WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Frostbite
+|icon=Frostbite.png
+|description={{sbc|Active:}} Anivia fires a shard of ice to deal magic damage to a target enemy. ''Frostbite'' deals double damage to enemies that are Chilled.
+|leveling=
+{{lcaps|Magic damage|55|85|115|145|175|(+ 50% AP)}}
+{{lcaps|Chilled Damage|110|170|230|290|350|(+ 100% AP)}}
+|range=650
+|cooldown=5
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Frostbite''' is a single target ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* Chill is applied by {{ai|Flash Frost|Anivia}}, {{ai|Glacial Storm|Anivia}}.
+* The damage of ''Frostbite'' is calculated on-hit. If Chill is removed or expires while ''Frostbite'' is in the air, it will deal standard damage.  
+|video=Anivia EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Glacial Storm
+|icon=Glacial Storm.png
+|description={{sbc|Active:}} Anivia creates a blizzard in a target '''400'''-radius area, that deals magic damage every second to enemies inside. Enemies damaged by ''Glacial Storm'' are Chilled for 1 second, slowing their movement speed and attack speed by 20%.
+|description2=Anivia can re-activate ''Glacial Storm'' at any time to disable its effects, and it will deactivate automatically if she gets too far away or runs out of mana. Additionally, ''Glacial Storm'' will be deactivated by all forms of interrupting crowd control, excluding fear and taunt. ''Glacial Storm'' deals a tick of damage to enemies within when cancelled.
+|leveling=
+{{lcaps|Magic damage per second|80|120|160|(+ 25% AP)}}
+{{lcap|Mana Per second|40|50|60}}
+|range=615
+|cooldown=6
+|cost=75
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Glacial Storm''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Glacial Storm'' will be be interrupted by stuns, suppression, silence, polymorph and airborne crowd control effects, but not taunts or fears.
+* Chill leaves a trail that is visible even if the target is [[stealth]]ed.
+* Both activating and de-activating ''Glacial Storm'' counts as an ability activate for the purposes of effects such as {{ii|Sheen}} and {{ai|Force Pulse|Kassadin}}.
+|video=Anivia RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Anivia]]
+[[de:Anivia]]
+[[es:Anivia]]
+[[fr:Anivia]]
+[[pl:Anivia]]
+[[pt-br:Anivia]]
+[[ru:Anivia]]
+[[zh:艾尼维亚]]

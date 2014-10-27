@@ -1,0 +1,139 @@
+{{C-top}} {{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Chosen of the Storm
+|icon = ChosenoftheStorm.jpg
+|description  = When Volibear's health drops below 30% of his maximum health, he will heal for {{as|30% of his maximum health}} over the next 6 seconds.
+|static = 120
+}}
+|{{Ability2
+|targeting='''Chosen of the Storm''' is a self-targeted [[buff]] that triggers automatically.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Chosen of the Storm's'' cooldown starts as soon as it activates.
+* If ''Chosen of the Storm'' comes off cooldown while Volibear is under 30% health, it will not trigger unless Volibear takes damage.
+* If Volibear is killed directly from anywhere higher than 30% health, ''Chosen of the Storm'' will not activate and it will not go on cooldown.
+}}
+}}
+{{Ability frame |Q|
+{{Ability info|Q
+|name = Rolling Thunder
+|icon = RollingThunder.jpg
+|description  = {{sbc|Active:}} Volibear gains 15% movement speed for the next 4 seconds. This bonus increases when headed toward a nearby visible enemy champion. 
+|description2 = Additionally, Volibear's next autoattack during this time will deal bonus physical damage and will toss the target behind himself.
+|leveling = 
+{{lc|Bonus Movement Speed Toward Champions}} {{ap|30|35|40|45|50%}}
+|leveling2 =
+{{lc|Bonus Physical Damage}} {{ap|30|60|90|120|150}}
+|cooldown = {{ap|12|11|10|9|8}}
+|cost = 40
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Rolling Thunder''' is a [[self-buff]] that grants his next attack an [[on-hit effect]] that [[pull]]s the target behind Volibear.
+{{lc|Bonus speed range}} {{tt|1800|Estimated}}
+|spelleffects=false
+|onhiteffects=
+|spellshield=
+|blackshield=
+|quicksilver=
+|additional=
+* ''Rolling Thunder'' resets the basic attack timer and will apply the bonus damage on towers.
+* ''Rolling Thunder'' can knock an enemy through very thin walls.
+* ''Rolling Thunder'' will retain its movement speed buff for the full 4 second duration even if the fling is activated prior to the end of the buff.
+|video=Volibear QVideo
+}}
+}}
+{{Ability frame|W|
+{{Ability info|W
+|name = Frenzy
+|icon = Frenzy.jpg
+|description  = {{sbc|Passive:}} Volibear temporarily gains bonus attack speed after an autoattack. This bonus stacks up to 3 times and lasts for 4 seconds.
+|description2 = {{sbc|Active:}} While Volibear has 3 stacks of ''Frenzy'', he can activate the ability to bite a target enemy, dealing physical damage that is increased by 1% for every 1% of the target's missing health. This does not consume the stacks.
+|leveling = {{lc|Attack Speed per Stack}} {{ap|8|11|14|17|20%}}
+{{lc|Max Attack Speed}} {{ap|24|33|42|51|60%}}
+|leveling2= {{lc|Base Physical Damage}} {{ap|80|125|170|215|260}} {{as|(+ 15% of bonus health)}}
+{{lc|Max Physical Damage}} {{ap|160|250|340|430|520}} {{as|(+ 30% of bonus health)}}
+|cooldown = 18
+|cost     = 35
+|costtype = mana 
+|range    = 400
+}}
+|{{Ability2
+|targeting='''Frenzy's''' passive is a [[stack]]ing [[buff]].
+<br>'''Frenzy's''' active is a single-target ability.
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|blackshield=
+|quicksilver=
+|additional=
+|video=Volibear WVideo
+}}
+}}
+{{Ability frame|E|
+{{Ability info|E
+|name = Majestic Roar
+|icon = MajesticRoar.jpg
+|description  = {{sbc|Active:}} Volibear lets out a powerful roar that deals magic damage and slows nearby enemies for 3 seconds. Minions, monsters and pets are instead feared for the duration.
+|leveling = {{lc|Magic Damage}} {{ap|60|105|150|195|240}} {{as|(+ 60% AP)}}
+{{lc|Slow}} {{ap|30|35|40|45|50%}}
+|cooldown = 11
+|cost     = {{ap|60|65|70|75|80}}
+|costtype = mana 
+|range    = 425
+}}
+|{{Ability2
+|targeting='''Majestic Roar''' is a [[Area of effect|point-blank area of effect]] that slows nearby enemies. [[Minion]]s, [[monster]]s, and [[pet]]s are instead [[fear]]ed for the duration.
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability.
+|blackshield=
+|quicksilver=
+|additional=
+* ''Majestic Roar'' will fear clones such as {{cai|Children of the Grave|Mordekaiser}} or {{cai|Hallucinate|Shaco}}.
+|video=Volibear EVideo
+}}
+}}
+{{Ability frame|R|
+{{Ability info|R
+|name = Thunder Claws
+|icon = ThunderClaws.jpg
+|description  = {{sbc|Active:}} For the next 12 seconds, Volibear's autoattacks will blast his target with lightning that will also bounce to up to 3 nearby enemies within 300 range. Each bolt of lightning will deal magic damage and will only hit each target once per autoattack.
+|leveling = {{lc|Magic Damage Per Bolt}} {{ap|75|115|155}} {{as|(+ 30% AP)}}
+|cooldown = {{ap|100|90|80}}
+|cost     = 100
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Thunder Claws''' is a self-targeted [[buff]] that grants an [[on-hit effect]].
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|blackshield=
+|quicksilver=
+|additional=
+* Volibear gets slightly bigger in size when he uses ''Thunder Claws''.
+|pet=
+|video=Volibear RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Volibear]]
+[[de:Volibear]]
+[[es:Volibear]]
+[[fr:Volibear]]
+[[pl:Volibear]]
+[[pt-br:Volibear]]
+[[ru:Volibear]]
+[[zh:沃利贝尔]]

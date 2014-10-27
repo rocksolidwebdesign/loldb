@@ -1,0 +1,141 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Soul Siphon
+|icon = SoulSiphon.jpg
+|description = Morgana is granted {{pp|3|10|15|20%|1|7|13}} bonus spell vamp.
+}}
+|{{Ability2
+|targeting='''Soul Siphon''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*[[Spell vamp]] granted by ''Soul Siphon'' will benefit from summoner spells and items used by Morgana, such as {{ii|Deathfire Grasp}} and {{si|Ignite}}.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Dark Binding
+|icon = DarkBinding.jpg
+|description = {{sbc|Active:}} Morgana releases a sphere of dark magic that travels in a line, dealing magic damage and rooting the first enemy unit it hits for a duration.
+{{lc|Projectile Speed}} 1200
+|leveling = {{lcaps|Magic Damage|80|135|190|245|300|(+ 90% AP)}}
+{{lcap|Root Duration|2|2.25|2.5|2.75|3}}
+|cooldown=11
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana
+|range=1175
+}}
+|{{Ability2
+|targeting=Dark Binding is a [[skill shot|collision linear skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Morgana QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Tormented Soil
+|icon = TormentedSoil.jpg
+|description = {{sbc|Active:}} Morgana infects target 175-radius area for 5 seconds, causing enemy units who stand on the location to take magic damage every half second. The damage is increased by {{fd|0.5%}} for every 1% of the target's missing health. 
+|leveling = {{lcaps|Minimum Damage Per Half Second|12|19|26|33|40|(+11% AP)}}
+{{lcaps|Maximum Damage Per Half Second|18|28.5|39|49.5|60|(+{{fd|16.5%}} AP)}}
+{{lcaps|Minimum Total Damage|120|190|260|330|400|(+ 110% AP)}}
+{{lcaps|Maximum Total Damage|180|285|390|495|600|(+ 165% AP)}}
+|cooldown=10
+|cost={{ap|70|85|100|115|130}}
+|costtype=mana
+|range=900
+}}
+|{{Ability2
+|targeting='''Tormented Soil''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+*The first tick of ''Tormented Soil's'' damage occurs as soon as the ability is cast.
+|video=Morgana WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Black Shield
+|icon = BlackShield.jpg
+|description = {{sbc|Active:}} Places a shield around target friendly champion for up to 5 seconds, absorbing magic damage and preventing disables while the shield holds.
+|leveling = {{lcaps|Shield Strength|70|140|210|280|350|(+ 70% AP)}}
+|cooldown={{ap|23|21|19|17|15}}
+|cost=55
+|costtype=mana
+|range=750
+}}
+|{{Ability2
+|targeting='''Black Shield''' is an ally-targeted single target ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Black Shield'' has no cast time and does not interrupt Morgana's previous orders.
+*''Black Shield'' is distinct from [[spell shield]]s and does not outright negate entire spells. If an ability applies separate [[debuff]]s for a disable and a non-disable effect, the non-disable effect will still be applied. For example, the slow from {{cai|Wall of Pain|Karthus}} will be negated, but the [[magic resistance]] reduction will not.
+*''Black Shield's'' disable immunity is applied '''before''' any damage is absorbed. If a spell applies crowd control yet also has sufficient power to break the shield at the same time, the spell's effects are still negated.
+*''Black Shield's'' magic damage shield will take priority over normal [[shield]]s and magic damage is always applied to it first. When used with {{iis|Hexdrinker}} [[Named item effect#Lifeline|Lifeline]], the most recent shield applied takes priority.
+*''Black Shield'' does not prevent self-inflicted disables such as the silence from {{cai|Junkyard Titan|Rumble}} or the slow from {{cai|Vault Breaker|Vi}}.
+|video=Morgana EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Soul Shackles
+|icon = SoulShackles.jpg
+|description = {{sbc|Active:}} Morgana latches chains of energy onto nearby enemy champions for 3 seconds, dealing initial magic damage to them after a brief delay of {{fd|0.5}} seconds and reducing their movement speed by 20% if the target(s) stay within 1050 range.
+<br><br>If the target(s) does not break the tether after 3 seconds, they are dealt the same amount of magic damage again and they are also stunned for {{fd|1.5}} seconds.
+|leveling = {{lcaps|Magic Damage|150|225|300|(+ 70% AP)}}
+{{lcaps|Total Magic Damage per Target|300|450|600|(+ 140% AP)}}
+|cooldown={{ap|120|110|100}}
+|cost=100
+|costtype=mana
+|range=600
+}}
+|{{Ability2
+|targeting='''Soul Shackles''' is a point blank [[auto-targeted]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the application of the tether. They will not block the stun and damage from a tether already applied.
+|additional=
+*If ''Soul Shackles'' only hits a single enemy, Morgana will intermediately try to chase them unless she is already moving on the opposite direction to them.
+**Morgana will not automatically chase if she does not have sight of her target upon activation of the ability.
+*Soul Shackles can hit nearby [[stealth]]ed champions, but does not grant sight of any sort. The visual effect of the tether will additionally not follow the target's movements as long as they remain stealthed.
+*''Soul Shackles'' is not a channeled ability. As such, crowd control will not stop its effects and will persist throughout the untargetability of {{ii|Zhonya's Hourglass}}.
+*''Soul Shackles''' effects will persist through pseudo-death states such as the revival of {{ii|Guardian Angel}} and {{cai|Chrono Shift|Zilean}}.
+|video=Morgana RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Morgana]]
+[[de:Morgana]]
+[[es:Morgana]]
+[[fr:Morgana]]
+[[pl:Morgana]]
+[[pt-br:Morgana]]
+[[ru:Morgana]]
+[[zh:莫甘娜]]

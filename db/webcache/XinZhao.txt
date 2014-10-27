@@ -1,0 +1,136 @@
+{{C-top}} {{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Challenge
+|icon = Challenge.jpg
+|description = Basic attacks and {{ai|Audacious Charge|Xin Zhao}} challenge Xin Zhao's target, reducing its armor by 15% for 3 seconds (max one target at any time).
+}}
+|{{Ability2
+|targeting='''Challenge''' is an [[on-hit effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|video=Xin Zhao IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Three Talon Strike
+|icon = ThreeTalonStrike.jpg
+|description = {{sbc|Active:}} Xin Zhao's next 3 basic attacks deal bonus physical damage, and reduce his other abilities' cooldowns by 1 second each. The third strike also knocks the target into the air for 1 second.
+|leveling = {{lc|Bonus Physical Damage}} {{ap|15|30|45|60|75}} {{as|(+ 20% AD)}}
+{{lc|Total Bonus Damage}} {{ap|45|90|135|180|225}} {{as|(+ 60% AD)}}
+|cooldown={{ap|9|8|7|6|5}}
+|cost=30
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Three Talon Strike''' is three sequential [[on-hit effect]]s.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+**As with most on-hit physical damage, the bonus damage from ''Three Talon Strike'' will apply [[life steal]].
+**Critical strikes will not interact with ''Three Talon Strike's'' bonus damage.
+**The bonus damage will affect towers, but not other structures. 
+**The bonus damage will be mitigated and the stacks consumed if the attacks are {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}}, {{ai|Aegis Protection|Pantheon|blocked}}, or if Xin Zhao is [[blind|blinded]]. However, the knockup will still occur in all cases.
+|spellshield=will block a single attack, including the knockup of the third hit.
+|additional=
+*''Three Talon Strike'' resets Xin Zhao's attack timer on cast.
+*''Three Talon Strike'' has no cast time and does not interrupt Xin Zhao's previous orders.
+*The third attack's buff remains active for 5 seconds.
+*The cooldown will not begin until ''Three Talon Strike'' expires. As such, it cannot reduce its own cooldown.
+*''Three Talon Strike'' will not reduce the cooldown of summoner spells or items.
+|video=Xin Zhao QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Battle Cry
+|icon = BattleCry.jpg
+|description = {{sbc|Passive:}} Xin Zhao heals himself on every third basic attack.
+|description2= {{sbc|Active:}} Xin Zhao increases his attack speed for 5 seconds.
+|leveling = {{lc|Heal}} {{ap|26|32|38|44|50}} {{as|(+ 70% AP)}}
+|leveling2= {{lc|Attack speed}} {{ap|40|50|60|70|80%}}
+|cooldown={{ap|16|15|14|13|12}}
+|cost=40
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Battle Cry''' is a self-[[buff]] ability that also grants an [[on-hit effect]].
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Battle Cry'' has no cast time and does not interrupt Xin Zhao's previous orders.
+*The heal will trigger on structures.
+|video=Xin Zhao WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Audacious Charge
+|icon = AudaciousCharge.jpg
+|description = {{sbc|Active:}} Xin Zhao charges at an enemy, dealing magic damage to all enemies within {{fd|112.5}} range and slowing them for 2 seconds.
+|leveling = {{lc|Magic damage}} {{ap|70|105|140|175|210}} {{as|(+ 60% AP)}}
+{{lc|Slow}} {{ap|25|30|35|40|45%}}
+|cooldown={{ap|14|13|12|11|10}}
+|cost=60
+|costtype=mana
+|range=600
+}}
+|{{Ability2
+|targeting='''Audacious Charge''' is a targeted [[dash]] ability that affects enemies in an [[area of effect]] around the original target.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability as both the main target and all secondary targets.
+|additional=
+*Xin Zhao is immune to knockback effects during the dash, excluding {{cai|Buster Shot|Tristana}}.
+|video=Xin Zhao EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Crescent Sweep
+|icon = CrescentSweep.jpg
+|description = {{sbc|Active:}} Xin Zhao unleashes a sweep around him, knocking non-{{ai|Challenge|Xin Zhao|Challenged}} enemies back and dealing physical damage equal to a base amount plus 15% of their current health (capped at 600 against monsters). 
+|description2 = Xin Zhao gains bonus armor and magic resistance for each champion struck, lasting for 6 seconds.
+|leveling = {{lc|Total Physical Damage}} {{ap|75|175|275}} {{as|(+ 100% bonus AD)}} {{as|(+ 15% of enemies' current health)}}
+|leveling2 =
+{{lc|Armor and Magic Resist per Champion hit}} {{ap|15|20|25}}
+|range=187.5
+|cooldown={{ap|120|110|100}}
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Crescent Sweep''' is a [[area of effect|point-blank area of effect]] and self-[[buff]] ability.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability but will still count towards any bonus defenses.
+|additional=
+|video=Xin Zhao RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Xin Zhao]]
+[[de:Xin Zhao]]
+[[es:Xin Zhao]]
+[[fr:Xin Zhao]]
+[[pl:Xin Zhao]]
+[[pt-br:Xin Zhao]]
+[[ru:Xin Zhao]]
+[[zh:赵信]]

@@ -1,0 +1,145 @@
+{{redirect|Ezreal|the Riot Games employee|Colt 'Ezreal' Hallam}}
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Rising Spell Force
+|icon = RisingSpellForce.jpg
+|description = {{sbc|Innate:}} Hitting a target with any of Ezreal's abilities increases his own attack speed by 10%. This effect lasts for 6 seconds and stacks up to 5 times. 
+}}
+|{{Ability2
+|targeting='''Rising Spell Force''' is a [[spell effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=will not prevent Ezreal from gaining ''Rising Spell Force'' stacks.
+|additional=*[[Summoner spells]] do not grant any ''Rising Spell Force'' stacks.
+*''Rising Spell Force'' stacks are acquired per target hit, not per spell that hits a target.
+*Minions hit by {{ai|Essence Flux|Ezreal}} do not accrue ''Rising Spell Force'' stacks.
+*Ezreal will also gain ''Rising Spell Force'' stacks from hitting allied champions with {{ai|Essence Flux|Ezreal}}.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Mystic Shot
+|icon = MysticShot.jpg
+|description = {{sbc|Active:}} Ezreal fires a bolt of energy in a line that will deal physical damage and apply on-hit effects to the first enemy it hits. If it strikes an enemy unit, all of Ezreal's cooldowns will be reduced by 1 second. 
+{{lc|Projectile Speed}} 2000
+|leveling = {{lcaps|Physical Damage|35|55|75|95|115|(+ 110% AD)}} {{as|(+ 40% AP)}} 
+|cooldown = {{ap|6|5.5|5|4.5|4}}
+|cost     = {{ap|28|31|34|37|40}}
+|costtype = Mana
+|range = 1150
+}}
+|{{Ability2
+|targeting='''Mystic Shot''' is a colliding linear [[skill shot]].
+|damagetype=physical
+|projectile=true
+|spelleffects=false
+|onhiteffects=''Mystic Shot'' will apply [[on-hit effects]] as a ranged attack, including [[life steal]], {{ii|Sheen}}, and the reduced slow from {{ii|Frozen Mallet}}.
+**''Mystic Shot'' cannot [[critical strike|critically strike]].
+**''Mystic Shot'' will not affect structures.
+**''Mystic Shot's'' damage will be mitigated if the attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}}, {{ai|Aegis Protection|Pantheon|blocked}} or [[blind|misses]].
+|spellshield=will block the damage.
+|additional=
+*''Mystic Shot's'' inbuilt cooldown reduction will also apply to itself. With maximum [[cooldown reduction]], it will have a [[cooldown]] of 2.4 seconds, or 1.4 seconds when striking a target.
+|video=Ezreal QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Essence Flux
+|icon = EssenceFlux.jpg
+|description = {{sbc|Active:}} Ezreal fires a wave of energy in a line. Any enemy champions it passes through are dealt magic damage, while any allied champions it travels through have their attack speed increased for 5 seconds. 
+|leveling = {{lcaps|Magic Damage|70|115|160|205|250|(+ 80% AP)}} 
+{{lcap|Attack Speed|20|25|30|35|40%}}
+|cooldown = 9
+|cost     = {{ap|50|60|70|80|90}}
+|costtype = Mana
+|range = 1000
+}}
+|{{Ability2
+|targeting='''Essence Flux''' is a pass-through linear [[skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage. Allied spell shields are not affected.
+|additional=
+*''Essence Flux'' does not affect [[minion]]s or [[monster]]s it passes through in any way.
+*Ezreal can hit himself with ''Essence Flux'' and benefit from its bonus attack speed by [[blink]]ing into spell's path. 
+|video=Ezreal WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Arcane Shift
+|icon = ArcaneShift.jpg
+|description = {{sbc|Active:}} Ezreal instantly teleports to a nearby target location and fires a homing bolt at the nearest enemy unit within 750 range, dealing magic damage to it. 
+|leveling = {{lcaps|Magic Damage|75|125|175|225|275|(+ 75% AP)}} 
+|cooldown = {{ap|19|17|15|13|11}}
+|range    = 475
+|cost     = 90
+|costtype = Mana
+}}
+|{{Ability2
+|targeting='''Arcane Shift''' is a ground targeted [[blink]] with an autotargeted projectile component.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Arcane Shift's'' cast time cannot be interrupted by anything other than Ezreal's own death. He will still suffer any [[crowd control]] effects, duration permitting, after it ends.
+*''Arcane Shift's'' homing projectile can target and hit [[stealth]]ed units.
+|video=Ezreal EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Trueshot Barrage
+|icon = TrueshotBarrage.jpg
+|description = {{sbc|Active:}} After gathering energy for 1 second, Ezreal fires a powerful, broad energy missile that travels in a line across the whole map dealing magic damage to each enemy unit it passes through. It will deal 10% less damage for each subsequent target hit, down to a minimum of 30% damage dealt. 
+{{lc|Projectile Speed}} 2000
+|leveling = {{lc|Magic Damage}} {{ap|350|500|650}} {{as|(+ 100% Bonus AD)}} {{as|(+ 90% AP)}} 
+{{lc|Minimum Magic Damage}} {{ap|105|150|195}} {{as|(+ 30% Bonus AD)}} {{as|(+ 27% AP)}} 
+|cooldown = 80
+|cost     = 100
+|costtype = Mana
+|range = Global
+}}
+|{{Ability2
+|targeting='''Trueshot Barrage''' is a pass-through linear [[skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Trueshot Barrage's'' cast time cannot be interrupted by anything other than Ezreal's own death. He will still suffer any [[crowd control]] effects, duration permitting, after it ends.
+*If Ezreal is moved by knockbacks or pulls such as {{ai|Rocket Grab|Blitzcrank}} mid-cast, the projectile will still fire from Ezreal's original position at the time of casting.
+*''Trueshot Barrage's'' projectile grants [[sight]] in a small radius around its current location.
+|video=Ezreal RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+
+[[cs:Ezreal]]
+[[de:Ezreal]]
+[[es:Ezreal]]
+[[fr:Ezreal]]
+[[pl:Ezreal]]
+[[pt-br:Ezreal]]
+[[ru:Эзреал]]
+[[zh:伊泽瑞尔]]

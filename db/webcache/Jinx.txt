@@ -1,0 +1,168 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+==Abilities==
+{{Ability frame|I|
+{{Ability info
+|name          = Get Excited!
+|icon          = Get Excited!.png
+|description   = Whenever an enemy champion or structure that Jinx has dealt damage to within the last 3 seconds is killed or destroyed, she gains 175% movement speed that decays over 4 seconds.
+|leveling      =
+|range         =
+|cost          =
+|costtype      =
+|cooldown      =
+}}
+|{{Ability2
+|targeting    ='''Get Excited!''' is a self-targeted passive ability that activates whenever a [[champion]] or a [[tower]] that Jinx recently damaged is eliminated, granting her increased [[movement speed]] that rapidly decays over 4 seconds .
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  = 
+|additional   =
+* From her base movement speed of 325, when ''Get Excited!'' triggers, Jinx's movement speed will increase to 677 and the bonus movement speed will decay every second for 4 seconds. After the first second the 175% bonus is reduced to a 60%  increase, by 2 seconds is reduced to 30%, at 3 seconds is at 9% then finally removed completely.
+|video        = Jinx IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name         = Switcheroo!
+|icon         = false
+|description  = 
+{{MiniAbility|icon=Pow-Pow, the Minigun.png|description={{sbc|Pow-Pow:}} Jinx's basic attacks grant bonus attack speed for {{fd|2.5}} seconds, stacking up to 3 times, with the first stack granting twice as much attack speed as the second and third. The stacks decay one at a time when she stops attacking. Switching to [[File:Fishbones, the Rocket Launcher.png|20px]] '''Fishbones''' will not clear any active stacks, but they will not grant attack speed after her first attack.}} 
+|description2 = {{MiniAbility|icon=Fishbones, the Rocket Launcher.png|description={{sbc|Fishbones:}} Jinx gains bonus attack range and deals {{as|10% AD}} bonus damage with her basic attacks, at the cost of {{fd|20}} mana per attack. Additionally, her basic attacks will splash, dealing full damage to all enemies in a 150-radius area. The bonus damage to her target and the splash damage both scale additively with critical strikes.}}
+|leveling     = {{lcap|Initial Stack Attack Speed|15|27.5|40|52.5|65}}%
+{{lcap|Subsequent Attack Speed|7.5|13.75|20|26.25|32.5}}%
+{{lcap|Total Attack Speed|30|55|80|105|130}}%
+|leveling2    = {{lcap|Bonus Range|75|100|125|150|175}}
+|range        =
+|cooldown     = {{fd|0.9}}
+|cost         = 
+|costtype     =
+}}
+|{{Ability2
+|targeting= '''Switcheroo!''' is a [[toggle]]d ability that grants Jinx an [[on-hit effect]] that varies depending on her current equipped weapon. 
+|damagetype=Physical
+|spelleffects=false
+|spellshield= Will have no effect.
+|additional=
+* Triggering ''Switcheroo!'' does not proc {{ii|Sheen}}, {{ii|Iceborn Gauntlet}}, {{ii|Lich Bane}} and {{ii|Trinity Force}}.
+*{{ai|Pow-Pow|Jinx|Pow-Pow, the Minigun}}
+** While {{ci|Jinx}} is visually using ''Pow-Pow'' from the start of the game, she does not benefit from the bonus attack speed until ''Switcheroo!'' has been leveled. 
+** While using {{ii|Runaan's Hurricane}}, ''Pow-Pow'' will generate one stack per enemy hit. 
+* {{ai|Fishbones|Jinx|Fishbones, the Rocket Launcher}}
+** While the main target of ''Fishbones'' will not be affected by spell effects such as {{iis|Rylai's Crystal Scepter}} or [[spell vamp]], targets hit by the splash portion will be affected as if the damage were an area of effect spell.
+** Aside from your first basic attack, your basic attacks while ''Fishbones'' is active will not utilize the bonus attack speed and none of your attacks will refresh the timer on the stacks from {{ai|Pow-Pow|Jinx}}.
+** While ''Fishbones'' is active, if you try to attack and do not have enough mana to fire a rocket ''Switcheroo!'' will go on cooldown and revert to {{ai|Pow-Pow|Jinx}}.
+** It is worth noting that Jinx has the 4th lowest attack speed at level 18 in the game, with only {{fd|0.731}}. While having the full 3 cumulative stacks of bonus attack speed from ''Pow-Pow'' puts her at the fastest attack speed while not utilizing an active ability, her attacks are considerably slower than other champions while using ''Fishbones''. 
+** Jinx has the second longest static attack range with rank 5 ''Fishbones''; out-ranged only by a level 18 {{ci|Tristana}} by 3 units. 
+*** Including bonus attack range from activated abilities, Jinx is out-ranged only by {{ci|Tristana}} at level 18, {{ci|Kog'Maw}} with rank 5 {{ai|Bio-Arcane Barrage|Kog'Maw}} activated, and {{ci|Twitch}} with {{ai|Rat-Ta-Tat-Tat|Twitch}} activated.
+** [[On-hit effect]]s are only applied to the primary target, and not to any targets hit by splash damage.
+** The 10% bonus damage dealt to Jinx's primary from ''Fishbones'' will apply [[life steal]]. 
+** The splash damage will not occur if Jinx's attack is {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}}, or if the attack [[blind|misses]].
+** The splash damage will still occur while attacking towers and will draw aggro.
+** The on-hit splash damage effect from ''Fishbones'' will be triggered with each bolt from {{ii|Runaan's Hurricane}}. The splash around secondary targets will deal {{as|10 + 50% AD}}. Any targets in the splash range can also be damaged by the splash damage from the other targets and splash damage areas will stack if they overlap, allowing for a maximum damage of {{as|20 + 210% AD}} to the targets or tertiary enemies standing in all three areas of splash damage (not factoring critical strikes or damage modifiers).
+*** {{mi4|Spell Weaving}} and {{mi4|Blade Weaving}} appear to interact inconsistently with ''Fishbones'' and {{ii|Runaan's Hurricane}}; all of the projectiles will trigger {{mi4|Spell Weaving}} when they hit a Champion, but the splash damage and extra projectiles will not trigger {{mi4|Blade Weaving}}, the splash only triggering {{mi4|Blade Weaving}} if damaging another champion.
+*** Note that the secondary targets of ''Runaan's Hurricane'' can be up to 375 units away, meaning it is not guaranteed that the splash damage areas will overlap. However, ''Runaan's'' prioritizes the closest enemies to your target - making it relatively easy to overlap at least two areas of damage. 
+*** ''Fishbones'' consumes mana per attack, not per target hit. As such, {{ii|Runaan's Hurricane}} will not drain any additional mana for the additional bolts it fires. 
+** While using {{ii|Muramana}}, ''Fishbones''' mana cost is deducted before ''Muramana's'' damage is calculated. 
+|video=Jinx QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Zap!
+|icon=Zap!.png
+|description={{sbc|Active:}} After a short delay, Jinx fires a shock blast that deals physical damage to the first enemy hit, granting sight and slowing the unit for 2 seconds.
+|leveling={{lcaps|Physical Damage|10|60|110|160|210|(+ 140% AD)}}
+{{lcap|Slow|30|40|50|60|70%}}
+|range=1500
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana
+|cooldown={{ap|10|9|8|7|6}}
+}}
+|{{Ability2
+|targeting='''Zap!''' is a [[skill shot|linear, colliding skillshot]] that damages and [[slows]] the first enemy unit it collides with.
+{{lc|Projectile Speed}} 3200
+{{lc|Projectile Width}} {{fd|~80.5}}
+|damagetype=physical
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* During the ability cast time, an indicator line shows the path of the projectile and is visible to allies and enemies.
+|video=Jinx WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Flame Chompers!
+|icon=Flame Chompers!.png
+|description={{sbc|Active:}} Jinx tosses out 3 chompers that, after an arm time of {{fd|0.7}} seconds, explode on contact with enemy champions dealing magic damage over {{fd|1.5}} seconds to enemies within '''50'''-unit area. The champion that sets off the chomper is also rooted the same duration. Chompers explode automatically after 5 seconds. A single champion can only set off a single chomper, but can be damaged if they remain in range when they explode.  
+|leveling={{lcaps|Magic Damage|80|135|190|245|300|(+ 100% AP)}}
+|range=900
+|cost=50
+|costtype=mana
+|cooldown={{ap|24|22|20|18|16}}
+}}
+|{{Ability2
+|targeting='''Flame Chompers!''' is a [[area of effect|linear, ground-targeted area of effect]] that damages any unit in its vicinity when its triggered or after 5 seconds. A champion that sets off a chomper is [[root]]ed as well.
+|damagetype=magical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block both the root and the damage from a single chomper.
+|additional=
+* A single champion can only trigger a single chomper whether they get snared or block it with a spell shield. But the damage portion can be triggered multiple times on the same target.
+**Non-triggered traps that detonate over time or are triggered by another champion will still deal damage to nearby enemies including anyone one who has blocked a trap, if they are still in the area.
+* ''Flame Chompers!'' has no cast time and does not interrupt Jinx's movement.
+** However they have a short {{fd|0.7}} second activation time before they can be triggered by a champion.
+* The explosion damage will apply to any nearby enemies (including neutral monsters, pets and minions, excluding structures) but only champions can trigger the traps before the timer. 
+*  ''Flame Chompers!'' can deal a maximum of {{aps|160|270|380|490|600|(+ 200% AP)}} to a single target. 
+|video=Jinx EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Super Mega Death Rocket!
+|icon=Super Mega Death Rocket!.png
+|description={{sbc|Active:}} Jinx fires a rocket that travels in a line, exploding on the first enemy champion hit. Enemies caught in the explosion take physical damage equal to a base amount (this amount increases over the first second the rocket travels) plus a percentage of their missing health (max. 300 vs. minions and monsters <ref>[http://www.reddit.com/r/leagueoflegends/comments/1og5cm/no_damage_cap_on_jinxs_ultimate_can_steal_baron/ccro62y gypsylord comment from reddit]</ref>). The primary target of the explosion takes full damage, while nearby enemies take 80% damage. 
+|leveling = {{lcaps|Minimum Physical Damage|125|175|225|(+ 50% bonus AD)}}
+{{lcaps|Maximum Physical Damage|250|350|450|(+ 100% bonus AD)}}
+{{lc|Additional Damage}} {{as|{{ap|25|30|35}}% of enemies' missing health}}
+|range=Global
+|cost=100
+|costtype=mana
+|cooldown={{ap|90|75|60}}
+}}
+|{{Ability2
+|targeting='''Super Mega Death Rocket!''' is a global [[skill shot|linear, colliding skill shot]] that will travel in a straight line across the entire map until it hits an enemy champion or leaves the entire zone, increasing its damage and flight speed over a short distance (1500 units, the distance of {{ai|Zap!|Jinx}}) <ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=42095396#post42095396 gypsylord comments on Jinx, the Loose Cannon - Feedback Thread]</ref>. The first champion that it collides with will take full damage. Surrounding targets take individual damage at 80% of the possible total (both base damage and missing-health bonus damage).
+* The damage based on missing health is calculated on an individual basis for each target hit, and not based off the damage dealt to the primary target <ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=42095396#post42095396 gypsylord comments on Jinx, the Loose Cannon - Feedback Thread]</ref>.
+{{lc|Explosion radius}} 225 ({{Pending for test}}).
+{{lc|Projectile speed}} while speeding up , it takes 1 second to travel trough the first 1500 units, ending up with a speed value near 2500 ({{Pending for test}}).
+|damagetype=physical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=can block both the impact and the explosion. Note: blocking the impact will not prevent the explosion.
+|additional=
+* The rocket will not collide with any non-champion targets, however all non-friendly, non-structure units in the area will receive the splash damage once the rocket detonates.
+|video=Jinx RVideo
+}}
+}}
+
+==References==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Jinx]]
+[[de:Jinx]]
+[[es:Jinx]]
+[[fr:Jinx]]
+[[pl:Jinx]]
+[[pt-br:Jinx]]

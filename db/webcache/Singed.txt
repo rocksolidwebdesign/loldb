@@ -1,0 +1,129 @@
+{{C-top}} {{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Empowered Bulwark
+|icon = EmpoweredBulwark.jpg
+|description = Singed gains bonus health equal to {{as|25% of his maximum mana}}.
+}}
+|{{Ability2
+|targeting='''Empowered Bulwark''' is a [[buff|self-buff]] ability.
+|additional=
+* Due to his base mana and mana increase per level, Singed effectively receives a bonus to his base health ({{fd|53.75}}) and additional health per level ({{fd|11.25}}) up to a {{fd|256.25}} bonus health at level 18.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Poison Trail
+|icon = PoisonTrail.jpg
+|description = {{sbc|Toggle:}} Singed leaves a trail of poison behind him that lasts for {{fd|3.25}} seconds. Enemies caught in the path will be dealt magic damage each second for 3 seconds. Continual exposure renews the poison.
+|leveling = {{lcaps|Magic Damage per Second|22|34|46|58|70|(+ 30% AP)}}
+{{lcaps|Total Magic Damage|66|102|138|174|210|(+ 90% AP)}}
+|cost = 13
+|costtype = mana per second
+}}
+|{{Ability2
+|targeting='''Poison Trail''' is a [[toggle]]d [[area of effect#Point blank|point blank area of effect]] ability.
+{{lc|Cloud radius}} 20
+|spelleffects=area of damage
+|onhiteffects=
+|damagetype=magic
+|spellshield=will not block the ability.
+|blackshield=
+|quicksilver=
+|additional=
+* Toggling ''Poison Trail'' does not count as a spellcast for the purposes of abilities like {{cai|Force Pulse|Kassadin}}.
+* ''Poison Trail'' counts as a poison for {{cai|Twin Fang|Cassiopeia}}.
+|video=Singed QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Mega Adhesive
+|icon = MegaAdhesive.jpg
+|description = {{sbc|Active:}} Singed creates a pool of mega adhesive on the ground in a target '''175'''-radius area. The adhesive lasts 5 seconds, causing all enemies who touch it to be slowed as long as they are in the adhesive and for {{fd|0.25}} seconds once they are out of it.
+|leveling = {{lcap|Slow|35|45|55|65|75%}}
+|range = 1000
+|cooldown = 14
+|cost = {{ap|70|80|90|100|110}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Mega Adhesive''' is a [[area of effect#Ground targeted|ground targeted area of effect]] ability.
+|spelleffects=
+|spellshield=will not block the ability.
+|blackshield=
+|quicksilver=
+|additional=
+|video=Singed WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Fling
+|icon = Fling.jpg
+|description = {{sbc|Active:}} Singed flings a target enemy unit, dealing magic damage and pulling the unit {{tt|550|Estimated}} units towards him.
+|leveling = {{lcaps|Magic Damage|80|125|170|215|260|(+ 75% AP)}}
+|range = 125
+|cooldown = 10
+|cost = {{ap|100|110|120|130|140}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Fling''' is a [[unit-targeted]] ability.
+|spelleffects=single target
+|onhiteffects=
+|spellshield=will block the ability.
+|blackshield=
+|quicksilver=
+|additional=
+* ''Fling's'' effects will occur even if the target unit uses {{si|Flash}} during the cast time.
+* ''Fling's'' pull effectively disables the target for about 1 second.
+* ''Fling'' can throw enemies over thin walls.
+* ''Fling'' always attempts to toss enemies behind Singed. If Singed approaches an enemy diagonally, it will sometimes toss them sideways due to the fact that Singed was not facing towards the target.
+|video=Singed EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Insanity Potion
+|icon = InsanityPotion.jpg
+|description = {{sbc|Active:}} Singed drinks a potent brew of chemicals, enhancing his ability power, armor, magic resistance, movement speed, health and mana regeneration per 5 seconds. Lasts 25 seconds.
+|leveling = {{lcap|Stats Enhancement|35|50|65}}
+{{lcap|Health and Mana restored over 25 secs|175|250|325}}
+|cooldown = 100
+|cost = 150
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Insanity Potion''' is a [[self-targeted]] [[buff]] ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|blackshield=
+|quicksilver=
+|additional=
+* ''Insanity Potion'' has no cast time and does not interrupt Singed's previous orders.
+* ''Insanity Potion's'' cooldown begins immediately upon casting.
+|video=Singed RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Singed]]
+[[de:Singed]]
+[[es:Singed]]
+[[fr:Singed]]
+[[pl:Singed]]
+[[pt-br:Singed]]
+[[ru:Singed]]
+[[zh:辛吉德]]

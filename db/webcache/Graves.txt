@@ -1,0 +1,137 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = True Grit
+|icon = True Grit.jpg
+|description = Graves gains {{pp|3|1|2|3|1|7|13}} bonus armor and magic resistance every second he remains in combat (stacks up to 10 times). Graves is considered in combat if he has dealt or received damage in the last 3 seconds.
+}}
+|{{Ability2
+|targeting = '''True Grit''' is a [[buff|self-buff]] ability.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+*''True Grit'' loses all all its stacks after 3 seconds.
+|video=Graves IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Buckshot
+|icon = Buckshot.jpg
+|description  = {{sbc|Active:}} Graves fires three bullets in a cone, dealing physical damage to all enemies in their path. 
+|description2 = Enemies at close range can be hit by multiple projectiles, but each bullet beyond the first will deal only 40% damage.
+|leveling  = {{lc|Physical Damage}} {{ap|60|95|130|165|200}} {{as|(+ 80% bonus AD)}}
+|leveling2 = {{lc|Max Physical Damage}} {{ap|108|171|234|297|360}} {{as|(+ 144% bonus AD)}}
+|cooldown = {{ap|12|11|10|9|8}}
+|cost     = {{ap|60|70|80|90|100}}
+|costtype = Mana
+|range    = 950
+}}
+|{{Ability2
+|targeting = '''Buckshot''' is a pass-through conic [[skill shot]].
+|damagetype   = physical
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the damage.
+|additional =
+|video=Graves QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Smoke Screen
+|icon = Smoke Screen.jpg
+|description  = {{sbc|Active:}} Graves fires a smoke canister at the target area, dealing magic damage upon landing and creating a '''250'''-radius cloud of smoke for 4 seconds. 
+|description2 = Enemies inside the smoke cloud will be slowed and will have their vision reduced to '''675'''-range.
+|leveling  = {{lc|Magic Damage}} {{ap|60|110|160|210|260}} {{as|(+ 60% AP)}}
+|leveling2 = {{lc|Slow}} {{ap|15|20|25|30|35%}}
+|cooldown  = {{ap|20|19|18|17|16}}
+|cost      = {{ap|70|75|80|85|90}}
+|costtype  = Mana
+|range     = 950
+}}
+|{{Ability2
+|targeting = '''Smoke Screen''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype   = magic
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the damage, but do not prevent the sight reduction or slow.
+|additional =
+* The vision lost by this ability will look like the [[Fog of War]].
+* If an affected champion is attacked from range while inside the smokescreen, they will gain vision of the attacking unit (similar to [[brush]]).
+|video=Graves WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Quickdraw
+|icon = Quickdraw.jpg
+|description = {{sbc|Active:}} Graves dashes forward, gaining an attack speed boost for 4 seconds. Basic attacks against non-structure enemy units reduce the cooldown of ''Quickdraw'' by 1 second.
+|leveling = {{lc|Attack Speed}} {{ap|30|40|50|60|70%}}
+|cooldown = {{ap|22|20|18|16|14}}
+|cost     = 40
+|costtype = Mana
+|range    = 425
+}}
+|{{Ability2
+|targeting = '''Quickdraw''' is a linear [[dash]] ability with a [[buff|self-buff]] component.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+|video=Graves EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Collateral Damage
+|icon = Collateral Damage.jpg
+|description  = {{sbc|Active:}} Graves fires an explosive shell in a straight line, dealing heavy physical damage to any non-champion enemy it passes through, as well as the first champion that collides with.
+|description2 = After hitting a champion or reaching the end of its range, the shell explodes dealing physical damage in a '''800'''-range cone behind the target.
+|leveling  = {{lc|Impact Physical Damage}} {{ap|250|400|550}} {{as|(+ 150% bonus AD)}}
+|leveling2 = {{lc|Explosion Physical Damage}} {{ap|200|320|440}} {{as|(+ 120% bonus AD)}}
+|cooldown = {{ap|100|90|80}}
+|cost     = 100
+|costtype = Mana
+|range    = 1000
+}}
+|{{Ability2
+|targeting = '''Collateral Damage''' is a [[skill shot|collision linear skill shot]] with a [[area of effect|conic pass-through area of effect]] component.
+|damagetype   = physical
+|projectile   = true
+|spelleffects = single, aoe
+|spelleffects-single = The Impact component
+|spelleffects-aoe = The Explosion component
+|onhiteffects =
+|spellshield  = will block the damage from both parts of the ability. They do not prevent the shell from detonating.
+|additional =
+* Enemies hit directly by the shell are not dealt damage from the subsequent explosion.
+* Minions and monsters in the shell path take damage equal to what a champion would when being directly hit, though they do not set off the explosion itself.
+|video=Graves RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Graves]]
+[[de:Graves]]
+[[es:Graves]]
+[[fr:Graves]]
+[[pl:Graves]]
+[[pt-br:Graves]]
+[[ru:Graves]]
+[[zh:格雷福斯]]

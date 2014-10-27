@@ -1,0 +1,139 @@
+{{C-top}} {{champion info|Varus}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Living Vengeance
+|icon = LivingVengeance.jpg
+|description = On a minion or monster kill, Varus gains 20% attack speed for 3 seconds. On a champion kill or assist, Varus gains 40% attack speed for 6 seconds. These bonuses do not stack with themselves.
+}}
+|{{Ability2
+|targeting='''Living Vengeance''' is a self-targeted [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*The 40% bonus takes precedence over the 20% bonus. Any minions or monsters killed during the 6 seconds will be discarded - they do not refresh the duration nor do they create a separate buff.
+*Varus' bow glows red while the minion attack speed bonus is active, and glows purple when the champion bonus is active.
+|video=Varus IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Piercing Arrow
+|icon = PiercingArrow.jpg
+|description = {{sbc|First Cast:}} Varus begins channeling his next shot, gradually increasing the range and damage of ''Piercing Arrow'' over the next 2 seconds.
+|description2 = Varus can still move while channeling, but can't autoattack or use his other abilities, and his movement speed is slowed by 20%. After 4 seconds, ''Piercing Arrow'' is automatically cancelled, going on full cooldown and refunding half of its mana cost.
+|description3 = {{sbc|Second Cast:}} Varus fires, dealing physical damage to all enemies in the arrow's path, reduced by 15% per enemy hit (down to a minimum of 33%).
+{{lc|Projectile Speed}} 1900
+|leveling = {{lc|Minimum Physical Damage}} {{ap|10|47|83|120|157}} {{as|(+ 100% AD)}}
+{{lc|Maximum Physical Damage}} {{ap|15|70|125|180|235}} {{as|(+ 160% AD)}}
+|leveling3 = {{lc|Minimum Reduced Damage}} {{ap|3.3|15.7|27.7|40|52.3}} {{as|(+ 33% AD)}}
+{{lc|Maximum Reduced Damage}} {{ap|5|23.3|41.7|60|78.3}} {{as|(+ 53% AD)}}
+|range = 925 ~ 1387.5
+|cooldown = {{ap|16|14|12|10|8}}
+|cost = {{ap|70|75|80|85|90}}
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Piercing Arrow''' is a [[skillshot|point targeted pass-through linear skillshot]] ability whose effect is divided into two active components.
+|damagetype=physical
+|projectile=true
+|spelleffects=area
+|onhiteffects=Will not apply [[Lifesteal]], as ''Piercing Arrow'' is a physical damage spell, not an attack.
+|spellshield=Will block ''Piercing Arrow''.
+|additional=
+*The range of the spell will always be displayed, even as it increases.
+*Using {{si|Recall}} while charging ''Piercing Arrow'' will also cancel the cast.
+|video=Varus QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Blighted Quiver
+|icon = BlightedQuiver.jpg
+|description = {{sbc|Passive:}} Varus' basic attacks deal bonus magic damage. They also apply [[File:BlightedQuiver.jpg|20px|link=]] '''Blight''' for 6 seconds, stacking up to 3 times.
+|description2 = Varus' other abilities detonate '''Blight''', dealing magic damage equal to a percentage of the target's maximum health per stack (capped at 360 against monsters).
+|leveling = {{lc|On-hit Magic Damage}} {{ap|10|14|18|22|26}} {{as|(+ 25% AP)}}
+|leveling2 = {{lc|Magic Damage per Blight Stack}} {{ap|2|2.75|3.5|4.25|5%}} {{as|(+ 2% per 100 AP)}} {{as|of target's max health}}
+{{lc|Maximum Magic Damage}} {{ap|6|8.25|10.5|12.75|15%}} {{as|(+ 6% per 100 AP)}} {{as|of target's max health}}
+}}
+|{{Ability2
+|targeting='''Blighted Quiver''' is a passive ability that grants Varus an [[On-hit effect]]
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=
+|spellshield=Will not block the damage, but will block the skills that trigger it.
+|additional=
+|video=Varus WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Hail of Arrows
+|icon = HailofArrows.jpg
+|description = {{sbc|Active:}} Varus fires a hail of arrows that deals physical damage and desecrates the ground for 4 seconds.
+|description2 = ''Desecrated Ground'' inflicts [[Healing#Healing reduction|Grievous Wounds]] and slows enemy movement speed.
+|leveling = {{lc|Physical Damage}} {{ap|65|100|135|170|205}} {{as|(+ 60% bonus AD)}}
+|leveling2 = {{lc|Slow}} {{ap|25|30|35|40|45%}}
+|range = 925
+|cooldown = {{ap|18|16|14|12|10}}
+|cost = 80
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Hail of Arrows''' is a [[area of effect|ground targeted area of effect]] ability.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block ''Hail of Arrows''.
+|additional=
+*Slows will linger for .25 seconds after leaving the marked area.
+|video=Varus EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Chain of Corruption
+|icon = ChainofCorruption.jpg
+|description = {{sbc|Active:}} Varus flings out a tendril of corruption that infects the first enemy champion hit, dealing magic damage and rooting them for 2 seconds.
+{{lc|Projectile Speed}} 2000
+|description2 = The corruption then attempts to spread towards enemy champions within '''550''' range, applying the same damage and root if they stay within '''600''' range of the infected champion for 2 seconds. The corruption will continue to spread until there are no further targets in range, but each champion may only be infected once per cast.
+|leveling = {{lc|Magic Damage}} {{ap|150|250|350}} {{as|(+ 100% AP)}}
+|range = 1075
+|cooldown = {{ap|110|90|70}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Chain of Corruption''' is a [[skillshot|linear collision skillshot]] ability.
+*Projectile speed: 2000
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block ''Chain of Corruption''.
+|additional=
+*Will continue to spread even if the first target dies or becomes free of the snare.
+|video=Varus RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Varus]]
+[[de:Varus]]
+[[es:Varus]]
+[[fr:Varus]]
+[[pl:Varus]]
+[[pt-br:Varus]]
+[[ru:Varus]]
+[[zh:韦鲁斯]]

@@ -1,0 +1,216 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Techmaturgical Repair Bots
+|icon = Techmaturgical Repair Bots.png
+|description  = Heimerdinger grants himself, nearby allied {{ai|H-28G Evolution Turret|Heimerdinger|H-28G Evolution Turrets}}, and nearby allied champions {{pp|5|10|15|20|25|30|1|5|9|13|17}} health regeneration per 5 seconds.
+|description2 =The effects of ''Techmaturgical Repair Bots'' will remain on allies for 5 seconds after leaving range and even after Heimerdinger's death.
+|range=1000
+}}
+|{{Ability2
+|targeting='''Techmaturgical Repair Bots''' is a passive [[aura]].
+|additional=
+|video=Heimerdinger IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name= H-28G Evolution Turret
+|icon= H-28G Evolution Turret.png
+|description= {{sbc|Active:}} Heimerdinger deploys a turret at the target location. Heimerdinger stores enough parts for a new turret every several seconds (affected by cooldown reduction) but can only keep a limited number of turrets in reserve. Up to 3 turrets can be deployed at a time and deploying a fourth turret destroys the oldest one.
+|description2=Turrets have '''525'''-range basic attacks and a '''1100'''-range laser beam. The laser beam is a pass-through skill shot that fires upon reaching 100% charge. Charge generates passively and the turret's basic attacks will generate additional charge, with a maximum recharge time of 16 seconds. Turrets deactivate if Heimerdinger is more than 1000 units away for longer than 8 seconds. 
+|leveling = {{lc|Storage Time}} {{ap|24|23|22|21|20}}
+{{lc|Max Turret Reserve}} {{ap|1|1|2|2|3}}
+|leveling2 = {{lc|On-Hit Magic Damage}}  {{ap|12|18|23|29|34}} {{as|(+ 15% AP)}}
+{{lc|On-Hit Charge Generation}} {{ap|1|2|3|4|5}} %
+{{lc|Laser Beam Magic Damage}} {{ap|40|60|80|105|130}} {{as|(+ 55% AP)}}
+|cost=20
+|costtype=mana + 1 turret kit
+|cooldown=1
+|range=450
+}}
+{{Ability info
+|name= H-28Q Apex Turret
+|icon= H-28Q Apex Turret.jpg
+|description= {{sbc|{{ai|UPGRADE!!!|Heimerdinger}} - Active:}} Heimerdinger constructs an [[Heimerdinger#Pets|Apex Turret]] that lasts for 8 seconds. The ''Apex Turret'' deals modified damage based on the rank in ''UPGRADE!!!'', and its basic attacks deal 100% splash damage, apply a 25% movement speed slow, and generate 20% beam charge per hit. The beam attack is also twice as wide. The ''Apex Turret'' does not count toward Heimerdinger's turret limit, nor does it interact with his turret reserve.
+|leveling ={{lc|On-Hit Magic Damage}} {{ap|70|90|110}} {{as|(+ 30% AP)}}
+{{lc|Laser Beam Magic Damage}} {{ap|180|240|300}} {{as|(+ 70% AP)}}
+|cost=
+|costtype=No cost
+|range=450
+}}|{{Ability2
+|targeting= [[Heimerdinger#Pets|H-28G Evolution Turret]] and [[Heimerdinger#Pets|H-28Q Apex Turret]] are ground-target abilities that construct a static, autonomous unit. 
+|additional=
+* Leveling-up and ranking-up ''H-28G Evolution Turrets'' will not affect the stats of any existing Turret. 
+* A number of small metal nuts can be seen orbiting Heimerdinger's model to represent the number of turret kits he has available. 
+* ''H-28Q Apex Turret'' can be cast even if Heimerdinger has no turret kits in his reserve. The 1 second cooldown still applies, however, if Heimerdinger has recently constructed a H-28G Turret.
+|video=Heimerdinger QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name= Hextech Micro-Rockets
+|icon= Hextech Micro-Rockets.png
+|description= {{sbc|Active:}} Heimerdinger unleashes a barrage of 5 rockets that converge on the target location and fan beyond it up to a maximum range, each rocket dealing magic damage to the first enemy it hits. 
+|description2=Enemy champions and neutral monsters that are hit by more than one rocket take >20% magic damage for each rocket beyond the first. Enemy minions that are hit by more than one rocket take >60% magic damage for each rocket beyond the first.
+|cooldown=11
+|range=1100
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+|leveling={{lc|First rocket's Magic Damage}} {{ap|60|90|120|150|180}} {{as|(+ 45% AP)}} 
+{{lc|Extra rocket's damage to Champion or monster}} {{ap|12|18|24|30|36}} {{as|(+ 12% AP)}}
+{{lc|Maximum Damage to Single Champion or monster}} {{ap|108|162|216|270|324}} {{as|(+ 93% AP)}}
+|leveling2={{lc| Extra rocket's Damage to Minions}} {{ap|36|54|72|90|108}} {{as|(+ 36% AP)}}
+}}
+{{Ability info
+|name= Hextech Rocket Swarm
+|icon= Hextech Rocket Swarm.jpg
+|description= {{sbc|{{ai|UPGRADE!!!|Heimerdinger}} - Active:}} Heimerdinger launches 4 waves of rockets in quick succession. Upgraded rockets deal modified damage based on the rank in ''UPGRADE!!!'', up to a cap on individual enemies.
+|description2=Enemy champions and neutral monsters that are hit by more than one rocket take >20% magic damage for each rocket beyond the first. Enemy minions that are hit by more than one rocket take 100% magic damage for each rocket beyond the first.
+|range=1100
+|cost=
+|costtype=No cost
+|leveling={{lc|First rocket's Magic Damage}} {{ap|135|180|225}} {{as|(+ 45% AP)}} 
+{{lc|Extra rocket's damage to champion or monster}} {{ap|28|39|49|}} {{as|(+ 12% AP)}}
+{{lc|Maximum Damage to Single Champion or monster}} {{ap|667|921|1156}} {{as|(+ 273% AP)}} 
+|leveling2={{lc| Extra rocket's Damage to Minions}} {{ap|135|180|225}} {{as|(+ 45% AP)}}
+}}
+|{{Ability2
+|targeting='''Hextech Micro-Rockets''' is made up of 5 [[skill shot|linear, colliding skill shots]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=can block multiple abilities/components of a single ability if they would strike at the same time, as there is no priority system in place to say which hit first. While on paper a spell shield should only block a single missile, in practice they will block a single wave of missiles. 
+|additional=
+* The cast-style for ''Hextech Micro-Rockets'' is similar to that of {{ai|Glitterlance|Lulu}} in the sense that there are 5 mini skill-shots that start from slightly different points and are each aimed individually, allowing for V and X shapes.
+|video=Heimerdinger WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name= CH-2 Electron Storm Grenade
+|icon= CH-2 Electron Storm Grenade.png
+|description= {{sbc|Active:}} Heimerdinger hurls a grenade at a targeted location, dealing magic damage and slowing enemies hit by 35% for 2 seconds. Enemies struck directly by the grenade are also stunned for {{fd|1.25}} seconds. 
+|range= 925
+|leveling={{lc|Damage Radius}} 210
+{{lc|Stun Radius}} 135
+{{lc|Missile Speed}} 1200
+{{lc|Magic Damage}} {{ap|60|100|140|180|220}} {{as|(+ 60% AP)}}
+|cooldown = {{ap|18|16|14|12|10}}
+|cost = 85 
+|costtype = mana
+}}
+{{Ability info
+|name= CH-3X Lightning Grenade
+|icon= CH-3X Lightning Grenade.jpg
+|description= {{sbc|{{ai|UPGRADE!!!|Heimerdinger}} - Active:}} Heimerdinger hurls a grenade that bounces up to 3 times, discharging on each bounce. Each discharge deals modified damage based on the rank in ''UPGRADE!!!'', the slow is increased to 80% and the area of effect is larger. Enemy champions can only be damaged by the grenade once, but can be slowed and stunned multiple times if circumstances permit. 
+|range= 925
+|leveling={{lc|Damage Radius}} 420
+{{lc|Stun Radius}} 270
+{{lc|Missile Speed}} 1200
+{{lc|Magic Damage Per Bounce}} {{ap|150|200|250}} {{as|(+ 60% AP)}}
+{{lc|Bounce Distance}} 540
+|cooldown =
+|cost = 
+|costtype = No cost
+}}
+|{{Ability2
+|targeting='''CH-2 Electron Storm Grenade''' is a [[Area of effect#Ground targeted|ground-targeted area of effect]] that slows enemies hit and can stun them if close enough to the center of the blast.
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ''Electron Storm Grenade'' and a single detonation of the ''Lightning Grenade''. 
+|additional=
+* Unlike {{ai|Bouncing Bomb|Ziggs}}, ''CH-3X Lighting Grenade'' does not use simulated physics. Each of the grenade's impacts will occur a fixed distance after the previous, regardless of how close or far the initial impact zone was to Heimerdinger.
+|video=Heimerdinger EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name= UPGRADE!!!
+|icon= UPGRADE!!!.png
+|description = {{sbc|Active:}} Heimerdinger empowers his next basic ability, also making it free to cast. Empowered abilities share the same cooldown as their basic form.
+|description2 = After Heimerdinger has had ''UPGRADE!!!'' active for 3 seconds without using another ability, he can reactivate it to cancel the empowerment and put ''UPGRADE!!!'' on a 3 second static cooldown. ''UPGRADE!!!'' will only go on its normal cooldown if Heimerdinger uses an empowered ability.
+|cooldown={{ap|100|80|60}}
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting=''UPGRADE!!!'' is a self-targeted [[buff]] that empowers his abilities until he casts one. 
+|additional=
+* Unlike {{cis|Rengar}} [[Manaless#Ferocity|Ferocity]], the two ability sets share a cooldown.
+|video=Heimerdinger RVideo
+}}
+}}
+
+==Pets==
+{{Ability pet
+|name = H-28G Evolution Turret
+|icon = H-28G Evolution Turret.png
+|render = EvolutionTurret.png
+|description = '''H-28G Evolution Turrets''' are [[Pet#Minion|static minions]] that attack nearby enemies. 
+* Classified as a [[pet#minion|minion]] for targeting purposes.
+* The turret's basic attacks do not apply [[spell effects]] or [[on-hit effects]].
+* The turret's laser beam applies [[spell effects]] as an area of effect ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+* {{ii|Banner of Command}} will increase the magic damage dealt by a turret's basic attacks.
+* Turrets take 40% increased damage from melee champion autoattacks<ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=42688476#42688476 Turret and Melee Champion]</ref>.
+* Turrets will prioritize Heimerdinger's attack target or enemies attacking Heimerdinger with its basic attack, and nearby enemy champions with its laser beam. An enemy champion that a turret is targeting or attempting to target will have a metal nut icon, even if they are outside the turret's range.
+* Turrets will try and attack the same target if within range.
+* Turrets are created with 70% charge, meaning they can fire their first beam after a maximum of {{fd|11.2}} seconds (reduced by the turret's attacks.) The current charge is displayed as a bar below the turret's health bar. 
+* The laser beam has a short wind-up time and the line-of-fire is telegraphed to both allies and enemies, similar to {{ai|Zap!|Jinx}}
+* A 8-second timer appears beneath the turret while Heimerdinger is out of range, representing the time until it goes offline (visually similar to {{cai|Cell Division|Zac|healing chunks}} and {{cai|Sweeping Blade|Yasuo}}). The laser beam loses all current charge when it goes offline. Turrets will instantly come online the moment Heimerdinger moves back in range. 
+* Offline turrets still grant sight, albeit over a reduced area (~200-radius).
+* {{Pending for test}} {{ai|Counter Strike|Jax}}, {{ai|Riposte|Fiora}}, {{ai|Aegis Protection|Pantheon}} and [[Blind]]. <!--All of them only mitigate physical damage--> 
+|health=125 + (25 * level) + {{as|({{tt|5-40% AP based on level|The scaling is a flat 5% between level 1 and level 8, thereafter it increased by 3.5% per level.}})}}
+|damage=See [[Heimerdinger#H-28Q Apex Turret|above]]
+|damagetype=Magic
+|range=525
+|armor={{pp|9|10|15|20|25|30|35|40|50|60|1-6|7-8|9-10|11|12|13|14|15|16}} / {{pp|2|70|80|17|18}}
+|mr={{pp|9|25|30|35|40|45|50|55|60|65|1-8|9-10|11-12|13|14|15|16|17|18}}
+|attackspeed=1.75
+|movespeed=Static
+|gold=5
+|exp=0
+}}
+{{Ability pet
+|name = H-28Q Apex Turret
+|icon = H-28Q Apex Turret.png
+|render= Apex Turret.png
+|description = ''H-28Q Apex Turret'' will always prioritize attacking enemy champions if possible.
+The ''H-28Q Apex Turret'' are functionally identical [[Heimerdinger#Pets|H-28G Evolution Turret]].
+|health=550 + (50 * level) + {{as|({{tt|25-200% AP based on level|The scaling is a flat 25% between level 6 and level 8, thereafter it increased by 17.5% per level.}})}}
+|damage=See [[Heimerdinger#H-28Q Apex Turret|above]]
+|damagetype=Magic
+|range=?
+|armor={{pp|9|10|15|20|25|30|35|40|50|60|1-6|7-8|9-10|11|12|13|14|15|16}} / {{pp|2|70|80|17|18}}
+|mr={{pp|9|25|30|35|40|45|50|55|60|65|1-8|9-10|11-12|13|14|15|16|17|18}}
+|attackspeed=1.05
+|movespeed=Static
+|gold=25
+|exp=0
+}}
+{{clear}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Heimerdinger]]
+[[de:Heimerdinger]]
+[[es:Heimerdinger]]
+[[fr:Heimerdinger]]
+[[pl:Heimerdinger]]
+[[pt-br:Heimerdinger]]
+[[ru:Хеймердингер, Одержимый учёный]]
+[[zh:黑默丁格]]

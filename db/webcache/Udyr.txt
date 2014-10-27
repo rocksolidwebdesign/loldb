@@ -1,0 +1,145 @@
+{{redirect|Udyr|the Riot Games producer|Steve 'Udyr' Mieczkowski}}
+{{C-top|SpiritGuard}} 
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{ci|Udyr}} uses the [[stance]] mechanic. His abilities all have a persistent effect which remain until he activates another ability. Each ability also has a temporary activation effect that occurs upon being cast; the temporary effect of each stance persists for its full duration even if '''Udyr''' changes stance again. Switching stances sets off a 2 second static global cooldown.
+
+All of {{cis|Udyr}} abilities have 5 ranks, but as '''Udyr''' can only gain a maximum of 18 skill points at level 18, he cannot ever max out all of his abilities. He may max three abilities (with the fourth only reaching its 3rd rank) or he may max two abilities (with the other two reaching their 4th rank).
+{{Ability frame|I
+|{{Ability info
+|name = Monkey's Agility
+|icon = Monkey'sAgility.jpg
+|description  = Each time '''Udyr''' switches stances, he gains 5 flat movement speed and 10% attack speed for 5 seconds. This effect can stack up to 3 times.
+}}
+|{{Ability2
+|targeting='''Monkey's Agility''' is a [[buff|self-buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Further stance activations at maximum stacks of ''Monkey's Agility'' will refresh the timer.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Tiger Stance
+|icon = TigerStance.jpg
+|description  = {{sbc|Stance Activation:}} '''Udyr''' gains attack speed for 5 seconds. '''Udyr''' will perform a [[File:TigerStance.jpg|20px|link=]] '''Tiger Strike''' with his first basic attack after activation, dealing bonus physical damage over 2 seconds to the target.
+|description2 = {{sbc|Persistent Effect:}} '''Udyr's''' basic attacks deal bonus physical damage equal to {{as|15% of his attack damage}}.
+|leveling = {{lc|Attack Speed Bonus}} {{ap|30|40|50|60|70%}}
+{{lc|Total Bonus Damage Over Time}} {{ap|30|80|130|180|230}} {{as|(+ {{ap|120|130|140|150|160%}} AD)}}
+|cooldown=6
+|cost={{ap|47|44|41|38|35}}
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Tiger Stance''' is a [[buff|self-buff]] ability with an [[on-hit effect]] component.
+|damagetype=physical
+|spelleffects=damage over time
+|onhiteffects=The triggering attacks will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+**Unlike most on-hit physical damage, the bonus damage from ''Tiger Stance'' will not apply [[life steal]].
+**Critical strikes do not interact with the bonus damage from ''Tiger Stance''.
+**The persistent onhit physical damage can successfully be {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} and {{ai|Aegis Protection|Pantheon|blocked}}.
+***However, they do not prevent application of the active DoT.
+**If Udyr is [[blind]]ed, neither the persistent damage nor the active damage will be applied, and it will consume the empowered attack of the active.
+|spellshield=will not block the enhanced autoattack.
+|additional=
+*Despite being an on-hit effect, ''Tiger Stance's'' active DoT will trigger spell effects as a damage-over-time spell, such as [[spell vamp]] and the reduced version of {{ii|Rylai's Crystal Scepter|Rylai's}} slow.
+*''Tiger Stance's'' DoT does not stack; applying it again only refreshes the duration.
+*''Tiger Stance's'' primed DoT does not persist through stance changes.
+|video=Udyr QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Turtle Stance
+|icon = TurtleStance.jpg
+|description  = {{sbc|Stance Activation:}} '''Udyr''' gains a shield for up to 5 seconds.
+|description2 = {{sbc|Persistent Effect:}} '''Udyr''' gains life steal.
+|leveling = {{lc|Shield Strength}} {{ap|60|100|140|180|220}} {{as|(+ 50% AP)}}
+|leveling2 = {{lc|Life Steal}} {{ap|10|12|14|16|18%}}
+|cooldown=6
+|cost={{ap|47|44|41|38|35}}
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Turtle Stance''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*As with any other form of in-built [[life steal]], ''Turtle Stance's'' healing does not work on structures.
+|video=Udyr WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Bear Stance
+|icon = BearStance.jpg
+|description  = {{sbc|Stance Activation:}} For a short duration, '''Udyr''' gains increased movement speed, ignores unit collision, and performs a short dash towards enemy champions he stuns with his attacks.
+|description2 = {{sbc|Persistent Effect:}} '''Udyr's''' basic attacks stun the target for 1 second. 
+|description3 = The dash and stun cannot reoccur on the same target within 6 seconds. 
+|leveling = {{lc|Movement Speed Bonus}} {{ap|15|20|25|30|35%}} 
+{{lc|Movement Speed Duration}} {{ap|2|2.25|2.5|2.75|3}}
+|cooldown=6
+|cost={{ap|47|44|41|38|35}}
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Bear Stance''' is a [[buff|self-buff]] ability with an [[on-hit effect]] component.
+|damagetype=
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+*''Bear Stance's'' stun does not interact with structures.
+*If the enhanced autoattack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}} or Udyr is [[blind]]ed, the target will still be stunned but will receive no damage.
+|spellshield=will block the ability and incur the 6 second stun immunity.
+|additional=
+|video=Udyr EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Phoenix Stance
+|icon = PhoenixStance.jpg
+|description  = {{sbc|Stance Activation:}} '''Udyr''' unleashes pulsing waves of fire around himself for 5 seconds, dealing magic damage each second to enemies within 250 range.
+|description2 = {{sbc|Persistent Effect:}} On the first attack after activation and on every third subsequent attack, '''Udyr''' engulfs enemies in flames, dealing magic damage in a cone in front of him.
+|leveling = {{lc|Magic Damage Per Wave}} {{ap|15|25|35|45|55}} {{as|(+ 25% AP)}}
+{{lc|Total Magic Damage}} {{ap|75|125|175|225|275}} {{as|(+ 125% AP)}}
+|leveling2 = {{lc|Magic Damage - 1st Attack & Per Third Attack}} {{ap|40|80|120|160|200}} {{as|(+ 45% AP)}}
+{{lc|Flame Range}} 625
+|cooldown=6
+|cost={{ap|47|44|41|38|35}}
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Phoenix Stance's''' activation effect is a [[area of effect|point blank area of effect]] ability. Its persistent effect is a [[area of effect|conic area of effect]] [[On-hit effects#On-Attack Effects.2FAuto-attack Modifiers|on-attack effect]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+*The current counter for the next activation of ''Phoenix Stance's'' persistent effect does not reset upon exiting combat.
+|video=Udyr RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Udyr]]
+[[de:Udyr]]
+[[es:Udyr]]
+[[fr:Udyr]]
+[[pl:Udyr]]
+[[pt-br:Udyr]]
+[[ru:Udyr]]
+[[zh:乌迪尔]]

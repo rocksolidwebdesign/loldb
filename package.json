@@ -1,0 +1,33 @@
+{
+  "name": "loldb",
+  "version": "0.0.1-alpha1",
+  "description": "League of Legends DB and Calculator",
+  "main": "bundle.js",
+  "repository": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "request": "*",
+    "backbone": "*",
+    "underscore": "*",
+    "q": "*",
+    "react": "*",
+    "jquery": "*",
+    "jquery-ui": "*",
+    "express": "*",
+    "body-parser": "*",
+    "watchify": "*"
+  },
+  "devDependencies": {
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "css-loader": "*",
+    "sass-loader": "*",
+    "react-hot-loader": "*",
+    "jsx-loader": "*",
+    "style-loader": "*"
+  }
+}

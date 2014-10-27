@@ -1,0 +1,135 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Duelist
+|icon=Duelist.jpg
+|description = Fiora regenerates 7{{plus}}(''Fiora's level'') health over 6 seconds each time she deals damage. Striking champions will cause this effect to stack up to 4 times.
+}}
+|{{Ability2
+|targeting    = '''Duelist''' is a self-buff that is triggered when dealing [[physical damage]].
+|additional   = 
+* Fiora gains 1 stack each time she deals physical damage to an enemy unit from any source (basic attack, ability, items).
+* If you have more than 1 stack, damaging a non-champion enemy will not refresh the duration
+|video        = Fiora IVideo
+}}}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Lunge
+|icon=Lunge.jpg
+|description={{sbc|Active:}} Fiora dashes forward to strike her target, dealing physical damage. Fiora can perform the dash a second time within 4 seconds at no mana cost. 
+|leveling = {{lc|Physical damage}} {{ap|40|65|90|115|140}} {{as|(+ 60% bonus AD)}}
+{{lc|Max physical damage}} {{ap|80|130|180|230|280}} {{as|(+ 120% bonus AD)}}
+|cooldown = {{ap|16|14|12|10|8}}
+|cost     = 60
+|costtype = Mana
+|range    = 600
+}}
+|{{Ability2
+|targeting    = '''Lunge''' is a single targeted dash.
+|damagetype   = physical
+|spelleffects = single
+|spellshield  = Will block a single instance of damage.
+|additional   = 
+* ''Lunge'' goes on cooldown upon the second cast of ''Lunge'' or if timer for the second cast runs up.
+|video        = Fiora QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Riposte
+|icon=Riposte.jpg
+|description = {{sbc|Passive:}} Fiora's attack damage is increased.
+|description2= {{sbc|Active:}} Fiora parries the next basic attack within {{fd|1.5}} seconds and deals magic damage to the attacker. Works against champions, large monsters, and large minions.
+|leveling = {{lc|Attack damage}} {{ap|15|20|25|30|35}}
+|leveling2= {{lc|Magic damage}} {{ap|60|110|160|210|260}} {{as|(+ 100% AP)}}
+|cooldown = {{ap|10|9|8|7|6}}
+|cost     = 45
+|costtype = Mana
+}}
+|{{Ability2
+|targeting    = '''Riposte''' is a self-targeted buff that auto targets. Its passive is a self-targeted buff.
+|damagetype   = magic
+|spelleffects = single
+|spellshield  = Will block a single instance of damage.
+|additional   = 
+*"Riposte" can not block attacks from champion created units such as {{ai|H-28G Evolution Turret|Heimerdinger}} or {{ai|Jack In The Box|Shaco}}.
+*  ''Riposte'' will block all damage from the basic attack, including [[on-hit effects]] or attack modifiers.
+* It does not block any form of [[crowd control]] or [[debuff]] attached to the blocked attack.
+|video        = Fiora WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Burst of Speed
+|icon=BurstofSpeed.jpg
+|description={{sbc|Active:}} Fiora temporarily gains additional Attack Speed for 3 seconds. Each basic attack or {{ai|Lunge|Fiora}} she lands during this time increases her Movement Speed for 3 seconds, stacking up to 3 times.<br><br>
+Killing a champion refreshes the cooldown on ''Burst of Speed''. Assists reduce the cooldown by half of the base amount.
+|leveling={{lc|Attack speed}} {{ap|60|75|90|105|120%}}
+{{lc|Movement speed}} {{ap|7|9|11|13|15%}}
+{{lc|Max movement speed}} {{ap|21|27|33|39|45%}}
+|cooldown={{ap|15|14|13|12|11}}
+|cost=55
+|costtype=Mana
+}}
+|{{Ability2
+|targeting    = '''Burst of Speed''' is a self-buff that grants movement speed after an basic attack.
+|additional   = 
+* ''Burst of Speed'' resets Fiora's autoattack timer on-cast.
+* The attack speed buff and movement speed buff are two separate buffs.
+* Landing basic attacks or {{ai|Lunge|Fiora}} against units will grant movement speed for 3 seconds. This does not apply to structures.
+* The movement speed buff refreshes each time Fiora autoattacks within the first 3 seconds. This allows the movement speed buff to last up to a maximum of 6 seconds total if she performs an attack at the very beginning of the attack speed buff, and an attack at the very last moment of the attack speed buff.
+|video        = Fiora EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Blade Waltz
+|icon=BladeWaltz.jpg
+|description={{sbc|Active:}} Fiora dashes around the battlefield &mdash; becoming untargetable in the process &mdash; dealing physical damage to random enemy champion(s) 5 times. Successive hits against the same target deal 25% damage. The first and last attack will be against the same target. Each strike applies on-hit effects.
+|leveling={{lc|Physical damage}} {{ap|160|330|500}} {{as|(+ 120% bonus AD)}}
+{{lc|Maximum single-target damage}} {{ap|320|660|1000}} {{as|(+ 240% bonus AD)}}
+{{lc|Minimum single-target damage}} {{ap|200|412.5|625}} {{as|(+ 150% bonus AD)}}
+|cooldown={{ap|130|120|110}}
+|cost=100
+|costtype=Mana
+|range=400
+}}
+|{{Ability2
+|targeting    = '''Blade Waltz''' is a targeted blink that bounces to nearby enemies before arriving.
+|damagetype   = physical
+|spelleffects = false
+|onhiteffects = * Will apply [[life steal]] and [[on-hit effects]].
+** Cannot critically hit.
+** ''Blade Waltz's'' damage will be mitigated if Fiora's attack is {{ai|Counter Strike|Jax|dodged}}.
+** {{ai|Aegis Protection|Pantheon|Block}} or {{ai|Riposte|Fiora|parry}} will block one damage from Blade Waltz.
+** Fiora will miss her attacks if she is [[blind]] when she attacks an enemy champion.
+|spellshield  = will block one strike from Blade Waltz.
+* {{ii|Zhonya's Hourglass}} will cancel Blade Waltz if her initial target uses it before Fiora  can cast her first strike.
+|additional   = 
+*Basic attacks or abilities that have already targeted Fiora will damage her as she begins Blade Waltz. If she dies, Blade Waltz will be canceled and put on cooldown.
+* [[On-hit effects]] damage are not reduced by ''Blade Waltz'' damage reduction on the same target.
+* Fiora will reappear next to the last enemy champion she attacks. Fiora will appear at her initial target unless they die or if she loses sight of them.
+* ''Blade Waltz'' will prioritize blinking to new targets if within range of addition enemy champions before blinking back to an already struck target(s).
+* When blinking next to an enemy champion, there is a small period of time of when she is targetable. She can take damage from area of effect abilities during this time and a turret's aggro will keep on re-locking to her if within range.
+|video        = Fiora RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Fiora]]
+[[de:Fiora]]
+[[es:Fiora]]
+[[fr:Fiora]]
+[[pl:Fiora]]
+[[pt-br:Fiora]]
+[[ru:Fiora]]
+[[zh:菲奥娜]]

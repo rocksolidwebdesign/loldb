@@ -1,0 +1,132 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Trample
+|icon = Trample.jpg
+|range = 300
+|description = After casting a spell, for 3 seconds Alistar ignores unit collision and deals 6{{plus}}(1{{times}}''Alistar's level'') {{as|(+ 10% AP)}} magic damage to nearby enemy units and structures each second. Deals double damage to minions.
+}}
+|{{Ability2
+|targeting='''Trample''' is a [[area of effect|point blank area of effect]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Trample's'' effects do not stack. Subsequent ability casts will refresh ''Trample's'' duration. 
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Pulverize
+|icon = Pulverize.jpg
+|description = {{sbc|Active:}} Alistar smashes the ground beneath him, dealing magic damage to nearby enemies and knocking them up for 1 second. Upon landing, they are stunned for {{ap|0.5}} seconds.
+|leveling = {{lc|Magic Damage}} {{ap|60|105|150|195|240}} {{as|(+ 50% AP)}}
+|range = 365
+|cooldown = {{ap|17|16|15|14|13}}
+|cost = {{ap|65|70|75|80|85}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Pulverize''' is a [[area of effect|point blank area of effect]] that [[knockup|knocks up]] and damages surrounding enemies.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Alistar QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Headbutt
+|icon = Headbutt.jpg
+|description = {{sbc|Active:}} Alistar dashes to an enemy, dealing magic damage, stunning it for 1 sec while knocking it back '''650'''-range.
+|leveling = {{lc|Magic Damage}} {{ap|55|110|165|220|275}} {{as|(+ 70% AP)}}
+|range = 650
+|cooldown = {{ap|14|13|12|11|10}}
+|cost = {{ap|65|70|75|80|85}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Headbutt''' is a [[dash|targeted dash]] that [[Crowd control#Types of Crowd Control#Knockback|knocks back]] and [[stun]]s.
+|damagetype=magic
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* ''Headbutt'' will knock enemies through most walls.
+** {{ai|Pulverize|Alistar}} will interrupt the knockback.
+* Prior to patch 4.15 If you selected to attack your target prior to using ''Headbutt'', Alistar would automatically and immediately attack after colliding with almost no attack wind-up. This interaction made [[Named item effect#Spellblade|spellblade]] items particularly potent on Alistar however this was removed because the opponent had no way to retaliate.
+|video=Alistar WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Triumphant Roar
+|icon = TriumphantRoar.jpg
+|description = {{sbc|Active:}} Alistar heals himself, with nearby allies healing for half that amount. ''Triumphant Roar's'' cooldown is reduced by 2 seconds whenever a nearby enemy unit dies.
+|leveling = {{lc|Self Heal}} {{ap|60|90|120|150|180}} {{as|(+ 20% AP)}}
+{{lc|Friendly Unit Heal}} {{ap|30|45|60|75|90}} {{as|(+ 10% AP)}}
+|range = {{ap|575}}
+|cooldown = 12
+|cost = {{ap|40|50|60|70|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Triumphant Roar''' is a [[area of effect|point blank area of effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Alistar's self-healing benefits from {{ii|Spirit Visage}} and [[Second Wind]]), but it does not proportionally increase the allied heal as the ability's wording would indicate.
+|video=Alistar EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Unbreakable Will
+|icon = UnbreakableWill.jpg
+|description = {{sbc|Active:}} Alistar roars, removing all crowd control effects on himself. For 7 seconds afterwards, he gains bonus attack damage and takes 70% reduced physical and magic damage.
+|leveling = {{lc|Attack Damage}} {{ap|60|75|90}}
+|cooldown = {{ap|120|100|80}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Unbreakable Will''' is a self-targeted ability that removes all [[crowd control]] effects on Alistar, and grants him an [[buff|offensive]] and [[buff|defensive]] buff.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Unbreakable Will'' does not remove or prevent any new crowd control from being applied on him after the activation.
+* The damage reduction occurs '''''after''''' armor and magic resistance. 
+* True damage will not be reduced by any form of damage reduction.
+|video=Alistar RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+
+
+[[cs:Alistar]]
+[[de:Alistar]]
+[[es:Alistar]]
+[[fr:Alistar]]
+[[pl:Alistar]]
+[[pt-br:Alistar]]
+[[ru:Alistar]]
+[[zh:阿利斯塔]]

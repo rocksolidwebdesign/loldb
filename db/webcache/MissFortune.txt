@@ -1,0 +1,152 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+==Abilities==
+{{Ability frame|I
+|{{Ability info
+|name = Strut
+|icon = Strut.png
+|description = {{sbc|Innate:}} Miss Fortune gains 25 movement speed after not taking damage for 5 seconds, which gradually increases to 70 movement speed over 5 seconds.
+}}
+|{{Ability2
+|targeting = '''Strut''' is a self-[[buff]] ability.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+|video=Miss Fortune IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Double Up
+|icon = Double Up.png
+|description = {{sbc|Active:}} Miss Fortune fires a shot through an enemy to hit an enemy behind them, dealing physical damage to the first target and increased physical damage to the second, applying on-hit effects to both.
+|leveling =
+{{lcapss|First Target Physical Damage|20|35|50|65|80|(+ 85% AD)|(+ 35% AP)}}
+{{lcapss|Second Target Physical Damage|40|70|100|130|160|(+ 100% AD)|(+ 50% AP)}}
+|cooldown = {{ap|7|6|5|4|3}}
+|cost     = {{ap|43|46|49|52|55}}
+|costtype = mana
+|range    = 650
+}}
+|{{Ability2
+|targeting = '''Double Up''' is a single-targeted ability that affects one additional enemy in a [[area of effect|conic area of effect]] behind the original target.
+|damagetype   = physical
+|projectile   = true
+|spelleffects = false
+|onhiteffects = Both hits will apply on-hit effects.
+** On-next-attack effects will only apply to the first target, such as [[Named item effects#Spellblade|Spellblade]].
+** {{ai|Counter Strike|Jax}}, {{ai|Riposte|Fiora}} and {{ai|Aegis Protection|Pantheon}} can block either hit. If Miss Fortune is [[blind]]ed, both hits will miss.
+|spellshield  = will block either hit.
+* Neither hit of ''Double Up'' can [[critical strike|critically strike]].
+|additional =
+* The second shot follows a priority order on targets within '''500'''-range:
+*#Enemy champions in a 40° cone with at least one stack of Impure Shots.
+*#Minions and neutral monsters within a 20° cone.
+*#Enemy champions within a 20° cone.
+*#Minions and neutral monsters within a 40° cone.
+*#Enemy champions within a 40° cone.
+*#Enemy or neutral units within a 110° cone.
+*#Enemy or neutral units within a {{tt|150|Estimated}}-range 160° cone.
+* ''Double Up's'' range is not listed as spell [[range]], but instead matches her basic attack range.
+* ''Double Up'' can bounce to units in [[brush]] or [[fog of war]] if they are in range of the target the spell is initially cast on.
+|video=Miss Fortune QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Impure Shots
+|icon = Impure Shots.png
+|description  = {{sbc|Passive:}} Miss Fortune's autoattacks deal {{as|6% AD}} bonus magic damage, stacking cumulatively up to 5 (+ 1{{times}}{{ais|Bullet Time|Miss Fortune}} rank) times.
+|description2 = {{sbc|Active:}} Miss Fortune gains bonus attack speed for 6 seconds and her autoattacks also apply [[Healing#Healing reduction|Grievous Wounds]] for 2 seconds.
+|leveling2 = {{lc|Attack Speed}} {{ap|20|30|40|50|60%}}
+|cooldown  = 16
+|cost      = {{ap|30|35|40|45|50}}
+|costtype  = mana
+}}
+|{{Ability2
+|targeting = '''Impure Shots''' is an [[on-hit effect]] and self-targeted [[buff]].
+|damagetype   = magic
+|spelleffects =
+|onhiteffects = The triggering attacks will apply other [[on-hit effects]] and can critically strike as normal.
+* Critical strikes do not interact with the bonus damage of Impure Shots.
+* {{Pending for test}} Impure Shots' relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested.
+* The bonus damage does not affect structures. 
+|spellshield  = will not block the damage or debuff.
+|additional =
+* The stacks of ''Impure Shots'' accumulate on the target, and are not reset if Miss Fortune attacks a new target. This is unlike similar effects, such as {{ai|Clockwork Windup|Orianna}} and {{ai|Eternal Thirst|Warwick}}, which accumulate on the champion and reset whenever they attack a new target.
+|video=Miss Fortune WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Make It Rain
+|icon = Make It Rain.png
+|description = {{sbc|Active:}} Miss Fortune rains hundreds of bullets down onto target {{tt|'''500'''|Estimated}}-radius area. This area lasts for 3 seconds, slowing and dealing magic damage every quarter of a second to enemies within.
+|leveling =
+{{lcaps|Total Magic Damage|90|145|200|255|310|(+ 80% AP)}}
+{{lcap|Slow|25|35|45|55|65%}}
+|cooldown = {{ap|14|13|12|11|10}}
+|cost     = 80
+|costtype = mana
+|range    = 800
+}}
+|{{Ability2
+|targeting = '''Make It Rain''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype   = magic
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will not block the ability.
+|additional =
+* ''Make It Rain'' grants [[sight]] of its area of effect.
+* ''Make it Rain'' remains active for its duration even if Miss Fortune dies.
+|video=Miss Fortune EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Bullet Time
+|icon = Bullet Time.png
+|description  = {{sbc|Passive:}} The stack limit for {{ai|Impure Shots|Miss Fortune}} is increased.
+|description2 = {{sbc|Active:}} Miss Fortune channels for 2 seconds, spraying up to 8 waves of  bullets (''6 bullets per wave'') in a cone in front of her. A wave is fired every {{fd|0.25}} seconds, dealing physical damage and applying {{ai|Impure Shots|Miss Fortune}}' passive magic damage and stack to all enemies within the area.
+|leveling  = {{lcap|New Stack Limit|6|7|8}}
+{{lc|Max Magic Damage}} {{as|{{ap|36|42|48%}} AD}}
+|leveling2 = 
+{{lc|Physical Damage Per Wave}} {{ap|50|75|125}} {{as|(+ 20% AP)}}
+{{lc|Max Physical Damage}} {{ap|400|600|1000}} {{as|(+ 160% AP)}}
+|cooldown  = {{ap|120|110|100}}
+|cost      = 100
+|costtype  = mana
+|range     = 1400
+}}
+|{{Ability2
+|targeting = '''Bullet Time''' is a [[channel]]ed [[area of effect|pass-through conic area of effect]] ability.
+|damagetype   = physical
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will not block the ability.
+|additional =
+* ''Bullet Time'' will deal up to {{as|{{ap|198|210|216}}% AD}} bonus magic damage with no stacks of {{ai|Impure Shots|Miss Fortune}} on the target, and with full stacks it increases to {{as|{{ap|288|336|384}}% AD}} bonus damage.
+|video=Miss Fortune RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Miss Fortune]]
+[[de:Miss Fortune]]
+[[es:Miss Fortune]]
+[[fr:Miss Fortune]]
+[[pl:Miss Fortune]]
+[[pt-br:Miss Fortune]]
+[[ru:Miss Fortune]]
+[[zh:厄运小姐]]

@@ -1,0 +1,164 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+==Abilities==
+Aatrox's secondary resource bar displays his {{ai|Blood Well|Aatrox}}. Whenever Aatrox uses an ability that costs health, he stores 100% of the health into his {{ai|Blood Well|Aatrox}}, up to a maximum of {{pp18|75|120|165|210|255|300|345|390|435|480|525|570|615|660|705|750|795|840}} health. If Aatrox has not dealt nor received damage in the last 5 seconds, his ''Blood Well'' will deplete at a rate of 2% per second.
+
+{{Ability frame|I|
+{{Ability info
+|name         = Blood Well
+|icon         = Blood Well.jpg
+|description  = Aatrox's attack speed is increased by {{pp|6|0.6|0.7|0.8|0.9|1|1.1|1|4|7|10|13|16}}% for every 2% in his ''Blood Well'', up to a maximum {{pp|6|30|35|40|45|50|55|1|4|7|10|13|16}}% bonus attack speed.
+|description2 = Upon taking fatal damage, Aatrox will activate his ''Blood Well'', placing himself into stasis for up to 3 seconds. Over the stasis' duration, the ''Blood Well'' is drained to heal Aatrox for an amount equal to its contents plus {{pp18|26.25|42|57.75|73.5|89.25|105|120.75|136.5|152.25|168|182.75|199.5|215.25|231|246.75|262.5|278.25|294}} health. Aatrox can prematurely end the stasis after 1 second by moving, which also ends the health regeneration.
+|static       = 225
+}}
+|{{Ability2
+|targeting    ='''Blood Well''' is both a self-targeted [[buff]] and a passive ability that triggers when Aatrox takes fatal damage.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional   =
+* The maximum attack speed granted by ''Blood Well'' is {{pp|6|30|35|40|45|50|55|1|4|7|10|13|16}}%.
+* The minimum health restoration from ''Blood Well'' is {{pp|18|26.25|42|57.75|73.5|89.25|105|120.75|136.5|152.25|168|183.75|199.5|215.25|231|246.75|262.5|278.25|294|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18}}.
+* The maximum stored health capacity of ''Blood Well'' is {{pp|18|75|120|165|210|255|300|345|390|435|480|525|570|615|660|705|750|795|840|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18}}.
+* The maximum health restoration from ''Blood Well'' is {{pp|18|101.25|162|222.75|283.5|344.25|405|465.75|526.5|587.25|648|708.75|769.5|830.25|891|951.75|1012.5|1073.3|1134|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18}}.
+* The color of the bar is red when the revive is available. On cooldown, it is white. 
+* The health restoration is affected by {{iis|Spirit Visage}} passive.
+* {{ii|Guardian Angel}} and {{ai|Chrono Shift|Zilean}} will take precedence over ''Blood Well''.
+* Aatrox is cleansed of all debuffs when he enters stasis.
+** Leashes, such as {{cai|Soul Shackles|Morgana}}, stay connected.
+|video        = Aatrox IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Dark Flight
+|icon = DarkFlight.jpg
+|description = {{sbc|Active:}} '''Aatrox''' takes flight and slams down at a targeted area, dealing physical damage to nearby enemies upon landing. Enemies in the center of the area are also knocked up for 1 second.
+|leveling = {{lc|Physical Damage}} {{ap|70|115|160|205|250}} {{as|(+ 60% bonus AD)}}
+|range    = 650
+|cooldown = {{ap|16|15|14|13|12}}
+|cost     = 10%
+|costtype = current health
+}}
+|{{Ability2
+|targeting= '''Dark Flight''' is a [[ground-targeted]] [[dash]] that [[knockup|knocks up]] and damages in a circular [[area of effect]].
+|damagetype=physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* ''Dark Flight'' is often referred to as a "jump" ability. However, this does not represent an in-game mechanic and it is merely a description of the animation - it is still classified as a dash and Aatrox will still interact with skill shots and area of effects as if he were on the ground while in flight.
+* ''Dark Flight'' can be interrupted by [[Knockup|knocking up]] or killing Aatrox while during the animation.
+** If Aatrox is affected by other forms of crowd control while the animation is in progress, the crowd control effect will not take place until the animation finishes.
+* ''Dark Flight'' does not cancel other commands. Aatrox will immediately begin attacking after he lands.
+* With smartcast on, ''Dark Flight'' will be cast immediately and at '''650'''-range if the cursor is beyond that.
+|video=Aatrox QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Blood Thirst
+|icon = BloodThirst.jpg
+|description = {{sbc|Toggle Off:}} '''Aatrox''' heals himself on every third attack. If Aatrox is below 50% health he will heal for three times as much.
+|leveling = {{lc|Heal}} {{ap|20|25|30|35|40}} {{as|(+25% bonus AD)}}
+{{lc|Enhanced Heal}} {{ap|60|75|90|105|120}} {{as|(+75% bonus AD)}}
+|cooldown = {{fd|0.5}}
+|cost     =
+|costtype =
+}}
+{{Ability info
+|name = Blood Price
+|icon = BloodPrice.jpg
+|description = {{sbc|Toggle On:}} '''Aatrox''' deals bonus physical damage on every third attack at the cost of health.
+|leveling = {{lc|Bonus Physical Damage}} {{ap|60|95|130|165|200}} {{as|(+100% bonus AD)}}
+{{lc|Health Cost On Third Attack}} {{ap|15|23.75|32.5|41.25|50}} {{as|(+25% bonus AD)}}
+|cooldown = {{fd|0.5}}
+|cost     = 
+|costtype = Special
+}}
+|{{Ability2
+|targeting= '''Blood Thirst'''/'''Blood Price''' is an [[on-hit effect]].
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+* Unlike most other on-hit physical damage, ''Blood Price's'' bonus damage does not apply [[life steal]]. This is a special case, perhaps to prevent abuse or for flavor. The triggering attack will still apply life steal.
+* Critical strikes do not interact with the bonus damage of ''Blood Price''.
+* If the triggering attack for ''Blood Thirst/Blood Price'' is {{ai|Aegis Protection|Pantheon|blocked}} the effect goes through the {{ai|Aegis Protection|Pantheon|block}}, but not the base autoattack damage.
+* The triggering attack(regardless of stance) goes through {{ci|Jax}}'s {{ai|Counter Strike|Jax|dodge}} and does damage as if {{ci|Jax}} was not using {{ai|Counter Strike|Jax|dodge}}. The empowered attack is consumed.
+* If the triggering attack for ''Blood Thirst''/''Blood Price'' is {{ai|Riposte|Fiora|parried}}, the heal and bonus damage will still apply but the base damage of the attack will not.
+* [[Blind]] will block ''Blood Thirst'' and ''Blood Price''.
+|spellshield=Will not block ''Blood Price''. 
+|additional=
+* Toggling between ''Blood Thirst'' and ''Blood Price'' does not reset the attack timer.
+* Attacks against structures will not increment the counter or consume the empowered attack.
+* Toggled abilities do not count as ability activations for the purposes of effects such as [[named item effect#Spellblade|Spellblade]] or {{ai|Force Pulse|Kassadin}}.
+|video=Aatrox WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Blades of Torment
+|icon = BladesofTorment.jpg
+|description = {{sbc|Active:}} '''Aatrox''' unleashes and sends forward the power of his blade, dealing magic damage to enemies in a line and slowing them by 40% for a few seconds.
+|leveling = {{lc|Magic Damage}} {{ap|75|110|145|180|215}} {{as|(+ 60% AP)}} {{as|(+ 60% bonus AD)}}
+{{lc|Slow Duration}} {{ap|1.75|2|2.25|2.5|2.75}}
+|range    = 1000
+|cooldown = {{ap|12|11|10|9|8}}
+|cost     = 5%
+|costtype = current health
+}}
+|{{Ability2
+|targeting='''Blades of Torment''' is a [[skillshot|pass-through skillshot]] that gets narrower toward the end of its path.
+|damagetype=physical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage and the slow.
+|video=Aatrox EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Massacre
+|icon = Massacre.jpg
+|description = {{sbc|Active:}} '''Aatrox''' draws in the blood of his foes, dealing magic damage to nearby enemy champions. 
+
+For the next 12 seconds, Aatrox gains bonus attack speed and 175 bonus attack range (''325 total range'').
+|leveling = {{lc|Magic Damage}} {{ap|200|300|400}} {{as|(+ 100% AP)}}
+{{lc|Attack Speed}} {{ap|40|50|60%}}
+|cooldown = {{ap|100|85|70}}
+|cost = 
+|costtype = No cost
+}}
+|{{Ability2
+|targeting='''Massacre''' is a [[self-targeted|point blank]] [[area of effect]].
+|damagetype=Magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage
+|additional=
+* Aatrox is still classified as a [[melee]] champion for the duration of ''Massacre''.
+|video=Aatrox RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+
+
+[[cs:Aatrox]]
+[[de:Aatrox]]
+[[es:Aatrox]]
+[[fr:Aatrox]]
+[[pl:Aatrox]]
+[[pt-br:Aatrox]]
+[[ru:Атрокс]]
+[[zh:厄薩斯]]

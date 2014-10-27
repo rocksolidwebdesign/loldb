@@ -1,0 +1,152 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}|date = }}{{C-ref}} 
+
+== Abilities ==
+Renekton's abilities have no cost related to them and their use is limited only by cooldowns. Instead, he uses '''FURY''' as his secondary resource. Renekton starts with '''0 FURY''' and it is capped at 100. Renekton gains 5 Fury with each auto-attack, and with the use of some of his abilities. When Renekton has 50 or more '''FURY''', his next ability will consume '''50 FURY''' for an enhanced effect. '''FURY''' will decay at a rate of 5 per 2 seconds if Renekton has not dealt or received damage in the last 12 seconds. <!-- We need a redesign! -->
+{{Ability frame|I|
+{{Ability info
+|name = Reign of Anger
+|icon = Reign of Anger.jpg
+|description = '''Renekton''' gains 50% more <span style="color:#FFA343">Fury</span> from all sources while below half health.
+}}
+|{{Ability2
+|targeting='''Reign of Anger''' is a passive ability that grants Renekton 50% bonus Fury generation whenever he is below half health.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* The bonus Fury generation also affects Fury gained from [[health relic|relics]] on [[Dominion]] and the [[Howling Abyss]].
+|video=Renekton IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Cull the Meek
+|icon = Cull the Meek.jpg
+|description = {{sbc|Active:}} '''Renekton''' deals physical damage to all enemies within range, gaining 5 <span style="color:#FFA343">Fury</span> for each target hit and healing for some of the damage dealt, up to a cap. '''Renekton''' heals for 20% of the damage dealt to champions and 5% of the damage dealt to minions and monsters.
+|description2=<span style="color:#c03300">{{sbc|Fury Bonus:}}</span> ''Cull the Meek'' deals 50% additional damage. The heal is doubled to 40% against champions and 10% against minions and monsters, and the healing cap is tripled.
+|leveling = {{lcaps|Physical damage|60|90|120|150|180|(+ 80% bonus AD)}}
+{{lcap|Healing cap|50|75|100|125|150}}
+|leveling2 = {{lcaps|Empowered damage|90|135|180|225|270|(+ 120% bonus AD)}}
+{{lc|Empowered healing cap}} {{ap|150|225|300|375|450}}
+|range = {{tt|225|Estimated}}
+|cooldown = 8
+}}
+|{{Ability2
+|targeting='''Cull the Meek''' is a [[area of effect|point-blank area of effect]] ability.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* ''Cull the Meek'' has no cast time and will not interrupt Renekton's previous orders.
+* ''Cull the Meek's'' range increases by a small amount whenever Renekton's hitbox size increases, such as when under the effects of abilities like {{ai|Dominus|Renekton}} or {{ai|Wild Growth|Lulu}}.
+* To reach the healing cap, ''Cull the Meek'' must deal a total of {{pp|5|1000|1500|2000|2500|3000|1|2|3|4|5}} damage. A Fury-empowered ''Cull the Meek'' requires a total of {{pp|5|1500|2250|2000|3000|4500|1|2|3|4|5}} damage to reach the cap. Healing boosts and reductions are applied after this cap. 
+|video=Renekton QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Ruthless Predator
+|icon = Ruthless Predator.jpg
+|description = {{sbc|Active:}} '''Renekton'''’s next basic attack will hit twice, stunning his target for {{fd|0.75}} seconds and dealing physical damage equal to a base amount plus a percentage of his attack damage. Each hit applies on-hit effects and grants <span style="color:#FFA343">Fury</span>.
+|description2 = <span style="color:#c03300">{{sbc|Fury Bonus:}}</span> ''Ruthless Predator'' will strike his opponent 3 times, dealing 50% additional damage and increasing the stun duration to {{fd|1.5}} seconds. Each hit still applies on-hit effects, but does not grant <span style="color:#FFA343">Fury</span>.
+|leveling = {{lcaps|Physical damage per hit|5|15|25|35|45|(+ 75% AD)}}
+{{lcaps|Total Physical damage|10|30|50|70|90|(+ 150% AD)}}
+|leveling2 = {{lcaps|Total Empowered damage|15|45|75|105|135|(+ 225% AD)}}
+|cooldown = {{ap|13|12|11|10|9}}
+}}
+|{{Ability2
+|targeting='''Ruthless Predator''' is an autoattack modifier ability.
+|damagetype=physical
+|spelleffects=false
+|onhiteffects=The triggering attack will apply other on-hit effects and can [[critical strike|critically strike]] as normal.
+** As with most on-hit physical damage, the bonus damage from Ruthless Predator will apply [[life steal]].
+** Critical strikes will only apply to the first attack.
+** ''Ruthless Predator's'' bonus damage will not affect structures.
+** ''Ruthless Predator's'' entire damage will go through {{ai|Counter Strike|Jax|dodged}}.
+** ''Ruthless Predator'' will not damage a target if the attack is {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}}, or Renekton is [[blind]]ed, but the stun will still apply.
+|spellshield=will block the ability.
+|additional=
+* ''Ruthless Predator'' resets Renekton's attack timer on cast.
+* ''Ruthless Predator'' has a {{tt|0.5|Estimated}} second cast time upon use during which Renekton cannot move or cast spells. He can, however, cast summoner spells and [[item]] actives. If the item active is one with an animation (such as [[Named item effect#Crescent|Crescent]]), it will cancel the cast time animation of ''Ruthless Predator''.
+|video=Renekton WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Slice
+|icon = Slice.jpg
+|description = {{sbc|Active:}} '''Renekton''' dashes forward, dealing physical damage to enemies he hits along the way. If he hits a target he gains the ability to use {{ai|Dice|Renekton}} for 4 seconds.
+|leveling = {{lcaps|Physical damage|30|60|90|120|150|(+ 90% bonus AD)}}
+|range = 450
+|cooldown = {{ap|18|17|16|15|14}}
+}}
+{{Ability info
+|name = Dice
+|icon = Dice.jpg
+|description = {{sbc|Active:}} '''Renekton''' dashes forward, dealing physical damage to enemies he hits along the way.
+|description2 = <span style="color:#c03300">{{sbc|Fury Bonus:}}</span> ''Dice'' deals 50% additional damage and shreds the armor of targets hit for 4 seconds.
+|leveling = {{lcaps|Physical damage|30|60|90|120|150|(+ 90% bonus AD)}}
+|leveling2 = {{lcaps|Empowered damage|45|90|135|180|225|(+ 135% bonus AD)}}
+{{lcap|Armor reduction|15%|20%|25%|30%|35%}}
+|range = 450
+}}
+|{{Ability2
+|targeting='''Slice''' and '''Dice''' is a two-part [[area of effect|point-blank area of effect]] [[skill shot]] [[dash]].
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage of the ability, including the armor shred if ''Dice'' is Fury-empowered.
+* {{Pending for test}} Spell shields will not prevent Renekton from being able to use ''Dice'' if ''Slice'' is blocked.
+|additional=
+|video=Renekton EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Dominus
+|icon = Dominus.jpg
+|description = {{sbc|Active:}} '''Renekton''' empowers himself with dark energies for 15 seconds, enlarging his size and gaining bonus health. While in this state, he deals magic damage each second to enemies within 175 range and generates 5 <span style="color:#FFA343">Fury</span> per second.
+|leveling = {{lc|Health Gain}} {{ap|200|400|800}}
+{{lc|Magic damage per second}} {{ap|30|60|120}} {{as|(+ 10% AP)}}
+{{lc|Maximum damage}} {{ap|450|900|1800}} {{as|(+ 150% AP)}}
+|cooldown = 120
+}}
+|{{Ability2
+|targeting='''Dominus''' is a self-[[buff]] [[area of effect|point-blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+* ''Dominus''' cooldown takes effect at the start of its cast time, not its end. If Renekton is killed during the cast animation, the cooldown is not refunded.
+* ''Dominus''' health bonus is a direct increase to Renekton's maximum health; it is not a heal and is thus unaffected by [[Healing#Healing reduction|Grievous Wounds]] and similar effects.
+* When the effects of ''Dominus'' end, Renekton retains any bonus health not over his normal maximum.
+|video=Renekton RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Twisted Treeline]]
+* {{ai|Dominus|Renekton}}
+** Bonus health is 200 / 350 / 500 instead of 200 / 400 / 800.
+** Damage per second is 30 / 60 / 90 instead of 30 / 60 / 120.
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Renekton]]
+[[de:Renekton]]
+[[es:Renekton]]
+[[fr:Renekton]]
+[[pl:Renekton]]
+[[pt-br:Renekton]]
+[[ru:Renekton]]
+[[zh:雷克顿]]

@@ -1,0 +1,171 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}|ip = 6300|RP = 975}}{{C-ref}} 
+
+== Abilities ==
+
+{{Ability frame|I
+|{{Ability info
+|name         = Glorious Evolution
+|icon         = Glorious Evolution.png
+|description  = Viktor starts each game with an exclusive {{ii|Prototype Hex Core}}, which permanently occupies one of his item slots. For [[Gold|<font style="color:gold;">1000 gold</font>]], Viktor can upgrade his ''Hex Core'' to increase its stats and grant him one ''Evolution'' point, which he can use to augment one of his basic abilities. Once he augments all of his basic abilities, Viktor will automatically augment his ultimate ability, {{ai|Chaos Storm|Viktor}}.
+* {{ii|Prototype Hex Core}}: Grants Viktor +3 ability power per level.
+* {{ii|The Hex Core mk-1|The Hex Core MK-1}}: Grants +4 ability power per level, +20 ability power, 150 mana and 1 Evolution Point. 
+* {{ii|The Hex Core mk-2|The Hex Core MK-2}}: Grants +5 ability power per level, +40 ability power, 300 mana and 1 Evolution Point. 
+* {{ii|Perfect Hex Core}}: Grants Viktor +6 ability power per level, +60 ability power, 500 mana and 1 Evolution Point.
+}}
+|{{Ability2
+|targeting    = '''Glorious Evolution''' is a [[self-buff]] that gifts Viktor an exclusive [[item]] at the start of a game.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional   =
+* The calculated value of 20 ability power and 150 mana, compared to other items, is 837 gold. Given that 1 ability power has a value of {{fd|21.75}}g, each of Viktor's upgrades will be at least 100% gold efficient at level 8. Factoring the 3 ability power per level that he gains for free, the item is gold efficient at level 2. 
+* At level 18, The Perfect Hex Core grants a total of 168 ability power. Including the 500 mana, the item is worth 4654 gold (not including any passives). 
+|video=
+}}}}
+
+{{Anchor|Augment: Turbocharge}}
+{{Ability frame|Q
+|{{Ability info
+|name         = Siphon Power
+|icon         = Siphon_Power.png
+|description  = {{sbc|Active:}} Viktor blasts a target enemy unit, dealing magic damage. Additionally, Viktor instantly receives both a damage-absorbing shield for {{fd|2.5}} seconds and the [[File:Siphon_Power_buff.png|20px]] '''Discharge''' buff.
+|description2 = [[File:Siphon_Power_buff.png|20px]] '''Discharge''' converts Viktor's next basic attack within {{fd|3.5}} seconds to deal {{pp18|20|25|30|35|40|45|50|55|60|70|80|90|110|130|150|170|190|210}} (''15{{plus}}{{ap|{{tt|5|Damage increase at levels 1-9}}|{{tt|10|Damage increase at levels 10-12}}|{{tt|20|Damage increase at levels 13-18}}}} at each level'') {{as|(+ 50% AP)}} magic damage on-hit.
+|description3 = {{sbc|{{ai|Augment- Turbocharge|Viktor}}:}} Viktor instantly gains 30% movement speed for {{fd|2.5}} seconds after using Siphon Power.
+|leveling     = {{lc|Magic Damage}} {{ap|40|60|80|100|120}} {{as|(+ 20% AP)}}
+{{lc|Shield}} {{ap|30|50|70|90|110}} {{as|(+ 20% AP)}}
+|range        = 600
+|cooldown     = {{ap|10|8.5|7|5.5|4}}
+|cost         = {{ap|45|50|55|60|65}}
+|costtype     = mana
+}}
+|{{Ability2
+|targeting    = '''Siphon Power''' is a single target ability and two simultaneous [[self-buff]]s.
+{{lc|Projectile Speed}} 2000
+|damagetype   = magic
+|projectile   = true
+|spelleffects = single target
+|onhiteffects = The enhanced attack will apply other [[on-hit effects]] and can critically strike as normal.
+**The enhanced attack does not utilize a projectile, and will bypass {{ai|Wind Wall|Yasuo}} and {{ai|Unbreakable|Braum}}.
+**The enhanced attack 's damage will apply [[life steal]] in spite of being magic damage.
+**The bonus damage will not trigger on structures.
+**If the enhanced attack applies the [[Named item effect#Spellblade|Spellblade]] effect of {{ii|Sheen}}, {{ii|Iceborn Gauntlet}} or {{ii|Trinity Force}}, the proc is converted into magic damage as the base attack is.
+|spellshield  = Will block the damage, but will not cancel the shield nor the auto attack and movement speed buffs.
+|additional   =
+|video        = Viktor QVideo
+}}}}
+
+{{Anchor|Augment: Implosion}}
+{{Ability frame|W
+|{{Ability info
+|name         = Gravity Field
+|icon         = Gravity Field.png
+|description  = {{sbc|Active:}} Viktor deploys a gravitational imprisonment device at a target location, which arms after a brief delay. For 4 seconds, the trap slows all enemies that pass through its field, even briefly slowing those who leave it. 
+|description2 = Whilst under the trap's effects, enemies will generate a stack every {{fd|0.5}} seconds; at 3 stacks, enemies will become stunned for {{fd|1.5}} seconds.
+|description3 = {{sbc|{{ai|Augment- Implosion|Viktor}}:}} Units stunned by ''Gravity Field'' are dragged into the center.
+|leveling     = {{lc|Slow}} {{ap|28|32|36|40|44%}}
+|range        = 700
+|cooldown     = {{ap|17|16|15|14|13}}
+|cost         = 65
+|costtype     = mana 
+}}
+|{{Ability2
+|targeting    = '''Gravity Field''' is a [[area of effect|ground-targeted, persistent area of effect]] that [[slows]] and [[stuns]] enemies within.
+|spelleffects =
+|onhiteffects =
+|spellshield  = Will block the stun upon reaching 3 stacks.
+|additional=
+* An enemy can only be stunned by the field once per cast, after which they will '''not''' be slowed or accumulate stacks again.
+* Slows will linger for {{fd|0.25}} seconds after leaving the marked area.
+* ''Gravity Field'' will remain active if Viktor dies.
+* ''Gravity Field's'' animation can be seen by both teams through [[Fog of War]].
+* {{Pending for test}} Despite the animation for the {{ai|Augment- Implosion|Viktor|augmented}} Gravity Field appearing to knock enemies up, the pull is not coded as [[Airborne]].
+|video        = Viktor WVideo
+}}}}
+
+{{Anchor|Augment: Aftershock}}
+{{Ability frame|E
+|{{Ability info
+|name         = Death Ray
+|icon         = Death Ray.png
+|description  = {{sbc|Active:}} Viktor uses his synthetic arm to fire an energy beam down a chosen '''500'''-unit long path, dealing magic damage to every enemy it hits. The arm can fire in any direction from any point within range, and does not interrupt Viktor's previous command.
+|description2 = {{sbc|{{ai|Augment- Aftershock|Viktor}}:}} An explosion follows ''Death Ray's'' wake, dealing additional damage. Enemies already hit by ''Death Ray'' will take 40% damage.
+|leveling     = {{lc|Magic Damage}} {{ap|70|115|160|205|250}} {{as|(+ 70% AP)}}
+|leveling2    = {{lc|Magic Damage}} {{ap|70|115|160|205|250}} {{as|(+ 70% AP)}}
+{{lc|Reduced Magic Damage}} {{ap|28|46|64|82|100}} {{as|(+ 28% AP)}}
+{{lc|Total Magic Damage}} {{ap|98|161|224|287|350}} {{as|(+ 98% AP)}}
+|range        = 525
+|cooldown     = {{ap|13|12|11|10|9}}
+|cost         = {{ap|70|80|90|100|110}}
+|costtype     = mana
+}}
+|{{Ability2
+|targeting    = '''Death Ray''' is a [[skillshot|vector-targeted, linear, pass-through skill shot]].
+|damagetype   = magic
+|projectile   = true
+|spelleffects = Area of effect
+|onhiteffects =
+|spellshield  = Will block the ability.
+|additional   =
+* ''Death Ray'' has no cast time and Viktor may freely act while the ray is travelling.
+** The effected area is set upon casting, no matter how far away Viktor may retreat. Unlike a leash, ''Death Ray'' will not break off its own effect.
+* Sight is granted in a medium area around the beam while it travels. Although this vision will not go through bushes or across walls, it will reveal all champions within its radius even if they are hiding in a bush or are across a wall.
+* There is a known graphical bug in which the beam visual-effect is stuck on the place in which it was originally cast, but the damaging part of the ability performs normally, damaging units in the intended location.
+* If Viktor dies while he is firing the beam it will become interrupted and deal damage up to the location where it was in the moment Viktor died.
+|video        = Viktor EVideo
+}}}}
+
+{{Anchor|Augment: Velocity}}
+{{Ability frame|R
+|{{Ability info
+|name         = Chaos Storm
+|icon         = false
+|description  = 
+{{MiniAbility|icon=Chaos Storm.png|description={{sbc|First Cast:}} Viktor conjures an arcane singularity at a target location, dealing magic damage to every enemy it hits and interrupting channeled abilities. The singularity remains active for 7 seconds afterwards, dealing magic damage to all nearby enemies every {{fd|0.5}} seconds.}}
+|description2 = {{MiniAbility|icon=Chaos Storm 2.png|description={{sbc|Second Cast:}} Viktor directs the singularity toward the mouse cursor. Once the singularity damages an enemy champion, it will automatically follow them until the enemy champion dies or escapes it. The singularity moves faster depending on its proximity to Viktor, but will always move at maximum speed when moving towards him.}}
+|description3 = {{sbc|{{ai|Augment- Velocity|Viktor}}:}} ''Chaos Storm'' moves 20% faster.
+|leveling     = {{lc|{{ai|Chaos Storm|Viktor|Summon}} Magic Damage}} {{ap|150|250|350}} {{as|(+ 55% AP)}} 
+{{lc|Magic Damage Per Bolt}} {{ap|15|30|45}} {{as|(+ 10% AP)}}
+{{lc|Total Summon Magic Damage}} {{ap|165|280|395}} {{as|(+ 65% AP)}}
+{{lc|Total Magic Damage}} {{ap|360|670|980}} {{as|(+ 195% AP)}}
+|range        = 700
+|cooldown     = {{ap|120|110|100}}
+|cost         = 100
+|costtype     = mana
+}}
+|{{Ability2
+|targeting    = '''Chaos Storm''' is a [[area of effect|ground targeted area of effect]] ability that damages and interrupts channeled abilities. It then becomes a [[pet|controllable entity]] that deals area of effect damage.
+|damagetype   = magic 
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the activation of the ability or one tick of damage over time.
+|additional   =
+* Radius of initial impact: 325.
+* Radius of singularity: 325.
+* Damage interval: {{fd|0.5}} seconds.
+* Including the initial damage (''Both the base damage and a tick of the persistent damage''), ''Chaos Storm'' deals 14 instance of damage. 
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow on each instance of damage dealt.
+* ''Chaos Storm'' can be controlled by Alt + Right-Click or by pressing the R button (''default hotkeys''). It can be commanded to move toward locations or enemy champions (''it will continue to follow the chosen enemy champion unless commanded otherwise'').
+* If Viktor is affected by hard-CC he cannot issue new commands to the singularity.
+* If the champion the storm is currently following enters [[stealth]], the singularity will continue to follow them, effectively giving away their position. 
+* The singularity grants sight around its position for the full duration.
+* ''Chaos Storm'' remains active and continues to deal damage if Viktor dies. 
+** When Viktor dies, the singularity immediately stops moving and cannot be subsequently redirected. 
+* '''Probable Bug:''' If ''Chaos Storm'' is summoned in a brush where the enemy has no vision, it will remain invisible to the enemy team for its duration even if it is redirected out of the bush. This may be a bug.
+** Aside from when the bug occurs, the ''Chaos Storm'' will be visible to enemies for its duration even if it enters a brush or the fog of war. 
+|video=Viktor RVideo
+}}}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Viktor]]
+[[de:Viktor]]
+[[es:Viktor]]
+[[fr:Viktor]]
+[[pl:Viktor]]
+[[pt-br:Viktor]]
+[[ru:Viktor]]
+[[zh:维克托]]

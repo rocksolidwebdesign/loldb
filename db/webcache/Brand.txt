@@ -1,0 +1,140 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Blaze
+|icon=Blaze.png
+|description=Brand's spells light his targets ablaze, dealing {{as|2% of their maximum health}} as magic damage per second for 4 seconds, for a total of {{as|8% maximum health}}. 
+
+[[Monsters]] take a maximum of 80 damage per second from ''Blaze'' (''320 total damage'').
+}}
+|{{Ability2
+|targeting='''Blaze''' is a [[spell effect]] that is applied by his abilities.
+|damagetype=Magic
+|spelleffects=Damage over time
+|onhiteffects=
+|spellshield=''Blaze'' is not applied if the ability is blocked.
+|additional=
+* Subsequent spells will refresh ''Blaze's'' duration. 
+* [[Summoner spells]] and item actives do not apply ''Blaze''.
+}}}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Sear
+|icon=Sear.png
+|description={{sbc|Active:}} Brand launches a fireball forward that deals magic damage to the first enemy it hits. 
+
+If the target is {{ai|Blaze|Brand|ablaze}}, the target is also stunned for 2 seconds.
+|leveling={{lcaps|Magic Damage|80|120|160|200|240|(+ 65% AP)}}
+|range=900
+|cooldown={{ap|8|7.5|7|6.5|6}}
+|cost=50
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Sear''' is a [[skill shot|linear, colliding skill shot]] that [[stuns]] if the target is {{ai|Blaze|Brand|ablazed}}. 
+|damagetype=Magical
+|projectile=true
+|spelleffects=Single target
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Brand QVideo
+}}}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Pillar of Flame
+|icon=Pillar of Flame.png
+|description={{sbc|Active:}} After a {{fd|0.625}} second delay, Brand creates a burst of fire at target '''250'''-radius area, dealing magic damage to enemies inside. 
+
+Units that are {{ai|Blaze|Brand|ablaze}} take an additional 25% damage.
+|leveling=
+{{lcaps|Magic Damage|75|120|165|210|255|(+ 60% AP)}}
+{{lcaps|Blazed Magic Damage|{{fd|93.75}}|150|{{fd|206.25}}|{{fd|262.50}}|{{fd|318.75}}|(+ 75% AP)}}
+|range=900
+|cooldown=10
+|cost={{ap|70|75|80|85|90}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Pillar of Flame''' is a [[area of effect|ground-targeted area of effect]], dealing amplified damage to {{ai|Blaze|Brand|ablazed}} units.
+|damagetype=Magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Brand WVideo
+}}}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Conflagration
+|icon=Conflagration.png
+|description={{sbc|Active:}} Brand blasts target opponent with fire, dealing magic damage. 
+
+If the target is {{ai|Blaze|Brand|ablaze}}, ''Conflagration'' will also spread to enemies within '''300'''-range of the target.
+|leveling={{lcaps|Magic Damage|70|105|140|175|210|(+ 55% AP)}}
+|range=625
+|cooldown={{ap|12|11|10|9|8}}
+|cost={{ap|70|75|80|85|90}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Conflagration''' is a single target ability, becoming multitargeted if the main target is {{ai|Blaze|Brand|ablazed}}.
+|damagetype=Magic
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* The damage dealt to additional targets because of {{ai|Blaze|Brand}} will apply [[spell effects]] as an [[area of effect]] ability. This does not affect spell effects to the primary target. 
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] Reduced (''one-third'')
+** [[File:Rylai's Crystal Scepter item.png|20px|link=Rylai's Crystal Scepter]] Reduced (''15% slow'')
+* ''Conflagration's'' spread can target [[stealth]]ed enemies or enemies hidden by the [[fog of war]]/[[brush]], but does not grant sight.
+|video=Brand EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Pyroclasm
+|icon=Pyroclasm.png
+|description={{sbc|Active:}} Brand unleashes a devastating torrent of fire to a target that will bounce between enemies, dealing magic damage each time it bounces. It will bounce up to four times for a total of five hits, and can hit the same enemy up to three times.
+
+If a target is {{ai|Blaze|Brand|ablaze}}, ''Pyroclasm's'' next bounce will prioritize champions.
+|leveling=
+{{lcaps|Magic Damage|150|250|350|(+ 50% AP)}}
+{{lcaps|Max Magic Damage to Same Target|450|750|1050|(+ 150% AP)}}
+|range=750
+|cooldown={{ap|105|90|75}}
+|cost={{ap|100}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Pyroclasm''' is a single target ability that bounces to multiple enemies. 
+|damagetype=Magic
+|projectile=true
+|spelleffects=Area of effect
+|onhiteffects=
+|spellshield=Will block a single bounce, but it can continue to a new target. 
+|additional=
+* ''Pyroclasm'' does not prioritize champions over minions, unless the previously hit target was ablaze.
+* ''Pyroclasm'' can bounce to [[stealth]]ed enemies or enemies hidden by the [[fog of war]]/[[brush]], but does not grant sight.
+* There is a recurring bug with bouncing abilities where if the target is [[dash]]ing when the missile strikes them, it will repeatedly bounce back to them inflicting multiple ticks of damage near-instantly. 
+|video=Brand RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Brand]]
+[[de:Brand]]
+[[es:Brand]]
+[[fr:Brand]]
+[[pl:Brand]]
+[[pt-br:Brand]]
+[[ru:Brand]]
+[[zh:布兰德]]

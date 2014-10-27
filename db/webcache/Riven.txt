@@ -1,0 +1,141 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Runic Blade
+|icon = Runic Blade.png
+|description = Riven's abilities charge her blade for 5 seconds, causing her to do {{as|{{pp|7|20|25|30|35|40|45|50|1|3|6|9|12|15|18}} % of her attack damage}} as bonus physical damage on her next basic attack. Riven can store up to 3 charges, and can only expend one at a time.
+}}
+|{{Ability2
+|targeting = '''Runic Blade''' is an [[on-hit effect]].
+|damagetype   = physical
+|spelleffects =
+|onhiteffects = The triggering attack will apply other on-hit effects and can critically strike as normal.
+** As with most on-hit physical damage, the bonus damage from ''Runic Blade'' will apply life steal.
+** Critical strikes will not interact with ''Runic Blade's'' bonus damage.
+** ''Runic Blade'' will neither incur bonus damage against structures nor consume any stacks.
+** ''Runic Blade's'' damage will be mitigated if Riven's attack is {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Counter Strike|Jax|dodged}} or {{ai|Riposte|Fiora|parried}}.
+** ''Runic Blade's'' empowerment will not be consumed if the attack [[Blind|misses]].
+|spellshield  =
+|additional   =
+* The buff timer for ''Runic Blade'' refreshes whenever Riven gains or consumes a stack.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Broken Wings
+|icon = Broken Wings.png
+|description  = {{sbc|Active:}} Riven steps forward and lashes out in a series of powerful slashes, dealing physical damage to all enemies within '''{{fd|112.5}}'''-range. ''Broken Wings'' can be cast two additional times within 4 seconds, with the timer resetting after each. 
+|description2 = All three strikes deal the same damage, with the third damaging enemies within '''150'''-range and knocking them up. Riven will target the unit under your cursor; if no targets are present, Riven will simply strike the direction she is currently facing.
+|leveling  = 
+{{lcaps|Physical damage|10|30|50|70|90|(+ {{ap|40|45|50|55|60%}} AD)}}
+{{lcaps|Total damage|30|90|150|210|270|(+ {{ap|120|135|150|165|180%}} AD)}}
+|cooldown  = 13
+|range     = 260
+}}
+|{{Ability2
+|targeting = '''Broken Wings''' is an autotargeted [[area of effect]] [[dash]] ability.
+|damagetype   = physical
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will only block the third cast.
+|additional =
+* ''Broken Wings'' uses a [[Ability|barrage system]] that means it can be cast multiple time within a given period at no additional cost. 
+** Unlike most abilities of this casting type, Broken Wings' cooldown begins ''after'' the first cast, instead of the last.
+** Each activation counts as activating an ability for items such as {{ii|Sheen}} and abilities such as {{ai|Force Pulse|Kassadin}}. 
+* ''Broken Wings'' resets Riven's attack timer on each cast.
+* Only the third dash of ''Broken Wings'' is able to cross walls.
+|video=Riven QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Ki Burst
+|icon = Ki Burst.png
+|description = {{sbc|Active:}} Riven's sword emits a burst of runic energy that shocks nearby enemies, dealing physical damage and stunning them for {{fd|0.75}} seconds. 
+|leveling = {{lcaps|Physical damage|50|80|110|140|170|(+ 100% bonus AD)}}
+|range    = 125
+|cooldown = {{ap|11|10|9|8|7}}
+}}
+|{{Ability2
+|targeting = '''Ki Burst''' is a [[area of effect|point blank area of effect]] ability.
+|damagetype   = physical
+|spelleffects = Area
+|onhiteffects =
+|spellshield  = Will block the ability.
+|additional =
+|video=Riven WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Valor
+|icon = Valor.png
+|description = {{sbc|Active:}} Riven dashes towards the cursor and gains a shield that absorbs incoming damage for {{fd|1.5}} seconds.
+|leveling = {{lcaps|Shield|90|120|150|180|210|(+ 100% bonus AD)}}
+|cooldown = {{ap|10|9|8|7|6}}
+|range    = 325
+}}
+|{{Ability2
+|targeting = '''Valor''' is a self-[[buff]] [[dash]] ability.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+* ''Valor'' cannot be used to cross impassable terrain, but it ''can'' be used to cross player-created terrain such as {{cai|Cataclysm|Jarvan IV}} and {{cai|Crystallize|Anivia}}.
+* ''Valor'' cannot be used while Riven is [[root|immobilized]], preventing her from shielding herself.
+|video=Riven EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Blade of the Exile
+|icon = Blade of the Exile.png
+|description  = {{sbc|Active:}} For 15 seconds Riven's sword is reformed, gaining {{as|20% of her total AD}} as bonus attack damage and 75 bonus attack range (''200 total range''). 
+|description2 = {{ais|Broken Wings|Riven}} 1<sup>st</sup> and 3<sup>rd</sup> area of effect radius increase to {{fd|162.5}} and 200 respectively and {{ais|Ki Burst|Riven}} area of effect radius increases to 135. 
+|description3 = For ''Blade of the Exile's'' duration, Riven can use {{ai|Wind Slash|Riven}} once.
+|cooldown = {{ap|110|80|50}}
+}}
+{{Ability info
+|name = Wind Slash
+|icon = Wind Slash.png
+|description  = {{sbc|Active:}} Riven unleashes a '''2200'''-speed wave of energy in a cone, dealing physical damage to all enemies hit. 
+|description2 = The damage is increased by {{fd|2.67}}% for every 1% of an enemy's missing health, capping at 200% bonus damage (''300% total damage'') against enemies with 75% or more missing health.
+|leveling  = {{lcaps|Minimum Physical Damage|80|120|160|(+ 60% bonus AD)}}
+|leveling2 = {{lcaps|Maximum Physical Damage|240|360|480|(+ 180% bonus AD)}}
+|range    = 900
+}}
+|{{Ability2
+|targeting = '''Blade of the Exile''' is a self-[[buff]] ability.
+<br>'''Wind Slash''' is a [[skill shot|pass-through conic skill shot]].
+|damagetype   = physical
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the skill shot component.
+|additional =
+* ''Wind Slash'' has a 1 second cooldown after {{ai|Blade of the Exile|Riven}} has been activated before it can be cast.
+|video=Riven RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Riven]]
+[[de:Riven]]
+[[es:Riven]]
+[[fr:Riven]]
+[[pl:Riven]]
+[[pt-br:Riven]]
+[[ru:Riven]]
+[[zh:锐雯]]

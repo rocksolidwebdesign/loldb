@@ -1,0 +1,145 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Surging Tides
+|icon=Surging Tides.png
+|description=When Nami's abilities hit allied champions they gain 40 {{as|(+ 10% AP)}} movement speed for {{fd|1.5}} seconds.
+}}
+|{{Ability2
+|targeting = '''Surging Tides''' is an ally champion-affecting [[buff]].
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional = 
+* ''Surging Tides'' will apply when an ally champion is targeted by {{ai|Ebb and Flow|Nami}} or {{ai|Tidecaller's Blessing|Nami}}, or when they are within the impact area of {{ai|Aqua Prison|Nami}} or {{ai|Tidal Wave|Nami}}.
+|video=Nami IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Aqua Prison
+|icon=Aqua Prison.png
+|description={{sbc|Active:}} Nami sends a bubble into the air towards a targeted area. When it lands, it deals magic damage to all enemies in the area of impact and suspends them for {{fd|1.5}} seconds.
+|leveling={{lcaps|Magic Damage|75|130|185|240|295|(+ 50% AP)}}
+|range=875
+|cooldown={{ap|14|13|12|11|10}}
+|cost=60
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Aqua Prison''' is a [[area of effect|ground target area of effect]].
+|damagetype=Magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* ''Aqua Prison'' acts as a knockup for the purpose of {{cai|Last Breath|Yasuo}}.
+* It seems to take {{fd|~0.875}} seconds from cast to land (there's wind-up before the bubble is launched) regardless of distance. The AoE has a radius of ~162, making it impossible to escape only if an enemy is at 185 movement speed or less (325 movement speed slowed by 43% would put an enemy within this). This means that CC may be necessary to ensure that this CC lands. Rank 5 {{ai|Tidecaller's Blessing|Nami}} with 160 AP could reach this slow value (though few enemies would likely have 325 movement speed by that time).
+|video=Nami QVideo
+}}}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Ebb and Flow
+|icon=Ebb and Flow.png
+|description={{sbc|Active:}} Nami unleashes a stream of water that bounces between allied and enemy champions. This ability can only bounce to each target once and hits up to 3 targets. The damage and heal are modified by -15% {{as|(+ {{fd|7.5%}} per 100 AP)}} with each bounce.
+|description2 = On ally hits, ''Ebb and Flow'' heals the target and bounces towards a nearby enemy champion. On enemy hits, the torrent deals magic damage and bounces towards a nearby allied champion. 
+|leveling=
+{{lcaps|Heal|65|95|125|155|185|(+ 30% AP)}}
+{{lcaps|Magic Damage|70|110|150|190|230|(+ 50% AP)}}
+|range=725
+|cooldown=10
+|cost={{ap|70|85|100|115|130}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Ebb and Flow''' is a [[area of effect|target chain area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block one bounce of the ability. ''Ebb and Flow'' will continue to bounce, and the target who blocked the ability may be targeted again by a later bounce.
+|additional=
+* Additional [[Ability Power]] will modify the damage/healing of ''Ebb and Flow'' by a percentage based on the number of bounces.
+** At 0 AP (-15% per bounce) the first heal/damage of rank 5 will be 185/230, the second 157/196 and the third 130/161
+** At 200 AP (no change per bounce) the heal/damage of rank 5 will be 245/330 and will remain as the same for all the bounces.
+** At 600 AP (+30% per bounce) the first heal/damage of rank 5 will be 365/530 the second 475/689 and the third 584/848. 
+|video=Nami WVideo
+}}}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Tidecaller's Blessing
+|icon=Tidecaller's Blessing.png
+|description={{sbc|Active:}} Nami empowers an allied champion for 6 seconds or until they have attacked 3 times. During this time, their basic attacks deal bonus magic damage and slow the target hit for 1 second.
+|leveling=
+{{lcaps|On-hit Magic Damage|25|40|55|70|85|(+ 20% AP)}}
+{{lcaps|Total Magic Damage|75|120|165|210|255|(+ 60% AP)}}
+{{lcaps|Slow|15|20|25|30|35%|(+ 5% per 100 AP)}}
+|range=800
+|cooldown=11
+|cost={{ap|55|60|65|70|75}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Tidecaller's Blessing''' is an ally champion-targeted [[buff]].
+|damagetype=Magic
+|spelleffects=
+|onhiteffects=
+|spellshield={{Pending for test}}
+|additional=
+* The damage dealt is based on Nami's own [[Ability Power]] at the time of cast and the buffed target's [[Magic Penetration]].
+* ''Tidecaller's Blessing'' has no cast time and does not interrupt Nami's movement.
+* ''Tidecaller's Blessing'' bonus damage won't trigger either on-hit effects or spell effects.
+** Though, interaction with {{ii|Muramana}} is {{pending for test}}.
+* Both effects of ''Tidecaller's Blessing'' will be wasted if the attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Riposte|Fiora|parried}}, or if the attack [[blind|misses]].
+|video=Nami EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Tidal Wave
+|icon=Tidal Wave.png
+|description={{sbc|Active:}} Nami summons a tidal wave that moves outward in a broad line and deals magic damage to enemies it comes into contact with, briefly knocking them up and then slowing them.
+|description2= The slow duration increases based on how far the tidal wave has traveled, with a minimum duration of 2 seconds and a maximum duration of 4 seconds.
+|leveling=
+{{lcaps|Magic Damage|150|250|350|(+ 60% AP)}}
+{{lcap|Slow|50|60|70%}}
+|range=2750
+|cooldown={{ap|120|110|100}}
+|cost={{ap|100}}
+|costtype=mana
+|range=2750
+}}
+|{{Ability2
+|targeting='''Tidal Wave''' is a [[skill shot|pass-through skill shot]]
+|damagetype=Magic
+|projectile=true
+|spelleffects=Area of Effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* There is a brief channel time during which Nami performs the animation. It can only be interrupted by death, in which case the ability will not trigger and will not go on cooldown
+* Nami's passive will immediately trigger on herself on cast.
+* The wave travels for {{fd|~3.2}} seconds at a speed of ~859, with a missile width of ~562, making it undodgable (by foot at 325 movement speed) at a range of 742.
+|video=Nami RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Nami]]
+[[de:Nami]]
+[[es:Nami]]
+[[fr:Nami]]
+[[pl:Nami]]
+[[pt-br:Nami]]
+[[ru:Nami]]
+[[zh:娜美]]

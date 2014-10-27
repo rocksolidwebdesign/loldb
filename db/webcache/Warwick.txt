@@ -1,0 +1,137 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Eternal Thirst
+|icon = Eternal Thirst.jpg
+|description = Warwick's basic attacks deal {{pp18|3|3.5|4|4.5|5|5.5|6|6.5|7|8|9|10|11|12|13|14|15|16}} (''2.5{{plus}}{{ap|{{tt|<nowiki>0.5</nowiki>|Damage increase at levels 1-9}}|{{tt|1|Damage increase at levels 10-18}}}} at each level)'' additional magic damage and heal him for the same amount. Each successive attack against the same target will stack this amount of healing and damage up to a maximum of 3 stacks. The stacks remain for 4 seconds.
+}}
+|{{Ability2
+|targeting='''Eternal Thirst''' is a passive ability that grants Warwick an [[on-hit effect]].
+|damagetype=magic
+|spelleffects=
+|onhiteffects=The attacks will apply other on-hit effects and can critically strike as normal. 
+**The bonus damage from Eternal's Thirst can not critically strike.
+**Eternal Thirst's damage will go through  {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} .
+**Eternal Thirst's damage will be mitigated by {{ai|Counter Strike|Jax|dodge}} and [[blind]].
+|spellshield=
+|additional=
+*The healing portion is independent from the damage portion of the ability, meaning the heal is always the same regardless of the damage dealt to the target.
+<!-- * Because it is an [[on-hit effect]], {{ai|Eternal Thirst|Warwick}} can be blocked by {{ai|Aegis Protection|Pantheon}} , {{ai|Counter Strike|Jax}} or {{ai|Riposte|Fiora}} and Warwick will not be healed. -->
+* Disregarding bonus Attack Damage, ''Eternal Thirst'' is an equivalent of ~ 5% / 10% / 15% Lifesteal at level 1 to ~ 14% / 27% / 41% Lifesteal at level 18.
+|video=Warwick IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Hungering Strike
+|icon = Hungering Strike.jpg
+|description  = {{sbc|Active:}} Warwick swipes at a target enemy, dealing magic damage for the greater value between a flat minimum amount or a percentage of the target's maximum health, plus additional bonus damage based on his ability power (flat damage only against minions and monsters).
+|description2 = Warwick heals himself for 80% of the damage dealt. 
+|leveling = {{lc|Flat Minimum Damage}} {{ap|75|125|175|225|275}} {{as|(+ 100% AP)}}
+{{lc|Max Magic Damage To Champions}} {{as|{{ap|8|10|12|14|16%}} of target's maximum health}} {{as|(+ 100% AP)}}
+|cooldown={{ap|10|9|8|7|6}}
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+|range=400
+}}
+|{{Ability2
+|targeting='''Hungering Strike''' is a single targeted ability.
+|damagetype=magic
+|spelleffects=single target
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+* The point of health where the base damage is equal to the percentage equivalent at each level for ''Hungering Strike'' is {{pp|5|938|1250|1458|1607|1719|1|2|3|4|5}} health.
+|video=Warwick QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Hunters Call
+|icon = Hunters Call.jpg
+|description = {{sbc|Active:}} For 10 seconds, Warwick increases his attack speed and increases the attack speeds of all allies within range by half as much.
+|leveling = {{lc|Attack speed}} {{ap|40|50|60|70|80%}}
+{{lc|Ally Attack Speed}} {{ap|20|25|30|35|40%}}
+|cooldown={{ap|24|22|20|18|16}}
+|cost=35
+|costtype=mana
+|range=1250
+}}
+|{{Ability2
+|targeting='''Hunters Call''' is a [[area of effect|point blank area of effect]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Hunters Call'' has no cast time and does not interrupt Warwick's previous orders.
+|video=Warwick WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Blood Scent
+|icon = Blood Scent.jpg
+|description = {{sbc|Toggle:}} Warwick reveals enemy champions within range with {{as|less than 50% health}}. 
+|description2 = While any enemies are revealed this way, Warwick has increased movement speed.
+|leveling2 = {{lc|Movement speed}} {{ap|20|25|30|35|40%}}
+|cooldown=4
+|range={{ap|1500|2300|3100|3900|4700}}
+}}
+|{{Ability2
+|targeting='''Blood Scent''' is a [[toggle]]d ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Upon sensing an enemy, that enemy will become visible to Warwick and his allies, even in fog of war or inside a bush.
+*[[Stealth]]ed units will not be revealed even if they are sensed by Warwick. He will still gain the movespeed bonus, but he will not be able to see the unit.
+|video=Warwick EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Infinite Duress
+|icon = Infinite Duress.jpg
+|description = {{sbc|Active:}} Warwick blinks to the front of an enemy champion and channels for {{fd|1.5}} seconds, suppressing the target for {{fd|1.8}} seconds and dealing magic damage 5 times in {{fd|0.3}} seconds intervals. 
+|description2 = Warwick gains 30% life steal for the duration. Each damaging strike applies on-hit effects, including lifesteal and {{ai|Eternal Thirst|Warwick}}.
+|leveling = {{lc|Magic damage per hit}} {{ap|50|67|84}} {{as|(+ 40% bonus AD)}} 
+{{lc|Total damage}} {{ap|250|335|420}} {{as|(+ 200% bonus AD)}}
+|cooldown={{ap|90|80|70}}
+|cost={{ap|100|125|150}}
+|costtype=mana
+|range=700
+}}
+|{{Ability2
+|targeting='''Infinite Duress''' is a targeted channeled [[blink]] ability.
+|spelleffects={{Pending for test}} <!-- ??? -->
+|damagetype=magic
+|spelleffects=
+|onhiteffects=None of ''Infinite Duress's'' strikes can critically strike.
+**All the strikes can be {{ai|Counter Strike|Jax|dodged}}.
+**{{ai|Aegis Protection|Pantheon|Block}} or {{ai|Riposte|Fiora|parry}} will block one damage from Infinite Duress.
+**''Infinite Duress's'' strikes will miss when Warwick is [[blind]]ed.
+
+|spellshield={{Pending for test}}
+|additional=
+*If ''Infinite Duress'' applies the [[Named item effect#Spellblade|Spellblade]] effect of {{ii|Sheen}}, {{ii|Iceborn Gauntlet}} or {{ii|Trinity Force}}, the proc is converted into magic damage.
+*Including {{ais|Eternal Thirst|Warwick}} damage, {{ai|Infinite Duress|Warwick}} will deal a total of {{pp|5|332.5|340|347.5|355|370|6|7|8|9|10}} / {{pp|5|470|485|500|515|530|11|12|13|14|15}} / {{pp|3|630|645|660|16|17|18}} {{as|(+ 200% bonus AD)}} magic damage. This is assuming you take ranks in ''Infinite Duress'' at level 6, 11 and 16 and you have had 2 stacks ''Eternal Thirst'.
+*All the strikes have the potential to trigger and apply [[Spellblade]] but will only hit once because of the internal cooldown of this item.
+*It's impossible to use {{ii|Zhonya's Hourglass}}'s active invulnerability during {{ai|Infinite Duress|Warwick}}.
+*{{ai|Infinite Duress|Warwick}} still causes enemies to be suppressed and take damage even if they {{si|Flash}} away, as long as Warwick leapt towards them.
+*Warwick will continue to deal damage and suppress the enemy even if the target is moved from blinks and knockbacks.
+|video=Warwick RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}

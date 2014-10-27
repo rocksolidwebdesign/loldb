@@ -1,0 +1,137 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = King's Tribute
+|icon = King's Tribute.jpg
+|range = {{tt|1000|Estimated}}
+|description  = Whenever an enemy unit near Trundle dies, he absorbs its life force and [[heal]]s for {{pp|5|2|3|4|5|6|1|5|9|12|15}}% of its maximum health.
+}}
+|{{Ability2
+|targeting='''King's Tribute''' is a self-targeted [[heal]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*[[monster|Neutral monster]] deaths will trigger ''King's Tribute'', even if their killer was an enemy.
+*''King's Tribute'' does not trigger when an enemy structure is destroyed.
+|video=Trundle IVideo
+}}}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Chomp
+|icon = Chomp.jpg
+|description  = {{sbc|Active:}} Trundle bites his target with this next basic attack, dealing bonus physical damage equal to a base amount plus a percentage of his attack damage and [[slow]]ing his target by 75% for {{fd|0.1}} seconds.
+|description2  = This attack increases Trundle's attack damage for 8 seconds, with his opponent losing half of this amount for the same duration.
+|leveling = {{lcaps|Total Physical Damage|20|40|60|80|100|(+ {{ap|100|105|110|115|120%}} AD)}}
+|leveling2 = {{lcaps|Attack Damage Bonus|20|25|30|35|40}}
+|cooldown=4
+|cost=30
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Chomp''' is an [[on-hit effect]].
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** As with most on-hit physical damage, the bonus damage from ''Chomp'' will apply [[life steal]].
+** Critical strikes will not interact with the bonus damage from ''Chomp''.
+** The bonus damage will affect structures. 
+** ''Chomp's'' damage will be mitigated and the buff consumed if Trundle's attack is {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or if the attack [[blind|misses]], but will still incur the attack damage increase/decrease.
+|spellshield=will block the ability.
+|additional=
+|video=Trundle QVideo
+}}}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Frozen Domain
+|icon = Frozen Domain.jpg
+|description  = {{sbc|Active:}} Trundle coats a target {{tt|1000|Estimated}}-radius area with ice for 8 seconds, gaining increased movement speed, attack speed, and healing and regeneration from all sources while he is on it.
+|leveling = {{lcap|Movement Speed|20|25|30|35|40%}}
+{{lcap|Attack Speed|20|35|50|65|80%}}
+{{lcap|Healing and Regeneration Increase|8|11|14|17|20%}}
+|cooldown=15
+|cost=60
+|costtype=mana 
+|range=900
+}}
+|{{Ability2
+|targeting='''Frozen Domain''' is a [[ground-targeted]] [[area of effect]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Trundle WVideo
+}}}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Pillar of Ice
+|icon = Pillar of Ice.jpg
+|description  = {{sbc|Active:}} Trundle summons an impassable pillar of ice at a target location for 6 seconds. Enemies caught in the center of the eruption are briefly knocked back.
+|description2 = The pillar blocks movement within {{fd|62.5}} range and slows enemies within {{tt|{{fd|187.5}}|Estimated}} range.
+|leveling2={{lc|Pillar Slow}} {{ap|25|30|35|40|45%}}
+|cooldown={{ap|23|20|17|14|11}}
+|cost=60
+|costtype=mana 
+|range=1000
+}}
+|{{Ability2
+|targeting='''Pillar of Ice''' is a [[ground-targeted]] [[area of effect]] ability.
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+* The pillar grants sight within {{tt|600|Estimated}}-range.
+* The pillar cannot be placed inside impassable terrain. Attempting to do so will cause the pillar to spawn in the nearest available spot of accessible terrain, similar to {{ii|Sight Ward|wards}} and pets such as {{cai|Yordle Snap Trap|Caitlyn}}.
+* Pillar Of Ice deals 1 damage for it to trigger in-combat effects such as drawing [[tower]] aggro and cancelling the effects of out-of-combat abilities such as {{ai|Strut|Miss Fortune}} and {{ai|Perseverance|Garen}}.
+|video=Trundle EVideo
+}}}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Subjugate
+|icon = Subjugate.jpg
+|description  = {{sbc|Active:}} Trundle drains the life force out of an enemy champion, dealing magic damage equal to a percentage of his target's maximum health and [[heal]]ing himself for the same amount, as well as stealing 40% of the target's armor and magic resist. 
+<br/><br/> Half of the stats are drained immediately and the other half over the next 4 seconds. The armor and magic resist modifier slowly decays for both Trundle at his target over 4 seconds after the drain completes.
+|leveling  = 
+{{lcapss|Initial Magic Damage|10|12|14%|(+ 1% per 100 AP)|of target's maximum health}}
+{{lcapss|Magic Damage per second|2.5|3|3.5%|(+ {{fd|0.25}}% per 100 AP)|of target's maximum health}}
+{{lcapss|Total Magic Damage|20|24|28%|(+ 2% per 100 AP)|of target's maximum health}}
+|cooldown={{ap|80|70|60}}
+|cost=75
+|costtype=mana 
+|range=700
+}}
+|{{Ability2
+|targeting='''Subjugate''' is a [[unit-targeted]] ability.
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* The total value of armor and magic resistance drained is determined ''at the point of cast'' and does not adjust if the target's armor or magic resistance subsequently changes. This means that ''Subjugate'' cast on a target possessing a temporary defensive [[buff]] will in actuality steal significantly more than 40% of the target's armor and magic resistance if it wears off mid-drain, or vice versa if it is applied mid-drain.
+** Contrary to what happens with armor and magic resistance, temporary changes to maximum health such as {{ai|Wild Growth|Lulu}} will not cause ''Subjugate'' to deal more or less damage than intended.
+* If Trundle or his target is killed mid-drain, the drain is regarded as complete and will begin to to return the gained / lost stats immediately.
+|video=Trundle RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Trundle]]
+[[de:Trundle]]
+[[es:Trundle]]
+[[fr:Trundle]]
+[[pl:Trundle]]
+[[pt-br:Trundle]]
+[[ru:Trundle]]
+[[zh:特朗德尔]]

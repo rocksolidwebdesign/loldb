@@ -1,0 +1,183 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Backstab
+|icon = Backstab.jpg
+|description = Shaco deals 20% bonus damage when striking a unit from behind with his basic attacks or abilities.
+}}
+|{{Ability2
+|targeting='''Backstab''' is a passive ability that triggers when Shaco attacks or uses an ability on a unit that is facing away from him.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Backstab's'' bonus damage applies to Shaco's autoattacks and abilities, except for {{ai|Jack In The Box|Shaco}}.
+** ''Backstab'' does not increase the damage from [[summoner spell]]s or items.
+* ''Backstab'' also applies after a critical strike is achieved. If you were to critically strike for 500 damage, the same critical strike would do 600 damage from behind (500 + 120% = 600 damage).
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Deceive
+|icon = Deceive.jpg
+|description = {{sbc|Active:}} Shaco instantly blinks to a target nearby location and enters stealth for up to {{fd|3.5}} seconds. Dealing damage will break stealth early. His next basic attack within 6 seconds is guaranteed to critically strike for modified base critical damage. 
+|description2 = Bonus critical damage from items, runes and mastery is applied for the full amount. 
+|leveling = {{lcap|Base Critical Damage|140|160|180|200|220%}}
+{{lcap|Critical Damage with Backstab bonus|168|192|216|240|264%}}
+|range = 400
+|cooldown = 11 seconds after exiting stealth
+|cost = {{ap|90|80|70|60|50}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting= '''Deceive''' is a [[blink|ground targeted blink ability]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Deceive's'' damage bonus replaces the normal critical strike modifier, causing it to actually do less than a normal critical until the skill is at least at rank 4. It is affected by critical damage bonuses like {{ii|Infinity Edge}}.
+** ''Deceive'' will apply bonus critical damage on top of its modifier. For instance, with {{ii|Infinity Edge}} (+50%) and Rank 5 ''Deceive'', Shaco will deal bonus damage equal to 170% of his attack damage (crit=100% + 50% bonus from IE +20% bonus from Rank 5 ''Deceive'') . This is before any other bonuses or mitigation are applied. Note that if Shaco were to attack the target from behind it would deal 20% additional damage on top of the critical strike itself making the total damage of the attack equal to 324% of Shaco's total attack damage.
+* i.e. Shaco has 150 attack damage:
+** Rank 5 ''Deceive'' crit from behind with Infinity Edge = [150 + ([1.20 + .50]*150)]*1.20 = 486 total damage.
+*''Deceive's'' casting animation (an orange puff of smoke) can be seen by both teams through the [[Fog of War]].
+|video=Shaco QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Jack In The Box
+|icon = JackInTheBox.jpg
+|description = {{sbc|Active:}} Shaco summons a [[#Pets|box]] at the target location that stealths after a 2 second delay and lasts for up to 60 seconds. When an enemy comes within '''300''' units, the box springs open: causing surrounding enemies to turn and flee while it attacks nearby enemies for up to 5 seconds.
+|leveling = {{lcap|Fear Duration|0.5|0.75|1|1.25|1.5}}
+{{lcaps|Magic Damage|35|50|65|80|95|(+ 20% AP)}}
+{{lcaps|Maximum Magic Damage|315|450|585|720|855|(+ 180% AP)}}
+|range = 425
+|cooldown = 16
+|cost={{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Jack in the Box''' is a ground targeted ability that places a [[pet]] at the target location.
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=
+|spellshield=will block the fear, but not the attacks.
+|additional=
+*Casting ''Jack In The Box'' creates a puff of smoke that is visible even through brush and the fog of war, and makes a distinctive sound that can be heard by enemies.
+*''Boxes'' are immune to ability damage and displacement effects while in stealth. As such, they can be used to block skill shots. 
+*''Boxes'' will not be triggered by enemies that Shaco does not have sight of. As boxes grant sight, this is only true against stealthed enemies, or while Shaco is affected by {{ai|Paranoia|Nocturne}} and {{ai|Smokescreen|Graves}}).
+*Stealthed boxes will be revealed and disabled by {{ii|Sweeping Lens}}. 
+*The fear can affect [[stealth]]ed enemy champions, but it will not reveal them unless the target's stealth state depends on their location or movement (e.g. {{cai|Camouflage|Teemo}} or {{cai|Twilight Shroud|Akali}}).
+|video=Shaco WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Two-Shiv Poison
+|icon = Two-ShivPoison.jpg
+|description = {{sbc|Passive:}} Shaco's basic attacks poison his targets, reducing their movement speed for 2 seconds. It also gives affected non-champion units a chance to miss their attacks.
+|description2 = {{sbc|Active:}} Shaco throws a dagger at a target enemy dealing magic damage and applying his slowing poison to them for 3 seconds. The passive is deactivated during the cooldown.
+|leveling = {{lcap|Slow|10|15|20|25|30%}}
+{{lcap|Miss Chance to Non-Champion Units|20|22.5|25|27.5|30%}}
+|leveling2 = {{lcapss|Magic Damage|50|90|130|170|210|(+ 100% AP)|(+ 100% bonus AD)}}
+{{lcapss|Magic Damage with Backstab bonus|60|108|156|204|252|(+ 120% AP)|(+ 120% bonus AD)}}
+|range = 625
+|cooldown = 8
+|cost = {{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Two-Shiv Poison's''' passive grants an [[on-hit effect]]. 
+<br>When activated, '''Two-Shiv Poison''' becomes a targeted ability that applies the on-hit effect.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block ''Two-Shiv Poison's'' active.
+|additional=
+|video=Shaco EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Hallucinate
+|icon = Hallucinate.jpg
+|description = {{sbc|Active:}} Shaco {{tt|vanishes|This is not a form of stealth. Shaco leaves the game entirely, becoming:&#013;• Untargetable (even from the fountain laser)&#013;• Invulnerable&#013;• Completely invisible (even when near a source of true sight).}} for {{fd|0.5}} seconds, then creates a clone of himself that will last for up to 18 seconds.
+|description2= The clone deals 75% of Shaco's damage and receives 50% extra damage. This clone deals 50% damage to towers and inhibitors. At the end of its duration or when dying the clone will explode, dealing magic damage to enemies within '''250'''-range.
+|leveling2= {{lcaps|Magic Damage|300|450|600|(+ 100% AP)}}
+|cooldown = {{ap|100|90|80}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Hallucinate''' is a self-targeted ability.
+{{lc|Leash Radius}} 1125
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=The clone will apply on hit-effects just a Shaco would.
+|spellshield=Will block the clone's explosion.
+|additional=
+*The clone will not apply spell effects with its attacks, just its explosion.
+* While the clone is active, you can use the spell again in order to issue commands, similarly with Alt-Right Clicking. Each "activation" of the spell will cause the clone to move towards the cursor location or to attack whichever enemy unit the cursor is hovering over. 
+*Shaco briefly becomes untargetable when casting ''Hallucinate''.
+**With proper timing, Hallucinate can be used to avoid projectiles before they hit him (e.g. {{cai|Ace in the Hole|Caitlyn}} or {{cai|Requiem|Karthus}}). However, it cannot be used to avoid ticks of {{si|Ignite}} or {{cai|Time Bomb| Zilean}}. The duration timer will pause and continue once Shaco is targetable again.
+*The clone will receive its own [[Banshee's Veil]], [[Guardian Angel]] or other item buffs.
+*The clone cannot be the source of [[aura]] buffs, but it can still be affected by nearby auras.
+*''Hallucinate'' spawns Shaco and his clone with consistent orientations. Shaco faces the same direction as he did when the ability was cast. The clone faces towards the top of the screen.
+*Shaco's clone will benefit from certain stats gained from items from attack speed and crit chance.
+*Shaco's Clone will not benefit from certain item effects such as:
+**[[Spellblade]] and [[Youmuu's Ghostblade]]'s active
+*Runes and Masteries do not increase the clones stats.
+**The clone displays its real stats, which makes it fairly easy to find the real Shaco.
+*Shaco's Clone is also capable of picking up [[Health Relic]]s on [[Dominion]] and [[Howling Abyss]].
+*Shaco's Clone cannot lifesteal.
+|video=Shaco RVideo
+}}
+}}
+
+==Pets==
+{{Ability pet
+|name=Jack In The Box
+|render=Jack In The Box Render.png
+|icon=Jack In The Box.png
+|description='''Jack In The Box''' is a static, [[Pet#Minion|autonomous minion]] that attacks nearby units and structures.
+* Is not affected by {{ai|Counter Strike|Jax}}, {{ai|Riposte|Fiora}}, {{ai|Aegis Protection|Pantheon}} and [[Blind]].
+* Classified as a [[pet#minion|minion]] for targeting purposes. 
+* Boxes will prioritize the nearest enemy champion that has damaged Shaco or that Shaco has damaged, preferring to attack that champion whenever it is in range, even if they have moved too far away before walking back into range.
+* Does not benefit from {{ii|Banner of Command}}. 
+* ''Boxes'' can attack 9 times in their lifespan.
+|health=150
+|damage={{ap|35|50|65|80|95}} {{as|(+20% AP)}}
+|damagetype=Magic
+|range=300
+|sight={{tt|700|Estimated}}
+|armor=50
+|mr=100
+|attackspeed={{fd|1.6}}
+|movespeed=Static
+|gold=10 gold
+|exp=0 exp
+}}
+{{clear}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Shaco]]
+[[de:Shaco]]
+[[es:Shaco]]
+[[fr:Shaco]]
+[[pl:Shaco]]
+[[pt-br:Shaco]]
+[[ru:Shaco]]
+[[zh:萨科]]

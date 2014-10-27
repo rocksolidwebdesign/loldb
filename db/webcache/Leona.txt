@@ -1,0 +1,141 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Sunlight
+|icon=Sunlight.jpg
+|description= Leona's spells charge any enemy unit damaged with ''Sunlight'' for {{fd|3.5}} seconds. When allied champions deal any damage to those targets they consume the ''Sunlight'' debuff to deal {{pp|9|20|35|50|65|80|95|110|125|140|1|3|5|7|9|11|13|15|17}} additional magic damage. 
+|description2=This additional damage is counted as the ally's damage and it will benefit from their magic penetration. Leona is unable to activate the additional damage herself.
+}}
+|{{Ability2
+|targeting='''Sunlight''' is an [[spell effect|on-spell effect]] that applies a [[debuff]].
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the application of the debuff, but will not block the detonation of a mark.
+|additional=
+* The damage dealt by ''Sunlight's'' mark is credited to the allied champion, not Leona. As such, the magic damage will benefit from their magic penetration and will apply any spell effects they have, including [[spell vamp]].
+* ''Sunlight'' does not stack. Further applications of the debuff only refresh the timer.
+* ''Sunlight'' has a hidden passive which causes champions wearing sunglasses to take 1 less damage from ''Sunlight'', such as  {{ci|Vayne}}. This extends to champion skins as well, even if their default skin does not normally wear sunglasses, such as {{csi|Singed|Surfer Singed}}.
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Shield of Daybreak
+|icon=Shield of Daybreak.jpg
+|description={{sbc|Active:}} Leona's next basic attack will be a shield slam, dealing additional magic damage and stunning the target for {{fd|1.25}} seconds.
+|leveling = {{lcaps|Magic damage|40|70|100|130|160|(+ 30% AP)}}
+|cooldown = {{ap|11|10|9|8|7}}
+|cost     = {{ap|45|50|55|60|65}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Shield of Daybreak''' is an [[on-hit effect]] ability.
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+* The triggering attack will apply other on-hit effects and can critically strike as normal.
+** Critical strikes do not interact with Shield of Daybreak's bonus damage.
+** ''Shield of Daybreak's'' bonus damage will affect structures.
+** ''Shield of Daybreak's'' bonus damage and stun will surpass {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]].
+|spellshield=will block the ability.
+|additional=
+* ''Shield of Daybreak'' will reset Leona's attack timer on cast. Additionally, it has a reduced delay between the next attack, allowing Leona three rapid autoattacks in succession.
+* Leona's basic attack range is increased by 30 (''155 total range'') while the effect is active.
+* Despite being an on-hit effect, ''Shield of Daybreak's'' damage will trigger spell effects as a single-target spell, including [[spell vamp]], {{ii|Rylai's Crystal Scepter|Rylai's}} slow and will cause {{iis|Muramana}} bonus damage to trigger twice with one autoattack.
+|video=Leona QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Eclipse
+|icon=Eclipse.jpg
+|description={{sbc|Active:}} Leona surrounds herself with a shield of sunlight, gaining bonus armor and magic resistance for 3 seconds. When the effect ends the shield bursts, dealing magic damage to enemies within '''275''' range of her. If ''Eclipse'' damages any enemies, the bonuses remain for an additional 3 seconds.
+|leveling = {{lcaps|Armor|20|30|40|50|60|(+ 20% bonus armor)}}
+{{lcaps|Magic Resistance|20|30|40|50|60|(+20% bonus magic resistance)}}
+{{lcaps|Magic damage|60|110|160|210|260|(+ 40% AP)}}
+|cooldown = 14
+|cost     = 60
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Eclipse''' is a self-[[buff]], [[area of effect|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability, but will still count towards extending the duration of the buff.
+|additional=
+* ''Eclipse'' has no cast time and does not interrupt Leona's previous orders.
+* ''Eclipse's'' armor and magic resistance bonuses do not factor in themselves.
+|video=Leona WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Zenith Blade
+|icon=ZenithBlade.jpg
+|description={{sbc|Active:}} Leona projects a solar image of her sword, dealing magic damage to all enemies in a line. Leona will dash to the last enemy champion struck, briefly rooting them in place as she travels.
+|leveling = {{lcaps|Magic damage|60|100|140|180|220|(+ 40% AP)}}
+|cooldown = {{ap|13|12|11|10|9}}
+|cost     = 60
+|costtype = mana
+|range    = 875
+}}
+|{{Ability2
+|targeting='''Zenith Blade''' is a [[skill shot|pass-through skill shot]] dash.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage portion but not Leona's dash if they are the last target hit.
+|additional=
+* Champion clones such as {{cai|Decoy|Wukong}} will be damaged by ''Zenith Blade'' but will not trigger the dash.
+* Leona will automatically attempt to attack the target she dashes to.
+|video=Leona EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Solar Flare
+|icon=SolarFlare.jpg
+|description={{sbc|Active:}} Leona calls down a beam of solar energy to a target location. After a {{fd|0.625}} delay, it deals magic damage to all enemies within '''250'''-range and slows them by 80% for {{fd|1.5}} seconds. Enemies within '''100'''-range are stunned for {{fd|1.5}} seconds instead of being slowed.
+|leveling = {{lcaps|Magic damage|150|250|350|(+ 80% AP)}}
+|cooldown = {{ap|90|75|60}}
+|cost     = 100
+|costtype = mana
+|range    = 1200
+}}
+|{{Ability2
+|targeting='''Solar Flare''' is a ground-targeted [[area of effect]] ability.
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* For the duration, the beam also grants vision in a radius of 350.
+|video=Leona RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Twisted Treeline]] and [[Crystal Scar]]
+* {{ai|Solar Flare|Leona}}
+** Cooldown increased to {{ap|100|90|80}} seconds from {{ap|90|75|60}} seconds.
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Leona]]
+[[de:Leona]]
+[[es:Leona]]
+[[fr:Leona]]
+[[pl:Leona]]
+[[pt-br:Leona]]
+[[ru:Leona]]
+[[zh:蕾欧娜]]

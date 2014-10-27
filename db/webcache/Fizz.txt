@@ -1,0 +1,167 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Nimble Fighter
+|icon = Nimble Fighter.jpg
+|description = Fizz's dexterity allows him to ignore unit collision and take {{pp|6|4|6|8|10|12|14|1|4|7|10|13|16}} reduced physical damage from auto attacks.
+}}
+|{{Ability2
+|targeting='''Nimble Fighter''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Nimble Fighter's'' damage reduction occurs '''''after''''' [[armor]] reductions.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Urchin Strike
+|icon = Urchin Strike.jpg
+|description = {{sbc|Active:}} Fizz dashes a fixed distance in the direction of the target enemy unit, dealing {{as|100% of his AD}} as physical damage plus bonus magic damage. The physical damage applies on-hit effects and the magic damage applies on-ability effects.
+|leveling = {{lc|Magic Damage}} {{ap|10|40|70|100|130}} {{as|(+ 60% AP)}}
+|range= 550
+|cooldown= {{ap|10|9|8|7|6}}
+|cost= {{ap|50|55|60|65|70}}
+|costtype= Mana
+}}
+|{{Ability2
+|targeting='''Urchin Stike''' is a targeted [[dash]] ability.
+* Fizz will travel a set distance regardless of when he strikes his target.
+|damagetype=magic
+|spelleffects=
+|onhiteffects=''Urchin Strike'' has two damaging components. The magical component applies [[spell effects]] as a single target ability, and the physical component applies [[on-hit effects]].
+** The physical component can be {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}}, {{ai|Aegis Protection|Pantheon|blocked}} and can [[blind|miss]].
+|spellshield=Will block ''Urchin Strike''.
+* ''Urchin Strike'' will apply all melee [[on-hit]] effects such as  [[Life steal]], {{ii|Sheen}}, and {{ii|Blade of the Ruined King}} as well as [[spell effects]] such as [[Spell Vamp]], {{ii|Rylai's Crystal Scepter}} and {{ii|Liandry's Torment}} simultaneously.
+** [[Life steal]] will only be applied to the physical damage portion of ''Urchin Strike'' and physical damage {{ii|sheen}} effects.
+** [[Spell Vamp]] will apply to all damage dealt directly by the spell excluding on-hit item effects but including the physical and magic damage portion of ''Urchin Strike''.
+** On-hit damage additions (''i.e. {{ii|Wit's End}}, {{ii|Lich Bane}}'') will not apply to either [[life steal]] or [[spell vamp]].
+|additional=
+|video=Fizz QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Seastone Trident
+|icon = Seastone Trident.jpg
+|description = {{sbc|Passive:}} Fizz's autoattacks rend his target, dealing magic damage over 3 seconds that is increased based on a percentage of the target's missing health. The total damage caps at 300 against minions and monsters (''100 damage per second'').
+
+|description2 = {{sbc|Active:}} Fizz's autoattacks are empowered for the next 5 seconds, dealing additional magic damage on-hit and applying [[Healing#Healing reduction|Grievous Wounds]] for 3 seconds.
+|leveling = {{lc|Total Magic damage}} {{ap|30|40|50|60|70}} {{as|(+ 35% AP)}} {{as|(+ {{ap|4|5|6|7|8%}} of target's missing health)}}
+|leveling2 = {{lc|Magic damage}} {{ap|10|15|20|25|30}} {{as|(+ 25% AP)}}
+|cooldown = 10
+|cost = 40
+|costtype = Mana
+}}
+|{{Ability2
+|targeting='''Seastone Trident's''' passive is a [[Damage_Over_Time#Non-decreasable_duration_abilities|damage over time]] [[on-hit effect]].
+'''Seastone Trident's''' active is a [[On-hit_effect#Non-Physical_Damage|non-physical]] [[on-hit effect]].
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=
+|spellshield=Will not block ''Seastone Trident''.
+|additional=
+* Refreshes duration upon additional hits.
+* ''Seastone Trident's'' passive percentual damage component will update itself with each tick, as {{ii|Liandry's Torment}} does, causing a slight increase in damage as the effect remains on a target.
+|video=Fizz WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Playful
+|icon = Playful.jpg
+|description = {{sbc|Active:}} Fizz hops onto his trident in a nearby location, becoming untargetable for {{fd|0.75}} seconds and gaining the ability to use {{ai|Trickster|Fizz}} for no additional cost before the effect ends.
+|description2 = If Fizz does not use ''Trickster'', he will slam the ground below him, dealing magic damage and slowing nearby enemies within '''330'''-range for 2 seconds.
+|leveling2 = {{lc|Magic damage}} {{ap|70|120|170|220|270}} {{as|(+ 75% AP)}}
+{{lc|Slow}} {{ap|40|45|50|55|60%}}
+|range = 400
+|cooldown = {{ap|16|14|12|10|8}}
+|cost = {{ap|90|100|110|120|130}}
+|costtype = Mana
+}}
+{{Ability info
+|name = Trickster
+|icon = Trickster.jpg
+|description = {{sbc|Active:}} Fizz hops off from his trident to a nearby location, dealing magic damage to nearby enemies within '''270'''-range. ''Trickster'' does not apply a slow.
+|leveling = {{lc|Magic damage}} {{ap|70|120|170|220|270}} {{as|(+ 75% AP)}}
+|costtype=
+|range= 400
+}}
+|{{Ability2
+|targeting='''Playful'''/'''Trickster''' is a two part [[dash]] ability.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block ''Playful''/''Trickster''.
+|additional=
+* ''Playful''/''Trickster'' does not break tethers like {{cai|Drain|Fiddlesticks}} or {{cai|Decrepify|Swain}}.
+* ''Playful''/''Trickster'' can be used to jump over/through walls.
+* ''Playful'' can be used to avoid spells such as {{cai|Requiem|Karthus}} or {{cai|Ace in the Hole|Caitlyn}}.
+* After ''Playful'' is used, without activating ''Trickster'', you can guide which direction Fizz will fall by right clicking before/as he drops for a longer reach (but same radius) on the slow/damage.
+* ''Playful'' cannot be used for approximately {{fd|0.5}} seconds after using {{ai|Urchin Strike|Fizz}}.
+|video=Fizz EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Chum the Waters
+|icon = Chum the Waters.jpg
+|description = {{sbc|Active:}} Fizz throws a fish in a line that will bind itself onto the first enemy champion it hits. A Shark will come out from the earth to eat the fish after {{fd|1.5}} seconds, regardless of position.
+|description2 = If it doesn't hit an enemy champion it will stay on an area, and it will stick to the first enemy champion that walks into the area. The fish will slow and reveal any enemy champion it is attached to.
+|description3 = If a champion has the fish attached to them they are knocked up for 1 second. All other enemies within '''250'''-range are knocked away from the shark. All enemies hit are dealt magic damage and are slowed for {{fd|1.5}} seconds afterwards.
+|leveling = {{lc|Slow}} {{ap|50|60|70%}}
+{{lc|Magic damage}} {{ap|200|325|450}} {{as|(+ 100% AP)}}
+|range = 1275
+|cooldown = {{ap|100|85|70}}
+|cost = 100
+|costtype = Mana
+}}
+|{{Ability2
+|targeting='''Chum the Waters''' is a [[Skillshot|collision linear skillshot]] that damages enemies in an area centered on the target.
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will partially block ''Chum the Waters'' by causing the fish to drop to the ground instead of latching onto the target; however, the shark will still appear and deal damage around the fish after the normal delay.
+|additional=
+* The fish will only attach itself to an enemy champion and will pass through all terrain and non-champion targets.
+* If the fish is thrown onto a target without an active spell shield, the target will be slowed. If the spell shield activates while the fish is already latched on, the slow will remain but the shark's damage and knockup will be negated, consuming the shield.
+* ''Chum the Waters'' initial slow can be removed by {{si|Cleanse}} and {{ai|Remove Scurvy|Gangplank}}.
+** Using {{ii|Quicksilver Sash}} will remove the slow and drop the fish to the ground.
+* Both of the effects can hit [[stealth]]ed units, and any stealthed unit hit by the fish will be revealed until the shark appears.
+* ''Chum the Waters'' deals 1 [[true damage]] every {{fd|0.5}} seconds as a countdown before the [[knockup]].
+* ''Chum the Waters''' secondary effect will activate immediately if it is attached to a champion and they die prior to the shark emerging.
+* ''Chum the Waters'' grants sight around the fish, and reveals any target the fish is attached to.
+|video=Fizz RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]]
+* {{ai|Urchin Strike|Fizz}}
+** Cooldown is {{ap|11|10|9|8|7}} instead of {{ap|10|9|8|7|6}}.
+* {{ai|Playful|Fizz}}
+** Cooldown is {{ap|16|14.5|13|11.5|10}} instead of {{ap|16|14|12|10|8}}.
+ 
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Fizz]]
+[[de:Fizz]]
+[[es:Fizz]]
+[[fr:Fizz]]
+[[pl:Fizz]]
+[[pt-br:Fizz]]
+[[ru:Fizz]]
+[[zh:菲兹]]

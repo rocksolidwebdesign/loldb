@@ -1,0 +1,152 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}|ip = 4800|rp = 880|IP = 4800|RP = 880}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Essence Theft
+|icon=Essence Theft.png
+|description=Ahri gains a charge of ''Essence Theft'' with each enemy unit hit by any of her spells, with a cap of 3 charges gained per spell cast. 
+
+Upon reaching 9 charges, Ahri's next spell will heal her for 2{{plus}}(''Ahri's level'') {{as|(+ 9% AP)}} for each enemy hit.
+}}
+|{{Ability2
+|targeting='''Essence Theft''' is a [[spell effect]].
+|video=Ahri IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Orb of Deception
+|icon=Orb of Deception.png
+|description={{sbc|Active:}} Ahri sends out an orb in a line in front of her and then pulls it back, dealing magic damage on the way out and true damage on the way back.
+|leveling=
+{{lcaps|Magic damage / True damage|40|65|90|115|140|(+ {{fd|35%}} AP)}}
+{{lcaps|Max Damage to the Same Target|80|130|180|230|280|(+ 70% AP)}}
+|range=880
+|cooldown=7
+|cost={{ap|55|60|65|70|75}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Orb of Deception''' is a [[skill shot|linear, pass-through skill shot]] that returns to Ahri upon reaching maximum range.
+|damagetype=Magic, True
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block a single instance of damage.
+|additional=
+* If Ahri dies or becomes untargetable before the projectile changes direction, it will fizzle upon reaching maximum range.
+** This is labeled as "fixed" in the 4.5 patch, Orb of Deception will now return to Ahri's position in these scenarios.
+* The projectile can only damage an enemy champion twice, once before it reaches its maximum range and once while returning to Ahri.
+* If Ahri is performing an attack animation when the orb switches direction, the attack animation is canceled.
+|video=Ahri QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Fox-Fire
+|icon=Fox-Fire.png
+|description={{sbc|Active:}} Ahri releases three fox-fires to surround her for up to 5 seconds. After a short delay after cast, each flame will target the closest visible enemy unit to itself, prioritizing champions, and deal magic damage to the target.
+|description2=Additional fox-fires that hit the same target will only deal 30% damage.
+|leveling=
+{{lcaps|Magic Damage Per Fox-Fire|40|65|90|115|140|(+ 40% AP)}}
+{{lcaps|Max Damage to the Same Target|64|104|144|184|224|(+ 64% AP)}}
+|range=800
+|cooldown={{ap|9|8|7|6|5}}
+|cost=50
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Fox-Fire''' is point blank [[auto-targeted]] ability.
+|damagetype=Magic
+|projectile=true
+|spelleffects=single target
+|spellshield=Will block a single orb.
+|additional=
+* ''Fox-Fire'' has no casting time and will not interrupt Ahri's previous orders.
+* ''Fox-Fire's'' targeting priority is as follows:
+** The enemy champion closest to the orb's location
+** The target of Ahri's last autoattack
+** The enemy unit closest to the orb's location
+* Ahri must have sight of an enemy in order for ''Fox-Fire'' to target them. Once targeted, the missiles will chase its target even if Ahri loses sight.
+* If the target of ''Fox-Fire'' dies, the missile will fizzle.
+* Any unused ''Fox-Fires'' will fizzle on Ahri's death.
+* If Ahri uses {{ii|Zhonya's Hourglass}} while ''Fox-Fire'' is active, any orbs that have not acquired a target will fizzle.
+* The cooldown of ''Fox-Fire'' begin once all the orbs have been cast or timed-out.
+|video=Ahri WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Charm
+|icon=Charm.png
+|description={{sbc|Active:}} Ahri blows a kiss that travels in a line in front of her. The first enemy it hits takes magic damage and is charmed, forcing them to walk harmlessly towards Ahri while being slowed by 50% for the duration.
+<br><br>Enemies hit by ''Charm'' take 20% more magic damage from Ahri for 6 seconds. {{ais|Orb of Deception|Ahri}} true damage is also increased by this effect.
+|leveling=
+{{lcaps|Magic damage|60|90|120|150|180|(+ 35% AP)}}
+{{lcap|Duration|1|1.25|1.5|1.75|2}}
+|range=975
+|cooldown=12
+|cost=85
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Charm''' is a [[skill shot|linear, colliding skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* If the charmed enemy does not have sight of Ahri, they will stand still for its duration. 
+* The reduction in the enemy's movement speed is fixed for the duration. Hasting or further slowing the target will have no effect, and {{ai|Highlander|Master Yi}} will not resist it. 
+* ''Charm's'' damage amplifier stacks multiplicatively with {{ii|Deathfire Grasp}} for a total amplifier of 44%.
+|video=Ahri EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Spirit Rush
+|icon=Spirit Rush.png
+|description={{sbc|Active:}} Ahri dashes towards the cursor and fires essence bolts, dealing magic damage to up to 3 visible nearby enemies, prioritizing champions. In the next 10 seconds, ''Spirit Rush'' can be cast two additional times before going on cooldown. Each enemy can only be hit once per dash.
+|leveling =
+{{lcaps|Magic Damage|70|110|150|(+ 30% AP)}}
+{{lcaps|Max Damage to Same Target|210|330|450|(+ 90% AP)}}
+|range=450
+|cooldown={{ap|110|95|80}}
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Spirit Rush''' is a [[dash|ground targeted dash]] that fires up to 3 [[auto-targeted]] missiles. 
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the missile of a single cast.
+|additional=
+* ''Spirit Rush'' uses a [[ability|barrage system]], meaning it can be cast multiple times within a given period at no additional cost. Each activation counts as activating an ability for items such as {{ii|Sheen}} and abilities such as {{ai|Force Pulse|Kassadin}}.
+* ''Spirit Rush'' uses [[smart cast]] by default.
+* Ahri must have sight of an enemy in order for ''Spirit Rush'' to target them. Once targeted, the missiles will chase its target even if Ahri loses sight.
+* If Ahri dies mid-dash, she will not fire the missiles.
+|video=Ahri RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Ahri]]
+[[de:Ahri]]
+[[es:Ahri]]
+[[fr:Ahri]]
+[[pl:Ahri]]
+[[pt-br:Ahri]]
+[[ru:Ари]]
+[[zh:阿狸]]

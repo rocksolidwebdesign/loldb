@@ -1,0 +1,143 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Draw a Bead
+|icon = DrawaBead.jpg
+|description  = The range on Tristana's basic attacks, {{ai|Explosive Shot|Tristana}} and {{ai|Buster Shot|Tristana}} is increased by 9{{times}}(''Tristana's level''{{minus}}1). At level 18, the bonus is 153 (703 range total). 
+}}
+|{{Ability2
+|targeting='''Draw a Bead''' is an indefinite [[buff]] that increases Tristana's attack range, {{ais|Explosive Shot|Tristana}} cast range and {{ai|Buster Shot|Tristana}} cast range per level.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Tristana's attack range exceeds {{cis|Ashe}} at level 7, {{cis|Caitlyn}} at level 13 and {{ci|Jinx}} with a rank 5 {{ai|Switcheroo!|Jinx}} at level 18. This gives her the longest permanent attack range of any champion at that point, being surpassed only temporarily by {{ci|Twitch}} using {{ai|Rat-Ta-Tat-Tat|Twitch}} and {{ci|Kog'Maw}} using a rank 5 {{ai|Bio-Arcane Barrage|Kog'Maw}}.
+* Tristana can attack {{ci|Baron Nashor}} over the back wall once she hits level 13, a feature shared by {{ci|Caitlyn}}.
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Rapid Fire
+|icon = RapidFire.jpg
+|description  = {{sbc|Active:}} Increases Tristana's attack speed for 5 seconds. 
+|leveling = {{lc|Attack Speed}} {{ap|30|50|70|90|110%}} 
+|cooldown=20
+|range=
+}}
+|{{Ability2
+|targeting='''Rapid Fire''' is a [[self-targeted]] [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* '''Rapid Fire''' has no cast time and does not interrupt Tristana's previous orders
+|video=Tristana QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Rocket Jump
+|icon = RocketJump.jpg
+|description  = {{sbc|Active:}} Tristana fires at the ground to [[dash|propel]] herself to a target location, dealing magic damage and [[slow]]ing surrounding units by 60% for a time when she lands. 
+|description2 =''Rocket Jump's'' cooldown resets whenever Tristana gains a kill or assist.
+|leveling = {{lc|Magic Damage}} {{ap|70|115|160|205|250}} {{as|(+ 80% AP)}}
+{{lc|Slow Duration}} {{ap|1|1.5|2|2.5|3}}
+|cooldown={{ap|22|20|18|16|14}}
+|cost=60
+|costtype=mana 
+|range=900
+}}
+|{{Ability2
+|targeting='''Rocket Jump''' is a ground targeted [[dash]].  
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and slow.
+|additional=
+* Tristana can still attack and use abilities, summoner spells and item actives while she is in the air.
+* ''Rocket Jump's'' speed depends on the distance of the jump.  Melee range jumps are near instantaneous while long range jumps leave Tristana in the air for significantly longer.
+* Tristana is still targetable while jumping and can be hit by skillshots such as {{cai|Enchanted Crystal Arrow|Ashe}} and {{cai|Mystic Shot|Ezreal}}
+** Non-airborne crowd control effects, such as [[stun]]s and [[snare]]s, will take effect upon landing and will ''not'' cancel the jump.
+** All airborne crowd control effects, such as [[knockup]]s and [[knockback]]s, ''will'' cancel the jump and then complete their effects as normal.
+|video=Tristana WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Explosive Shot
+|icon = ExplosiveShot.jpg
+|description  = {{sbc|Passive:}} Enemies explode when slain by Tristana's basic attacks, dealing magic damage to enemies within '''75'''-range.
+|description2  = {{sbc|Active:}} Rends the target enemy with shrapnel, applying [[Healing#Healing_reduction|Grievous Wounds]] and dealing magic damage over 5 seconds.
+|leveling = {{lc|Explosion Magic Damage}} {{ap|50|75|100|125|150}} {{as|(+ 25% AP)}} 
+|leveling2 = {{lc|Shot Magic Damage}} {{ap|80|125|170|215|260}} {{as|(+ 100% AP)}}
+|cooldown=16
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana 
+|range={{tt|541 + (9{{times}} ''Tristana level'')|From 550 at level 1 to 703 at level 18}}
+}}
+|{{Ability2
+|targeting='''Exploding Shot's''' ''Passive'' is an [[auto-targeted]] [[area of effect]].
+'''Exploding Shot's''' ''Active'' is a [[unit-targeted]] [[damage over time]] ability. 
+|damagetype=magic
+|projectile=true
+|spelleffects=
+|spellshield=will block the ability.
+|additional=
+* ''Explosive Shot's passive'' applies [[spell effects]] as an [[area of effect]] ability. 
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+* ''Explosive Shot's active'' applies [[spell effects]] as a [[damage over time]] ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is applied.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+* ''Explosive Shot's'' active range, like Tristana's basic attack range, benefits from the range granted by {{ai|Draw a Bead|Tristana}}.
+* ''Explosive Shot's'' passive will trigger on towers.
+|video=Tristana EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Buster Shot
+|icon = BusterShot.jpg
+|description  = {{sbc|Active:}} Tristana fires a massive cannonball at an enemy unit, dealing magic damage and [[knock back|knocking back]] them and surrounding units.
+|leveling = {{lc|Magic Damage}} {{ap|300|400|500}} {{as|(+ 150% AP)}}
+{{lc|Knockback Distance}} {{ap|600|800|1000}}
+|cooldown= {{ap|100|85|70}}
+|cost=100
+|costtype=mana 
+|range={{tt|541{{plus}}(9{{times}} ''Tristana level'')|From 550 at level 1 to 703 at level 18}}
+}}
+|{{Ability2
+|targeting='''Buster Shot''' is a [[unit-targeted]] [[area of effect]] ability.
+{{lc|Knockback Force Width}} 200
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* Tristana will automatically be ordered to attack the target of ''Buster Shot''.
+|video=Tristana RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Tristana]]
+[[de:Tristana]]
+[[es:Tristana]]
+[[fr:Tristana]]
+[[pl:Tristana]]
+[[pt-br:Tristana]]
+[[ru:Tristana]]
+[[zh:崔丝塔娜]]

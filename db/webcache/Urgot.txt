@@ -1,0 +1,139 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Zaun-Touched Bolt Augmenter
+|icon = Zaun-TouchedBoltAugmenter.jpg
+|description  = Urgot's basic attacks and {{ai|Acid Hunter|Urgot}} reduce all damage that his target deals by 15% for {{fd|2.5}} seconds.
+}}
+|{{Ability2
+|targeting='''Zaun-Touched Bolt Augmenter''' is an [[on-hit effect|on-hit]] and [[spell effect|on-spell effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*''Zaun-Touched Bolt Augmenter'' does not affect [[true damage]] dealt by his target.
+*''Zaun-Touched Bolt Augmenter'' does not stack. Subsequent auto-attacks or {{ai|Acid Hunter|Urgot}} hits will only refresh the duration of the debuff.
+|video=Urgot IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Acid Hunter
+|icon = AcidHunter.jpg
+|description  = {{sbc|Active:}} Urgot fires a missile in a line towards the cursor, dealing physical damage to the first enemy it hits. His {{ai|Zaun-Touched Bolt Augmenter|Urgot|passive}} is also applied to the target. Killing a unit will refund half the mana cost.
+|description2 = Missile-lock can be achieved by holding the cursor over a unit afflicted by {{ai|Noxian Corrosive Charge|Urgot}} when casting, causing ''Acid Hunter'' to fly directly to the target ignoring all other units. ''Acid Hunter'' can lock onto units hidden in Fog of War, brush, and in stealth, but does not grant sight of units hit.
+|leveling = {{lc|Physical Damage}} {{ap|10|40|70|100|130}} {{as|(+ 85% AD)}}
+|cooldown=2
+|cost=40
+|costtype=mana 
+|range= 1000 (''1200 with {{ai|Noxian Corrosive Charge|Urgot|Lock-on}}'')
+}}
+|{{Ability2
+|targeting='''Acid Hunter''' is a linear collision [[skill shot]]. When locked on, it becomes a [[single target]]ed ability.
+|damagetype=physical
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*The lock-on casting ''Acid Hunter'' does not need vision of the target to activate; as long as the cursor is hovering over an enemy debuffed by {{ai|Noxian Corrosive Charge|Urgot}} and they are within the ability's radius around Urgot, the missile lock-on will trigger. This includes both [[stealth]]ed units and units hidden in the [[Fog of War]].
+|video=Urgot QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Terror Capacitor
+|icon = TerrorCapacitor.jpg
+|description  = {{sbc|Active:}} Urgot charges up his capacitor to gain a shield that absorbs damage for up to 7 seconds. |description2 = While the shield is active, Urgot's basic attacks and {{ai|Acid Hunter|Urgot}} missiles will slow targets hit for {{fd|1.5}} seconds.
+|leveling = {{lc|Shield Strength}} {{ap|80|130|180|230|280}} {{as|(+ 80% AP)}}
+|leveling2 = {{lc|Slow}} {{ap|20|25|30|35|40%}}
+|cooldown={{ap|16|15|14|13|12}}
+|cost={{ap|55|60|65|70|75}}
+|costtype=mana 
+}}
+|{{Ability2
+|targeting='''Terror Capacitor''' is a [[buff|self-buff]] ability that grants Urgot an [[on-hit effect|on-hit]] and [[spell effect|on-spell effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Terror Capacitor'' has no cast time and does not interrupt Urgot's previous orders.
+*''Terror Capacitor'' may be activated while channeling {{ai|Hyper-Kinetic Position Reverser|Urgot}} without cancelling the channel.
+*''Terror Capacitor's'' slow does not stack. Subsequent auto-attacks or {{ai|Acid Hunter|Urgot}} hits will only refresh the duration of the slow.
+*If ''Terror Capacitor'' is activated while auto-attack or {{ai|Acid Hunter|Urgot}} projectiles are mid-flight, they will still apply the slow on impact.
+|video=Urgot WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Noxian Corrosive Charge
+|icon = NoxianCorrosiveCharge.jpg
+|description  = {{sbc|Active:}} Urgot launches a corrosive charge at a target '''150'''-radius area, afflicting all enemies hit for 5 seconds. Enemies afflicted by the charge have their armor reduced by a percentage and take physical damage over the duration.
+|leveling = {{lc|Armor Reduction}} {{ap|12|14|16|18|20%}}
+{{lc|Total Physical Damage}} {{ap|75|130|185|240|295}} {{as|(+ 60% Bonus AD)}}
+|cooldown={{ap|15|14|13|12|11}}
+|cost={{ap|50|55|60|65|70}}
+|costtype=mana 
+|range=900
+}}
+|{{Ability2
+|targeting='''Noxian Corrosive Charge''' is a [[area of effect|ground targeted area of effect]] ability.
+|damagetype=physical
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the application of the debuff.
+|additional=
+*''Noxian Corrosive Charge'' grants a brief instance of [[sight]] around where it is cast.
+*The armor reduction is dynamic - if a debuffed unit's armor changes, the reduction will adjust itself accordingly. 
+|video=Urgot EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Hyper-Kinetic Position Reverser
+|icon = Hyper-KineticPositionReverser.jpg
+|description  = {{sbc|Active:}} Urgot targets an enemy champion and channels for 1 second, suppressing the target for the duration. If the channel completes, Urgot and the target will swap positions, the target will be slowed by 40% for 3 seconds and Urgot will ignore unit collision for 1 second. 
+|description2 = Urgot also gains bonus armor and magic resistance for 5 seconds, starting from the beginning of the channel time. 
+|leveling2 = {{lc|Armor & Magic Resist}} {{ap|60|90|120}} 
+|cooldown={{ap|120|110|100}}
+|cost=100
+|costtype=mana 
+|range={{ap|550|700|850}}
+}}
+|{{Ability2
+|targeting='''Hyper-Kinetic Position Reverser''' is a single targeted [[blink]] with a [[buff]] and [[debuff]] component.
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=will block the initial suppression, but will not prevent the blink and slow should Urgot complete the channel anyway.
+|additional=
+*Crowd control immunity such as {{ai|Black Shield|Morgana}} or {{ai|Ragnarok|Olaf}} will prevent the suppression effect, but if the channel completes the target will still be moved.
+**{{ai|Remove Scurvy|Gangplank}}, {{ii|Quicksilver Sash}} and {{ii|Mercurial Scimitar}} will remove both the suppression and the impending displacement and slow. Urgot will still receive the full bonus to himself, however.
+*If Urgot is [[root|immobilized]] somehow when the channel completes, neither Urgot nor his target will be moved.
+*''Hyper-Kinetic Position Reverser'' cannot be voluntarily cancelled by Urgot mid-cast.
+|video=Urgot RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Urgot]]
+[[de:Urgot]]
+[[es:Urgot]]
+[[fr:Urgot]]
+[[pl:Urgot]]
+[[pt-br:Urgot]]
+[[ru:Urgot]]
+[[zh:厄加特]]

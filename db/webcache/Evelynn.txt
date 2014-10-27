@@ -1,0 +1,159 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Shadow Walk
+|icon = ShadowWalk.jpg
+|description = {{sbc|Passive:}} When out of combat for 6 seconds, Evelynn enters [[stealth]], only being able to be seen by enemy champions within 700 range or true sight. While stealthed, Evelynn regenerates {{as|1% of her maximum mana}} every second and ignores unit collision.
+|range = 700
+}}
+|{{Ability2
+|targeting='''Shadow Walk''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Evelynn's movement animation is changed whenever ''Shadow Walk'' is active.
+** A puff of purple smoke will also appear whenever ''Shadow Walk'' activates.
+* When ''Shadow Walk'' is active a grey circle apears around Evelynn indicating the range from which enemies will have sight of her.
+* Whenever Evelynn approaches a visible enemy champion, there will be an eye hovering above the enemy's model, that is only viewable by Evelynn. This eye changes color based on how far away Evelynn is from the enemy champion:
+** <span style="color:yellow">Yellow</span> means Evelynn is close to being revealed.
+** <span style="color:red">Red</span> means Evelynn is being revealed to the enemy team.
+*** An exclamation symbol will appear over Evelynn, that is viewable by Evelynn and her allies, when being revealed by at least one visible enemy champion.
+* The red eye will not appear above an enemy champion regardless how close he stands next to Evelynn, if she's covered by [[brush]] or by the [[Fog of War]].
+* If Evelynn's ''Shadow Walk'' is active and she goes in the detection range of an enemy champion she has no sight of, she will be seen but her stealth will not break.
+*If Evelynn is in stealth close to an enemy champion (yellow eye icon) but comes into the range of an enemy {{ii|Vision Ward}}, the enemy's eye icon will turn red and the exclamation mark will appear as if she was in the detection range.
+* The following are things that will also break Evelynn out of stealth.
+** Using certain [[summoner spell]]s: {{si|Clarity}}, {{si|Exhaust}}, {{si|Heal}}, {{si|Ignite}}, {{si|Recall}}, {{si|Smite}} and {{si|Teleport}}.
+*** Evelynn will enter stealth when using {{si|Recall}} or {{si|Teleport}} after 6 seconds of it being cast.
+** Using item actives, {{ii|Sweeping Lens}} and {{ii|Oracle's Lens}} included.
+** Capturing a Tower or a Great Relic in [[Dominion]].
+*** Evelynn will enter stealth after 6 seconds of the Capture Animation start.
+* Placing wards, activating any consumable items or using {{ii|Scrying Orb}} / {{ii|Farsight Orb}} will not break ''Shadow Walk's'' stealth.
+* Capturing a neutral altar in [[Twisted Treeline]] will trigger the exclamation mark over Evelynn and the red eye hovering above the altar, making Evelynn visible to nearby enemies. Capturing an enemy altar instead will only trigger the yellow eye hovering above the altar, but will make Evelynn visible to all enemies on the map.
+|video=
+}}
+}}
+
+{{Ability frame|Q|{{Ability info
+|name = Hate Spike
+|icon = HateSpike.jpg
+|description = {{sbc|Active:}} Evelynn fires a line of spikes through a nearby enemy, dealing magic damage to all enemy units in its path.
+|leveling = {{lc|Magic Damage}} {{ap|30|45|60|75|90}} {{as|(+35 / 40 / 45 / 50 / 55 % AP)}} {{as|(+50 / 55 / 60 / 65 / 70 % bonus AD)}}
+|range=  500
+|cooldown = {{ap|1.5}}
+|cost = {{ap|12|18|24|30|36}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting= '''Hate Spike''' is an [[auto-targeted]] ability that fires a linear projectile through the closest nearby enemy.
+{{lc|Missile speed}} 2000 (rapidly decays over the duration)
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Hate Spike'' will firstly prioritize Evelynn's most recent target and it will target low health units secondly if Evelynn has not attacked a unit. If both an enemy champion and a low health minion are in range, ''Hate Spike'' will prioritize the enemy champion.
+*''Hate Spike'' is only usable when a visible enemy unit is within its range.
+|video=Evelynn QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Dark Frenzy
+|icon = DarkFrenzy.jpg
+|description = {{sbc|Passive:}} Evelynn's spell hits on enemy champions grant her a flat movement speed bonus for 3 seconds. This effect stacks up to 4 times.
+|description2 = {{sbc|Active:}} Evelynn removes all slows affecting her, gains increased movement speed for 3 seconds and ignores unit collision. Champion kills and assists refresh ''Dark Frenzy's'' cooldown.
+|leveling = {{lc|Flat Movement Speed per Stack}} {{ap|4|8|12|16|20}}
+|leveling2 = {{lc|Movement Speed}} {{ap|30|40|50|60|70%}}
+|cooldown = 15
+|cost =
+|costtype = No cost
+}}
+|{{Ability2
+|targeting='''Dark Frenzy''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Dark Frenzy'' has no cast time and does not interrupt Evelynn's previous orders.
+* ''Dark Frenzy's'' passive movement speed stacks with its active component.
+|video=Evelynn WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Ravage
+|icon = Ravage.jpg
+|description = {{sbc|Active:}} Evelynn slashes a target twice, dealing physical damage with each strike. Evelynn then gains bonus attack speed for 3 seconds.
+|leveling = {{lc|Physical Damage per Hit}} {{ap|35|55|75|95|115}} {{as|(+ 50% AP)}} {{as|(+ 50% bonus AD)}}
+{{lc|Total Physical Damage}} {{ap|70|110|150|190|230|}} {{as|(+ 100% AP)}} {{as|(+ 100% bonus AD)}}
+{{lc|Attack Speed}} {{ap|60|75|90|105|120%}}
+|range = 225
+|cooldown = 9
+|cost = {{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Ravage''' is a single targeted ability with a [[buff|self-buff]] component.
+|damagetype=physical
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the damage of one hit.
+|additional=
+* If ''Ravage'' kills its target on the first hit, Evelynn will strike another nearby target with the second hit.
+* If the target dies while Evelynn is casting ''Ravage'', the sound and animation will be played but no buff or damage will be applied and ''Ravage'' will not go on cooldown.
+* Evelynn gains two stacks of {{ai|Dark Frenzy|Evelynn}} after using ''Ravage'' on an enemy champion.
+|video=Evelynn EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Agony's Embrace
+|icon = Agony'sEmbrace.jpg
+|description = {{sbc|Active:}} Evelynn impales all enemy units in target '''250'''-radius area, dealing magic damage equal to a percentage of their current health and slowing their movement speed for 2 seconds.
+|description2 = Evelynn siphons their pain, gaining a shield that grows in strength for each enemy champion hit and lasts up to 6 seconds.
+|leveling = {{lc|Magic Damage}} {{ap|15|20|25%}} {{as|(+ 1% per 100 AP)}} {{as|of enemies' current health}}
+{{lc|Slow}} {{ap|30|50|70%}}
+|leveling2 = {{lc|Shield Strength per champion hit}} {{ap|150|225|300}}
+{{lc|Max Shield Strength}} {{ap|750|1125|1500}}
+|range = 650
+|cooldown = {{ap|150|120|90}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Agony's Embrace''' is a [[area of effect#Ground targeted|ground targeted area of effect]] ability.
+Evelynn gains an [[absorption shield]] if ''Agony's Embrace'' hit a champion.
+{{lc|Diameter of AoE}} 500
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and prevent the shield from growing in strength.
+|additional=
+* ''Agony's Embrace's'' damage is capped against monsters at 1000.
+* The damage will apply after a brief delay of casting the spell (~0.25s).
+* If the enemy has 1 health, ability will deal no damage.
+|video=Evelynn RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Evelynn]]
+[[de:Evelynn]]
+[[es:Evelynn]]
+[[fr:Evelynn]]
+[[pl:Evelynn]]
+[[pt-br:Evelynn]]
+[[ru:Evelynn]]
+[[zh:伊芙琳]]

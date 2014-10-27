@@ -1,0 +1,154 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Iceborn
+|icon=Iceborn.jpg
+|description=Lissandra's next ability costs no mana.
+|description2=The cooldown is reduced by 1 second whenever Lissandra impairs an enemy's movement with an ability (does not apply to movement-impairing effects from items).
+|static = 18
+}}
+|{{Ability2
+|targeting='''Iceborn''' is self-targeted [[spell effects|on-cast effect]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* {{ai|Ring of Frost|Lissandra}} and {{ai|Frozen Tomb|Lissandra}} can trigger ''Iceborn's'' cooldown refresh multiple times, once for each enemy hit.
+* When off cooldown, ''Iceborn'' has a visual indicator with Lissandra's headdress glowing a light blue (red or green for her Bloodstone and Blade Queen skins respectively).
+|video=Lissandra IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Ice Shard
+|icon=Ice Shard.jpg
+|description={{sbc|Active:}} Lissandra throws a spear of ice that travels in a line and shatters when it hits an enemy, dealing magic damage and slowing its movement speed for {{fd|1.5}} seconds. Shards then pass through the target, dealing the same damage to other enemies hit (but not slowing them).
+|leveling={{lcaps|Magic damage|75|110|145|180|215|(+ 65% AP)}}
+{{lcap|Slow Percent|16|19|22|25|28%}}
+|cooldown={{ap|6|5.25|4.5|3.75|3}}
+|cost=85
+|costtype=mana
+|range=725 (825 if hit an enemy)
+}}
+|{{Ability2
+|targeting='''Ice Shard''' is a colliding [[skill shot|linear skillshot]] with a [[area of effect|conic area of effect]] component.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and slow, but do not stop the projectile from shattering.
+|additional=
+* The shattering projectiles travel the remaining distance that ''Ice Shard'' would travel plus 100.
+* When shattering, ''Ice Shard'' produces a sound similar to glass breaking. The shattering projectiles do not produce any sound on contact.
+*Instead of the traditional orange-yellow or frost slow particles, the slow applied by ''Ice Shard'' has particles resembling cold air.
+|video=Lissandra QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Ring of Frost
+|icon=Ring of Frost.jpg
+|description={{sbc|Active:}} Lissandra freezes an area around herself, dealing magic damage to nearby enemies and rooting them for a short time.
+|leveling={{lcaps|Magic damage|70|110|150|190|230|(+ 40% AP)}}
+{{lcap|Root Duration|1.1|1.2|1.3|1.4|1.5}}
+|cooldown={{ap|14|13|12|11|10|}} 
+|cost=50
+|costtype=mana
+|range=450
+}}
+|{{Ability2
+|targeting='''Ring of Frost''' is a [[area of effect|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and root.
+|additional=
+*''Ring of Frost'' has no cast time and does not interrupt Lissandra's previous orders or animations.
+**Bearing this in mind she can overlap ''Ring of Frost'' with any of her other abilities or even basic attacks.
+*''Ring of Frost'' is the only one of Lissandra's abilities that does not produce any sound when affecting an opponent.
+**It does produce a very low tone when the snare ends.
+|video=Lissandra WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Glacial Path
+|icon=Glacial Path.jpg
+|description={{sbc|Active:}} Lissandra casts a claw of ice that moves forward in a line, dealing magic damage to all enemies hit. Reactivating this ability transports Lissandra to the claw's current location.
+|leveling={{lcaps|Magic damage|70|115|160|205|250|(+ 60% AP)}}
+|cooldown={{ap|24|21|18|15|12|}} 
+|cost={{ap|80|85|90|95|100}}
+|costtype=mana
+|range=1050
+}}
+|{{Ability2
+|targeting='''Glacial Path''' is a pass through [[skill shot|linear skillshot]] with a [[blink]] component.
+* '''Projectile Speed:''' 850
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+* ''Glacial Path's'' projectile takes about 1.5 seconds to reach maximum range, during which Lissandra can re-activate the ability. 
+**She has an additional 0.2-0.3 seconds after the claw "sinks" into the ground to perform the blink
+*''Glacial Path'' allows Lissandra to blink pass ALL of the walls existing in all of the four maps. Lissandra will pass to the other side if the claw is at least halfway through the wall
+*''Glacial Path's'' cooldown starts with the initial cast, whether or not the blink is used.
+*''Glacial Path'' cannot be re-activated if Lissandra is snared or [[crowd control|cannot activate abilities]], potentially missing her chance of blinking
+*Enemies hit by the claw will produce a sound and a small visual effect takes place.
+**This happens even with stealthed units
+|video=Lissandra EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Frozen Tomb
+|icon=Frozen Tomb.jpg
+|description={{sbc|Active - Enemy Cast:}} Lissandra freezes target champion solid, dealing magic damage and stunning it for {{fd|1.5}} seconds.
+<br>
+
+{{sbc|Active - Self Cast:}} Lissandra encases herself in a glacier for {{fd|2.5}} seconds, becoming untargetable and invulnerable but unable to take any actions.
+
+Dark ice then spreads from Lissandra's target dealing magic damage to all enemies in the area as it expands. The ice lasts for 3 seconds and slows the affected enemy's Movement Speed.
+|leveling={{lcaps|Magic damage|150|250|350|(+ 70% AP)}}
+{{lcap|Slow|30|45|75%}}
+|cooldown={{ap|130|105|80|}} 
+|cost=100
+|costtype=mana
+|range=550
+}}
+|{{Ability2
+|targeting='''Frozen Tomb''' is an enemy or self targeted [[area of effect|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the targeted effect but not the radiating ice. If blocked, the target will not take damage from the radiating ice instead.
+|additional=
+*Once cast the ice will expand from the main target, creating an slow field. When an enemy comes in contact for the first time with the ice they will be damaged and a small visual and sound effect will be produced. This can only happen once per cast. If a champion has a spell shield the first they touch the ice it will be popped and they will become immune to any damage from that cast
+*It takes about 1 second for the slow field to fully form
+*There is a ~0.4 seconds delay before the main target ( if it's an enemy) is stunned and damaged. If a champion becomes untargetable in that delay it will be able to avoid the damage and stun. The ice field will be formed anyways.
+*If a champion blinks or dashes away in the moment Lissandra casts ''Frozen Tomb'' on them the movement ability will be immediately canceled.
+*If she casts it on herself Lissandra will be invulnerable AND untargetable. This mean she can not be killed or damaged by any posible means during ''Frozen Tomb'', not even by the [[Nexus Obelisk]] or damage over time.
+|video=Lissandra RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Lissandra]]
+[[de:Lissandra]]
+[[es:Lissandra]]
+[[fr:Lissandra]]
+[[pl:Lissandra]]
+[[pt-br:Lissandra]]
+[[ru:Lissandra]]

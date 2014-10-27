@@ -1,0 +1,146 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Twin Disciplines
+|icon=TwinDisciplines.jpg
+|description={{sbc|Discipline of Force:}} Akali's auto attacks deal 6% {{as|(+ 1% per 6 AP)}} of her attack damage as bonus magic damage.
+|description2={{sbc|Discipline of Might:}} Akali gains 6% {{as|(+ 1% per 6 bonus AD)}} spell vamp.
+}}
+|{{Ability2
+|targeting='''Discipline of Force''' is an [[on-hit effect]].<br />
+'''Disclipine of Might''' is a [[buff|self-buff]]. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Affects all structures.
+* Does not break spell shields.
+* Does not trigger [[spell effects]].
+* Does not scale with [[critical strike]]s.
+* Damage is negated by {{ai|Counter Strike|Jax}}, {{ai|Riposte|Fiora}}, {{ai|Aegis Protection|Pantheon}} and can [[Blind|miss]].
+|video=Akali IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Mark of the Assassin
+|icon = Mark of the Assassin.jpg
+|description = {{sbc|Active:}} Akali throws her kama at a target enemy, dealing magic damage and marking the target for 6 seconds.
+
+Akali's basic attacks or {{ai|Crescent Slash|Akali}} against a marked target will consume the mark, dealing additional magic damage again and restoring energy.
+|leveling = {{lc|Initial magic damage}} {{ap|35|55|75|95|115}} {{as|(+ 40% AP)}}
+{{lc|Detonation magic damage}} {{ap|45|70|95|120|145}} {{as|(+ 50% AP)}}
+{{lc|Total Magic damage}} {{ap|80|125|170|215|260}} {{as|(+ 90% AP)}}
+{{lc|Energy restored}} {{ap|20|25|30|35|40}}
+|range = 600
+|cooldown = {{ap|6|5.5|5|4.5|4}}
+|cost = 60
+|costtype = energy
+}}
+|{{Ability2
+|targeting='''Mark of the Assassin''' is a single target ability that applies a debuff.
+The debuff can be detonated [[on-hit]] or by {{ai|Crescent Slash|Akali}}.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|muramana=false
+|onhiteffects=
+|spellshield=Will block the ability. If already debuffed, it will not block the debuff being detonated.
+|additional=
+* ''Mark of the Assassin'' will apply [[spell effects]] to both the initial missile and the damage dealt when the debuff is detonated. 
+* ''Mark of the Assassin'' will not be detonated if the auto attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Riposte|Fiora|parried}}, or if the attack [[blind|misses]]. 
+|video=Akali QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Twilight Shroud
+|icon = Twilight Shroud.jpg
+|description = {{sbc|Active:}} Akali creates a sight-granting smoke cloud in a '''400'''-radius area for 8 seconds. While within the cloud, Akali is stealthed and gains a movement speed bonus that decays over 1 second. Attacking or using abilities reveals her for {{fd|0.65}} seconds. Enemies inside the smoke are slowed.  |leveling = {{lc|Movement Speed Bonus}} {{ap|20|40|60|80|100%}}
+{{lc|Slow}} {{ap|14|18|22|26|30%}}
+|range = 700
+|cooldown = 20
+|cost = {{ap|80|75|70|65|60}}
+|costtype = energy
+}}
+|{{Ability2
+|targeting='''Twilight Shroud''' is a [[area of effect|ground-targeted, persistent area of effect]] that [[slow]]s enemies within while granting Akali a self-targeted [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* The movement speed bonus breaks upon Akali revealing herself or when exiting the shroud.
+|video=Akali WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Crescent Slash
+|icon = Crescent Slash.jpg
+|description = {{sbc|Active:}} Akali flourishes her kamas, dealing physical damage and triggering any {{ai|Mark of the Assassin|Akali}} on nearby enemies.
+|leveling = {{lc|Physical damage}} {{ap|30|55|80|105|130}} {{as|(+ 30% AP)}} {{as|(+ 60% AD)}}
+|range = 325
+|cooldown = {{ap|7|6|5|4|3}}
+|cost = {{ap|60|55|50|45|40}}
+|costtype = energy
+}}
+|{{Ability2
+|targeting='''Crescent Slash''' is a [[area of effect|point-blank area of effect]].
+|damagetype=physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Akali EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Shadow Dance
+|icon = Shadow Dance.jpg
+|description = {{sbc|Active:}} Akali uses an ''Essence of Shadow'', dashing to and dealing magic damage to a target enemy. Akali gains an ''Essence of Shadow'' periodically, affected by cooldown reduction, up to a maximum of 3. Additionally, gaining a kill or assist will restore an ''Essence of Shadow''.
+|leveling = {{lc|RECHARGE TIME}} {{ap|30|22.5|15}}
+{{lc|Magic damage}} {{ap|100|175|250}} {{as|(+ 50% AP)}}
+|range = 800
+|cooldown = {{ap|2|1.5|1}}
+|cost = 1
+|costtype = Essence of Shadow
+}}
+|{{Ability2
+|targeting='''Shadow Dance''' is a [[dash|enemy targeted dash]].
+|damagetype=magic
+|spelleffects=single target
+|muramana=false
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+* ''Shadow Dance'' uses an [[Champion ability|ammunition system]].
+* If ranked, Akali will start with 1 charge, and will respawn with 3 charges of ''Essence of Shadow''.
+* Akali will not generate ''Essence of Shadow'' unless she has less than the maximum. 
+|video=Akali RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+
+
+[[cs:Akali]]
+[[de:Akali]]
+[[es:Akali]]
+[[fr:Akali]]
+[[pl:Akali]]
+[[pt-br:Akali]]
+[[ru:Akali]]
+[[zh:阿卡丽]]

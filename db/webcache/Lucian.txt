@@ -1,0 +1,156 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+
+{{Ability frame|I|
+{{Ability info
+|name = Lightslinger
+|icon = Lightslinger.jpg
+|description  = After using an ability, Lucian's next autoattack within 6 seconds will strike twice. 
+|description2 = The second shot deals {{as|50% of Lucian's AD}} (''deals {{as|100% AD}} to minions and monsters''), but fully applies on-hit effects, and can critically strike. If the target is killed before the second shot can go off, the second shot will automatically shoot at something else.
+}}
+|{{Ability2
+|targeting = '''Lightslinger''' is both an [[On-hit_effect#On-Attack_Effects.2FAuto-attack_Modifiers|on-attack effect]] and an [[Spell_effects#On-Cast_Effects|on-cast effect]] that allows Lucian to strike two autoattacks in quick succession after each ability cast.
+|damagetype   = physical
+|spelleffects =
+|onhiteffects = Both attacks will trigger [[On-attack_effects#On-Hit_Effects|on-hit effects]].
+** Note however, that only the first attack will consume on-hit effects that apply only for a single hit (''For example, {{iis|Sheen}} [[Spellblade|passive]]'').
+* Critical strike chance is calculated on each attack individually. The second attack's critical strike will deal {{as|50% AD*Critical damage}} against champions or {{as|(50% AD*Critical damage) + 50% AD}} against minions and monsters
+* [[Blind]] and {{ai|Counter Strike|Jax}} mitigates the physical damage of both hits.
+* {{ai|Aegis Protection|Pantheon}} and {{ai|Riposte|Fiora}} will only block the first hit.
+|spellshield  = will not block the ability.
+|additional =
+* The first attack, respectively, functions as the trigger of ''Lightslinger'' and will consume the empowerment. 
+* If the target dies to the first hit of ''Lightslinger'', the second shot will target another nearby enemy unit. This will prioritise enemy champions, and minions with low health. 
+** Even if no second target is found, the ''Lightslinger'' buff is still consumed.
+** The second shot can target enemies that are hidden in the fog of war or a bush.
+** This action was originally a bug, but was properly integrated into the ability in [[V3.12]].
+* The second attack is integrated into the first attack, meaning Lucian can move freely as usual after using an auto attack and the second shot will still fire (''similar to {{cai|Double Strike|Master Yi}}''). Lucian has special movement animations for such an attack.
+|video=Lucian IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Piercing Light
+|icon = PiercingLight.jpg
+|description = {{sbc|Active:}} After a {{fd|0.35}} second delay, Lucian fires a laser in the direction of the target enemy, dealing physical damage to all enemies in a '''1100'''-unit line.
+|leveling = {{lcaps|Physical Damage|80|110|140|170|200|(+ {{ap|60|75|90|105|120}}% bonus AD)}}
+|cost     = {{ap|50|55|60|65|70}}
+|costtype = mana
+|cooldown = {{ap|9|8|7|6|5}}
+|range    = 500
+}}
+|{{Ability2
+|targeting = '''Piercing Light''' is a [[area of effect|line area of effect]] ability that is fired in the direction of a target enemy unit. 
+|damagetype   = Physical
+|spelleffects = Area of effect
+|onhiteffects =
+|spellshield  = will block the damage.
+|additional =
+* ''Piercing Light'' will attempt to lead the target if it is moving but does not adjust further during the {{fd|0.35}} second cast time. As such, a unit can dodge the laser if it changes its velocity by a sufficient amount during the delay.
+|video=Lucian QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Ardent Blaze
+|icon = ArdentBlaze.jpg
+|description = {{sbc|Active:}} Lucian fires a shot that explodes in a cross pattern upon hitting an enemy or reaching the end of its path, dealing magic damage and marking enemies hit for 6 seconds.
+|description2 = If Lucian damages a marked target with his basic attacks or abilities, he gains 40 movement speed for 2 seconds. This does not consume the mark. 
+|leveling={{lcapss|Magic Damage|60|100|140|180|220|(+ 90% AP)|(+ 30% bonus AD)}}
+|cooldown={{ap|14|13|12|11|10}}
+|cost=60
+|costtype=mana
+|range=1000
+}}
+|{{Ability2
+|targeting='''Ardent Blaze''' is [[Skill shot|linear, colliding skill shot]] that explodes in a cross pattern.
+|damagetype=Magic
+|projectile=true
+|spelleffects=Area of effect
+|onhiteffects=
+|spellshield=Will block the damage and mark.
+|additional=
+*The mark can be removed with [[Quicksilver]].
+*Lucian will only gain bonus movement speed from damaging an enemy. Attacks that are {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}} or {{ai|Riposte|Fiora|parried}}, or [[blind|miss]] due to blindness will not activate the buff.
+* The cross pattern will grant vision of {{ii|Vision Ward}} inside unwarded bushes.
+|video=Lucian WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Relentless Pursuit
+|icon = RelentlessPursuit.jpg
+|description = {{sbc|Active:}} Lucian dashes a short distance.
+|description2 =''Relentless Pursuit's'' cooldown is reduced by 1 second for each of {{ais|Lightslinger|Lucian}} strikes; the reduction per strike is doubled against enemy champions.
+|range=445
+|cooldown={{ap|18|17|16|15|14}}
+|cost={{ap|40|30|20|10|0}}
+|costtype=mana
+|range=425
+}}
+|{{Ability2
+|targeting='''Relentless Pursuit''' is a [[Dash#Line dashes|linear dash]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Relentless Pursuit'' will reset Lucian's attack timer on cast.
+* {{ii|Runaan's Hurricane}} has no effect on the flat cooldown reduction per hit of {{ai|Lightslinger|Lucian}}.
+|video=Lucian EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = The Culling
+|icon = TheCulling.jpg
+|description = {{sbc|Active:}} Lucian starts firing shots in the target direction for 3 seconds, each shot dealing physical damage to the first enemy it hits. The number of shots fired scales with his attack speed. ''The Culling'' deals quadruple damage to minions but '''not''' monsters. 
+
+While using ''The Culling'', Lucian's basic attacks are disabled and he cannot activate {{ai|Piercing Light|Lucian}} or {{ai|Ardent Blaze|Lucian}}. He can, however, move freely and activate {{ai|Relentless Pursuit|Lucian}}. He also ignores unit collision for the duration.
+
+''The Culling'' can be reactivated to end its effects early and it is interrupted by crowd control effects that inhibit basic attacks.
+|leveling={{lcapss|Physical damage per shot|40|50|60|(+25% bonus AD)|(+10% AP)}} 
+{{lc|Shots Fired}} 7.5 + {{as|({{ap|7.5|9|10.5}} {{times}} attack speed at the time of cast)}}
+{{lcap|Maximum Shots|26|30|33}}
+{{lcapss|Maximum Total Damage|1040|1500|1980|(+{{ap|650|750|825}}% bonus AD)|(+{{ap|260|300|330}}% AP)}}
+|range=1400
+|cost=100
+|costtype=mana
+|cooldown={{ap|100|75|50}}
+}}
+|{{Ability2
+|targeting='''The Culling''' is made up of multiple [[Skill shot|linear, colliding skill shots]] that fire at a fixed angle relative to the map.
+|damagetype=Physical
+|projectile=true
+|spelleffects=Area of effect
+|onhiteffects=[[On-hit effects]] are not applied.
+|spellshield=Will block a single shot.
+|additional=
+*While similar to a [[channel]], ''The Culling'' is only interrupted by crowd control effects that inhibit attacking - namely: airborne, forced action, stun, suppression, entangle and polymorph. Silences will '''not''' interrupt it. 
+**Interestingly, blind will also not interrupt ''The Culling'' as Blind does not actually prevent the target from declaring attacks. 
+*Factoring only Lucian's base attack speed at levels 6, 11 and 16, he will fire a minimum of {{ap|13|15|17}} shots. 
+*An alternate formula for calculating the number of shots fired is {{ap|13|15|17}} {{as|(+1 per {{ap|20.91%|17.42%|14.93%}} AS)}}. This formula may prove more useful for calculating the efficiency of builds outside of the game where AS is presented as a % bonus rather than as attacks-per-second. 
+*Temporary attack speed steroids that are active on-cast will influence the shots fired, such as {{ii|Youmuu's Ghostblade}} and {{ai|Blood Boil|Nunu}}.
+** That said, ''The Culling'' will ignore the bonus attack speed from {{ii|Sword of the Divine}}. This is a special case to prevent abuse <ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=40349916#post40349916 Sword of the Divine]</ref>.
+*Lucian can activate {{si|Ghost}}, {{si|Flash}}, {{si|Barrier}}, {{si|Heal}} and {{ai|Relentless Pursuit|Lucian}}, as well as interact with {{ai|Dark Passage|Thresh}} without interrupting ''The Culling''.
+*For the purposes of skills such as {{ai|Backstab|Shaco}} and {{ai|Mocking Shout|Tryndamere}}, Lucian is facing the direction of his movement, not the direction his model is facing. 
+|video=Lucian RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Lucian]]
+[[de:Lucian]]
+[[es:Lucian]]
+[[fr:Lucian]]
+[[pl:Lucian]]
+[[pt-br:Lucian]]

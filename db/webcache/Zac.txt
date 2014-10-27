@@ -1,0 +1,147 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}} {{C-ref}}
+
+==Abilities==
+{{Ability frame|I|
+{{Ability info
+|name = Cell Division 
+|icon = Cell Division.png
+|description  = Each time Zac uses an ability on enemies, he sheds a chunk of himself to a nearby location. Zac can move over these chunks to reabsorb them, regaining {{as|4% of his maximum health}}. Enemies may move over these chunks to destroy them.
+|description2 = Upon taking fatal damage, Zac splits into 4 [[File:Cell Division.png|20px|link=]] '''Bloblets''' that attempt to recombine. Each '''Bloblet''' has {{as|12% of Zac's maximum health}}, and 50% of his armor and magic resistance. If any of these '''Bloblets''' remain after 8 seconds, Zac will revive with 10-50% health depending on the health of the surviving chunks. <!-- PET(!?) -->
+|static = 300
+}}
+|{{Ability2
+|targeting ='''Cell Division''' grants two passive effects: one that triggers whenever Zac lands one of his abilities; and one that triggers when Zac takes fatal damage. 
+|spelleffects = hide
+|onhiteffects =
+|spellshield  =
+|additional =
+* ''Cell Division'' has two spawn behaviors for chunks - "contestable" and "non-contestable". Non-contestable is used by default, with contestable being used if there is a ''visible'' enemy champion within 1000 units of Zac.
+**{{sbc|Non-contestable:}} Chunks will fall to the ground near to Zac and can be picked up immediately.
+**{{sbc|Contestable:}} Chunks will fall to the ground between Zac and the nearest enemy champion, slightly in favour of Zac. Chunks cannot be interacted with for the first 0.25 seconds, except during {{ai|Let's Bounce!|Zac}}. 
+* The pick-up radius is the same for both Zac and enemy champions (50). 
+* Zac's abilities cost 4% of his current health while chunks heal 4% of his maximum, a net heal of 4% of his missing health.
+* Zac gets larger when his current health exceeds the base health for his level.
+* {{ai|Chrono Shift|Zilean}} and {{ii|Guardian Angel}} will take precedence over ''Cell Division''.
+*{{ai|Cell Division|Zac|Bloblet}}
+** '''Bloblets''' are not controllable and are functionally minions.
+** ''Bloblets'' can be {{si|Smite|Smited}} or {{ai|Consume|Nunu|Consumed}}.
+** Allies can {{si|Teleport}} to ''Bloblets''.
+** Turrets will prioritize ''Bloblets'' over other minions.
+** ''Bloblets'' ignore [[Crowd_control#Types_of_Crowd_Control|knockback]] effects and take 33% reduced AoE damage.
+|video=Zac IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Stretching Strike
+|icon = Stretching Strike.png
+|description = {{sbc|Active:}} Zac lashes out with an elastic punch, dealing magic damage to enemies in a line and slowing them for 2 seconds.
+|leveling = 
+{{lc|Magic damage}} {{ap|70|110|150|190|230}} {{as|(+ 50% AP)}}
+{{lc|Slow}} {{ap|20|25|30|35|40%}}
+|cooldown = {{ap|9|8.5|8|7.5|7}}
+|cost     = 4%
+|costtype = of current health
+|range    = 550
+}}
+|{{Ability2
+|targeting='''Stretching Strike''' is a [[Skillshot#Pass-through_linear_skillshot|pass-through linear skillshot]].
+|damagetype=magical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage and slow.
+|additional=
+|video=Zac QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Unstable Matter
+|icon = Unstable Matter.png
+|description  = {{sbc|Passive:}} When attacking neutral monsters with ''Unstable Matter'', Zac ignores neutral monsters' unit collision. Additionally, picking up chunks created by {{ai|Cell Division|Zac}} reduce ''Unstable Matter's'' cooldown by 1 second.
+|description2 = {{sbc|Active:}} Zac's body explodes outward, dealing magic damage equal to a base amount plus a percentage of their maximum health to all nearby enemies (''max. 200 damage against minions and monsters'').
+|leveling2 =
+{{lc|Base Magic damage}} {{ap|40|55|70|85|100}}
+{{lc|Additional Damage}} {{ap|4|5|6|7|8%}} {{as|(+ 2% per 100 AP)}} {{as|of enemies' maximum health}}
+|cooldown = 5
+|cost     = 4%
+|costtype = of current health
+}}
+|{{Ability2
+|targeting='''Unstable Matter''' is a [[Area_of_effect#Point_blank|point-blank area of effect]].
+|damagetype   = magical
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the damage.
+|additional =
+* Has no cast time and does not interrupt movement or basic attacks.
+** Can be cast while using {{ai|Let's Bounce!|Zac}}
+|video=Zac WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Elastic Slingshot
+|icon = Elastic Slingshot.png
+|description  = {{sbc|Active:}} Zac faces the cursor and begins channeling. After channeling or after reactivating the ability he launches himself towards the target location, dealing magic damage to all enemies hit and knocking them back for {{ap|0.5}} seconds. 
+|description2 = The range of ''Elastic Slingshot'' increases based on how long Zac channels. Can be cancelled by moving, refunding 50% of the health cost and halving the cooldown.
+|leveling  =
+{{lc|Magic Damage}} {{ap|80|120|160|200|240}} {{as|(+ 70% AP)}}
+{{lc|Max Channel Time}} {{ap|0.9|1.0|1.1|1.2|1.3}}
+|leveling2 =
+{{lc|Max Range}} {{ap|1150|1250|1350|1450|1550}}
+|cooldown  = {{ap|24|21|18|15|12}}
+|cost      = 4%
+|costtype  = of current health
+}}
+|{{Ability2
+|targeting = '''Elastic Slingshot''' is a [[Area_of_effect#Ground_targeted|ground-targeted area of effect]].
+|damagetype   = magical
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the damage and knockback.
+|additional =
+* Can launch Zac over impassible terrain.
+* Smart Cast Keybound: The channel begins when the button is pressed and will launch torward the cursor when released.
+|video=Zac EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Let’s Bounce!
+|icon = Let’s Bounce!.png
+|description  = {{sbc|Active:}} Zac leaps into the air and begins to bounce on the ground, up to a maximum of 4 bounces. Zac gains an accelerating movement speed buff (20 - 50%) while bouncing. During this time, Zac can still move and use {{ai|Unstable Matter|Zac}}, but is unable to activate {{ai|Stretching Strike|Zac}} or {{ai|Elastic Slingshot|Zac}}.
+|description2 = Each bounce deals magic damage to nearby enemies upon impact, knocks them up for 1 second, and slows them by 20% for 1 second. Enemies hit more than once take half damage and are not knocked up. 
+|leveling2 =
+{{lc|Magic Damage Per Bounce}} {{ap|140|210|280}} {{as|(+ 40% AP)}}
+{{lc|Max. Magic Damage to the same target}} {{ap|350|525|700}} {{as|(+ 100% AP)}}
+|cooldown = {{ap|130|115|100}}
+}}
+|{{Ability2
+|targeting = '''Let's Bounce!''' is a self-targeted buff and a [[Area_of_effect#Ground_targeted|ground-targeted area of effect]] that repeats up to four times.
+|damagetype   = magical
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the damage and knockup of one hit.
+|additional =
+* Enemies hit are airborne for 1 second and then slowed for 1 second.
+|video=Zac RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Zac]]
+[[de:Zac]]
+[[es:Zac]]
+[[fr:Zac]]
+[[pl:Zac]]
+[[pt-br:Zac]]
+[[ru:Zac]]

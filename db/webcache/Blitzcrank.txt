@@ -1,0 +1,163 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Mana Barrier
+|icon = Mana Barrier.jpg
+|description = {{sbc|Passive:}} When Blitzcrank drops below {{as|20% of his maximum health}} he gains a shield equal to {{as|50% of his current mana}} that lasts 10 seconds.
+|static= 90
+}}
+|{{Ability2
+|targeting= '''Mana Barrier''' is a self-targeted [[absorption shield]] that triggers automatically.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Mana Barrier's'' cooldown starts as soon as it activates, not when it ends.
+* Any damage that puts Blitzcrank below 20% of his max. health is instead dealt to ''Mana Barrier''.
+* If Blitzcrank is killed from anywhere higher than 20% of his max. health (''e.g. from massive burst damage''), ''Mana Barrier'' will not activate and it will not go on cooldown.
+* If Blitzcrank is already below 20% of his max. health when ''Mana Barrier's'' cooldown ends, it will not activate until he takes damage again.
+|video=Blitzcrank IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Rocket Grab
+|icon = Rocket Grab.jpg
+|description = {{sbc|Active:}} Blitzcrank extends his right hand in a line. The first enemy hit is pulled to his location, takes magic damage and is stunned for 1 second.
+|leveling = {{lc|Magic Damage}} {{ap|80|135|190|245|300}} {{as|(+ 100% AP)}}
+|range = 925
+|cooldown = {{ap|20|19|18|17|16}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Rocket Grab''' is a [[skill shot|linear, colliding skill shot]] that damages and [[airborne|pulls]] the first enemy hit.
+* '''Projectile speed:''' 1800
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* ''Rocket Grab'' has a {{fd|0.25}} second casting time <ref>[http://forums.na.leagueoflegends.com/board/showthread.php?p=41352754#41352754 CertainlyT on hook abilities]</ref>.
+* ''Rocket Grab's'' damage is dealt on impact, not after the target is pulled. 
+* ''Rocket Grab'' can hit and pull [[stealth]]ed units. This will not explicitly reveal the stealthed enemy, but can/will reveal {{ci|Akali}}, {{ci|Evelynn}} and {{ci|Teemo}} due to the conditions of their stealth. 
+* ''Rocket Grab'' can be used to pull enemies through terrain.
+* ''Rocket Grab'' will not pull {{ci|Baron Nashor}}, {{ci|Dragon}} or {{ci|Vilemaw}}, although it will still damage them.
+* ''Rocket Grab'' will damage {{ai|H-28G Evolution Turret|Heimerdinger}} and visible {{ai|Jack In The Box|Shaco}}, but will not pull these traps towards Blitzcrank. Invisible boxes will neither take damage or be pulled. 
+* Blitzcrank will attempt to attack enemy champions that are successfully pulled towards him.
+* {{si|Cleanse}}, {{ai|Remove Scurvy|Gangplank}} or {{ii|Quicksilver Sash}} used by enemy champions while being pulled will not interrupt ''Rocket Grab'' and the champion will reach Blitzcrank.
+* Blitzcrank cannot use {{si|Flash}} if hits a pullable target until his target reaches him.
+* Forced action and airborne [[crowd control]] effects that affect the target during the grab will stop the grab <ref>[http://www.youtube.com/watch?NR=1&feature=endscreen&v=PTezJPONkZM Fearing a grabbed target]</ref>.
+* Abilities with casting times are not interrupted by ''Rocket Grab'' (''or any crowd control'') and will go off as if Blitzcrank hadn't grabbed them. 
+** For skill shots, such as {{ai|Final Spark|Lux}}, they will fire from the point of cast regardless of the caster's position when the casting time ends. 
+** For dashes and blinks, such as {{ai|Arcane Shift|Ezreal}}, the caster will blink to the target location after the casting time regardless of crowd control effects. Blitzcrank's arm will visibly stretch and then fizzle. 
+* Contrary to popular belief, you cannot cast {{cai|Arcane Shift|Ezreal}} ''during Rocket Grab''. However, as of [[V1.0.0.140]], spells cast while disabled will immediately be cast after the effect ends.
+* If Blitzcrank is moved after ''Rocket Grab'' hits a target, the target will be pulled to Blitzcrank's starting location.
+|pet=
+|video=Blitzcrank QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Overdrive
+|icon = Overdrive.jpg
+|description = {{sbc|Active:}} Blitzcrank super charges himself, gaining increased movement and attack speed for 8 seconds.
+|leveling = {{lc|Movement Speed}} {{ap|16|20|24|28|32%}}
+{{lc|Attack Speed}} {{ap|30|38|46|54|62%}}
+|cooldown = 15
+|cost = 75
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Overdrive''' is a self-targeted [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Overdrive'' has no casting time and does not interrupt Blitzcrank's previous orders.
+|pet=
+|video=Blitzcrank WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Power Fist
+|icon = Power Fist.jpg
+|description = {{sbc|Active:}} Blitzcrank supercharges his next basic attack, causing it to deal an additional {{as|100% of his attack damage}} and knocking his target into the air for 1 second.
+|cooldown = {{ap|9|8|7|6|5}}
+|cost = 25
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Power Fist''' is an [[on-hit effect]] that damages and [[knock up|knocks up]] the target.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** As with most on-hit physical damage, the bonus damage from ''Power Fist'' will apply [[life steal]].
+** Critical strikes will not interact with ''Power Fist's'' damage.
+** ''Power Fist'' bonus damage will affect structures. 
+** {{ai|Riposte|Fiora}} will block the damage and knockup of ''Power Fist''.
+** ''Power Fist's'' damage will be mitigated if Blitzcrank's attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}} or if his attack [[blind|misses]], but it will still knock his target up.
+|spellshield=Will block the on-hit effect.
+|additional=
+* ''Power Fist'' will reset Blitzcrank's attack timer on cast.
+* ''Power Fist's'' cooldown timer does not begin until the buff is either used or expires.
+|video=Blitzcrank EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Static Field
+|icon = Static Field.jpg
+|description = {{sbc|Passive:}} Every {{fd|2.5}} seconds, Blitzcrank fires a lightning bolt at a random enemy within '''450'''-range, dealing magic damage. This effect cannot target stealthed enemies.
+|description2 = {{sbc|Active:}} Blitzcrank detonates his static field, dealing magic damage to nearby enemies within '''600'''-range and silencing them for {{fd|0.5}} seconds. 
+
+''Static Field's'' passive damage is disabled while its active is on cooldown.
+|leveling = {{lc|Passive Magic Damage}} {{ap|100|200|300}} {{as|(+ 20% AP)}}
+|leveling2 = {{lc|Active Magic Damage}} {{ap|250|375|500}} {{as|(+ 100% AP)}}
+|cooldown = 30
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Static Field's''' ''passive'' is an [[auto-targeted|auto-targeting]] [[area of effect]].
+
+'''Static Field's''' ''active'' is a [[area of effect|point blank area of effect]].
+|damagetype=magic
+|spelleffects=aoe, single
+|spelleffects-aoe=''Static Field's'' active
+|spelleffects-single=''Static Field's'' passive
+|onhiteffects=
+|spellshield=Will block the passive and active effects.
+|additional=
+* ''Static Field's passive'' cannot target [[stealth]]ed enemy champions.
+* ''Static Field's passive'' can target and hit enemy units in the [[Fog of War]].
+* While Blitzcrank is within [[brush]], ''Static Field's passive'' can still target and damage enemy units outside the brush. Enemies will see the lightning bolt visual effect, but Blitzcrank is not revealed.
+|video=Blitzcrank RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+
+
+[[cs:Blitzcrank]]
+[[de:Blitzcrank]]
+[[es:Blitzcrank]]
+[[fr:Blitzcrank]]
+[[pl:Blitzcrank]]
+[[pt-br:Blitzcrank]]
+[[ru:Blitzcrank]]
+[[zh:布里茨]]

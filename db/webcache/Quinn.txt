@@ -1,0 +1,159 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}|disp_name=Quinn and Valor|image2=ValorSquare.png}}{{C-ref}} 
+
+==Abilities==
+{{ability frame|I|
+{{Ability info
+|name = Harrier
+|icon = Harrier.jpg
+|description  = [[File:ValorSquare.png|20px|link=]] Valor periodically marks a nearby enemy with [[File:Harrier.jpg|20px|link=]] '''Vulnerable''' for {{fd|4.5}} seconds. This cannot occur again for 10 seconds, or 3 seconds if Quinn triggers the ''Vulnerable''.
+|description2 = If Quinn attacks a ''Vulnerable'' enemy, she deals {{pp18|25|35|45|55|65|75|85|95|105|115|125|135|145|155|170|185|200|215}} {{as|(+ 50% bonus AD)}} bonus physical damage. 
+|description3 = ''Harrier'' is disabled while {{ai|Tag Team|Quinn}} is active.
+|range = 525
+}}
+|{{Ability2
+|targeting = '''Harrier''' is an ability with two effects. The first is to cause nearby enemy units to become marked as [[File:Harrier.jpg|20px|link=]] '''Vulnerable''' every few seconds. The second is to cause Quinn's first autoattack against marked units to consume the mark and deal bonus damage.
+|damagetype   = physical
+|spelleffects = false
+|onhiteffects = The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** As with most on-hit physical damage, the bonus damage from Harrier will apply [[life steal]].
+** Critical strikes will not interact with ''Harrier's'' bonus damage.
+** ''Harrier'' is expended but does no damage against {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and can [[blind|miss]].
+|spellshield  = will not block the mark or the applying autoattack.
+|additional =
+* ''Harrier's'' targeting priority is as follows:
+*# Last enemy hit.
+*## If the last enemy hit was a small minion, it appears to select a different target. 
+*# Lowest health enemy champion.
+*# Lowest health enemy minion. 
+* ''Harrier'' grants [[sight]] on marked targets.
+|video=Quinn IVideo
+}}}}
+
+{{ability frame|Q|
+{{Ability info
+|name = Blinding Assault
+|icon = Blinding Assault.jpg
+|description  =
+{{sbc|Active:}} Quinn commands [[File:ValorSquare.png|20px|link=]] Valor to fly forwards in a line, stopping when he collides with an enemy. Valor then deals physical damage and blinds nearby enemies within '''210'''-range for {{fd|1.5}} seconds.
+|description2 = {{sbc|Active - {{ai|Tag Team|Quinn}}:}} Valor deals physical damage to all enemies within '''275'''-range of himself and blinds them for {{fd|1.5}} seconds.
+|leveling = {{lcapss|Physical Damage|70|110|150|190|230|(+ 65% bonus AD)|(+ 50% AP)}}
+|leveling2 = {{lcapss|Physical Damage|70|110|150|190|230|(+ 65% bonus AD)|(+ 50% AP)}}
+|cooldown = {{ap|11|10|9|8|7}}
+|cost     = {{ap|50|55|60|65|70}}
+|costtype = mana
+|range    = 1025
+}}
+|{{Ability2
+|targeting = '''Blinding Assault''' is a collision [[area of effect]] skillshot. 
+During {{ai|Tag Team|Quinn}}, '''Blinding Assault''' is a point-blank [[area of effect]] ability.
+|damagetype   = physical
+|projectile   = true
+|name         = While in human form, {{ai|Blinding Assault|Quinn}}
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional=
+|video=Quinn QVideo
+}}}}
+
+{{ability frame|W|
+{{Ability info
+|name = Heightened Senses
+|icon = Heightened Senses.jpg
+|description  = {{sbc|Passive:}} Attacking a {{ai|Harrier|Quinn|Vulnerable}} target will grant Quinn bonus attack speed and flat movement speed for 3 seconds.
+|description2 = {{sbc|Passive - {{ai|Tag Team|Quinn}}:}} [[File:ValorSquare.png|20px|link=]] Valor gains bonus attack speed.
+|description3 = {{sbc|Active:}} All area within range is revealed for 2 seconds.
+|leveling  = 
+{{lcap|Attack Speed|20|25|30|35|40%}}
+{{lcap|Flat Movement Speed|20|30|40|50|60}} 
+|leveling2 = {{lcap|Attack Speed|40|50|60|70|80%}}
+|cooldown  = {{ap|50|45|40|35|30}}
+|range     = 2100
+}}
+|{{Ability2
+|targeting = '''Heightened Senses''' is a self-buff, point-blank [[area of effect]] ability.
+|damagetype   =
+|spelleffects = false
+|onhiteffects =
+|spellshield  =
+|additional =
+|video=Quinn WVideo
+}}}}
+
+{{ability frame|E|
+{{Ability info
+|name = Vault
+|icon = Vault.jpg
+|description  = {{sbc|Active:}} Quinn dashes to an enemy, knocking it back a short distance, dealing physical damage and slowing the target's movement speed by 50%. This slow decays over 2 seconds.
+|description2 = Upon reaching the target, she leaps off and lands near her maximum attack range away from the target. [[File:ValorSquare.png|20px|link=]] Valor will immediately mark this target as {{ai|Harrier|Quinn|Vulnerable}}.
+|description3 = {{sbc|Active - {{ai|Tag Team|Quinn}}:}} Valor dashes to an enemy and applies the same slow, knockback and physical damage, but does not mark or leap off the target.
+|leveling  = {{lcaps|Physical damage|40|70|100|130|160|(+ 20% bonus AD)}}
+|leveling3 = {{lcaps|Physical damage|40|70|100|130|160|(+ 20% bonus AD)}}
+|cooldown  = {{ap|12|11|10|9|8}}
+|cost      = 50
+|costtype  = mana
+|range     = 700
+}}
+|{{Ability2
+|targeting = '''Vault''' is a targeted [[dash]] ability.
+|damagetype   = physical
+|spelleffects = single
+|onhiteffects =
+|spellshield  = will block the damage and knockback, but will not stop Quinn from launching herself away from the target.
+|additional =
+* After completing ''Vault'', Quinn (or [[File:ValorSquare.png|20px|link=]] Valor) will automatically attempt to attack the target.
+* ''Vault's'' cast range is variable but the bounce range is constant. As such, the ability can be used to either lengthen or shorten a gap between two units depending on where it is cast.
+* The bounce back can allow Quinn to pass through walls, permitting she has sufficient space on the other side to land.
+* Quinn (or [[File:ValorSquare.png|20px|link=]] Valor) will track and follow the target if it moves or uses a [[dash]] or [[blink]] ability.
+|video=Quinn EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Tag Team
+|icon = Tag Team.jpg
+|description = {{sbc|Active:}} For 20 seconds, [[File:ValorSquare.png|20px|link=]] Valor replaces Quinn on the battlefield as a mobile melee attacker with alternate versions of Quinn's abilities. 
+|description2 = Valor can move through units and gains greatly increased movement speed that gradually decreases to a lower amount while in combat.
+|description3 = For the duration, Quinn can use {{ai|Skystrike|Quinn}} once.
+|leveling2 = 
+{{lcaps|Out of Combat Movement Speed|80|90|100%}}
+{{lcaps|In Combat Movement Speed|20|30|40%}}
+|cooldown  = {{ap|140|110|80}}
+|cost      = 100
+|costtype  = mana
+}}
+{{Ability info
+|name = Skystrike
+|icon = Skystrike.jpg
+|description  = {{sbc|Active - {{ai|Tag Team|Quinn}}:}} Quinn returns to perform ''Skystrike'', dealing physical damage to all enemies within range. 
+|description2 = The damage is increased by 1% for every 1% of the target's missing health. If ''Skystrike'' has not been cast during ''Tag Team'', it will be cast automatically when ''Tag Team'' ends.
+|leveling  = {{lcaps|Minimum physical damage|100|150|200|(+ 50% bonus AD)}}
+|leveling2 = {{lcaps|Maximum Physical damage|200|300|400|(+ 100% bonus AD)}}
+|range     = 700
+}}
+|{{Ability2
+|targeting = '''Tag Team''' is a [[buff|self-buff]] [[Shapeshifter|shapeshift]] ability.
+'''Skystrike''' is a point-blank [[area of effect]].
+|damagetype   = physical
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block Skystrike's damage.
+|additional =
+* [[File:ValorSquare.png|20px|link=]] Valor is considered to be in combat upon being damaged by an enemy basic attack or ability or damaging a unit with a basic attack or ability.
+* While ''Tag Team'' is active, Valor's basic attacks are considered as melee for the duration.
+* Quinn and Valor are effectively considered to be the same unit by the game - as a result, they will share the same champion statistics, cooldowns on their basic abilities (''unlike many other shapeshifter-type spells'') and will both die when one is killed.
+|video=Quinn RVideo
+}}}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+
+
+[[cs:Quinn]]
+[[de:Quinn]]
+[[es:Quinn]]
+[[fr:Quinn]]
+[[pl:Quinn]]

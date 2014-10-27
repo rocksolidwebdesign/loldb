@@ -1,0 +1,146 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Crystallizing Sting
+|icon = Crystallizing Sting.png
+|description = {{ai|Crystal Slash|Skarner}} and {{ai|Fracture|Skarner}} build stacks of [[File:Crystallizing Sting.png|20px|link=]] '''Crystal Venom''' on the target enemy, stacking up to 3 times. 
+|description2 = Attacking an enemy with 3 stacks consumes them to deal 15{{plus}}(5{{times}}''Skarner's level'') {{as|(+ 100% AD)}} magic damage and stun the target for {{pp|3|0.5|0.75|1|1|7|13}} seconds. After the stun, targets cannot receive [[File:Crystallizing Sting.png|20px|link=]] '''Crystal Venom''' stacks for 6 seconds.
+}}
+|{{Ability2
+|targeting = '''Crystal Venom''' is a [[spell effect]].<br />
+'''{{tt|Crystallizing Sting|Refered to the attack consuming Crystal Venom}}''' is an [[on-hit effect]] ability.
+|damagetype   = magic
+|spelleffects =
+|onhiteffects = The triggering attack for ''Crystallizing Sting'' will apply other [[on-hit effects]] and can critically strike as normal.
+**''Crystallizing Sting'''s damage will apply [[life steal]] in spite of being magic damage.
+**{{Pending for test}} Crystallizing Sting's relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested.
+|spellshield  = will block the damage and stun. 
+|additional =
+* ''Crystallizing Sting'' does not apply spell effects.
+* If ''Crystallizing Sting'' applies the [[Named item effect#Spellblade|Spellblade]] effect of {{ii|Sheen}}, {{ii|Iceborn Gauntlet}} or {{ii|Trinity Force}}, the proc is converted into magic damage as the base attack is.
+|video=Skarner IVideo
+}}}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Crystal Slash
+|icon = Crystal Slash.png
+|description  = {{sbc|Active:}} Skarner deals physical damage to all enemies within range. 
+|description2 = Hitting an enemy will charge himself with [[File:Crystal Slash.png|20px|link=]] '''Crystal Energy''' for 5 seconds and stacking up to 3 times, granting bonus attack speed and movement speed and causing subsequent casts to deal bonus magic damage while these stacks persist.
+<br><br>Basic attacks reduce the cooldown of ''Crystal Slash'' by {{fd|0.5}} seconds (''doubled against enemy champions'').
+|leveling  = {{lcaps|Physical damage|18|28|38|48|58|(+ 40% bonus AD)}}
+|leveling2 ={{lcap|Bonus Attack speed|8|10|12|14|16}}%
+{{lcap|Total Bonus Attack speed|24|30|36|42|48}}%
+{{lcap|Bonus Movement speed|2|3|4|5|6%}}
+{{lcap|Total Bonus Movement speed|6|9|12|15|18%}}
+{{lcaps|Bonus magic damage|18|28|38|48|58|(+ 20% AP)}}
+|cooldown  = {{fd|3.5}}
+|cost      = {{ap|16|18|20|22|24}}
+|costtype  = mana
+|range     = 350
+}}
+|{{Ability2
+|targeting = '''Crystal Slash''' is a [[area of effect|point blank area of effect]] ability with a [[buff|self-buff]] component.
+|damagetype   = magic
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the damage but do not prevent Skarner from gaining the bonus attack speed.
+|additional =
+*''Crystal Slash'' has no cast time and does not interrupt Skarner's previous orders.
+|video=Skarner QVideo
+}}}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Crystalline Exoskeleton
+|icon = Crystalline Exoskeleton.png
+|description  = {{sbc|Active:}} Skarner shields himself for up to 6 seconds. 
+|description2 = While the shield persists, Skarner gains increasing movement speed that reaches full strength after 3 seconds.
+|leveling  = {{lcaps|Shield|80|135|190|245|300|(+ 80% AP)}}
+|leveling2 = {{lcap|Max Movement speed|16|20|24|28|32}}%
+|cooldown  = {{ap|13|12.5|12|11.5|11}}
+|cost      = 60
+|costtype  = mana
+}}
+|{{Ability2
+|targeting ='''Crystalline Exoskeleton''' is a [[buff|self-buff]] ability.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+*''Crystalline Exoskeleton'' has no cast time and does not interrupt Skarner's previous orders.
+|video=Skarner WVideo
+}}}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Fracture
+|icon = Fracture.png
+|description = {{sbc|Active:}} Skarner deals magic damage to all enemies in a line and slows them for {{fd|2.5}} seconds.
+|leveling = {{lcaps|Magic Damage|40|60|80|100|120|(+ 40% AP)}}
+{{lcap|Slow|45|50|55|60|65}}%
+|cooldown = 12
+|cost     = {{ap|50|55|60|65|70}}
+|costtype = mana
+|range    = 1000
+}}
+|{{Ability2
+|targeting = '''Fracture''' is a linear pass-through [[skill shot]].
+{{lc|Missile Width}} 70
+{{lc|Missile Speed}} 1500
+|damagetype   = magic
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the damage and slow.
+|additional =
+|video=Skarner EVideo
+}}}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Impale
+|icon = Impale.png
+|description  = {{sbc|Active:}} Skarner rears his stinger, rooting his target for {{tt|{{fd|0.25}}|Estimated}} seconds as he brings his stinger down, dealing magic damage and suppressing it for {{fd|1.75}} seconds. At the end of the suppression, the target takes the same damage again.
+|description2 = For the duration, Skarner can move freely and drag his victim around with him. ''Impale'' consumes all {{ai|Crystallizing Sting|Skarner|Crystal Venom}} stacks to deal bonus magic damage per stack.
+|leveling  = {{lcaps|Magic damage|100|150|200|(+ 50% AP)}}
+{{lcaps|Total damage|200|300|400|(+ 100% AP)}}
+|leveling2 = {{lcap|Bonus damage per stack|50|75|100}}
+{{lcap|Max Bonus damage|150|225|300}}
+{{lcaps|Max Total damage|350|525|700|(+ 100% AP)}}
+|cooldown={{ap|110|100|90}}
+|cost={{ap|100|125|150}}
+|costtype=mana
+|range=350
+}}
+|{{Ability2
+|targeting = '''Impale''' is a single targeted ability.
+|damagetype   = magic
+|spelleffects = single
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional =
+* If ''Impale's'' suppression is removed via a method of [[crowd control]] removal such as [[Named item effect#Quicksilver|Quicksilver]], the secondary damage is not dealt.
+* If Skarner loses sight of his target or if his target exceeds a range threshold during the initial {{tt|{{fd|0.25}}|Estimated}} seconds, the ability is cancelled but does not go on cooldown.
+** ''Impale's'' target can exceed the threshold either by being in the process of dashing when immobilized, removing the immobilize and then quickly moving away, or by an ally knocking Skarner back.
+* Skarner's target will follow him around regardless of the method of movement - including through forced movement spells such as {{ai|Buster Shot|Tristana}} and {{ai|Dark Passage|Thresh}}.
+* While ''Impale's'' suppress is active, Skarner is considered to be facing in the direction of his movement, not the direction he is facing, for the purposes of abilities such as {{ai|Petrifying Gaze|Cassiopeia}} and {{ai|Mocking Shout|Tryndamere}}.
+|video=Skarner RVideo
+}}}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Skarner]]
+[[de:Skarner]]
+[[es:Skarner]]
+[[fr:Skarner]]
+[[pl:Skarner]]
+[[pt-br:Skarner]]
+[[ru:Skarner]]
+[[zh:斯卡纳]]

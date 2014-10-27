@@ -1,0 +1,143 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Berserker Rage
+|icon=Berserker Rage.png
+|description=Olaf's attack speed increases by 1% for every 1% of his missing health.
+}}
+|{{Ability2
+|targeting='''Berserker Rage''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Undertow
+|icon=Undertow.png
+|description={{sbc|Active:}} Olaf throws an axe in a line to a target location, dealing physical damage and slowing enemies it passes through for between {{fd|1.5}} and {{fd|2.5}} seconds, depending on the distance the axe has travelled.
+|description2= The axe remains at the target location until ''Undertow'' is off cooldown. Olaf can pick up the axe to reduce ''Undertow's'' cooldown by {{fd|4.5}} seconds. If the axe would land inside terrain, it will instead stick to the wall.
+|leveling=
+{{lcaps|Physical Damage|70|115|160|205|250|(+ 100% bonus AD)}}
+{{lcap|Slow Percent|29|33|37|41|45%}}
+|range=400 - 1000
+|cooldown=7
+|cost=60
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Undertow''' is a [[skill shot|linear, pass-through skill shot]].
+{{lc|Missile Speed}} 1600
+|damagetype=physical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* ''Undertow'' grants a brief instance of sight when it hits the ground.
+* If Olaf attempts to cast ''Undertow'' below the minimum range, he will throw it the minimum distance units in the direction of cast. 
+* If Olaf attempts to cast ''Undertow'' beyond the maximum range, it will fall short at the maximum range in the direction of cast. 
+* Olaf cannot pick up an enemy Olaf's axe, unlike {{ci|Draven}}.
+* Neutral monsters hit by the axe will temporarily be ignored by unit collision. This is an invisible debuff and is intended to make it easier for Olaf to pick up his axes.
+|video=Olaf QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Vicious Strikes
+|icon=Vicious Strikes.png
+|description={{sbc|Active:}} For 6 seconds, Olaf gains bonus lifesteal and bonus attack speed. During this time, Olaf also gains 1% enhanced healing from all sources for every 2% of his missing health.
+|leveling=
+{{lcap|Attack Speed|40|50|60|70|80%}}
+{{lcap|Life Steal|9|12|15|18|21%}}
+|cooldown=16
+|cost=30
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Vicious Strikes''' is a self-targeted [[buff]].
+|spelleffects=hide
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Vicious Strikes'' will increase all healing effects targeted at Olaf, including healing from other sources such as {{cai|Astral Blessing|Soraka}}. This will stack additively with {{ii|Spirit Visage}}.
+* ''Vicious Strikes'' has no cast time and it will not interrupt previous orders.
+|video=Olaf WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Reckless Swing
+|icon=Reckless Swing.png
+|description={{sbc|Active:}} Olaf attacks with such force that it deals true damage to his target. The cost is refunded if ''Reckless Swing'' kills the target. Olaf's basic attacks will reduce the cooldown of ''Reckless Swing'' by 1 second.
+|leveling={{lcaps|True damage|70|115|160|205|250|(+ 40% AD)}}
+|cooldown={{ap|12|11|10|9|8}}
+|range=325
+|cost={{aps|21|34.5|48|61.5|75|(+ 12% AD)}}
+|costtype=health
+}}
+|{{Ability2
+|targeting=''Reckless Swing'' is a single target ability.
+|damagetype=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* This ability's cost is equal to 30% of the total damage. Olaf will pay the cost regardless if the ability deals any damage.
+* As with all activated health-cost abilities, ''Reckless Swing'' can be cast at any health value but will not reduce Olaf's health below 1. This makes ''Reckless Swing'' effectively free-to-cast at 1 health.
+* Health cost refund on the ability is considered a heal, therefore it is affected by increased healing from {{cai|Vicious Strikes|Olaf}} and {{ii|Spirit Visage}}.
+* ''Reckless Swing'' will cancel if Olaf loses sight of his target during the cast time, as with many of the game's older and non-updated champions. 
+|video=Olaf EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Ragnarok
+|icon=Ragnarok.png
+|description={{sbc|Passive:}} Olaf gains bonus armor and magic resistance. 
+|description2={{sbc|Active:}} Olaf instantly removes all crowd control effects from himself and becomes immune to them for 6 seconds. During this time, he loses the passive bonus but gains bonus attack damage.
+|leveling={{lcap|Armor & Magic Resist|10|20|30}}
+|leveling2={{lcap|Attack Damage|40|60|80}}
+|cooldown={{ap|100|90|80}}
+|cost=
+|costtype=No cost
+}}
+|{{Ability2
+|targeting='''Ragnarok''' is a self-targeted ability that also passively grants a [[buff|defensive buff]].
+|damagetype=physical
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Ragnarok'' can be cast while under the effects of any form of [[crowd control]].
+** It is worth noting that while it can be activated while under the effects of airborne crowd control, Ragnarok will not remove them. However, it will ignore any further applications of it once active.
+* ''Ragnarok'' will not prevent the application of the {{cis|Sejuani}} "Frost" debuff, as it not a crowd control effect prior to being detonated by {{ai|Permafrost|Sejuani}}.
+* As of [[V3.13]], all [[Attack speed#Reducing attack speed|attack speed reduction]] is treated as a slow and will also be ignored.
+* Abilities with conditional effects are usually composed of multiple debuffs, and ignoring the crowd control debuff will not ignore the conditional effects. For example, Olaf will still have his attack damage reduced by {{ai|Mocking Shout|Tryndamere}} and {{ai|Chomp|Trundle}} despite ignoring their slow components.
+|video=Olaf RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Olaf]]
+[[de:Olaf]]
+[[es:Olaf]]
+[[fr:Olaf]]
+[[pl:Olaf]]
+[[pt-br:Olaf]]
+[[ru:Olaf]]
+[[zh:奥拉夫]]

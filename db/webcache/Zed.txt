@@ -1,0 +1,153 @@
+{{C-top}} 
+{{champion info|Zed}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Contempt for the Weak
+|icon = Contempt for the Weak.jpg
+|description = Zed's basic attacks against targets below 50% health deal {{as|{{pp|3|6|8|10|1|7|17}}% of the target's maximum health}} as bonus magic damage. 
+|description2 = This effect can only occur once every 10 seconds on the same target.
+}}
+|{{Ability2
+|targeting='''Contempt for the Weak''' is an [[on-hit effect]].
+|damagetype=magic
+|spelleffects=
+|onhiteffects=The triggering attack will still apply on-hit effects and can critically strike as normal.
+** The bonus damage will not trigger against structures. 
+** Buffs or effects that block or negate on-hit damage, including {{ai|Counter Strike|Jax|dodge|dodges}}, {{ai|Riposte|Fiora|parry|parries}}, and [[blind|blinds]] will prevent ''Contempt for the Weak'' from being procced, but a {{ai|Aegis Protection|Pantheon|block}} does not stop the damage.
+|additional=
+|video=Zed IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Razor Shuriken
+|icon = Razor Shuriken.jpg
+|description = {{sbc|Active:}} Zed throws his spinning blades forward, dealing physical damage to the first enemy they pass through and 60% damage to enemies thereafter.
+|description2 = {{sbc|{{ai|Living Shadow|Zed}}:}} Active shadows will also throw a shuriken in the direction of the target point. Additional shuriken striking the same enemy deal 50% damage and restore energy.
+|leveling = {{lc|Physical Damage}} {{ap|75|115|155|195|235}} {{as|(+ 100% bonus AD)}}
+{{lc|Secondary Damage}} {{ap|45|69|93|117|141}} {{as|(+ 60% bonus AD)}}
+|leveling2 = {{lc|Mimicked Shuriken}} {{ap|37.5|57.5|77.5|97.5|117.5}} {{as|(+ 50% bonus AD)}}
+{{lc|Mimicked Secondary Damage}} {{ap|22.5|34.5|46.5|58.5|70.5}} {{as|(+ 30% bonus AD)}}
+|range = 900
+|cooldown = 6
+|cost = {{ap|75|70|65|60|55}}
+|costtype = energy
+}}
+|{{Ability2
+|targeting='''Razor Shuriken''' is a [[Skillshot#Pass-through linear skillshot|pass-through linear skillshot]] which is mimicked by active shadows toward the same target point.
+|damagetype=physical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block a single shuriken.
+|additional=
+* A shadow's shuriken will deal the full damage if hits a target before Zed's. In those cases, Zed's shuriken is the one that deals 50% damage.
+|video=Zed QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Living Shadow
+|icon = Living Shadow.jpg
+|description = {{sbc|Passive:}} Zed's bonus attack damage is increased by a percentage.
+|description2 = {{sbc|Active:}} Zed's shadow dashes forward, remaining in place for 4 seconds. Reactivating ''Living Shadow'' will cause Zed to swap places with this shadow.
+|description3 = {{sbc|{{ai|Living Shadow|Zed}}:}} Zed's shadows mimic his basic abilities. If a target is struck twice by a mimicked ability, Zed restores some energy. Energy can only be restored once per mimicked cast.
+|leveling = {{lc|Bonus Attack damage}} {{as|{{ap|5|10|15|20|25}}% Bonus AD}}
+|leveling3 = {{lc|Energy Restored}} {{ap|20|25|30|35|40}}
+|range = 550
+|cooldown = {{ap|18|17|16|15|14}}
+|cost = {{ap|40|35|30|25|20}}
+|costtype = energy
+}}
+|{{Ability2
+|targeting='''Living Shadow''' is a [[Skillshot#Pass-through linear skillshot|pass-through linear skillshot]].
+|projectile=true
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* The shadow grants sight around it and is non-targetable.
+* The cooldown begins on-cast but the timer is hidden until Zed swaps with the shadow or the shadow expires.
+** {{ai|Shadow Slash|Zed}} does reduce the cooldown while the timer is hidden.
+* The shadow mimics {{ai|Razor Shuriken|Zed}} and {{ai|Shadow Slash|Zed}} but not {{ai|Death Mark|Zed}}.
+|video=Zed WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Shadow Slash
+|icon = Shadow Slash.jpg
+|description = {{sbc|Active:}} Zed spins his blades, creating a burst of shadow energy and dealing physical damage to nearby enemies. Each enemy champion hit reduces {{ais|Living Shadow|Zed}} cooldown by 2 seconds.
+|description2 = {{sbc|{{ai|Living Shadow|Zed}}:}} Active shadows also slash, dealing physical damage to nearby enemies and slowing them for {{fd|1.5}} seconds. Enemies hit by both slashes are slowed more and restore energy but will not take additional damage.
+|leveling = {{lc|Physical Damage}} {{ap|60|90|120|150|180}} {{as|(+ 80% bonus AD)}} 
+|leveling2 = {{lc|Slow}} {{ap|20|25|30|35|40}}% 
+{{lc|Overlapping Slow}} {{ap|30|37.5|45|52.5|60}}%
+|range = 290
+|cooldown = 4
+|cost = 50
+|costtype = energy
+}}
+|{{Ability2
+|targeting='''Shadow Slash''' is a [[Area of effect#Point blank|point-blank area of effect]] which is mimicked by active shadows.
+|damagetype=Physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage and slow.
+|additional=
+* Has no cast time and does not interrupt movement or basic attacks.
+|video=Zed EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Death Mark
+|icon = Death Mark.jpg
+|description = {{sbc|Active:}} Zed becomes untargetable for {{fd|0.75}} seconds and dashes behind the target enemy champion. Upon arrival, he marks the target for death, ignores unit collision, and spawns a shadow that lasts for 6 seconds at the cast location. Reactivating ''Death Mark'' will cause Zed to swap places with this shadow.
+|description2 = After 3 seconds, ''Death Mark'' will trigger, dealing flat physical damage plus a percentage of all physical and magic damage dealt to the marked champion while it was active.
+|leveling2 = {{lc|Physical Damage}} {{as|100% AD}} + {{ap|20|35|50}}% of damage dealt
+|range = 625
+|cooldown = {{ap|120|100|80}}
+|cost = 
+|costtype = No cost
+}}
+|{{Ability2
+|targeting='''Death Mark''' is a single-targeted dash ability.
+|damagetype=physical
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the entire application of the mark, '''including''' Zed's untargetability and dash, but it will not block the detonation of a mark already applied.
+|additional=
+* After using ''Death Mark'', Zed can blink back to his shadow from any range.
+* If the target dies before Zed reachs the target (in 0.75 seconds dash time), Zed will appear at the original place and  ''Death Mark'' will be canceled and put on a 5 second cooldown
+** If this happens, Zed will leave a glitched out shadow from where his shadow was supposed to be in the first place. This shadow will remain indefinitely and will in fact mimic all of Zed's abilities (so he can have up to four shurikens at once). He cannot switch to this shadow, however. 
+* Death Mark can be removed with [[Quicksilver]]. Death Mark can also be prevented by becoming untargetable before Zed strikes you.
+* The shadow is functionally the same as {{ai|Living Shadow|Zed}} for ability casts.
+** A third shuriken hitting the same target deals 50% damage, not 25%.
+** A third slash hitting the same target applies the same slow as two.
+* Magic and physical damage is calculated from all abilities, items and buffs.
+** Damage is calculated with pre-mitigation values <ref>[http://na.leagueoflegends.com/board/showthread.php?p=31026026#31026026 CertainlyT explains the mark's damage calculation]</ref>.
+** [[True damage]], such as from {{si|Ignite}}, is not counted.
+* If ''Death Mark's'' damage is sufficient to kill an enemy, a shuriken appears above the marked champion's head along with a cloud of smoke surrounding them. If the target's health is replenished in any way that will let the target survive, the swirling shuriken mark will disappear. The red mark inside the target that denotes the mark's existence will remain for the full three seconds, however (unless removed by means of {{si|Quicksilver Sash}} or {{si|Mercurial Scimitar}}).
+|video=Zed RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Zed]]
+[[de:Zed]]
+[[es:Zed]]
+[[fr:Zed]]
+[[pl:Zed]]
+[[pt-br:Zed]]
+[[ru:Zed]]
+[[zh:劫]]

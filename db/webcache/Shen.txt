@@ -1,0 +1,141 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Ki Strike 
+|icon=KiStrike.jpg
+|description=Shen's next basic attack deals bonus magic damage equal to 4{{plus}}(4{{times}}''Shen's level''){{plus}}{{as|(10% of Shen's bonus health)}} and restores {{pp|3|10|20|30|1|7|13}} Energy. 
+|description2= Every basic attack reduces the cooldown by 1 second, up to 2 seconds while {{ai|Feint|Shen}} holds.
+|static=9
+}}
+|{{Ability2
+|targeting='''Ki Strike''' is an [[on-hit effect]] ability.
+|damagetype=magic
+|spelleffects=false
+|onhiteffects=The triggering attack will apply other on-hit effects and can critically strike as normal.
+*The real cooldown of this ability is 10s, but it becomes 9s with the basic attack reducing the cooldown of ''Ki Strike'' by 1 second, and 8s if {{ai|Feint|Shen}} is enabled.
+*Critical strikes do not interact with the bonus damage of ''Ki Strike''.
+*''Ki Strike's'' damage will be mitigated if Shen's attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Riposte|Fiora|parried}} or [[Blind|misses]].
+*''Ki Strike's'' bonus damage will affect structures. 
+|spellshield=will not block the ability.
+|additional=
+|video=Shen IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Vorpal Blade
+|icon=VorpalBlade.jpg
+|description={{sbc|Active:}} Shen throws a blade at the target enemy, dealing magic damage and marking them for 5 seconds. Shen and allied champions that damage a marked enemy will heal over 3 seconds, with the duration refreshing upon subsequent damage.
+|description2=If ''Vorpal Blade'' kills the target, Shen heals for 33% of the normal amount instantly.
+|leveling={{lcaps|Magic damage|60|100|140|180|220|(+ 60% AP)}}
+{{lcaps|Heal|6|10|14|18|22|(+ {{fd|1.5%}} Shen's maximum health)}}
+|leveling2={{lcaps|Instant Heal|2|3|5|6|7|(+ {{fd|0.5%}} Shen's maximum health)}}
+|cooldown={{ap|6|5.5|5|4.5|4}}
+|cost=60
+|costtype=energy
+|range=475
+}}
+|{{Ability2
+|targeting='''Vorpal Blade''' is a single-target ability with an [[on-hit effect]] and [[spell effect]] [[buff]] component.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*If Shen marks a neutral enemy monster with ''Vorpal Blade'', both allies and enemies will benefit from the healing if they attack it.
+*{{Pending for test}} If the target dies before ''Vorpal Blade'' reaches it, Shen will still receive the instant heal.
+|video=Shen QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Feint
+|icon=Feint.jpg
+|description={{sbc|Active:}} Shen gains a shield that absorbs a certain amount of damage. The shield dissipates after 3 seconds if not already destroyed. 
+|description2=While the shield persists, Shen's basic attacks reduce the cooldown of {{ai|Ki Strike|Shen}} by an additional 1 second (''2 seconds total''). 
+|leveling={{lcaps|Shield|60|100|140|180|220|(+ 60% AP)}}
+|cooldown={{ap|9|8|7|6|5}}
+|cost=50
+|costtype=energy
+}}
+|{{Ability2
+|targeting='''Feint''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Feint'' has no cast time and does not interrupt Shen's previous orders.
+*If ''Feint'' is activated when {{ai|Ki Strike|Shen}} trigger, the cooldown of {{ai|Ki Strike|Shen}} will start at 8 seconds instead of 9.
+|video=Shen WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Shadow Dash
+|icon=ShadowDash.jpg
+|description={{sbc|Active:}} Shen dashes along target line, dealing magic damage to enemy champions he contacts and taunting them for {{fd|1.5}} seconds. While taunted, enemies are forced to attack Shen and their basic attacks deal half damage. Shen gains '''40 ENERGY''' for each enemy champion he contacts.
+|leveling={{lcaps|Magic damage|50|85|120|155|190|(+ 50% AP)}}
+|cooldown={{ap|16|14|12|10|8}}
+|cost=120
+|costtype=energy
+|range=600
+}}
+|{{Ability2
+|targeting='''Shadow Dash''' is a linear [[dash]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the taunt and debuff, but do not prevent Shen from regaining energy.
+|additional=
+*{{Pending for test}} ''Shadow Dash'' does not reduce the damage from [[on-hit effect|on-hit effects]].
+|video=Shen EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Stand United
+|icon=StandUnited.jpg
+|description={{sbc|Active:}} Target allied champion gains a shield that absorbs a certain amount of damage. The shield dissipates after 5 seconds if not already destroyed. After 3 seconds of channeling, Shen teleports to the allied champion.
+|leveling={{lcaps|Shield|250|550|850|(+ 135% AP)}}
+|cooldown={{ap|200|180|160}}
+|cost=
+|costtype=No cost
+|range=Global
+}}
+|{{Ability2
+|targeting='''Stand United''' is an ally-targeted [[blink]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Shen cannot target himself with ''Stand United''.
+*Shen can alternatively target an ally by clicking on their respective champion portrait on the left side of the screen or using the F1 to F5 keys.
+*Shen cannot target allies of whom he does not currently have sight of due to a vision-restricting effect, such as {{cai|Paranoia|Nocturne}} or {{cai|Smokescreen|Graves}}. This includes prevention of casting it using the aforementioned methods of clicking the champion portraits and F1-5 keys.
+*Using ''Stand United'' on a [[stealth|stealthed]] ally will not remove their stealth.
+*Shen's teleport is not contingent on the state of his ally's shield. Breaking the shield will not cancel Shen's channel nor will breaking Shen's channel remove the shield prematurely.
+|video=Shen RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Shen]]
+[[de:Shen]]
+[[es:Shen]]
+[[fr:Shen]]
+[[pl:Shen]]
+[[pt-br:Shen]]
+[[ru:Shen]]
+[[zh:慎]]

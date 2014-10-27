@@ -1,0 +1,142 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Soul Eater
+|icon = Soul Eater.png
+|description = Nasus drains his foe's spiritual energy, giving him a natural {{pp|3|10|15|20|1|7|13}}% life steal.
+}}
+|{{Ability2
+|targeting = '''Soul Eater''' is a [[self-buff]].
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional = 
+|video=Nasus IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Siphoning Strike
+|icon = Siphoning Strike.png
+|description = {{sbc|Active:}} Nasus empowers his next basic attack within the next 10 seconds to deal bonus physical damage.
+|description2 = If the ability deals a killing blow, Nasus gains 3 stacks of ''Siphoning Strike'' (doubled for killing champions, large minions and large monsters).
+|leveling = {{lcaps|Bonus Damage|30|50|70|90|110|(+total stacks of Siphoning Strike)}}
+|cooldown = {{ap|8|7|6|5|4}}
+|cost = 20
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Siphoning Strike''' is a single-use [[on-hit effect]].
+|damagetype=physical
+|spelleffects=false
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** As with most on-hit physical damage, the bonus damage from ''Siphoning Strike'' will apply [[life steal]].
+** Critical strikes modify ''Siphoning Strike's'' base bonus damage but not the bonus damage from the stacks.
+** The bonus damage will affect structures.
+** The enhanced attack can not be {{ai|Counter Strike|Jax|dodged}}.
+** ''Siphoning Strike's'' damage will be mitigated if Nasus's attack is {{ai|Aegis Protection|Pantheon|blocked}} or {{ai|Riposte|Fiora|parried}}.
+** ''Siphoning Strike's'' empowerment will not be consumed if the attack [[Blind|misses]]. 
+|spellshield=will block the attack.
+|additional=
+*''Siphoning Strike'' resets Nasus' autoattack timer on cast.
+*''Siphoning Strike's'' cooldown will not start until the empowerment is used or expires. 
+*''Siphoning Strike'' can gain bonus damage from last hitting any targetable enemy unit, including: [[ward]]s, {{ci|Yorick|Yorick's}} ghouls, {{cai|Jack In The Box|Shaco}}, {{cai|Noxious Trap|Teemo}}, {{cai|Summon Voidling|Malzahar}}, or {{ci|Annie|Annie's}} {{ci|Tibbers}}, and [[turret]]s.
+*Additional enemies killed by effects such as {{ii|Tiamat}} and {{ii|Iceborn Gauntlet}} on the empowered attack will not generate additional bonus damage. This is unlike {{cai|Parrrley|Gangplank}}, who will gain bonus gold even for each enemy killed by the splash damage.
+|video=Nasus QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Wither
+|icon = Wither.png
+|description = {{sbc|Active:}} Nasus ages his target, slowing their movement speed by 35% for 5 seconds. The target's attack speed is also slowed by half the amount, initially slowed by {{fd|17.5%}}.
+<br><br>The slow increases over the duration.
+|leveling = {{lcap|Additional Movement Slow per second|3|6|9|12|15%}}
+{{lcap|Max Movement Speed Slow|47|59|71|83|95%}}
+{{lcap|Additional Attack Speed Slow per second|1.5|3|4.5|6|7.5%}}
+{{lcap|Max Attack Speed Slow|23.5|29.5|35.5|41.5|47.5%}} 
+|range =600
+|cooldown = {{ap|15|14|13|12|11}}
+|cost = 80
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Wither''' is a targeted ability.
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=Will block the application of ''Wither''.
+|additional=*If the duration of ''Wither'' is reduced by crowd control reduction, the increasing slow is applied faster so that it reaches the same max amount at the end.
+|video=Nasus WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Spirit Fire
+|icon = Spirit Fire.png
+|description = {{sbc|Active:}} Nasus unleashes a spirit flame at a target '''400'''-radius area, dealing magic damage to enemies caught within. The spirit flame burns for 5 seconds afterwards, dealing magic damage each second and reducing the armor of enemies within the area.
+|leveling = {{lcaps|Initial Magic Damage|55|95|135|175|215|(+ 60% AP)}}
+{{lcaps|Magic Damage Per Second|11|19|27|35|43|(+ 12% AP)}}
+{{lcaps|Total Magic Damage|110|190|270|350|430|(+ 120% AP)}}
+{{lcap|Armor Reduction|20|25|30|35|40}}
+|range = 650
+|cooldown = 12
+|cost = {{ap|70|85|100|115|130}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Spirit Fire''' is a [[area of effect#Ground targeted|ground targeted area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will not block ''Spirit Fire''.
+|additional=
+*''Spirit Fire'' grants sight of the targeted area for a short duration on cast, in a smaller area than the spell's area of effect.
+|video=Nasus EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Fury of the Sands
+|icon = Fury of the Sands.png
+|description = {{sbc|Active:}} Nasus summons a sandstorm to empower himself for 15 seconds, enlarging his size, gaining bonus health and increasing his attack range by 50 (''175 total range''). <br><br>
+While the storm rages, enemies within 175 range take magic damage equal to a percentage of their maximum health (max of 240 magic damage per second per enemy). 
+|description3 =Nasus converts {{fd|6.375}}% of the damage done by the sandstorm into bonus attack damage for himself (max of 300 bonus attack damage).
+|leveling = {{lcap|Bonus Health|300|450|600}}
+{{lcapss|Magic Damage Per Second|3|4|5%|(+ 1% per 100 AP)|of enemies' maximum health}}
+{{lcapss|Total Magic Damage|45|60|75%|(+ 15% per 100 AP)|of enemies' maximum health}}
+|cooldown = 120
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Fury of the Sands''' is a [[area of effect#Point blank|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will not block ''Fury of the Sands''.
+|additional=*Bonus health-gain is not affected by [[Healing#Healing reduction|Grievous Wounds]], and remains on Nasus after ''Fury of the Sands'' expires.
+|video=Nasus RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Nasus]]
+[[de:Nasus]]
+[[es:Nasus]]
+[[fr:Nasus]]
+[[pl:Nasus]]
+[[pt-br:Nasus]]
+[[ru:Nasus]]
+[[zh:内瑟斯]]

@@ -1,0 +1,209 @@
+{{C-top}}
+{{Champion info|Azir|as_base = 0.600|dam_base = 47}}{{C-ref}}
+
+== Abilities ==
+
+{{HiddenB
+|Notes
+|align=center
+|content=
+* Azir must rank his {{ai|Arise!|Azir}} ability first. In [[Dominion]] and [[ARAM]], Azir will start the game with one point already in {{ai|Arise!|Azir}} with only two points to allocate to other abilities.
+* Azir cannot cast his {{ai|Conquering Sands|Azir}} or {{ai|Shifting Sands|Azir}} without a [[#Sand Soldier|Sand Soldier]] active on the field.
+* Azir's basic attacks do not utilize a projectile, and will bypass {{ai|Wind Wall|Yasuo}} and {{ai|Unbreakable|Braum}}.
+}}
+{{Ability frame|I
+|{{Ability info
+|name         = Shurima's Legacy
+|icon         = Will of the Emperor.png
+|description  = {{sbc|Will of the Emperor:}} '''Azir''' gains {{fd|1.25}}% bonus attack speed for every 1% of his [[cooldown reduction]].
+|description2 = {{sbc|Disc of the Sun:}} '''Azir''' places a marker above the ruins of destroyed [[turrets]] (''both allied and enemy''). Once within 400 units of the ruins, '''Azir''' can click on the marker to conjure a [[Azir#Sun Disc|Sun Disc]], which functions like a standard turret but grants '''Azir''' any gold it earns. A ''Sun Disc's'' health decays over 1 minute and will lose its armor if Azir dies or moves too far away. '''Azir''' cannot conjure ''Sun Discs'' within the ''enemy'' base.
+|range        =
+|static       = 180 (starting after his [[Azir#Sun Disc|Sun Disc]] perishes)
+|cost         =
+|costtype     =
+}}
+|{{Ability details
+|targeting    = '''Shurima's Legacy''' consists of two independent passive abilities.
+* '''Will of the Emperor''' is a [[self-targeted]] [[buff]].
+* '''Disc of the Sun''' is a summon ability.
+|damagetype   = 
+|projectile   = 
+|spelleffects = 
+|onhiteffects = 
+|spellshield  = 
+|additional   = * Azir cannot summon a Sun Disc on [[Dominion]]. 
+* In the [[Ascension]] featured game mode, Azir can summon a Sun Disc in the center of the map provided the Ancient Ascendant is dead. If the Ancient Ascendant respawns while the Sun Disc is active, the Sun Disc will be destroyed. 
+|video        = Azir IVideo
+}}}}
+
+{{Ability frame|Q
+|{{Ability info
+|name         = Conquering Sands
+|icon         = Conquering Sands.png
+|description  = {{sbc|Active:}} '''Azir''' orders all [[Azir#Sand Soldier|Sand Soldiers]] to [[dash|rush]] toward the target location, dealing magic damage and slowing all enemies they pass through by 25% for 1 second. Enemies can be hit by multiple soldiers, but each soldier beyond the first will deal only 25% damage. The slow stacks additively.
+|leveling     = {{lc|Magic Damage}} {{ap|60|90|120|150|180}} {{as|(+ 50% AP)}}
+{{lc|Additional Damage}} {{ap|15|22.5|30|37.5|45}} {{as|(+ 12.5% AP)}}
+|range        = 800
+|cooldown     = {{ap|10|9|8|7|6}}
+|cost         = 70
+|costtype     = mana
+}}
+|{{Ability details
+|targeting    = '''Conquering Sands''' is a [[ground-targeted]] ability.
+|damagetype   = magic
+|projectile   = 
+|spelleffects = aoe
+|onhiteffects = 
+|spellshield  = will block the damage and the slow.
+|additional   = *The soldiers will stop when encountering {{ai|Wind Wall|Yasuo}} and {{ai|Unbreakable|Braum}} during the charge.
+|video        = Azir QVideo
+}}}}
+
+{{Ability frame|W
+|{{Ability info
+|name         = Arise!
+|icon         = Arise!.png
+|description  = {{sbc|Active:}} '''Azir''' [[pets|summons]] an untargetable [[Azir#Sand Soldier|Sand Soldier]] for 9 seconds. When '''Azir''' attacks an enemy in a soldier's range, the soldier attacks instead of '''Azir''' - dealing {{pp18|50|55|60|65|70|75|80|85|90|95|100|110|120|130|140|150|160|170}} (''45{{plus}}{{ap|{{tt|<nowiki>5</nowiki>|Damage increase at levels 1-11}}|{{tt|10|Damage increase at levels 12-18}}}} at each level'') {{as|(+ 70% AP)}} magic damage to all enemies in a line. If multiple soldiers strike the same target, each soldier after the first deals 25% damage, and the soldiers can't attack structures.
+|description2 = '''Azir''' can store up to 2 ''Sand Soldiers'' at a time, but there is no hard limit on the number of ''Sand Soldiers'' that can be active on the field at once. ''Sand Soldiers'' expire twice as fast while within range of an enemy turret, and will expire instantly if Azir moves too far away.
+|description3 = If Azir summons a Sand Soldier directly on top of an enemy [[turret]], the soldier will sacrifice itself to deal 80{{plus}}(25{{times}}''Azir's level'') {{as|(+ 70% AP)}} magic damage to the turret. 
+|range        = 450
+|cooldown     = {{fd|1.5}}
+|customlabel  = Recharge Time
+|custominfo   = {{tt|{{ap|12|11|10|9|8}}|Affected by cooldown reduction.}}
+|cost         = 40
+|costtype     = mana
+}}
+|{{Ability details
+|targeting    = '''Arise!''' is a [[ground-targeted]] ability.
+|damagetype   = magic
+|projectile   = 
+|spelleffects = aoe
+|onhiteffects = 
+|spellshield  = 
+|additional   = 
+* This spell doesn't count as auto-attack and will not receive any benefit from auto-attacks.
+|video        = Azir WVideo
+}}}}
+
+{{Ability frame|E
+|{{Ability info
+|name         = Shifting Sands
+|icon         = Shifting Sands.png
+|description  = {{sbc|Active:}} '''Azir''' dashes to one of his [[Azir#Sand Soldier|Sand Soldiers]], damaging enemies he passes through and [[Knock_up#Airborne|knocking]] them up for {{fd|0.5}} seconds. If Azir hits an enemy champion, he will stop and gain a [[absorption shield|shield]] for 4 seconds.
+|leveling     = {{lc|Magic Damage}} {{ap|60|90|120|150|180}} {{as|(+ 40% AP)}}
+{{lc|Shield Strength}} {{ap|60|100|140|180|220}} {{as|(+ 15% bonus health)}}
+|range        =
+|cooldown     = {{ap|19|18|17|16|15}}
+|cost         = 60
+|costtype     = mana
+}}
+|{{Ability details
+|targeting    = '''Shifting Sands''' is a [[unit-targeted]] ability.
+|damagetype   = magic
+|projectile   = 
+|spelleffects = aoe
+|onhiteffects = 
+|spellshield  = will block the damage and the knockup.
+|additional   = 
+* If Azir casts Shifting Sands on a sand soldier moving from Conquering Sands, Azir will follow the soldier the distance of Conquering Sands.
+|video        = Azir EVideo
+}}}}
+
+{{Ability frame|R
+|{{Ability info
+|name         = Emperor's Divide
+|icon         = Emperor's Divide.png
+|description  = {{sbc|Active:}} '''Azir''' calls forth a phalanx of shield-wielding soldiers who press forward, [[Knock_back#Knockback|knocking]] back and damaging enemies. 
+|description2 = When the soldiers finish their charge, they stand as a wall, blocking enemy champion [[movement]] and [[dash|dashes]]. Allies can pass through the wall and gain 20% bonus [[movement speed]] when they do. These soldiers cannot be ordered to move or attack.
+|leveling     = {{lc|Magic Damage}} {{ap|150|225|300}} {{as|(+ 60% AP)}}
+|leveling2    = {{lc|Wall Duration}} {{ap|5|6|7}}
+{{lc|Width}} {{ap|4|5|6 soldiers}}
+|range        = 250
+|cooldown     = {{ap|140|120|100}}
+|cost         = 100
+|costtype     = mana
+}}
+|{{Ability details
+|targeting    = '''Emperor's Divide''' is a [[direction-targeted]] ability.
+|damagetype   = magic
+|projectile   = 
+|spelleffects = aoe
+|onhiteffects = 
+|spellshield  = can be used to block the soldier's initial damage and knockback and the damage and knockback when attempting to pass over the wall.
+|additional   = *The soldiers can be used to interrupt any in-progress dashes during the charge.
+* The soldiers will stop when encountering {{ai|Wind Wall|Yasuo}} and {{ai|Unbreakable|Braum}} during their charge. 
+* The charge begins slightly behind {{ci|Azir}}, making the E+R combo easier to perform.
+* Mechanically, the wall is made up of a number of units that [[knockback]] enemies who try to pass over them. 
+**The wall is bidirectional and will prevent enemies from passing over the wall in either direction.
+**The wall will intercept enemies who attempt to pass over the wall regardless of whether the mobility was voluntary (i.e. dashes) or otherwise (e.g. {{ai|Headbutt|Alistar}} and {{ai|Rocket Grab|Blitzcrank}}).
+** Enemies with crowd control immunity will be able to [[dash]] over the wall. This includes all dashes that are classified as "unstoppable" (e.g. {{ai|Unstoppable Force|Malphite}} and {{ai|Paranoia|Nocturne}}), but also any enemy protected by {{ai|Black Shield|Morgana}}, and {{ci|Olaf}} during {{ai|Ragnarok|Olaf}} (via {{ai|Dark Passage|Thresh}}).
+* Dashes or mobility that occurs while untargetable, such as {{ai|Twisted Advance|Maokai}} and {{ai|Playful|Fizz}}, can bypass the wall.
+** Despite Riot explicitly stating that {{ai|Sanguine Pool|Vladimir}} will bypass the wall, it does not. This could be a bug. 
+* [[Blink|Blinks]] are distinct from dashes and can bypass the wall (e.g. {{si|Flash}}, {{ai|Arcane Shift|Ezreal}} and {{ai|Crowstorm|Fiddlesticks}}).
+* The wall of soldiers '''will''' count as terrain for the purposes of "into terrain" effects (such as {{ai|Condemn|Vayne}} and {{ai|Dredge Line|Nautilus}}). This will only affect enemies - allies will pass through the wall in all circumstances, even if knocked into it by an enemy (ally Nautilus using his Q on the wall??).
+* Common misconceptions:
+** {{ai|Dark Passage|Thresh}} is considered to be a dash and will be blocked.
+** {{ai|Last Breath|Yasuo}} is considered a blink and will not be blocked.
+|video        = Azir RVideo
+|video2       = Who_passes_Azir%27s_Ultimate%3F_FULL_EDITION
+}}}}
+
+==Pets==
+{{Anchor|Sun Disc}}
+{{Ability pet
+|name       = Sun Disc
+|icon       = Shurima's Legacy.png
+|render     = Sun_Disk_Render.png|200px
+|description= '''Sun Disc''' is a functional replica of a [[turret]].
+* ''Sun Disc'' benefits from the same passive effects as the turret it's replacing, including the Reinforced Armor, Penetrating Bullets, Warden's Eye and Fortification passives when applicable.
+* Its attack speed cannot be increased or decreased.
+* Kills and assists performed by the ''Sun Disc'' are awarded to Azir.
+* Basic attacks do not apply [[spell effects]] or [[on-hit effects]].
+* Basic attacks cannot be {{ai|Counter Strike|Jax|dodged}} or {{ai|Riposte|Fiora|parried}}, but can be {{ai|Aegis Protection|Pantheon|blocked}}. 
+* Classified as a structure for targeting purposes.
+** As a structure, ''Sun Discs'' are immune to crowd control (including {{ai|Blinding Dart|Teemo}} and {{ai|Bear Stance|Udyr}}).
+* Does not benefit from {{ii|Captain}} or {{ii|Banner of Command}}.
+* The Sun Disc's health, base damage, armor and magic resistance are equal to what the target would have at the time of construction - i.e. the ''Sun Disc'' will continue to scale over time.
+|health     = Variable
+|damage     = Variable {{as|(+%AP)}}
+|damagetype = Physical
+|range      = 775
+|armor      = Variable
+|mr         = Variable
+|attackspeed= {{fd|0.83 (Static)}}
+|movespeed  = Static
+|gold       = 100
+|exp        = 0
+}}{{Anchor|Sand Soldier}}
+{{Ability pet
+|name       = Sand Soldier
+|icon       = Arise!.png
+|render     = Sand_Soldier_Render.png|200px
+|description= '''Sand Soldier''' is a [[Pet|controllable minion]] that will autoattack in Azir's place when in range of the target enemy.
+* Basic attacks are [[area of effect|lines area of effect]] meaning they will affect all enemies in the same line as the primary target across their full range.
+* Basic attacks will apply [[spell effects]], counted as AoE.
+* Basic attacks will not be blocked by [[Spell Shield]]s.
+* Basic attacks do not apply [[on-hit effects]].
+* Basic attacks cannot be {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}}. 
+* As Sand Soldiers are untargetable, they cannot be blinded.
+* Does not benefit from {{ii|Captain}} or {{ii|Banner of Command}}. <ref> [http://boards.na.leagueoflegends.com/en/c/gameplay-balance/sixv1VVL-azir-qa-gameplay-completed?comment=00380001 ZenonTheStoic on the interaction between Sand Soldiers and Banner of Command]</ref> 
+* Because there is a brief delay between the command and the actual attack, basic attacks are dodgeable.
+|damage     = See [[Azir#Arise!|above]]
+|damagetype = Magical
+|range      = 400
+|attackspeed= 100% of Azir's attack speed
+|movespeed  = Static
+|gold       = N/A
+|exp        = N/A
+}}{{clear}}
+
+==References==
+<references />
+{{champions}}
+
+
+[[cs:Azir]]
+[[de:Azir]]
+[[fr:Azir]]
+[[pl:Azir]]
+[[pt-br:Azir]]

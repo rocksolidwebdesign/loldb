@@ -1,0 +1,138 @@
+{{C-top}} {{champion info|Zilean}}
+{{C-ref}}
+
+== Abilities ==
+<br>{{HiddenB
+|Notes
+|align=center
+|content=
+* {{ai|Rewind|Zilean}} cannot be ranked at Level 1. That would be as silly as {{ci|Volibear|an armored bear}}.
+}}
+{{Ability frame|I|
+{{Ability info
+|name = Heightened Learning
+|icon = HeightenedLearning.jpg
+|description = Increases experience gain of all allied champions by 8%. This bonus is unavailable while Zilean is dead.
+}}
+|{{Ability2
+|targeting='''Heightened Learning''' is a global aura. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Summoners with experience gain pop-ups should note that the numbers displayed reflect the pre-modified experience earned.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Time Bomb
+|icon = TimeBomb.jpg
+|description = {{sbc|Active:}} Zilean places a ticking time bomb on any unit, allied or enemy, which detonates after 4 seconds, dealing magic damage in a '''330'''-unit area. 
+|description2 = Bombs will detonate immediately if the holder dies or if another bomb is placed on them.
+|leveling = {{lc|Magic Damage}} {{ap|90|145|200|260|320}} {{as|(+ 90% AP)}}
+|range = 700
+|cooldown = 10
+|cost = {{ap|70|85|100|115|130}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Time Bomb''' can target a single unit, either ally or enemy.
+An exploding bomb is an [[area of effect]] at its last location.
+|damagetype=magic
+|spelleffects=area of effect
+|spellshield=Will only block the placement of a bomb. Spell shields will not block the detonation nor the damage in any circumstance.
+|additional=
+* Time Bomb will cancel an enemy champions recall.
+* If a bomb is placed on a stealthed ally, it will not be visible to the enemy team.
+* A ticking bomb will draw turret aggro.
+* A ticking bomb does not grant an assist if the target dies before it explodes.
+* A bomb will detonate an enemy Zilean's bomb when placed on the same unit. This does not prevent the enemy's damage.
+* If a bomb carrier takes lethal damage and triggers a revive effect, such as {{ai|Chrono Shift|Zilean}} or {{ii|Guardian Angel}}, the bomb is removed like all other debuffs.
+* A ticking bomb will still detonate even if the carrier becomes untargetable. The carrier will still take damage unless they are also invulnerable, through effects such as {{ai|Frozen Tomb|Lissandra}} or {{ii|Zhonya's Hourglass}}. 
+* Various champions that have abilities that make them untargetable can prevent the damage from ''Time Bomb'', such as Vladimir,  Elise,  Fizz,  Lissandra, Shaco, Fiora, Zed, Master Yi, or  Maokai.
+|video=Zilean QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Rewind
+|icon = Rewind.jpg
+|description = {{sbc|Active:}} Zilean reduces the cooldowns of all of his other abilities by 10 seconds.
+|cooldown = {{ap|18|15|12|9|6}}
+|cost = 50
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Rewind''' is a self-targeted ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Zilean WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Time Warp
+|icon = TimeWarp.jpg
+|description = {{sbc|Active:}} Zilean bends time around a champion, slowing an enemy champion or increasing an ally champion's movement speed by 55% for a short time.
+|leveling = {{lc|Duration}} {{ap|2.5|3.25|4|4.75|5.5}}
+|range = 700
+|cooldown = 20
+|cost = 80
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Time Warp''' can target a single champion, either ally or enemy.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=Zilean EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Chrono Shift
+|icon = ChronoShift.jpg
+|description = {{sbc|Active:}} Zilean places a protective time rune on an allied champion for 7 seconds. 
+|description2 = If the target takes lethal damage during that time, they  will be placed in stasis - making them untargetable and invulnerable. After 2 seconds, the target is revived with a set amount of health.
+|leveling2 = {{lc|Health Regained}} {{ap|600|850|1100}} {{ability scaling|(+ 200% AP)}}
+|range = 900
+|cooldown = 180
+|cost = {{ap|125|150|175}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Chrono Shift''' can target a single allied champion.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* The rune will not activate if the holder is killed by the [[Nexus Obelisk]].
+* The rune takes precedence over all other revival effects, such as {{ii|Guardian Angel}} and {{ai|Rebirth|Anivia}}.
+|video=Zilean RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Zilean]]
+[[de:Zilean]]
+[[es:Zilean]]
+[[fr:Zilean]]
+[[pl:Zilean]]
+[[pt-br:Zilean]]
+[[ru:Zilean]]
+[[zh:基兰]]

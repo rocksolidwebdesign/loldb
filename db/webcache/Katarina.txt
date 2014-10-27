@@ -1,0 +1,132 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name=Voracity
+|icon=Voracity.png
+|description=Scoring a kill or assist will reduce the cooldown of Katarina's abilities by 15 seconds.
+}}
+|{{Ability2
+|targeting='''Voracity''' is an effect that triggers whenever Katarina kills an enemy champion or assists in the death of one.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Voracity'' can continue to function and reduce Katarina's cooldowns even after she has [[death|died]].
+|video=Katarina IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Bouncing Blades
+|icon=Bouncing Blades.png
+|description={{sbc|Active:}} Katarina throws a dagger that bounces from enemy to enemy, dealing magic damage and marking each enemy hit for 4 seconds. ''Bouncing Blades'' hits a total of 5 unique targets (4 bounces), each striking the closest next target. Each subsequent hit deals 10% less damage.<br><br>
+Striking a marked target with an ability or basic attack will consume the mark on the target and deal additional magic damage.
+|leveling=
+{{lcaps|Dagger Magic damage|60|85|110|135|160|(+ 45% AP)}}
+{{lcaps|Mark Magic damage|15|30|45|60|75|(+ 15% AP)}}
+{{lcaps|Total Damage|75|115|155|195|235|(+ 60% AP)}}
+|cooldown={{ap|10|9.5|9|8.5|8}}
+|range=675
+}}
+|{{Ability2
+|targeting='''Bouncing Blades''' is a targeted [[area of effect|chain area of effect ability]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the ability and prevent any additional bounces from occuring.
+|additional=
+* ''Bouncing Blades'' can hit targets obscured by the [[fog of war]] or who are [[stealth]]ed.
+* The mark damage from ''Bouncing Blades'' can be triggered and refreshed by other ''Bouncing Blades''.
+|video=Katarina QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Sinister Steel
+|icon=Sinister Steel.png
+|description={{sbc|Active:}} Katarina whirls her daggers, instantly dealing magic damage to all nearby enemies. If she damages an enemy champion, she gains movement speed for 1 second.
+|leveling=
+{{lcapss|Magic damage|40|75|110|145|180|(+ 25% AP)|(+ 60% bonus AD)}}
+{{lcap|Movement speed|15|20|25|30|35%}}
+|range=375
+|cooldown=4
+}}
+|{{Ability2
+|targeting='''Sinister Steel''' is a [[area of effect|point blank area of effect]] ability that also provides a self-[[buff]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the damage but will not prevent Katarina from obtaining the movement speed buff.
+|additional=
+* ''Sinister Steel'' has no cast time and does not interrupt Katarina's previous orders.
+|video=Katarina WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Shunpo
+|icon=Shunpo.png
+|description={{sbc|Active:}} Katarina teleports to target unit and gains 15% damage reduction for {{fd|1.5}} seconds. If the target is an enemy, the target takes magic damage.
+|leveling={{lcaps|Magic damage|60|85|110|135|160|(+ 40% AP)}}
+|cooldown={{ap|12|10.5|9|7.5|6}}
+|range=700
+}}
+|{{Ability2
+|targeting='''Shunpo''' is a targeted [[blink]].
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability's damage but do not prevent the blink from occurring.
+|additional=
+* Katarina will automatically attempt to attack the target of ''Shunpo'' after blinking.
+* ''Shunpo'' can be used on '''any''' targetable allied or enemy unit except for towers and inhibitors. This can include champions, minions, wards and champion pets such as {{cai|Noxious Trap|Teemo}}, {{cai|Demacian Standard|Jarvan IV}}, {{cai|Dark Passage|Thresh|Lantern}} and the Capture Points (whether Neutral, Allied or Enemy controlled) on the Crystal Scar.
+|video=Katarina EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Death Lotus
+|icon=Death Lotus.jpg
+|description={{sbc|Active:}} Katarina rapidly spins in place and channels for {{fd|2.5}} seconds, throwing a barrage of up to 30 daggers at the closest 3 enemy champions within range. Each dagger deals magic damage and applies [[Healing#Healing_reduction|Griveous Wounds]] for 3 seconds, reducing regeneration and incoming healing by 50%.<br><br>
+''Death Lotus'' can hit a single enemy champion no more than 10 times.
+|leveling=
+{{lcapss|Magic damage per dagger|40|57.5|75|(+ 25% AP)|(+ {{fd|37.5%}} bonus AD)}}
+{{lcapss|Maximum damage to each enemy|400|575|750|(+ 250% AP)|(+ 375% bonus AD)}}
+|range=550
+|cooldown={{ap|60|52.5|45}}
+}}
+|{{Ability2
+|targeting='''Death Lotus''' is a point blank [[auto-targeted]] ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block only a single dagger. Additional attacks from the same ''Death Lotus'' will not be blocked.
+|additional=
+* ''Death Lotus'' cannot be activated unless there is at least one enemy champion in range of the ability. Leaving the ability radius while she is channeling will not cause her to stop prematurely.
+* ''Death Lotus'' can be activated even when Katarina does not have [[sight]] of her target (through [[fog of war]] or [[stealth]] effects).
+|video=Katarina RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Katarina]]
+[[de:Katarina]]
+[[es:Katarina]]
+[[fr:Katarina]]
+[[pl:Katarina]]
+[[pt-br:Katarina]]
+[[ru:Katarina]]
+[[zh:卡特琳娜]]

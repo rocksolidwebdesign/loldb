@@ -1,0 +1,129 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Happy Hour
+|icon = HappyHour.jpg
+|description  = On ability use, Gragas takes a drink restoring {{as|4% of his max health}}.
+|static=8
+}}
+|{{Ability2
+|targeting='''Happy Hour''' is a self-targeted [[buff]].
+|additional=
+|video=Gragas IVideo
+}}
+}}
+{{Ability frame|Q|
+{{Ability info
+|name = Barrel Roll
+|icon =  BarrelRoll.jpg
+|description  = {{sbc|Active:}} Gragas rolls his cask to a location, granting vision. The barrel explodes when activated again, or will explode on its own after 4 seconds, dealing magic damage to enemies in the area and slowing their movement speed for 2 seconds. The damage and slow increases as the cask ferments, up to 150% after 2 seconds.
+|description2= Does 70% damage to minions. 
+|leveling ={{lc|Magic Damage}} {{ap|80|120|160|200|240}} {{as|(+ 60% AP)}}
+{{lc|Maximum Magic Damage}} {{ap|120|180|240|300|360}} {{as|(+ 90% AP)}}
+{{lc|Slow}} {{ap|30|35|40|45|50%}}
+{{lc|Maximum Slow}} {{ap|45|52.5|60|67.5|75%}}
+|cooldown={{ap|11|10|9|8|7}}
+|cost={{ap|60|65|70|75|80}}
+|costtype=mana
+|range=850
+}}
+|{{Ability2
+|targeting='''Barrel Roll''' is a [[area of effect|ground targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+*The barrel does not collide with units and terrain and will only stop after it reaches the target location.
+*Once the barrel arrives at its location, the barrel will begin to glow with growing intensity as it ferments until it turns bright red.
+*The barrel has a small buffer before the barrel reaches its destination (not when Gragas casts it) where ''Barrel Roll'' can be activated again to explode on arrival.
+*The 4 seconds countdown will only start after the barrel has stopped rolling.
+|video=Gragas QVideo
+}}
+}}
+{{Ability frame|W|
+{{Ability info
+|name = Drunken Rage
+|icon =  DrunkenRage.jpg
+|description  = {{sbc|Active:}} Gragas takes a long swig from his barrel, disabling his ability to cast or attack for 1 second and gaining damage reduction for 2.5 seconds. Upon finishing his drink, Gragas' next basic attack within 5 seconds will deal bonus magic damage, capped at 250 against monsters. 
+|leveling = {{lc|Damage Reduction}} {{ap|10|12|14|16|18%}}
+{{lc|Bonus Magic Damage}} {{ap|20|50|80|110|140}} {{as|(+ 30% AP)}} {{as|(+ {{ap|8|9|10|11|12}}% of target's maximum health)}}
+|cooldown={{ap|8|7|6|5|4}}
+|cost=30
+|costtype=Mana
+}}
+|{{Ability2
+|targeting='''Drunken Rage''' is a [[channel|channeled ability]] that grants a self-targeted buff on-cast and an [[on-hit effect]] if the channel completes. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Gragas can move without interrupting the channel, but will still be unable to attack or cast spells while channeling.
+|video=Gragas WVideo
+}}
+}}
+{{Ability frame|E|
+{{Ability info
+|name = Body Slam
+|icon =  BodySlam.jpg
+|description  = {{sbc|Active:}} Gragas charges forward, colliding with the first enemy unit. He deals magic damage to enemies in the area and bumps them back, stunning them for 1 second.
+|description2 =''Body Slam's'' cooldown is reduced by 3 seconds if Gragas collides with a unit.
+|leveling ={{lc|Magic Damage}} {{ap|80|130|180|230|280}} {{as|(+ 60% AP)}}
+|cooldown=12
+|cost=50
+|costtype=mana
+|range=600
+}}
+|{{Ability2
+|targeting='''Body Slam''' is a [[dash|linear colliding dash]].
+{{lc|Charge Speed}} 900
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability
+|additional=
+*''Body Slam'' can hit stealthed targets.
+|video=Gragas EVideo
+}}
+}}
+{{Ability frame|R|
+{{Ability info
+|name = Explosive Cask
+|icon =  ExplosiveCask.jpg
+|description  = {{sbc|Active:}} Gragas throws his cask to a target '''400'''-radius area, dealing magic damage to enemy units in the area and knocking them back '''600''' range, away from the explosion, and briefly giving vision in a '''500'''-radius area.
+|leveling ={{lc|Magic Damage}} {{ap|200|300|400}} {{as|(+ 70% AP)}}
+|cooldown={{ap|100|90|80}}
+|cost={{ap|100}}
+|costtype=mana
+|range=1150
+}}
+|{{Ability2
+|targeting='''Explosive Cask''' is a [[area of effect|ground targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability
+|video=Gragas RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+
+
+[[cs:Gragas]]
+[[de:Gragas]]
+[[es:Gragas]]
+[[fr:Gragas]]
+[[pl:Gragas]]
+[[pt-br:Gragas]]
+[[ru:Gragas]]
+[[zh:古拉加斯]]

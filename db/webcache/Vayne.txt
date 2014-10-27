@@ -1,0 +1,141 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Night Hunter
+|icon = NightHunter.jpg
+|description = Vayne gains 30 movement speed when moving towards a visible enemy champion.
+|range = 2000
+}}
+|{{Ability2
+|targeting='''Night Hunter''' is a passive ability that activates whenever Vayne is facing a visible enemy champion, granting her a flat amount of additional [[movement speed]].
+|additional=
+*Vayne does not need to be moving to gain the movement speed bonus. This can affect the strength of movement speed buffs or debuffs.
+*Enemy champions that are not visible to Vayne (through [[Fog of War]], [[brush]], or [[stealth]]) will not activate ''Night Hunter''.
+*{{Pending for test}} ''Night Hunter's'' bonus movement speed persists for a short duration after Vayne loses sight of an enemy.
+|video=Vayne IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Tumble
+|icon = Tumble.jpg
+|description = {{sbc|Active:}} Vayne quickly rolls toward the cursor's location, causing her next basic attack within 6 seconds to deal bonus damage. This ability resets the basic attack timer on cast.
+|leveling = {{lc|Bonus Physical Damage}} {{as|{{ap|30|35|40|45|50}}% AD}}
+|range = 300
+|cooldown = {{ap|6|5|4|3|2}}
+|cost = 30
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Tumble''' is a cursor targeted linear dash and autoattack modifier ability.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+**Like most onhit physical damage, the bonus damage from Tumble will apply [[life steal]].
+**Critical strikes do not interact with ''Tumble's'' bonus damage.
+**The enhanced attack does not trigger against structures.
+**Probable Bug: The triggering attack will deal damage and apply on-hit effects through blind.
+** {{Pending for test}} ''Tumble's'' bonus damage interaction with {{ai|Counter Strike|Jax|dodge}}, {{ai|Aegis Protection|Pantheon|block}} and {{ai|Riposte|Fiora|parry}} has yet to be tested.
+|spellshield=will not block the empowered autoattack.
+|additional=
+*''Tumble'' resets Vayne's attack timer on cast. However, due to the cast time of the ability, this can potentially result in an actual decrease in DPS if Vayne has sufficient attack speed.
+*''Tumble's'' cooldown will not start until after the autoattack modifier is used or expires after 6 seconds.
+*''Tumble'' cannot move Vayne over impassible terrain, but it does allow her to pass through minions and monsters.
+**Temporary terrain such as {{ai|Crystallize|Anivia}} and {{ai|Cataclysm|Jarvan IV}} can be moved over if ''Tumble'' can completely pass over it.
+*''Tumble'' can be used to dodge {{cai|Enchanted Crystal Arrow|Ashe}}. Not only can she avoid it by diving to the side, but also by diving towards it. This most often results in Vayne being slowed, not stunned, and only taking the arrow's AoE damage. If timed perfectly, the {{ai|Enchanted Crystal Arrow|Ashe}} will completely pass through Vayne.
+|video=Vayne QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Silver Bolts
+|icon = SilverBolts.jpg
+|description = {{sbc|Passive:}} Consecutive attacks and abilities mark Vayne's target with silver rings. The rings are removed if Vayne attacks a different target or doesn't attack for 3 seconds.
+|description2 = The third consecutive attack or spell against the same target will consume the rings, dealing true damage equal to a flat amount plus a percentage of the target's maximum health (capped at 200 against monsters).
+|leveling2 = {{lc|True damage}} {{ap|20|30|40|50|60}} {{as|(+ {{ap|4|5|6|7|8%}} target's maximum health)}}
+}}
+|{{Ability2
+|targeting='''Silver Bolts''' is a passive ability that grants Vayne an [[on-hit effect]]. Vayne's [[autoattack]]s and {{ai|Condemn|Vayne}} ability apply a debuff on the target unit for 3 seconds.
+|damagetype=true
+|spelleffects=false
+|onhiteffects=
+|spellshield=will not block the damage.
+|additional=*''Silver Bolts'' cannot be deactivated or toggled off by absolutely any means.
+*If Vayne autoattacks or uses {{ai|Condemn|Vayne}} on a different enemy unit than her previous target, all ''Silver Bolt'' stacks are removed.
+*''Silver Bolts'' only effects the original target when using {{ii|Runaan's Hurricane}}. Otherwise Vayne would be unable to trigger the ability at all if it affected multiple targets.
+|video=Vayne WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Condemn
+|icon = Condemn.jpg
+|description = {{sbc|Active:}} Vayne fires a projectile at target unit, dealing physical damage and knocking the target back '''470''' units, also applies {{ai|Silver Bolts|Vayne}} once.
+|description2 = If the target is knocked into a wall, the target takes the same damage again and is stunned for {{ap|1.5}} seconds.
+|leveling  = {{lc|Physical damage}} {{ap|45|80|115|150|185}} {{as|(+ 50% bonus AD)}}
+|leveling2 = {{lc|Maximum physical damage}} {{ap|90|160|230|300|370}} {{as|(+ 100% bonus AD)}}
+|range = 550
+|cooldown = {{ap|20|18|16|14|12}}
+|cost = 90
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Condemn''' is a single targeted ability that fires a crossbow bolt at a target enemy unit, dealing [[physical damage]] on impact and [[knockback|knocking them back]] a set distance over 0.5 seconds.
+|damagetype=physical
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*The direction of Condemns knockback is calculated at the point the projectile hits the enemy champion. Condemn's knockback will follow the line Vayne and her target draw at this specific moment.
+*Using ''Condemn'' on champions that apply [[suppression]] such as {{ci|Warwick}} or {{ci|Malzahar}} is inconsistent. It has been seen on occasion to completely interrupt the suppression, however there have been instances where the enemy is simply moved but the suppression continues, even if he was moved out of the ability's range (e.g. {{ci|Warwick}} using {{ai|Infinite Duress|Warwick}} outside of melee range).
+*Unlike most abilities, ''Condemn'' uses a similar mechanic to [[basic attack]]s when conducting range calculations - it takes into account the hitboxes of the target unit. For most champions this means an additional range of about 100 units (more pronounced for larger units) and ensures that Vayne can always ''Condemn'' if she is capable of basic attacking a target.
+*''Condemn'' takes into account impassable player-created terrain such as {{cai|Cataclysm|Jarvan IV}} {{cai|Crystallize|Anivia}}, {{cai|Emperor's Divide|Azir}} and {{cai|Pillar of Ice|Trundle}}.
+|video=Vayne EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Final Hour
+|icon = FinalHour.jpg
+|description = {{sbc|Active:}} Vayne temporarily gains attack damage and enhances her other abilities. 
+|description2 = While ''Final Hour'' is active, {{ais|Night Hunter|Vayne}} movement speed increase is tripled, and using {{ai|Tumble|Vayne}} stealths Vayne for 1 second.
+|leveling = {{lc|Duration}} {{ap|8|10|12}}
+{{lc|Bonus attack damage}} {{ap|30|50|70}}
+|cooldown = {{ap|100|85|70}}
+|cost = 80
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Final Hour''' is a [[buff|self-buff]] ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Final Hour'' has no cast time and does not interrupt Vayne's previous orders.
+*Stealth is entered immediately upon beginning {{ais|Tumble|Vayne}} dash. Any action other than movement will bring Vayne out of stealth.
+*Vayne's animations and her autoattack projectiles change slightly while ''Final Hour'' is active.
+|video=Vayne RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Vayne]]
+[[de:Vayne]]
+[[es:Vayne]]
+[[fr:Vayne]]
+[[pl:Vayne]]
+[[pt-br:Vayne]]
+[[ru:Vayne]]
+[[zh:薇恩]]

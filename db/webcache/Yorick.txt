@@ -1,0 +1,202 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Unholy Covenant
+|icon = UnholyCovenant.jpg
+|description  = Yorick takes 5% less damage and his basic attacks deal 5% more damage for each of his active summons. All of Yorick's basic abilities summon a '''Ghoul''' and {{ai|Omen of Death|Yorick}} summons a '''Revenant''' (benefit from minion-enhancing auras).
+|description2  =
+{{sbc|Ghouls:}} Each Ghoul loses 20% of its max health each second, limiting its duration to 5 seconds. All ghouls take 50% less damage from multi-target abilities.
+Each has a special effect determined by the ability used to summon it.
+{{lc|Ghoul Health}} {{as|35% of ''Yorick's maximum health''}}
+{{lc|Attack Damage}} {{as|35% of ''Yorick's AD''}}
+{{lc|Armor / Magic Resist}} 10{{plus}}(2{{times}}''Yorick's level'')
+{{lc|Attack Speed}} {{ap|0.670}}
+{{lc|Move Speed}} {{pp|4|300|340|390|443|1|6|9|12}}
+}}
+|{{Ability2
+|targeting='''Unholy Covenant''' grants a self-buff while Yorick has active summons.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Ghouls count as allied minions and award gold if killed.
+* They lose 20% max health every second. Even if healed, they expire after 5 seconds.
+* Their attacks count as physical damage from Yorick.
+** They use Yorick's armor penetration and can trigger {{ii|The Black Cleaver}}.
+** They can make a maximum of 3 basic attacks before they expire.
+*  They will initially attack the target of the spell which summoned them, then prioritizing enemy champions, minions, and turrets, in that order.
+** They will pursue a champion until they die or lose sight of them.
+* They take 50% reduced damage from AoE spells.
+* Only one Ghoul of each type can exist simultaneously. Summoning a duplicate destroys the oldest.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Omen of War
+|icon = OmenofWar.jpg
+|description = {{sbc|Active:}} Yorick's next basic attack within 10 seconds will deal modified physical damage and summon a '''Spectral Ghoul'''.
+|description2 = {{sbc|Spectral Ghoul:}} Has higher attack damage than other '''Ghouls'''. Grants itself and Yorick a movement speed buff.
+|leveling = {{lc|Modified Physical Damage}} {{ap|30|60|90|120|150}} {{as|(+ 120% AD)}}
+|leveling2 = {{lc|Spectral Ghoul Attack Damage}} {{ap|8|16|24|32|40}} {{as|(+ 35% AD)}}
+{{lc|Movement Speed Increase}} {{ap|15|20|25|30|35}}%
+|cooldown = {{ap|9|8|7|6|5}}
+|cost = 40
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Omen of War''' is an [[on-hit]] effect for the next basic attack and summons a minion.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+* Different from most on-hit physical damage, the bonus damage from ''Omen of War'' won't apply [[life steal]].
+* A critical strike will deal damage based on {{as|120% of Yorick's AD}}, but does not affect the base damage of ''Omen of War''.
+* Will not trigger against structures.
+* {{Pending for test}} Relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested.
+|spellshield=Will block the damage and keep the ghoul from being summoned.
+|additional=
+* Will reset Yorick's attack timer.
+* Bug: Yorick's speed boost only lasts 4.5 seconds, not 5.
+|video=Yorick QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Omen of Pestilence
+|icon = OmenofPestilence.jpg
+|description = {{sbc|Active:}} Yorick summons a '''Decaying Ghoul''' that arrives with a violent explosion, dealing magic damage in a '''100'''-radius area and slowing enemies hit for 1.5 seconds.
+|description2 = {{sbc|Decaying Ghoul:}} Has a '''{{fd|62.5}}'''-radius aura that slows nearby enemies.
+|leveling = {{lc|Magic Damage}} {{ap|60|95|130|165|200}} {{as|(+ 100% AP)}}
+{{lc|Slow}} {{ap|20|25|30|35|40}}%
+|leveling2 = {{lc|Decaying Ghoul Slow Aura}} {{ap|10|12.5|15|17.5|20%}}
+|range = 600
+|cooldown = 12
+|cost = {{ap|55|60|65|70|75}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Omen of Pestilence''' is a [[Area_of_effect#Ground_targeted|ground-targeted area of effect]] and summons a minion.
+|damagetype=magical
+|spelleffects=area
+|onhiteffects=
+|liandry= 
+|spellshield=Will block the initial damage and the initial slow.
+|cc=Slow
+|cleansing=
+|additional=
+* Has no initial target but will prioritize an enemy champion it can see, otherwise attacking minions, and as a last resort structures.
+* Slowing auras are reapplied every {{ap|0.5}} seconds.
+|video=Yorick WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Omen of Famine
+|icon = OmenofFamine.jpg
+|description = {{sbc|Active:}} Yorick steals life from his target, dealing magic damage, healing himself for 40% of the damage dealt and summoning a '''Ravenous Ghoul''' behind them.
+|description2 = {{sbc|Ravenous Ghoul:}} Heals Yorick with each attack (halved against minions and monsters).
+|leveling = {{lc|Magic Damage}} {{ap|55|85|115|145|175}} {{as|(+ 100% Bonus AD)}}
+|leveling2 = {{lc|Ravenous Ghoul Heal On Attack}} {{as|35% of Yorick's AD}}
+|range = 550
+|cooldown = {{ap|10|9|8|7|6}}
+|cost = {{ap|55|60|65|70|75}}
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Omen of Famine''' is a single-target ability and summons a minion.
+|damagetype=magical
+|spelleffects=single
+|onhiteffects=
+|spellshield=Will block the damage and prevent the ghoul from being summoned.
+|additional=
+* The initial heal is calculated post-mitigation.
+* The on-attack heal is independent of any damage dealt.
+|video=Yorick EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Omen of Death
+|icon = OmenofDeath.jpg
+|description = {{sbc|Active:}} Yorick conjures a '''Revenant''' in the image of an allied champion. If that ally takes lethal damage before the ''Revenant dies'', the ''Revenant'' sacrifices itself to reanimate them and give them 10 seconds to enact vengeance.
+|description2 = {{sbc|{{tt|Revenant|It can be controlled by holding the Alt-Key and using the Right Mouse button or by reactivating this ability}}:}} A Revenant lasts 10 seconds. It has health and attack damage calculated from the target's totals.
+|leveling2 = {{lc|Revenant Health}} {{ap|50|75|100%}} {{as|of the ally's health}}
+{{lc|Attack Damage}} {{ap|45|60|75%}} {{as|of the ally's AD}}
+|range = 900
+|cooldown = {{ap|120|105|90}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Omen of Death''' can target a single allied champion.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Any other revive will trigger first because this revive is temporary.
+* This revive effect differs greatly from all other revive effects.
+** The ally has full health restored.
+** It puts the ally where the ''Revenant'' was. Possibly to inform them that the effect occurred and they have 10 seconds left to act.
+** There is no stasis or inactive period.
+** Items which lose stacks upon death will do so before the revive and not after. The loss of stacks only occurs once, as normal.
+* Is a pet yet counts as a champion for aura effects.
+* Will have the on-hit effects of the ally but not their auras, runes or masteries.
+* Bug: Has full AD from the ally's items, instead of a percentage.
+|video=Yorick RVideo
+}}
+}}
+
+
+{{Rework	
+|<ref>[http://na.leagueoflegends.com/board/showthread.php?p=39830942#39830942 Xelnath on Upcoming Rework]</ref><ref>[http://na.leagueoflegends.com/board/showthread.php?p=39831729#39831729 More Details on Upcoming Rework]</ref><ref>[http://na.leagueoflegends.com/board/showthread.php?p=39831775#39831775 Concerns on Yorick's New R]</ref>	
+|{{ci|Yorick}}
+ 	
+* '''Yorick''' will receive an entirely new kit. All abilities will be changed.
+ 
+*'''Expiration Date'''	
+** {{sbc|Innate:}} '''Yorick's''' magical family shovel revives one ghoul every 20 seconds. Ghouls have {{as|25% of his maximum health}} and {{as|10% of his total AD}}. '''Yorick's''' ghouls guard him by default, redirecting 10% of all damage '''Yorick''' takes to them. If '''Yorick''' commands more than 3 ghouls, they will slowly lose health over time, until only 3 ghouls remain.	
+** Ghouls with the lowest health lose 10% hp per second.	
+** {{ap|10|15|20%}} of all damage '''Yorick''' takes is shared or 5-10% per ghoul out.
+
+* '''Shovel Sweep'''	
+** {{sbc|Active:}} '''Yorick''' cleaves all enemies around him dealing {{ap|X|X|X|X|X}} {{as|(+ X% AD)}} physical damage. If any ghouls are alive when cast, they will also cleave in an area around them. If a champion or large jungle monster is slain within 2 seconds of being struck by this abilty, '''Yorick''' will instantly revive a ghoul.	
+** When you press ''Shovel Sweep'', ghouls will "''stick''" to the units they are attacking for another 2 seconds.
+ 	
+* '''Pestilent Ichor'''	
+** {{sbc|Active:}} '''Yorick''' lobs a glob of corpse rot at a location, {{ap|X|X|X|X|X}} {{as|(+ X% AD)}} physical damage at all enemies in the explosion and slows enemies struck by 20% for 1.5 seconds. If a ghoul is in the area of effect, they will become an explosive ghoul and rush at the nearest champion, exploding upon contact and dealing {{ap|X|X|X|X|X}} {{as|(+ X% AD)}} physical damage and slowing all nearby enemies.
+ 
+* '''Shovel 'n' Soul'''	
+** {{sbc|Active:}} '''Yorick''' flings a clump of magical dirt in a line, dealing {{ap|X|X|X|X|X}} {{as|(+ X% AD)}} physical damage to the first enemy hit. '''Yorick''' can pick up the clump of dirt to restore {{ap|X|X|X|X|X}} {{as|(+ X% AD)}} health. If a ghoul is protecting '''Yorick''', he will fling it instead, causing it to pass through enemy minions. The ghouls store 50% of all damage he deals. Reactivating this ability makes the ghoul return to '''Yorick''', healing him for all of the damage stored.
+ 
+* '''Embrace the Inevitable'''
+** {{sbc|Active:}} '''Yorick''' opens a grave in the earth, instantly summoning 5 ghouls from the earth at the target loction. You can click this ability again to command the army to attack or move towards a location.	
+** While "''Ghoul Army''" mode is active (''5 seconds''), the ghouls don't start losing hp.	
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]]
+*{{ai|Omen of Famine|Yorick}}
+**Cast range decreased to 500 from 550.
+**Cooldown changed to 8 seconds from {{ap|10|9|8|7|6}} seconds.
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Yorick]]
+[[de:Yorick]]
+[[es:Yorick]]
+[[fr:Yorick]]
+[[pl:Yorick]]
+[[pt-br:Yorick]]
+[[ru:Yorick]]
+[[zh:约里克]]

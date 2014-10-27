@@ -1,0 +1,154 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Pyromania
+|icon=Pyromania.png
+|description= After every 4 ability casts, Annie's next offensive ability will stun all enemies it damages for {{pp|3|1.25|1.5|1.75|1|6|11}} seconds.
+}}
+|{{Ability2
+|targeting='''Pyromania''' is a passive ability that triggers when Annie has cast 4 abilities. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=Will block the stun.
+|additional=
+* {{ai|Incinerate|Annie}} and {{ai|Summon: Tibbers|Annie}} will stun all enemies hit. 
+* {{ais|Molten Shield|Annie}} reflected damage and {{ci|Tibbers|Tibbers'}} damaging aura will not apply the stun.
+* The stun applies to the first ability that lands when the stun is available. If you cast {{ai|Disintegrate|Annie}} followed by {{ai|Incinerate|Annie}} while the stun is available and ''Disintegrate'' is in the air, the stun will apply to ''Incinerate''. If the target dies or the ability is blocked, that spell still counts as having landed and the stun will be consumed. 
+|video=Annie IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Disintegrate
+|icon=Disintegrate.png
+|description={{sbc|Active:}} Annie hurls a fireball at a target enemy unit, dealing magic damage on-hit.
+|description2=If ''Disintegrate'' kills the target, it refunds its mana cost and its cooldown is halved.
+|leveling={{lcaps|Magic damage|80|115|150|185|220|(+ 80% AP)}}
+|range=625
+|cooldown=4
+|cost={{ap|60|65|70|75|80}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Disintegrate''' is a single target ability. 
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+|video=Annie QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Incinerate
+|icon=Incinerate.png
+|description={{sbc|Active:}} Annie scorches all enemies in a '''50°''' conic area in front of her with fire, dealing magic damage.
+|leveling={{lcaps|Magic damage|70|115|160|205|250|(+ 85% AP)}}
+|range=625
+|cooldown=8
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Incinerate''' is a [[area of effect|conic area of effect]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Annie WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Molten Shield
+|icon=Molten Shield.png
+|description={{sbc|Active:}} For 5 seconds, Annie is surrounded by a shield of fire, increasing her armor and magic resistance and dealing magic damage to enemies each time they use a basic attack against her.
+|leveling={{lcap|Armor & Magic Resist|20|30|40|50|60}}
+{{lcaps|Magic Damage|20|30|40|50|60|(+ 20% AP)}}
+|cooldown=10
+|cost=20
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Molten Shield''' is a [[buff|defensive buff]] that reflects damage [[on-hit|on being hit]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Molten Shield'' does not reflect damage to towers. 
+* {{Pending for test}} Attacks that [[blind|miss]] against Annie will still reflect damage.
+|pet=
+|video=Annie EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Summon: Tibbers
+|icon=Summon: Tibbers.png
+|description ={{sbc|Active:}} Annie summons {{ci|Tibbers}} to the target location in a burst of flame, dealing magic damage to enemies within '''290'''-range. '''Tibbers''' remains on the field for up to 45 seconds, and Annie can control his movement and attacks. 
+
+|description2 = {{ci|Tibbers}} deals magical damage with his attacks, and is also surrounded by a flaming aura that deals 35 {{as|(+ 20% AP)}} magic damage every second to enemies within '''200'''-range of himself.
+|leveling  = {{lc|{{ai|Summon: Tibbers|Annie|Summon}} magic damage}} {{ap|175|300|425}} {{as|(+ 80% AP)}}
+{{lc|Total summon magic damage}} {{ap|210|335|460}} {{as|(+ 100% AP)}}
+|range=600
+|cooldown={{ap|120|100|80}}
+|cost={{ap|100}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Summon: Tibbers''' is a [[area of effect|ground-targeted area of effect]] that summons {{ci|Tibbers}}.
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* The cooldown begins when {{ci|Tibbers}} is summoned. 
+|video=Annie RVideo
+}}
+}}
+
+==Pets==
+{{Ability pet
+|name=Tibbers
+|render=Tibbers.png
+|icon=TibbersSquare.png
+|description='''Tibbers''' is a [[Pet#Minion|controllable minion]] that passively deals damage to nearby units. 
+* Basic attacks do not apply [[spell effects]] or [[on-hit effects]].
+* {{Pending for test}} {{ai|Counter Strike|Jax}}, {{ai|Riposte|Fiora}}, {{ai|Aegis Protection|Pantheon}} and [[Blind]]. <!-- All of them above only mitigate physical damage -->
+* Classified as a [[pet#minion|minion]] for targeting purposes. 
+* Benefits from {{ii|Captain}} and {{ii|Banner of Command}} (basic attacks only).
+|health={{ap|1200|2100|3000}}
+|damage={{ap|80|105|130}}
+|damagetype=Magic
+|range={{tt|125|Melee}}
+|armor={{ap|30|50|70}}
+|mr={{ap|30|50|70}}
+|attackspeed={{fd|0.625}}
+|movespeed=350
+|gold=50 gold
+|exp=0 exp
+}}{{clear}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Annie]]
+[[de:Annie]]
+[[es:Annie]]
+[[fr:Annie]]
+[[pl:Annie]]
+[[pt-br:Annie]]
+[[ru:Annie]]
+[[zh:安妮]]

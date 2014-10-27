@@ -1,0 +1,133 @@
+{{C-top}} 
+{{champion info|Cho'Gath}} {{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Carnivore
+|icon = Carnivore.jpg
+|description = Whenever '''Cho'Gath''' kills a unit, he recovers {{as|17{{plus}}(3{{times}} ''Cho'Gath's level'') health}} and {{as|{{fd|3.25}}{{plus}}({{fd|0.25}}{{times}} ''Cho'Gath's level'') mana}}.
+}}
+|{{Ability2
+|targeting='''Carnivore''' is a [[self-targeted]] [[heal]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=*''Carnivore'' will also trigger when destroying enemy structures.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Rupture
+|icon = Rupture.jpg
+|description = {{sbc|Active:}} '''Cho'Gath''' stamps the ground, causing a '''175'''-radius target location to tremble for {{fd|0.625}} seconds. Afterwards, spikes erupt from it, dealing magic damage to and knocking up all enemies hit for 1 second. Targets hit are slowed by 60% for {{fd|1.5}} seconds after landing.
+|leveling = {{lc|Magic damage}} {{ap|80|135|190|245|305}} {{as|(+ 100% AP)}}
+|range = 950
+|cooldown = 9
+|cost = 90
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Rupture''' is a [[area of effect|ground targeted area of effect]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability
+|additional=
+*There is a brief casting time that must be complete in order for ''Rupture'' to begin. Unlike [[channel]]s, casting times can only be interrupted by the death of the caster.
+*The animation is visible in brushes and in the [[Fog of War]].
+* ''Rupture'' grants [[sight]] while its animation is visible.
+|video=Cho'Gath QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Feral Scream
+|icon = Feral Scream.jpg
+|description = {{sbc|Active:}} '''Cho'Gath''' roars, dealing magic damage and silencing all enemies in a '''60º''' cone area in front of him.
+|leveling = {{lc|Magic damage}} {{ap|75|125|175|225|275}} {{as|(+ 70% AP)}}
+{{lc|Silence}} {{ap|1.5|1.75|2|2.25|2.5}}
+|range = 700
+|cooldown = 13
+|cost = {{ap|70|80|90|100|110}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Feral Scream''' is a [[area of effect|conic area of effect]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability.
+|video=Cho'Gath WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Vorpal Spikes
+|icon = Vorpal Spikes.jpg
+|description = {{sbc|Toggle &ndash; On:}} Whenever '''Cho'Gath''' performs a basic attack, he will launch spikes dealing magic damage to enemies in a line in front of him.
+|leveling = {{lc|Magic damage}} {{ap|20|35|50|65|80}} {{as|(+ 30% AP)}}
+|range = 500
+}}
+|{{Ability2
+|targeting='''Vorpal Spikes''' adds an [[On-attack effects|on-attack effect]] to Cho'Gath's attacks. The effect causes Cho'Gath's attacks to launch a [[skill shot|linear, pass-through skill shot]] in the direction of his target.
+|damagetype=magical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=do not block the ability.
+|additional=
+*''Vorpal Spikes'' has no cast time and does not interrupt Cho'Gath's previous orders.
+*{{ii|Liandry's Torment}}'s passive applies to every target hit by spikes.
+*Toggled abilities do not count as ability activations for the purposes of effects such as [[named item effect#Spellblade|Spellblade]] or {{ai|Force Pulse|Kassadin}}.
+*The width of the projectile scales with Cho'Gath's size, and will also factor in external size modifiers such as {{ai|Wild Growth|Lulu}} and {{bi|Storm Shield}}.
+|video=Cho'Gath EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Feast
+|icon = Feast.jpg
+|description  = {{sbc|Active:}} '''Cho'Gath''' devours target enemy, dealing true damage (1000 {{as|(+ 70% AP)}} true damage against minions and monsters).
+|description2 = If ''Feast'' kills the target, Cho'Gath grows larger and gains extra health and basic attack range, stacking up to six times. Cho'Gath loses half of these stacks, rounded up whenever he dies. (Lost stacks being rounded up, thus, kept stacks rounded down.)
+|leveling  = {{lc|True Damage}} {{ap|300|475|650}} {{as|(+ 70% AP)}}
+|leveling2 =
+{{lc|Health per stack}} {{ap|90|120|150}}
+{{lc|Max Health Increase}} {{ap|540|720|900}}
+{{lc|Attack Range per stack}} {{ap|3.8|6.1|8.3}}
+{{lc|Total Bonus Range}} {{ap|23|37|50}}
+|range = 175
+|cooldown = 60
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Feast''' is a single target ability.
+|damagetype=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*The health granted by active ''Feast'' stacks will increase as Cho'Gath ranks the ability.
+*Enemies who possess a current health that is lower than the total damage that ''Feast'' will deal are indicated by a ring of glowing red teeth underneath them.
+|video=Cho'Gath RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Cho'Gath]]
+[[de:Cho'Gath]]
+[[es:Cho'Gath]]
+[[fr:Cho'Gath]]
+[[pl:Cho'Gath]]
+[[pt-br:Cho'Gath]]
+[[ru:Cho'Gath]]
+[[zh:科'加斯]]

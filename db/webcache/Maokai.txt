@@ -1,0 +1,157 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Sap Magic
+|icon = SapMagic.jpg
+|description = Each time a spell is cast near Maokai he draws energy from it, gaining a charge of [[File:SapMagic.jpg|20px|link=]] '''Magical Sap'''. When Maokai has 5 charges his next basic attack heals him for {{as|7% of his maximum health}}.
+}}
+|{{Ability2
+|targeting ='''Sap Magic''' is an [[on-hit effect]].
+|damagetype =
+|spelleffects =
+|onhiteffects = The triggering attack will apply on-hit effects and can critically strike as normal.
+* ''Sap Magic'' is not consumed and does not heal Maokai when the triggering attack is dodged by {{ai|Counter Strike|Jax|Counter Strike}} or misses because of a [[blind]] effect.
+* ''Sap Magic'' is not affected by {{ai|Riposte|Fiora|Riposte}} or {{ai|Aegis Protection|Pantheon|Aegis Protection}}, although the triggering Attack will still be negated.
+* ''Sap Magic's'' on-hit effect will not be consumed if Maokai is at full health.
+* ''Sap Magic'' will not trigger on attacks against structures. 
+|spellshield  =
+|additional =
+* Maokai can gain stacks from enemy champions not visible to him.
+* [[Ability|Barrage abilities]], such as {{ai|Broken Wings|Riven}} and {{ai|Spirit Rush|Ahri}}, only grant one stack.
+|video=Maokai IVideo
+}}
+}}
+{{Ability frame|Q|
+{{Ability info
+|name = Arcane Smash
+|icon = ArcaneSmash.jpg
+|description  = {{sbc|Active:}} Maokai releases an arcane shockwave. Enemies within '''100''' units are knocked back and all affected enemies take magic damage and are slowed for {{fd|1.5}} seconds. 
+|leveling = 
+{{lcaps|Magic Damage|70|115|160|205|250|(+40% AP)}}
+{{lcap|Slow|20|27|34|41|48%}}
+|range    = 600
+|cooldown = 6
+|cost     = 45
+|costtype = mana
+}}
+|{{Ability2
+|targeting = '''Arcane Smash''' is a [[skillshot|linear, pass-through skill shot]] that also hits in a [[area of effect|point-blank area of effect]].
+|damagetype   = magic
+|projectile   = true
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block the ability.
+|additional =
+|video=Maokai QVideo
+}}
+}}
+{{Ability frame|W|
+{{Ability info
+|name = Twisted Advance
+|icon = TwistedAdvance.jpg
+|description  = {{sbc|Active:}} Maokai transforms into a {{tt|cloud of arcane energy|Untargetable while moving to the target}} that quickly travels to a target enemy, deals magic damage (capped at 300 against minions and monsters) and roots it.
+|leveling =
+{{lcapss|Magic Damage|9|10|11|12|13%|(+3% per 100 AP)|of target's maximum health}}
+{{lcap|Root Duration|1|1.25|1.5|1.75|2}}
+|range     = 525
+|cooldown  = {{ap|13|12|11|10|9}}
+|cost      = 75
+|costtype  = mana
+}}
+|{{Ability2
+|targeting = '''Twisted Advance''' is a [[dash|targeted dash]].
+|damagetype   = magic
+|spelleffects = single
+|onhiteffects =
+|spellshield  = Will block the ability.
+|additional =
+* ''Twisted Advance'' will cancel mid-dash if the target dies or becomes untargetable. 
+* Maokai will continue to chase his target even if he loses sight of them.
+** There is an occasional bug where losing sight of his target causes the animation to freeze mid-air. Despite how it looks, Maokai will continue to chase his target and Maokai will "blink" to where he should be once he arrives at his target.
+* Maokai will follow any dash or blink ability, with the exception of {{ai|Paranoia|Nocturne}}, {{ai|Gate|Twisted Fate}}, {{ai|Stand United|Shen}}, {{si|Teleport}}, and {{si|Recall}}.
+* Becoming untargetable will prevent damage from non-targeted spells, such as {{ai|Requiem|Karthus}}, as well as dropping aggro from turrets and AI units. 
+** Maokai will safely pass through {{ai|Flame Chompers!|Jinx}}
+* Possible Bug: Maokai is able to interact with {{ai|Dark Passage|Thresh}} as he passes over it. His target will become rooted when Maokai arrives at {{cis|Thresh}} location, allowing him to "safely" root people (i.e. root without jumping in).
+|video=Maokai WVideo
+}}
+}}
+{{Ability frame|E|
+{{Ability info
+|name = Sapling Toss
+|icon = SaplingToss.jpg
+|description  = {{sbc|Active:}} Maokai flings a sapling that deals magic damage on impact.
+|description2 = The sapling wards the nearby area, and will chase enemies that approach, exploding to deal magic damage and slowing enemies hit by 50% for 1 second.
+|description3 = Saplings last for 35 seconds.
+|leveling  = 
+{{lcaps|Impact Magic Damage|40|60|80|100|120|(+40% AP)}}
+|leveling2 = 
+{{lcaps|Explosion Magic Damage|80|120|160|200|240|(+60% AP)}}
+{{lcaps|Maximum Magic Damage|120|180|240|300|360|(+100% AP)}}
+|range     = 1100
+|cooldown  = 12
+|cost      = {{ap|60|70|80|90|100}}
+|costtype  = mana
+}}
+|{{Ability2
+|targeting = '''Sapling Toss''' is a [[area of effect|ground-targeted area of effect]] that summons a non-targetable [[Pet#Minions|minion]]. 
+|damagetype   = magic
+|projectile   = true
+|name         = An airborne sapling
+|spelleffects = area
+|onhiteffects =
+|spellshield  = Will block the impact damage ''or'' the detonation damage.
+|additional =
+* After a one second delay the sapling will chase the first champion to approach within {{ra|250}} for up to {{fd|2.5}} seconds at 450 + Maokai's bonus movement speed.  
+* The secondary explosion slows units by 50% for 1 second.
+* Initial impact and secondary explosion area are both {{ra|175}}.
+* Ward sight range is {{ra|350}}.
+* ''Sapling Toss'' grants vision of the target area even while the sapling in flight. 
+* Unlike {{cai|Volatile Spiderling|Elise}} or {{cai|Omen of Pestilence|Yorick|Ghouls}}, ''Saplings'' will continue to chase their target even if they lose sight. However, ''Saplings'' do not prioritize champions and will not change focus after they have selected a target. 
+* ''Saplings'' are untargetable and invulnerable, but will appear on the map as a minion. 
+|video=Maokai EVideo
+}}
+}}
+{{Ability frame|R|
+{{Ability info
+|name = Vengeful Maelstrom
+|icon = VengefulMaelstrom.jpg
+|description  = {{sbc|Toggle:}} Maokai creates a magical vortex around himself, protecting him and allied champions by reducing damage from non-turret sources by 20% for a maximum of 10 seconds.
+|description2 = When the effect ends the absorbed energy is released, dealing magic damage to enemies within the vortex's range, plus bonus magic damage based on the damage stored by the damage reduction effect.
+|leveling2 = 
+{{lcaps|Magic Damage|100|150|200|(+50% AP)}} (+2 per damage absorbed)
+{{lcap|Max Stored Damage|100|150|200}}
+{{lcaps|Max Total Damage|200|300|400|(+50% AP)}}
+|range     = 475
+|cooldown  = {{ap|40|30|20}}
+|cost      = 40
+|costtype  = mana {{plus}}{{tt|30 per second|Can reach up to 300 Mana. The maximum cost of Vengeful Maelstrom is 340 Mana}}
+}}
+|{{Ability2
+|targeting = '''Vengeful Maelstrom''' is a [[area of effect|self-targeted area of effect]].
+|damagetype = magic
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = Will block ''Vengeful Maelstrom's'' damage.
+|additional =
+* ''Vengeful Maelstrom'' will toggle-off automatically if Maokai cannot afford the mana cost or dies.
+* The damage reduction is calculated after armor and magic resistance.
+* The damage reduction does '''not''' affect [[true damage]].
+|video=Maokai RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Maokai]]
+[[de:Maokai]]
+[[es:Maokai]]
+[[fr:Maokai]]
+[[pl:Maokai]]
+[[pt-br:Maokai]]
+[[ru:Maokai]]
+[[zh:茂凯]]

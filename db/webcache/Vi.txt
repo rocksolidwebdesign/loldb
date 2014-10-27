@@ -1,0 +1,157 @@
+{{C-top}}
+{{champion info|Vi}}{{C-ref}}
+
+==Abilities==
+{{Ability frame|I|
+{{Ability info
+|name=Blast Shield 
+|icon=Blast Shield.png
+|description=When Vi's activated abilities damage an enemy, she gains a shield which absorbs damage equal to {{as|10% of her maximum health}} for 3 seconds.
+|customlabel={{Static cooldown}}
+|custominfo={{pp|3|18|13|8|1|7|12}}
+}}
+|{{Ability2
+|targeting='''Blast Shield''' is a [[buff|self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Blast Shield'' does not activate when {{ai|Denting Blows|Vi}} is triggered.
+|video=Vi IVideo
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Vault Breaker
+|icon=Vault Breaker.png
+|description= {{sbc|First Cast:}} Vi begins channeling, increasing the damage and range of ''Vault Breaker'' over {{fd|1.25}} seconds. Vi can still move while channeling, but she cannot attack or use her other abilities, and her movement speed is slowed by 15%.
+|description2= {{sbc|Second Cast:}} Vi dashes towards the cursor's location, dealing physical damage and applying {{ai|Denting Blows|Vi}} to all enemies hit (75% damage against minions and monsters). 
+<br><br>Vi stops upon colliding with an enemy champion, knocking it back.
+|leveling2=
+{{lcaps|Minimum Physical Damage|50|75|100|125|150|(+ 80% bonus AD)}}
+{{lcaps|Maximum Physical Damage|100|150|200|250|300|(+ 160% bonus AD)}}
+{{lc|Dash Range}} 250 - 725
+{{lc|Maximum AoE Range}} 900 <ref>[http://na.leagueoflegends.com/board/showthread.php?p=32818045#post32818045 Your Vi impressions (after 5 days)]</ref>
+|cooldown={{ap|18|15.5|13|10.5|8}}
+|cost={{ap|50|60|70|80|90}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Vault Breaker''' is a [[channel|channeled]] linear [[dash]].
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage but will not prevent the application of {{ai|Denting Blows|Vi}}.
+|additional=
+* Although Vi cannot use her own abilities while charging, she can still use [[summoner spells]] and [[item]] actives.
+* If ''Vault Breaker'' is charged for at least 4 seconds, the channel will cancel and will go on full cooldown. Unlike similar channeled spells such as {{cai|Piercing Arrow|Varus}}, Vi is not refunded mana for cancelled attacks.
+** However, if the channel of ''Vault Breaker'' is interrupted in some way (such as with hard [[crowd control]]), ''Vault Breaker'' instead goes on a short 3 second cooldown and ''does'' refund half of the mana cost to Vi.
+* Non-champion enemies hit by the dash are pulled in towards Vi instead of being knocked away.
+* The initial casting period of the spell counts as a slow, so any form of slow reduction (such as the Swiftness mastery) can lessen the effect of the slow.
+|video=Vi QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Denting Blows
+|icon=Denting Blows.png
+|description={{sbc|Passive:}} Every third attack on the same target deals additional physical damage equal to a percentage of the target's maximum health (capped at 300 against minions and monsters), reduces the target's armor by 20%, and grants Vi bonus attack speed for 4 seconds. 
+|leveling=
+{{lcapss|Bonus Physical Damage|4|5.5|7|8.5|10%|(+ 1% per 35 bonus AD)|of target's max health}}
+{{lcap|Attack Speed Bonus|30|35|40|45|50%}}
+}}
+|{{Ability2
+|targeting='''Denting Blows''' is an [[on-hit effect]].
+|damagetype=physical
+|spelleffects=false
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+** Unlike most forms of on-hit physical damage, ''Denting Blows''' bonus damage does not apply life steal. This is a special case, perhaps to prevent abuse or for flavor. The triggering attack will still apply life steal.
+** ''Denting Blows''' bonus damage does not affect structures.
+** ''Denting Blows'' will still apply if the attacks are {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}}.
+** ''Denting Blows'' will not be applied if the attacks are {{ai|Counter Strike|Jax|dodged}} or [[blind|miss]].
+** Critical strikes do not interact with ''Denting Blows''' bonus damage.
+|spellshield=will not block the ability.
+|additional=
+* Unlike the similar ability {{cai|Silver Bolts|Vayne}}, attacking or using abilities on different targets will not remove ''Denting Blows''' stacking debuff.
+* ''Denting Blows''' attack speed [[buff]] will not stack with itself with repeated applications, nor will it stack from applying it on multiple targets in quick succession.
+|video=Vi WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Excessive Force
+|icon=Excessive Force.png
+|description={{sbc|Passive:}} Vi stores a charge of ''Excessive Force'' every few seconds, up to a maximum of 2 stored at once. This reload time is affected by cooldown reduction.
+|description2= {{sbc|Active:}} Vi gains 50 bonus attack range (''175 total range''), and causes her next basic attack to deal bonus physical damage and to hit all enemies in a cone behind the target.
+
+|leveling=
+{{lcap|Charge Reload Time|14|12.5|11|9.5|8}}
+|leveling2=
+{{lcapss|Total Physical Damage|5|20|35|50|65|(+ 115% AD)|(+ 70% AP)}}
+|range=600
+|cooldown=1
+|cost=60
+|costtype=Mana + 1 charge
+}}
+|{{Ability2
+|targeting='''Excessive Force''' is a [[area of effect|conic area of effect]] [[on-hit effect]].
+|damagetype=physical
+|spelleffects=area, false
+|spelleffects-aoe=The area of effect component
+|spelleffects-false=The on-hit component
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+** As with most on-hit physical damage, the bonus damage from ''Excessive Force'' will apply [[life steal]].
+** Critical strikes will not interact with ''Excessive Force's''  bonus damage.
+** ''Excessive Force's'' bonus damage will affect structures only if they are the main target - the area of effect component has no effect on them.
+** ''Excessive Force's'' damage will be mitigated if the attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or {{ai|Aegis Protection|Pantheon|blocked}} or if Vi is [[blind]]ed.
+|spellshield=will block both the on-hit effect and the area damage component.
+|additional=
+* ''Excessive Force'' has no cast time and does not interrupt Vi's previous orders.
+* ''Excessive Force'' resets Vi's attack timer on cast.
+* ''Excessive Force'' will only apply one stack of {{ai|Denting Blows|Vi}} to the main target. It will not apply any to targets hit by the area of effect damage.
+|video=Vi EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Assault and Battery
+|icon=Assault and Battery.png
+|description={{sbc|Active:}} Vi targets an enemy champion and chases it down. She performs an uppercut upon reaching it, dealing physical damage and knocking it up for {{fd|1.25}} seconds.
+|description2= While charging, Vi is immune to crowd control and will knock aside enemies in her way, dealing 75% damage to them.
+|leveling=
+{{lcaps|Physical Damage|200|325|450|(+ 140% bonus AD)}}
+|leveling2=
+{{lcaps|Physical Damage to Secondary Targets|150|243.75|337.5|(+105% bonus AD)}}
+|range=800 <ref>[http://na.leagueoflegends.com/board/showthread.php?p=34733978#post34733978 I'm RiotGypsy. AMAA]</ref>
+|cooldown={{ap|150|115|80}}
+|cost={{ap|100|125|150}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Assault and Battery''' is a single targeted [[dash]].
+|damagetype=physical
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Vi RVideo
+}}
+}}
+
+==References==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Vi]]
+[[de:Vi]]
+[[es:Vi]]
+[[fr:Vi]]
+[[pl:Vi]]
+[[pt-br:Vi]]
+[[ru:Vi]]
+[[zh:蔚]]

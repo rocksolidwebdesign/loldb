@@ -1,0 +1,170 @@
+{{C-top}}
+{{champion info|Thresh}}{{C-ref}}
+
+== Abilities ==
+* {{cis|Thresh}} basic attacks do not utilize projectiles, meaning they will not be blocked by {{ai|Wind Wall|Yasuo}} or {{ai|Unbreakable|Braum}}. His basic attack wind up is only reduced by {{fd|0.25%}} per 1% attack speed, rather than the standard 1% <ref>[http://www.reddit.com/r/leagueoflegends/comments/1phus8/313_patch_notes_english/cd2h4ow Zenon on 3.13 Thresh changes]</ref>. 
+{{Ability frame|I|
+{{Ability info
+|name=Damnation
+|icon=Damnation.png
+|description= Thresh does not gain armor per level. Instead, Thresh collects the souls of dead enemies by approaching them or by placing {{ais|Dark Passage|Thresh}} lantern nearby. Each soul permanently grants {{fd|0.75}} armor and ability power. Champions and large minions and monsters always drop a soul. Small minions and monsters only sometimes drop a soul.
+|description2= A soul will only drop if the enemy unit dies within '''1900'''-range of Thresh. Souls are visible to allies, and only become visible to enemies if the enemy team has vision of Thresh. Souls disappear if not picked up after 8 seconds.
+}}
+|{{Ability2
+|targeting='''Damnation''' is a [[passive]] ability that grants Thresh bonus [[armor]] and [[ability power]].
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* At level 18, it takes {{tt|67|(67 x .75) + 12 is 62.25}} souls (''roughly four per level'') to surpass {{ci|Orianna}}'s 62 armor, the lowest innate [[List of champions%27_armor|champion armor]]. It takes {{tt|140|(140 x .75) + 12 is 117}} souls (''roughly eight per level'') to surpass {{ci|Taric}}'s {{ai|Shatter|Taric}}-enhanced {{fd|116.6}} armor, the highest armor possible without the use of [[item]]s, [[rune]]s, or [[mastery|masteries]].
+* On [[Summoner's Rift]], the drop rate for souls from small minions is 33%. However, the probability adjusts dynamically. If you are above or below your expected quota of soul drops from small minions, the probability lowers or rises by a small amount until you are back at your quota of drops. It is worth stressing that this only takes into account souls dropped, and not souls collected.
+* At 255 souls, Thresh gains a new buff, [[File:Damnation.png|20px|link=]] '''Soul Gluttony'''. ''Soul Gluttony'' states that he has gained 255 souls as well as how much ability power and armor that is worth. The ''Damnation'' buff disappears, and starts again at 1 from your next soul. This will occur each time Thresh obtains 255 souls, with ''Soul Gluttony'' updating each time (''e.g. 255, 510, 765, and so on'').
+* The number of souls caps at 999,999, at which point Thresh will have 749,999 bonus armor and ability power.
+** This amount of armor grants Thresh {{fd|99.99%}} damage reduction.
+** Even with the 35% armor penetration from {{ii|Last Whisper}}, this amount of armor grants {{fd|99.98%}} damage reduction.
+* ''Damnation'' features an [[easter egg]]: {{ci|Nunu}} will drop 2 souls, his own and {{ai|Consume|Nunu|Willump's}}. 
+|video=Thresh IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Death Sentence
+|icon=Death Sentence.png
+|description={{sbc|Active:}} After a {{fd|0.5}} second wind-up, Thresh throws out his scythe in a line and forms a tether with the first enemy hit, dealing magic damage and [[stun]]ning it for {{fd|1.5}} seconds. Upon hitting an enemy, ''Death Sentence's'' current cooldown is reduced by 3 seconds.
+|description2=  While the tether persists, Thresh cannot attack and he will periodically tug on the tether, each time [[pull]]ing the target a short distance toward himself. After {{fd|0.5}} seconds, or instantly if he hooks a minion or monster, Thresh can reactivate the ability to use {{ai|Death Leap|Thresh}}.
+|leveling={{lcaps|Magic Damage|80|120|160|200|240|(+50% AP)}}
+|range=1100
+|cooldown={{ap|20|18|16|14|12}}
+|cost=80
+|costtype=mana
+}}
+{{Ability info
+|name=Death Leap
+|icon=Death Leap.png
+|description={{sbc|Active:}} Thresh pulls himself to the bound enemy. This removes the stun but allows Thresh to attack again. Thresh loses the ability to activate ''Death Leap'' when the tether breaks.
+}}
+|{{Ability2
+|targeting='''Death Sentence''' is a [[skill shot|linear, collision skill shot]] that can be reactivated, '''Death Leap''', to [[dash]] onto the affected unit. 
+|damagetype= magic
+|name={{ai|Death Sentence|Thresh}}
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability and prevent the tether from forming.
+|additional=
+*''Death Sentence'' is classified as a stun rather than a pull. Stuns prevent the target from moving, declaring attacks or casting abilities, but do not prevent summoner spells being cast (excluding {{si|Flash}} and {{si|Teleport}}). 
+* The duration of the stun is reduced by [[Named item effect#Tenacity|tenacity]]. However, the tether remains for the full duration and Thresh may still dash onto his target. If the stun is ''removed'', however, such as with [[Named item effect#Quicksilver|Quicksilver]], {{ii|Mikael's Crucible}}, {{si|Cleanse}} or certain champion abilities, Thresh will be prevented from casting ''Death Leap''.
+* The stun will be ignored by targets with [[Crowd control#Preventing|crowd control immunity]], such as {{ai|Black Shield|Morgana}}. However, the tether is still formed and Thresh can still [[dash]] to his target.
+* ''Death Sentence'' is one of only two tethered abilities in the game that does not have a maximum leash range, the other being {{ai|Hyper-Kinetic Position Reverser|Urgot}}.
+* The tether is not broken if the target becomes untargetable, such as {{ai|Playful|Fizz}} or {{ai|Force of Will|Syndra}}.
+* Unlike the behaviour of most other skillshots in the game, Thresh will not face the direction he is throwing ''Death Sentence'' during the casting animation.
+|video=Thresh QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Dark Passage
+|icon=Dark Passage.png
+|description={{sbc|Active:}} Thresh throws his lantern to the target location where it remains for up to 6 seconds. For the next 6 seconds, the first ally to come near the lantern (''even while Thresh is holding it'') gains a shield that absorbs damage for up to 4 seconds. 
+|description2= If an ally right-clicks the lantern, they will pick it up and will be [[pull]]ed to Thresh's location. If Thresh moves more than '''1500'''-units away, the lantern will return to him. Allies can only receive the shield once per cast. 
+|leveling={{lcaps|Shield Amount|60|100|140|180|220|(+40% AP)}}
+|range=950
+|cooldown={{ap|22|20.5|19|17.5|16}}
+|cost={{ap|50|55|60|65|70}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Dark Passage''' is a [[area of effect|ground-target, persistent area of effect]].
+|projectile=true
+|spelleffects=hide
+|onhiteffects=
+|spellshield=
+|additional=
+* The lantern creates a small area of impassible terrain while on the field. Enemies in the area when the lantern is summoned will be ''nudged'' to the nearest available space. This is not classified as crowd control (''particularly, it will not interrupt channelled abilities''). 
+* The lantern's aura radius is ~150 units. This is also the range on the lantern's ability to pick up souls. 
+* The lantern's pick-up radius is not much larger than the model-size of the lantern. However, it is possible to pick-up the lantern through small walls so long as you are within that radius.
+* The lantern provides vision in a small area for the entire duration.
+* Thresh cannot click on the lantern himself but he will be shielded if he walks near it.
+* The lantern can be targeted by {{si|Teleport}} and allied-targeted dashes. 
+* When the lantern is thrown a golden circle is shown displaying the maximum leash range of it. 
+* Thresh can break the leash range returning the lantern to him to instantly shield himself, if he has not been shielded by the ability already.
+* An ally being carried by ''Dark Passage'' will be taken to Thresh's current location, not Thresh's location when the ally grabbed the lantern. 
+|video=Thresh WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Flay
+|icon=Flay.png
+|description={{sbc|Passive:}} Thresh's basic attacks deal bonus magic damage on each hit. This value is equal to the total number of {{ai|Damnation|Thresh|Souls}} collected, plus a percentage of his attack damage based on the amount of time since his last attack.
+|description2={{sbc|Active:}} Thresh sweeps his chain in a broad line towards a target direction. Enemies hit take magic damage, are knocked in the same direction as the chains, and are slowed afterwards for {{fd|1}} second. Cast forward to push; cast backward to pull. 
+|leveling={{lc|Magic Damage}} {{ai|Damnation|Thresh|Souls}} + {{as|up to {{ap|80|110|140|170|200%}} AD}}
+|leveling2={{lcaps|Active Magic Damage|65|95|125|155|185|(+40% AP)}}
+{{lcap|Slow Amount|20|25|30|35|40%}}
+|range=400 (''800 total'')
+|cooldown=9
+|cost={{ap|60|65|70|75|80}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting= '''Flay's''' ''passive'' is an [[On-hit_effect#Non-Physical_Damage|non-physical]] [[on-hit effect]].
+<br>'''Flay's''' ''active'' is a [[Area_of_effect#Point_blank|point blank]], [[Area_of_effect#Line|line area of effect]]. The direction of knockback is determined by the direction of the line. 
+|damagetype=magical
+|projectile=true
+|spelleffects=Area
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+* {{Pending for test}} '''Flay's''' ''passive'' relationship with {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] has yet to be tested, both with regards to dealing bonus damage and resetting the charge. 
+** The bonus damage does not affect structures or wards, nor will those attacks reset the charge.
+|spellshield=Will block the active's damage and knock-back.
+|additional=
+* Despite its tooltip, the passive bonus damage is based on the amount of time since Thresh's ''last hit'', not his ''last attack''. As the bonus damage does not work against wards or structures, the bonus damage will not reset and will continue to accumulate even while attacking.
+* {{ii|Runaan's Hurricane}} will apply the passive damage to each enemy hit. However, when Thresh strikes one of the enemies the time since his last attack is reset and the other two targets will take only the minimum damage. 
+* When the passive is fully charged the icon of the buff becomes red, Thresh's scythe will glow green and there is a sound effect.
+|video=Thresh EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=The Box
+|icon=The Box.png
+|description={{sbc|Active:}} After a {{fd|0.75}} second delay, Thresh summons 5 spectral walls around him that last up to 5 seconds. Enemy champions that touch a wall take magic damage and are [[slow]]ed by 99% for 2 seconds, but break the wall. Once one wall is broken, the remaining walls deal no damage and apply half the slow duration. An enemy cannot be affected by multiple walls simultaneously.
+|leveling= {{lcaps|Magic Damage|250|400|550|(+100% AP)}}
+|range=450
+|cooldown={{ap|150|140|130}}
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''The Box''' is a [[Area_of_effect#Point_blank|point black area of effect]] that creates five walls in a pentagon shape. 
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the damage and slow, and that section of the wall will shatter.  
+|additional=
+* Movement speed cannot be reduced below 110, and slows that would reduce it below 220 are modified. To put it another way: a reduction of 99% will not reduce you to 3 movement speed, but rather it will reduce you closer to 110 than a weaker slow would.
+** Without slow resist from {{mi|Relentless}} or {{ii|Boots of Swiftness}}, your movement speed will be between 110 and 120.
+|video=Thresh RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]]
+* {{ai|Damnation|Thresh}}
+** Each soul is now worth 2 stacks of ''Damnation''.
+* {{ai|The Box|Thresh}}
+** Cooldown is {{ap|120|110|100}} instead of {{ap|150|140|130}}.
+
+==References==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Thresh]]
+[[de:Thresh]]
+[[es:Thresh]]
+[[fr:Thresh]]
+[[pl:Thresh]]
+[[pt-br:Thresh]]

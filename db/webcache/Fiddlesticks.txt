@@ -1,0 +1,136 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Dread
+|icon = Dread.jpg
+|description = Enemy units within 800 range have their [[magic resistance]] reduced by 10 when Fiddlesticks is visible to them.
+}}
+|{{Ability2
+|targeting=''Dread'' is an [[aura]]-based [[debuff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Terrify
+|icon = Terrify.jpg
+|description = {{sbc|Active:}} Fiddlesticks terrifies the target enemy unit, causing it to turn and flee for a short duration. 
+|leveling = {{lc|Duration}} {{ap|1.25|1.5|1.75|2|2.25}}
+|range = 575
+|cooldown = {{ap|15|14|13|12|11}}
+|cost = 65
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Terrify''' is a single-targeted ability.
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=Will block ''Terrify''.
+|additional=
+|video=Fiddlesticks QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Drain
+|icon = Drain.jpg
+|description = {{sbc|Active:}} Fiddlesticks creates a leash on a target enemy and channels for up to 5 seconds, dealing magic damage each second and healing himself for a percentage of the damage done. If the target moves further than 800 range of Fiddlesticks while leashed, he will stop channeling.
+|leveling = {{lc|Magic Damage per Second}} {{ap|60|90|120|150|180}} {{as|(+ 45% AP)}}
+{{lc|Max Magic Damage}} {{ap|300|450|600|750|900}} {{as|(+ 225% AP)}}
+{{lc|Heal From Damage Ratio}} {{ap|60|65|70|75|80%}}
+|range = 575
+|cooldown = {{ap|10|9|8|7|6}}
+|cost = {{ap|80|90|100|110|120}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Drain''' is a single targeted channeled tether ability.
+|damagetype=magic
+|spelleffects=damage over time
+|onhiteffects=
+|spellshield=will block the application of the leash but does not prevent damage from a tether already applied.
+|additional=
+* ''Drain'' deals damage every 0.25s.
+* ''Drain'' has a brief [[channel]] time (0.1s) upon cast before activation.
+* ''Drain's'' channel will be interrupted if Fiddlesticks performs any other action, uses [[item]]s, or is affected by [[crowd control]].
+** [[Summoner spell]]s can be used without interrupting the channel.
+* The tether range is roughly one half longer than the cast range.
+* ''Drain'' will continue channeling through effects like {{ai|Death Defied|Karthus}} and {{ai|Icathian Surprise|Kog'Maw}}, healing Fiddlesticks but not dealing damage.
+* ''Drain'' will continue channeling even if the target becomes [[untargetable]] through abilities such as {{cai|Playful|Fizz}} and {{cai|Sanguine Pool|Vladimir}}, as long as they remain within range of Fiddlesticks.
+|video=Fiddlesticks WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Dark Wind
+|icon = Dark Wind.jpg
+|description = {{sbc|Active:}} Fiddlesticks sends a crow that bounces between enemy units within 450 range up to 4 times, dealing magic damage and silencing for {{fd|1.2}} seconds with each strike. Minions and monsters take 50% additional damage. ''Dark Wind'' may strike the same target multiple times.
+|leveling = {{lc|Magic Damage per Bounce}} {{ap|65|85|105|125|145}} {{as|(+ 45% AP)}}
+{{lc|Max Magic Damage to the Same Target}} {{ap|195|255|315|375|435}} {{as|(+ 135% AP)}}
+{{lc|Magic Damage per Bounce to Minions}} {{ap|97.5|127.5|157.5|187.5|217.5}} {{as|(+ 67.5% AP)}}
+|range = 750
+|cooldown = {{ap|15|14|13|12|11}}
+|cost = {{ap|50|70|90|110|130}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Dark Wind''' is a targeted [[area of effect|chain area of effect]] ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block a single bounce's damage and silence. They do not block the bounce from continuing or additional hits from the same ''Dark Wind''.
+|additional=
+* ''Dark Wind'' will only bounce to enemies within sight.
+|video=Fiddlesticks EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Crowstorm
+|icon = Crowstorm.jpg
+|description = {{sbc|Active:}} After channeling for {{fd|1.5}} seconds, Fiddlesticks teleports to nearby target location with a murder of crows flying wildly around him for 5 seconds, dealing magic damage to all enemy units within 600 range each second.
+|leveling = {{lc|Magic Damage per Second}} {{ap|125|225|325}} {{as|(+ 45% AP)}}
+{{lc|Total Magic Damage}} {{ap|625|1125|1625}} {{as|(+ 225% AP)}}
+|range = 800
+|cooldown = {{ap|150|140|130}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Crowstorm''' is a ground targeted, [[area of effect|point blank area of effect]] [[blink]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|additional=
+* If ''Crowstorm'' is cast and Fiddlesticks is rooted during the channel, Fiddlesticks will still blink to target at the end of the channel. However the root is still applied for its remaining duration.
+* ''Crowstorm'' deals damage every {{fd|0.5}} seconds.
+*During the channel of "Crowstorm", Fiddlesticks can use Summoner Spells as long as they dont require him to move.
+|video=Fiddlesticks RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Fiddlesticks]]
+[[de:Fiddlesticks]]
+[[es:Fiddlesticks]]
+[[fr:Fiddlesticks]]
+[[pl:Fiddlesticks]]
+[[pt-br:Fiddlesticks]]
+[[ru:Fiddlesticks]]
+[[zh:费德提克]]

@@ -1,0 +1,81 @@
+.buildList {
+  background: #999;
+  border: 1px solid #333;
+  min-width: 610px;
+}
+
+.buildListActions {
+  padding: 10px;
+}
+
+.buildConfig {
+  margin: 10px;
+  padding: 10px;
+  background: #ccc;
+  min-width: 550px;
+}
+
+.buildLabelChampion {
+  text-align: left;
+}
+
+.buildLabelItems {
+  text-align: left;
+}
+
+.buildAvatarContainer {
+  width: 112px;
+}
+
+.buildAvatar {
+  width: 100px;
+  height: 100px;
+  background: #eeeeee;
+  margin: 5px 10px 5px 0;
+  border: 1px solid #999;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.buildItem {
+  float: left;
+  margin: 5px 10px 5px 0;
+  border: 1px solid #999;
+}
+
+.buildItemLevelInput {
+  width: 72px;
+  height: 20px;
+  font-size: 12px;
+  padding: 0 4px;
+  line-height: 20px;
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+
+.buildItemAvatar {
+  width: 80px;
+  height: 80px;
+  background: #eee;
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.buildConfigTable {
+  width: 100%;
+}
+
+.abilityLevelingSequence {
+  width: 100%;
+  max-width: 770px;
+  td, th {
+    text-align: center;
+  }
+}

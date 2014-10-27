@@ -1,0 +1,154 @@
+{{C-top|Braum}}
+{{champion info|{{PAGENAME}}}}
+{{C-ref}}
+
+==Abilities==
+
+{{Ability frame|I
+|{{Ability info
+|name = Concussive Blows
+|icon = Concussive Blows.png
+|description  = Braum's basic attacks and {{ai|Winter's Bite|Braum}} apply stacks of {{ai|Concussive Blows|Braum}} for 4 seconds. Once the first stack has been applied, the basic attacks of any allied champion will generate {{ai|Concussive Blows|Braum}} stacks.
+|description2 = Upon reaching 4 stacks, the target is stunned for {{pp|3|1.25|1.5|1.75|1|7|13}} seconds and takes 32{{plus}}(8{{times}}''Braum's level'') magic damage. After being stunned, an enemy cannot be affected by {{ai|Concussive Blows|Braum}} again for {{pp|3|8|7|6|1|7|13}} seconds, during which time they instead take {{fd|6.4}}{{plus}}({{fd|1.6}}{{times}}''Braum's level'') bonus magic damage from Braum's basic attacks and {{ai|Winter's Bite|Braum}}.
+|leveling     = 
+|cooldown     =
+|cost         =
+|costtype     =
+}}
+|{{Ability2
+|targeting    = '''Concussive Blow''' is an [[on-hit effect]] [[debuff]]. At four stacks, it detonates to deal damage and a [[stun]]. Affected targets then gain temporary immunity, during which time Braum gains a different [[on-hit effect]] against them.
+|damagetype   = magic
+|spelleffects = false
+|onhiteffects =
+|spellshield  = will block the damage and stun.
+|additional   =
+|video=Braum IVideo
+}}
+}}
+{{Ability frame|Q
+|{{Ability info
+|name = Winter's Bite
+|icon = Winter's Bite.png
+|description = {{sbc|Active:}} Braum propels ice from his shield that travels forward in a line, dealing magic damage to the first enemy hit, applying {{ai|Concussive Blows|Braum}} and slowing them by 70%. The slow decays over 2 seconds.
+|leveling = {{lcaps|Magic Damage|60|105|150|195|240|(+ {{fd|2.5}}% of max health)}}
+|cooldown = {{ap|10|9|8|7|6}}
+|cost     = {{ap|55|60|65|70|75}}
+|costtype = mana
+|range    = 1000
+}}
+|{{Ability2
+|targeting    = '''Winter's Bite''' is a [[Skillshot#Colliding_linear_skillshot|linear, colliding skillshot]].
+|damagetype   = magic
+|projectile   = true
+|spelleffects = single
+|onhiteffects =
+|spellshield  = will block the ability and prevent the application of {{ai|Concussive Blows|Braum}}.
+|additional   =
+|video=Braum QVideo
+}}
+}}
+{{Ability frame|W
+|{{Ability info
+|name = Stand Behind Me
+|icon = Stand Behind Me.png
+|description  = {{sbc|Active:}} Braum leaps to the aid of a nearby ally, positioning himself between his target and the enemy champion closest to them. On arrival, Braum gains bonus armor and magic resist for 3 seconds. If his target is a champion, they will also receive this buff.
+|leveling = {{lcaps|Bonus Armor|15|17.5|20|22.5|25|(+ {{ap|10|11.5|13|14.5|16}}% bonus armor)}}
+{{lcaps|Bonus MR|15|17.5|20|22.5|25|(+ {{ap|10|11.5|13|14.5|16}}% bonus MR)}}
+|cooldown = {{ap|14|13|12|11|10}}
+|cost     = {{ap|50|55|60|65|70}}
+|costtype = mana
+|range    = 625
+}}
+|{{Ability2
+|targeting    = '''Stand Behind Me''' is a [[unit-targeted]] [[dash]] that also grants a defensive [[buff]].
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional   =
+* If Braum casts ''Stand Behind Me'' on himself, it has no cast time and does not interrupt Braum's previous orders.
+* ''Stand Behind Me'' can also be used on allied [[minion]]s and [[pet]]s, but cannot be used on {{ii|Stealth Ward|wards}}.
+|video=Braum WVideo
+}}
+}}
+{{Ability frame|E
+|{{Ability info
+|name = Unbreakable
+|icon = Unbreakable.png
+|description  = {{sbc|Active:}} Braum raises his shield, creating a barrier in the target direction that reduces the damage Braum takes from oncoming sources (''excluding true damage and towers'') for the next few seconds. 
+|description2=The damage reduction is increased to 100% for the first source of champion damage that would be reduced, though this does not negate any other effects of the attack.<br><br>
+While his shield is raised, Braum also gains the ability to intercept oncoming projectiles that are capable of hitting friendly champions (''excluding turret attacks''), gains 10% movement speed and ignores unit collision.
+|leveling = {{lcap|Damage reduction|30|32.5|35|37.5|40}}%
+{{lcap|Duration|3|3.25|3.5|3.75|4}}
+|cooldown = {{ap|18|16|14|12|10}}
+|cost     = {{ap|30|35|40|45|50}}
+|costtype = Mana
+}}
+|{{Ability2
+|targeting    = '''Unbreakable''' is a [[direction-targeted]] ability that generates a persistent barrier in front of Braum. The barrier is connected to Braum and will move with him, but its facing direction remains constant regardless of the direction Braum is moving. 
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional   = 
+*'''Unbreakable''' has no cast time and does not interrupt Braum's previous orders.
+*Definitions:
+**'''''Oncoming''''' refers to sources of damage coming from a direction in front of the shield. Sources of damage that originate from behind the shield will not be affected.
+**'''''Projectiles''''' are any entities with a velocity that are not classified as a unit (''champions, minions, monsters, etc''). 
+**'''''Intercepting''''' a projectile causes it to hit Braum regardless of the intended target. In addition to being redirected, an intercepted projectile is also destroyed '''after''' hitting Braum - although this is only applicable to pass-through projectiles.
+* Moving units are not intercepted under any circumstance, including [[dash]] abilities. Champion-summoned units, such as {{cai|Command: Attack|Orianna}} and {{cai|Sapling Toss|Maokai}}, are not considered to be units until they hit the ground - and thus will interact with ''Unbreakable'' while en route. 
+* Projectiles whose effects trigger on collision will still happen upon hitting Braum — dealing damage, applying debuffs, creating slowing fields and marking the target as "hit" for the purposes of {{ais|Zenith Blade|Leona}} [[dash]] or {{ais|Infected Cleaver|Dr. Mundo}} health refund. Abilities that deal area of effect damage on-collision will only damage Braum, contrary to what Riot stated while Braum was in the PBE (possible bug).
+** If {{cai|Spinning Axe|Draven}} hits Braum, regardless if it's the first hit on the damage mitigation or not, it will ALWAYS bounce back, and will not be destroyed. This happens even if Braum intercepts the attack for an ally, though the axe will bounce back from Braum and not the intended target.
+* Projectile-based ground-targeted abilities that only occur upon successfully hitting the ground, such as {{ai|Miasma|Cassiopeia}} and {{ai|Aqua Prison|Nami}}, will apply their full effects to Braum but will be destroyed without affecting any other ally. 
+* Projectiles that ''cannot'' hit Braum or his allies, such as an enemy {{cai|Prismatic Barrier|Lux}}, will not be intercepted <ref>[http://forums.na.leagueoflegends.com/board/showthread.php?t=4464736&page=2#post46663454 Unbreakable's interaction with Lux's Prismatic Barrier]</ref>.
+*If Braum is protected by a [[spell shield]], both the spell shield and the one-use damage mitigation can be consumed by a single (''i.e. the same'') blockable spell.
+*As true damage cannot be reduced, a source of damage that only deals true damage will not consume the one-use 100% damage reduction.
+* The '''damage reduction''' will affect any source of damage whose origin is in front of the shield. This includes:
+** All intercepted projectiles.
+** Melee and non-projectile based ranged attacks.
+** Instantaneous skill shots, such as {{ai|Final Spark|Lux}} and {{ai|Lifeform Disintegration Ray|Vel'Koz}}.
+** Instantaneously-placed ground-targeted abilities, such {{ai|Lay Waste|Karthus}} and {{ai|Rupture|Cho'Gath}}, relative to the center of the ability and '''not''' the caster.
+** Point-blank area of effects, such as {{ai|Tantrum|Amumu}} and an non-Braum-targeted {{ai|Time Bomb|Zilean}}.
+* Instantaneous targeted abilities (e.g. {{ai|Transfusion|Vladimir}} and a Braum-targeted {{ai|Time Bomb|Zilean}}) and [[area of effect|persistent area of effect abilities]] (e.g. {{ai|Tormented Soil|Morgana}}) do not interact with ''Unbreakable''. 
+* The damage reduction only benefits Braum. For example, if {{cai|Audacious Charge|Xin Zhao}} would path him through ''Unbreakable'', only Braum will take reduced damage. <!--His spotlight shows Braum reducing the damage of Rupture but Teemo still takes damage as normal.-->
+* Damage over times are calculated per instance of damage. {{pending for test}} Be wary that the one-use 100% damage reduction will only mitigate a single tick.
+* If the damaged mitigated by ''Unbreakable'' exceeds a minimum threshold, it is represented with floating text similar to the damage mitigated by shields - e.g. '''-60'''. This floating text is always shown for the single source of damage that is mitigated by 100%. 
+* For the purposes of abilities like {{ai|Backstab|Shaco}}, Braum's facing direction is the direction he's moving in - not the direction his ''face'' (''or the shield'') is looking. This is a recognised limitation of the game engine.
+|video=Braum EVideo
+}}
+}}
+{{Ability frame|R
+|{{Ability info
+|name = Glacial Fissure
+|icon = Glacial Fissure.png
+|description  = {{sbc|Active:}} Braum slams his shield into the ground, dealing magic damage to all enemies in a line as well as those around him. Enemy champions hit in the point-blank area are knocked up for {{fd|1.5}} seconds, while enemies hit in the line are knocked up for {{fd|0.25}} seconds. 
+|description2=If no enemy champions are hit in the point-blank area, the first enemy champion hit in the line is knocked up for a few seconds. 
+<br><br>For the next 4 seconds a field of ice remains, slowing enemies that enter the area.
+|leveling = {{lcaps|Magic Damage|150|250|350|(+ 60% AP)}}
+{{lcap|Slow|40|50|60%}}
+|leveling2={{lcap|Knock Up Duration|1|1.25|1.5}}
+|cooldown = {{ap|140|120|100}}
+|cost     = 100
+|costtype = mana
+|range    = 1250
+}}
+|{{Ability2
+|targeting    = '''Glacial Fissure''' is a [[skillshot#Pass-through linear skillshot|pass-through linear skillshot]] and [[area of effect#Line|line area of effect]] ability with a [[area of effect#Point blank|point blank area of effect]] component.
+|damagetype   = magic
+|projectile   = true
+|spelleffects = area
+|onhiteffects =
+|spellshield  = will block the initial knockup and damage.
+|additional   =
+|video= Braum RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[de:Braum]]
+[[es:Braum]]
+[[fr:Braum]]
+[[pl:Braum]]

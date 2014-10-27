@@ -1,0 +1,138 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+                      
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Runic Skin
+|icon = Runic Skin.png
+|description  = Galio gains bonus ability power equal to {{as|50% of his total magic resistance}}.
+}}
+|{{Ability2
+|targeting='''Runic Skin''' is [[self-buff|buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Runic Skin'' is inversely affected by effects that reduce Galio's magic resistance, such as the {{ii|Abyssal Scepter|}} or {{ai|Dread|Fiddlesticks|Fiddlesticks's Passive}}. The magic resistance reduction will reduce Galio's ability power for the duration of the effect. When Galio's magic resistance is brought below 0, he will lose ability power. Ability power has a lower cap of 0.
+* Due to his natural base 30 magic resistance he will begin the game with at least 15 ability power. With the addition of scaling per-level magic resistance, he will gain ~11 ability power at level 18 or roughly 0.6 ability power per level.
+* On the other hand, ''Runic Skin'' is triggered by his own ability, {{ai|Bulwark|Galio}}, as well as any other effect that gives him temporary Magic Resist. Casting ''Bulwark'' right before another ability will, therefore, increase the impact of that second ability.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Resolute Smite
+|icon = Resolute Smite.png
+|description = {{sbc|Active:}}  Galio fires a concussive blast from his eyes to a target '''235'''-radius area, dealing magic damage and slowing enemies hit for {{fd|2.5}} seconds.
+|leveling = {{lc|Magic Damage}} {{ap|80|135|190|245|300}} {{as|(+ 60% AP)}}
+{{lc|Slow}} {{ap|24|28|32|36|40%}}
+|range = 940
+|cooldown = 7
+|cost = {{ap|60|65|70|75|80}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Resolute Smite''' is a [[area of effect|ground targeted area of effect]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block ''Resolute Smite''.
+|additional=
+|video=Galio QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Bulwark
+|icon = Bulwark.png
+|description  = {{sbc|Active:}} Galio shields an allied champion or himself for 4 seconds, increasing their armor and magic resistance. Each time that unit takes damage, Galio is healed. The heal is 20% weaker than the last for each consecutive hit.
+|leveling = {{lc|Armor & Magic Resist}} {{ap|30|45|60|75|90}}
+{{lc|Heal}} {{ap|25|40|55|70|85}} {{as|(+ 30% AP)}}
+{{lc|Max Heal (∞ hits)}} {{ap|125|200|275|350|425}} {{as|(+ 150% AP)}}
+|range = 800
+|cooldown = 13
+|cost = 60
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Bulwark''' is an ally champion-targeted [[buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Bulwark'' has no cast time and does not interrupt Galio's previous orders.
+* Because ''Bulwark'' grants Magic Resistance, when cast on Galio himself it effectively grants him an additional {{ap|15|22.5|30|37.5|45}} Ability Power due to the conversion ratio of {{ai|Runic Skin|Galio}}.
+|video=Galio WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Righteous Gust
+|icon = Righteous Gust.png
+|description = {{sbc|Active:}} Galio unleashes a gust of magical wind that deals magic damage to all enemies in its path. A directional draft remains for 5 seconds, increasing the movement speed of allies passing through it.
+|leveling = {{lc|Magic Damage}} {{ap|60|105|150|195|240}} {{as|(+ 50% AP)}}
+{{lc|Movement Speed}} {{ap|20|28|36|44|52%}}
+|range = 1180
+|cooldown = 12
+|cost = {{ap|70|75|80|85|90}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Righteous Gust''' is a [[skillshot#Pass-through linear skillshot|pass-through linear skillshot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block ''Righteous Gust''.
+|additional=
+* Allies who are facing the opposite direction of the draft will not receive the movement speed bonus.
+|video=Galio EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Idol of Durand
+|icon = Idol of Durand.png
+|description = {{sbc|Active:}} Galio becomes a statue and channels for 2 seconds, taunting nearby foes and reducing incoming physical and magic damage by 50%.<br>
+When the channel ends, Galio bursts out of his statue form, dealing magic damage to enemies within range. The damage is increased by 5% for each attack suffered while channeling, capping at 40%. If the channel is canceled, the damage radius is reduced to 575 instead of normal.<br>
+While channeling, Galio can cast {{ai|Bulwark|Galio}} and use instant cast actives, such as {{si|Ignite}}.
+|leveling = {{lc|Magic Damage}} {{ap|220|330|440}} {{as|(+ 60% AP)}}
+{{lc|Max Magic Damage}} {{ap|308|462|616}} {{as|(+ 84% AP)}}
+|range = 600
+|cooldown = {{ap|150|135|120}}
+|cost = {{ap|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Idol of Durand''' is a [[channel]]ed [[area of effect#Point blank|point blank area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block ''Idol of Durand''.
+|additional=
+* Certain champions that have crowd control-applying autoattack modifiers can cancel ''Idol of Durand'' while taunted, including {{cai|Decisive Strike|Garen}}, {{cai|Bear Stance|Udyr}} and {{cai|Shield of Daybreak|Leona}}.
+* The taunt effect can only be applied once to a specific enemy unit. Champions that prevented or blocked the effect will not be taunted again.
+|video=Galio RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Galio]]
+[[de:Galio]]
+[[es:Galio]]
+[[fr:Galio]]
+[[pl:Galio]]
+[[pt-br:Galio]]
+[[ru:Galio]]
+[[zh:加里奥]]

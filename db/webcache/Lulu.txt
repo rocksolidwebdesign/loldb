@@ -1,0 +1,174 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Pix, Faerie Companion
+|icon = Pix,FaerieCompanion.jpg
+|description = Whenever Lulu or the allied target of {{ai|Help, Pix!|Lulu}} attacks an enemy (excluding structures and wards), ''Pix'' fires a barrage of 3 homing bolts toward the same target that deal {{pp|9|3|7|11|15|19|23|27|31|35|1|3|5|7|9|11|13|15|17}} {{as|(+ 5% AP)}} magic damage each to the first enemy they each hit, for a maximum possible {{pp|9|9|21|33|45|57|69|81|93|105|1|3|5|7|9|11|13|15|17}} {{as|(+ 15% AP)}} magic damage.
+}}
+|{{Ability2
+|targeting='''Pix, Faerie Companion''' is a passive ability that fires three projectiles towards Lulu's target whenever she makes a basic attack. These are targeted but can be blocked by enemies in the way.
+* '''Leash Range:''' 2000
+|spelleffects=false
+|damagetype=magic
+|projectile=true
+|onhiteffects=Does not apply [[on-hit effect]]s.
+|spellshield=Will not block the damage.
+|additional=
+* ''Pix, Faerie Companion'' will only fire with basic attacks and will not fire with abilities that proc [[on-hit]] effects like {{ai|Blade Waltz|Fiora}}, {{ai|Mystic Shot|Ezreal}}, {{ai|Parrrley|Gangplank}}, {{ai|Infinite Duress|Warwick}}, {{ii|Runaan's Hurricane}}, etc.
+* ''Pix, Faerie Companion'' fires from ''Pix's'' location, not the location of the unit ''Pix'' is following.
+* ''Pix'' does not assist attacks on structures.
+* At 2.000 attack speed ''Pix'' will fire an endless stream of bolts. at 2.001 attack speed ''Pix'' will not be able to match the speed and will start to lose bolts.
+* ''Pix, Faerie Companion's'' damage is counted towards the unit ''Pix'' is following, as such, it will count as an ally's damage if he is following an ally and it counts as Lulu's damage if ''Pix'' is following her or attached to an enemy unit.
+* ''Pix'' cannot be targeted in any way though there is a bug that happens under unknown circumstances that allows for pix to be targeted.
+* ''Pix, Faerie Companion'' acts in different ways with effects that would prevent basic attack damage: 
+** If the allied champion ''Pix'' is following is [[blind]]ed, Pix and the champion will both miss.
+** {{ai|Riposte|Fiora}} will only parry or block one attack, either the allied champion's or one of ''Pix's'' depending on when it was activated.
+*** {{ai|Aegis Protection|Pantheon}} will not block any bolt as they deal magic damage, while the basic attacks that caused ''Pix'' to fire can be potentialy blocked
+** {{ai|Counter Strike|Jax}} will dodge all of ''Pix's'' attacks along with those of the allied champion he's following.
+|video=Lulu IVideo
+}}
+}}
+{{Ability frame|Q|
+{{Ability info
+|name = Glitterlance
+|icon = Glitterlance.jpg
+|description = {{sbc|Active:}} Lulu and {{ai|Pix, Faerie Companion|Lulu|Pix}} each fire a magic bolt towards a target direction, dealing magic damage and slowing enemies hit by 80%, decaying over the duration.
+|leveling = {{lcaps|Magic Damage|80|125|170|215|260|(+ 50% AP)}} 
+            {{lcap|Slow Duration|1|1.25|1.5|1.75|2}}
+|cooldown = 7
+|cost     = {{ap|60|65|70|75|80}}
+|costtype = mana
+|range    = 925
+}}
+|{{Ability2
+|targeting='''Glitterlance''' is a dual [[skillshot#Pass-through linear skillshot|pass-through linear skillshot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage and slow.
+|additional=
+* ''Glitterlance'' shoots two bolts, one from Lulu and the other from wherever ''Pix'' is when the spell is cast.
+** Moving the cursor towards Lulu when targeting will cause the two bolts to cross fire, while moving the cursor away from Lulu will cause the bolts to fire towards the same point.
+* Enemies can only be damaged by one bolt. However, they can be affected by the slow of both, refreshing the duration if they hit in succession.
+** If an enemy is hit by both bolts, the slow does not stack.
+* While ''Glitterlance'' pops spell shield, the target is still able to be damaged and slowed by the second bolt, if the conditions are right, after negating the first with a spell shield.
+|pet=
+|video=Lulu QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Whimsy
+|icon = Whimsy.jpg
+|description  = {{sbc|Active &ndash; Ally cast:}} Target allied champion gains 30% {{as|(+ 10% per 100 AP)}} movement speed for a few seconds
+|description2 = {{sbc|Active &ndash; Enemy cast:}} Polymorphs an enemy champion for a short duration, disabling their ability to attack or cast abilities and reducing their base movement speed by 60.
+|leveling  = {{lcap|Duration|3|3.5|4|4.5|5}}
+|leveling2 = {{lcap|Polymorph Duration|1.25|1.5|1.75|2|2.25}}
+|cooldown = {{ap|18|16.5|15|13.5|12}}
+|cost     = 65
+|costtype = mana
+|range    = 650
+}}
+|{{Ability2
+|targeting='''Whimsy''' is a single targeted ability that can be cast on allies or enemies.
+|damagetype=
+|projectile=true
+|spelleffects=false
+|onhiteffects=
+|spellshield=will block the polymorph.
+|additional=
+* Whimsy can [[Crowd control#Categorization|interrupt]] channeled abilities when used on enemy players.
+* Whimsy's polymorph particle changes with her skin:
+** {{csi|Lulu|Classic Lulu}} turns her target into a squill, a two-tailed animal.
+** {{csi|Lulu|Bittersweet Lulu}} turns her target into a cupcake.
+** {{csi|Lulu|Wicked Lulu}} turns her target into a black cat.
+** {{csi|Lulu|Dragon Trainer Lulu}} turns her target into a baby dragon stuck in an egg.
+** {{csi|Lulu|Winter Wonder Lulu}} turns her target into a snowman.
+|pet=
+|video=Lulu WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Help, Pix!
+|icon = Help,Pix!.jpg
+|description  = {{sbc|Active &ndash; Ally cast:}} Commands {{ai|Pix, Faerie Companion|Lulu|Pix}} to jump to an ally. If the ally is a champion, they will receive a shield that lasts for up to 6 seconds. Additionally, ''Pix'' will then follow the ally and aid their attacks instead of Lulu's for 6 seconds.
+|description2 = {{sbc|Active &ndash; Enemy cast:}} ''Pix'' deals magic damage to target enemy unit. ''Pix'' then follows and grants vision of them for 4 seconds.
+|leveling  = {{lcaps|Shield Strength|80|120|160|200|240|(+ 60% AP)}} 
+|leveling2 = {{lcaps|Magic Damage|80|110|140|170|200|(+ 40% AP)}} 
+|cooldown = 10
+|cost     = {{ap|60|70|80|90|100}}
+|costtype = mana
+|range    = 650
+}}
+|{{Ability2
+|targeting='''Help, Pix!''' is a targeted ability that can be cast on either an allied or an enemy champion or minion.
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the damage and vision, but ''Pix'' will still follow the target.
+|damagetype=magic
+|additional=
+* ''Pix'' will respect his maximum leash and return to Lulu if her target moves 2000 units away from her.
+* ''Pix'' is independent from the [[absorption shield]] when cast on an ally and he will continue to assist the target's attacks even if the shield breaks.
+** Likewise, the [[absorption shield]] will persist for the full effect even if the ally target leaves ''Pix's'' leash range.
+* While ''Pix'' is away from Lulu, his bolt from {{ai|Glitterlance|Lulu}} will fire from his location toward the cursor.
+** Doing so can extend the range of ''Glitterlance'' to be much larger than it normally is.
+|pet=
+|video=Lulu EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Wild Growth
+|icon = WildGrowth.jpg
+|description = {{sbc|Active:}} Lulu enlarges a target allied champion, knocking up enemies within '''150'''-range of the target. For 7 seconds, her ally gains bonus health and an aura that continually slows nearby enemies.
+|leveling = {{lcaps|Bonus Health|300|450|600|(+ 50% AP)}}
+            {{lcap|Aura Slow|30|45|60%}} 
+|cooldown = {{ap|110|95|80}}
+|cost     = 100
+|costtype = mana
+|range    = 900
+}}
+|{{Ability2
+|targeting='''Wild Growth''' is a targeted ability that grants the target bonus health and an [[aura]].
+|spelleffects=hide
+|onhiteffects=
+|spellshield=
+|damagetype=
+|additional=
+* There is a size limit to how large champions can grow. Contrary to popular belief, using it on a {{Ci|Cho'Gath}} with 6 {{ai|Feast|Cho'Gath}} stacks with a [[Greater Relic]] buff will not increase the size significantly.
+** ''Wild Growth's'' size increase will extend {{cai|Vorpal Spikes|Cho'Gath}} range.
+* ''Wild Growth's'' health restoration is not reduced by the [[Healing#Healing reduction|Grievous Wound]]s debuff.
+* ''Wild Growth's'' health restoration will retain when the ability's duration ends.
+* ''Wild Growth's'' knockup component will pop [[spell shield]]s.
+* ''Wild Growth's'' Airbone effect lasts for {{fd|1.5}} seconds.
+* ''Wild Growth's'' [[aura]] is a persistent slow, keeping enemies slowed for as long as they remain in range.
+** Slows will linger for {{fd|0.25}} seconds after leaving the marked area.
+|video=Lulu RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]] and [[Twisted Treeline]]
+*{{ai|Wild Growth|Lulu}}
+**Cooldown is {{ap|120|110|100}} seconds instead of {{ap|110|95|80}} seconds.
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Lulu]]
+[[de:Lulu]]
+[[es:Lulu]]
+[[fr:Lulu]]
+[[pl:Lulu]]
+[[pt-br:Lulu]]
+[[ru:Lulu]]
+[[zh:璐璐]]

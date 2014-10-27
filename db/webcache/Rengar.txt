@@ -1,0 +1,298 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+== Abilities ==
+
+
+{{HiddenB
+|Notes
+|align=center
+|content=
+Rengar's abilities have no cost related to them and their use is limited only by cooldowns. Instead, he uses his secondary resource bar to display his unique mechanic: Ferocity.
+
+Rengar builds 1 point of '''FEROCITY''' whenever he lands an ability. Upon reaching '''5 FEROCITY''', Rengar gains the ability to cast an alternate set of abilities, which are empowered versions of his basic abilities. The two ability-sets do not share cooldowns, and his basic abilities' cooldowns will continue to count down while his empowered abilities are available. His empowered abilities have no cooldown and can be used whenever '''5 FEROCITY''' is available, though using an empowered ability consumes all '''5 FEROCITY'''. 
+}}
+
+{{Ability frame|I|
+{{Ability info
+|name = Unseen Predator
+|icon = UnseenPredator.jpg
+|description  = While in brush or in stealth, Rengar gains bonus attack range and his attacks cause him to leap at the targets location at the cast. 
+|description2 = This bonus lasts for {{tt|{{fd|0.5}}|Estimated}} second upon exiting brush or stealth. ''Unseen Predator'' will happen regardless of whether or not his target has sight of him.
+|range = 600 (''725 with 6 Trophies on {{ii|Bonetooth Necklace}}'')
+}}
+|{{Ability2
+|targeting = '''Unseen Predator''' is an [[on-hit effect]] [[dash]].
+|damagetype   =
+|onhiteffects =
+|spelleffects =
+|spellshield  =
+|additional = * The buff will be lost immediately if '''Rengar''' uses {{si|Flash}} outside the bush.
+|video=Rengar IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Savagery
+|icon = Savagery.jpg
+|description = {{sbc|Active:}} Rengar's next basic attack within the next 3 seconds deals bonus physical damage.
+|leveling = {{lcaps|Bonus Physical Damage|30|60|90|120|150|(+ {{ap|0|5|10|15|20}}% AD)}}
+|cooldown = {{ap|6|5.5|5|4.5|4}}
+}}
+{{Ability info
+|name = Empowered Savagery
+|icon = EmpoweredSavagery.jpg
+|description = {{sbc|Active:}} Rengar's next basic attack in the next 3 seconds deals bonus physical damage equal to {{tt|{{fd|30-240}}| Level 1 — 30 {{Return}}
+Level 2	— 45 {{Return}}
+Level 3	— 60 {{Return}}
+Level 4	— 75 {{Return}}
+Level 5	— 90 {{Return}}
+Level 6	— 105 {{Return}}
+Level 7 — 120 {{Return}}
+Level 8 — 135 {{Return}}
+Level 9 — 150 {{Return}}
+Level 10 — 160 {{Return}}
+Level 11 — 170 {{Return}}
+Level 12 — 180 {{Return}}
+Level 13 — 190 {{Return}}
+Level 14 — 200 {{Return}}
+Level 15 — 210 {{Return}}
+Level 16 — 220 {{Return}}
+Level 17 — 230 {{Return}}
+Level 18 — 240 {{Return}}}} {{as|(+ 50% AD)}}. Additionally, ''Savagery'' grants Rengar bonus 47{{plus}}(3{{times}}''Rengar's level'') % attack speed and increases his attack damage by 10% for 5 seconds. 
+|leveling =
+|cost     = 5
+|costtype = Ferocity
+}}
+|{{Ability2
+|targeting = '''Savagery''' and '''Empowered Savagery''' are [[buff|self-buff]] [[on-hit effect]] abilities.
+|damagetype   = physical
+|onhiteffects = The triggering attack will apply other on-hit effects and can [[critical strike|critically strike]] as normal.
+**As with most on-hit physical damage, the bonus damage from ''Savagery'' and ''Empowered Savagery'' will apply life steal. 
+**Critical strikes will not benefit from the entire bonus damage from ''Savagery'' and ''Empowered Savagery''. The Attack Damage portion still can.
+**The bonus damage from ''Savagery'' and ''Empowered Savagery'' will not affect structures.
+**''Savagery'' and ''Empowered Savagery's'' will be blocked by {{ai|Counter Strike|Jax|dodge}}, {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} and [[blind]] 
+|spelleffects =
+|spellshield  = will block the damage from ''Savagery'' and ''Empowered Savagery''.
+|additional =* ''Savagery'' grants '''Rengar ''' 40 % attack speed for the empowered attack and one more after.
+*''Empowered Savagery'' grants '''Rengar '''40 % attack speed for the empowered attack and one more after only if '''Rengar ''' uses it on structures.
+|video=Rengar QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Battle Roar
+|icon = BattleRoar.jpg
+|description  = {{sbc|Active:}} Rengar lets out a battle roar, dealing magic damage to nearby enemies and increasing his armor and magic resist for 4 seconds. 
+|description2 = Rengar gains additional armor and magic resist for each enemy champion or large monster hit. 
+|leveling  = {{lcaps|Magic Damage|50|80|110|140|170|(+ 80% AP)}}
+{{lcap|Armor & Magic Resistance|10|15|20|25|30}}
+|leveling2 = {{lcap|Bonus Per Champion/Monster Hit|5|7.5|10|12.5|15}}
+|range    = 500
+|cooldown = 12
+}}
+{{Ability info
+|name = Empowered Battle Roar
+|icon = EmpoweredBattleRoar.jpg
+|description  = {{sbc|Active:}} {{ai|Battle Roar|Rengar}} deals modified damage equal to {{tt|{{fd|40-240}}| Level 1 — 40 {{Return}}
+Level 2	— 55 {{Return}}
+Level 3	— 70 {{Return}}
+Level 4	— 85 {{Return}}
+Level 5	— 100 {{Return}}
+Level 6	— 115 {{Return}}
+Level 7 — 130 {{Return}}
+Level 8 — 145 {{Return}}
+Level 9 — 150 {{Return}}
+Level 10 — 160 {{Return}}
+Level 11 — 170 {{Return}}
+Level 12 — 180 {{Return}}
+Level 13 — 190 {{Return}}
+Level 14 — 200 {{Return}}
+Level 15 — 210 {{Return}}
+Level 16 — 220 {{Return}}
+Level 17 — 230 {{Return}}
+Level 18 — 240 {{Return}}}} {{as|(+ 80% AP)}}. Additionally, Battle Roar heals Rengar for 8{{plus}}(4{{times}}''Rengar's level'') health, increased by {{fd|6.25}}% for every 1% of Rengar's missing health for up to 50{{plus}}(25{{times}}''Rengar's level'') health. 
+|description2 = {{ais|Battle Roar|Rengar}} and ''Empowered Battle Roar's'' bonus defenses do not stack with each other.
+|cost     = 5
+|costtype = Ferocity
+}}
+|{{Ability2
+|targeting = '''Battle Roar''' and '''Empowered Battle Roar''' are [[buff|self-buff]] [[area of effect|point blank area of effect]] abilities.
+|damagetype   = magic
+|onhiteffects =
+|spelleffects = area
+|spellshield  = will block the damage but do not prevent the bonus resistances.
+|additional =
+|video=Rengar WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Bola Strike
+|icon = BolaStrike.jpg
+|description = {{sbc|Active:}} Rengar throws a bola in the target direction, dealing physical damage and slowing the first enemy hit for {{fd|2.5}} seconds. The slow decays over the duration.
+|leveling = {{lcaps|Physical Damage|50|100|150|200|250|(+ 70% bonus AD)}}
+{{lcap|Slow|60|65|70|75|80%}}
+|range    = 1000
+|cooldown = 10
+}}
+{{Ability info
+|name = Empowered Bola Strike
+|icon = EmpoweredBolaStrike.jpg
+|description = {{sbc|Active:}} {{ai|Bola Strike|Rengar}} deals modified damage equal to {{tt|{{fd|50-340}}| Level 1 — 50 {{Return}}
+Level 2	— 75 {{Return}}
+Level 3	— 100 {{Return}}
+Level 4	— 125 {{Return}}
+Level 5	— 150 {{Return}}
+Level 6	— 175 {{Return}}
+Level 7 — 200 {{Return}}
+Level 8 — 225 {{Return}}
+Level 9 — 250 {{Return}}
+Level 10 — 260 {{Return}}
+Level 11 — 270 {{Return}}
+Level 12 — 280 {{Return}}
+Level 13 — 290 {{Return}}
+Level 14 — 300 {{Return}}
+Level 15 — 310 {{Return}}
+Level 16 — 320 {{Return}}
+Level 17 — 330 {{Return}}
+Level 18 — 340 {{Return}}}} {{as|(+ 70% bonus AD)}}. Additionally, it roots the target for {{fd|1.75}} seconds. 
+|cost     = 5
+|costtype = Ferocity
+}}
+|{{Ability2
+|targeting = '''Bola Strike''' and '''Empowered Bola Strike''' are both [[skill shot|linear, colliding skill shots]].
+|damagetype   = physical
+|projectile   = true
+|onhiteffects =
+|spelleffects = single
+|spellshield  = will block the ability.
+|additional = * This ability can be cast mid-air when leaping with {{ai|Unseen Predator|Rengar}}.
+|video=Rengar EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Thrill of the Hunt
+|icon = ThrilloftheHunt.jpg
+|description  = {{sbc|Active:}} Rengar activates his predatory instincts, gaining stealth after 1 second (''delayed up to 3 seconds if taking damage'') and vision of all nearby enemy champions for {{tt|7|0 Trophies}} / {{tt|12|12 Trophies}} seconds or until Rengar damages an enemy with one of his abilities or basic attacks. 
+|description2 = While stealthed, Rengar gains {{tt|15%|0 Trophies}} / {{tt|30%|20 Trophies}} bonus movement speed while moving toward an enemy champion. Enemies are made aware that Rengar is nearby if he is less than 1250 units away.
+|description3 = Upon exiting stealth, Rengar gains bonus movement speed and generates '''5 FEROCITY''' over the next 5 seconds.
+|leveling  = {{lcap|Vision Radius|2000|3000|4000}}
+|leveling3 = {{lcap|Movement Speed|25|35|45}}%
+|cooldown  = {{ap|150|110|70}}
+}}
+|{{Ability2
+|targeting = '''Thrill of the Hunt''' is a [[buff|self-buff]] ability.
+|damagetype   =
+|onhiteffects =
+|spelleffects =
+|spellshield  = will not block the ability.
+|additional =
+|video=Rengar RVideo
+}}
+}}
+
+
+Rengar has access to 5 unique {{ii|Bonetooth Necklace}} trinkets: 
+* Trophy stacks gained will not reset upon switching to a different version of the trinket.
+<tabber>
+Blue=
+{{User:Emptylord/Template:Ability4|show|
+|name = {{ii|Bonetooth Necklace (Blue)}}
+|description = {{sbc|Trinket:}} No cost.
+{{sbc|Availability:}} [[Summoner's Rift]]
+
+{{sbc|Unique Active - Scrying Orb:}} Reveals small location within {{tt|2500|0 Trophies}} / {{tt|3500|6 Trophies}} / {{tt|4000|20 Trophies}} range for 1 second (''120 second cooldown''). Enemy champions hit will be revealed for 5 seconds. This does not affect stealth champions.
+
+{{sbc|Unique Passive - Mementos of the Hunt:}} Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist.
+* {{sbc|[[File:Bonetooth Necklace (Blue) (3 Trophies) item.png|20px|link=]] 3 Trophies}} - Rengar gains 25 flat [[movement speed]] while out of combat or while in brush.
+* {{sbc|[[File:Bonetooth Necklace (Blue) (6 Trophies) item.png|20px|link=]] 6 Trophies}} - {{ais|Unseen Predator|Rengar}} range is increased by 125.
+* {{sbc|[[File:Bonetooth Necklace (Blue) (12 Trophies) item.png|20px|link=]] 12 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} stealth duration is increased by 5 seconds. 
+* {{sbc|[[File:Bonetooth Necklace (Blue) (20 Trophies) item.png|20px|link=]] 20 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} bonus movement speed while stealthed is doubled. 
+
+Scoring a kill or assist on {{ci|Kha'Zix}} during the [[event]], [[The Hunt is On!]], causes this item to upgrade into the {{ii|Head of Kha'Zix}}, which permanently grants the effects of all 20 trophies. 
+}}
+|-|
+Red=
+{{User:Emptylord/Template:Ability4|show|
+|name = {{ii|Bonetooth Necklace (Red)}}
+|description = {{sbc|Trinket:}} No cost.
+{{sbc|Availability:}} [[Summoner's Rift]]
+
+{{sbc|Unique Active - Sweeping Lens:}} Summons a drone at the target location for {{tt|4|0 Trophies}} / {{tt|6|6 Trophies}} / {{tt|10|20 Trophies}} seconds ({{tt|X|0 Trophies}} / {{tt|1.5X|6 Trophies}} range). The drone reveals and disables all invisible traps and wards within an {{tt|X|0 Trophies}} / {{tt|1.5X|6 Trophies}} unit radius. (''90 second cooldown''). At 20 Trophies, you also gain true sight for 8 seconds. 
+
+{{sbc|Unique Passive - Mementos of the Hunt:}} Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist.
+* {{sbc|[[File:Bonetooth Necklace (Red) (3 Trophies) item.png|20px|link=]] 3 Trophies}} - Rengar gains 25 flat [[movement speed]] while out of combat or while in brush.
+* {{sbc|[[File:Bonetooth Necklace (Red) (6 Trophies) item.png|20px|link=]] 6 Trophies}} - {{ais|Unseen Predator|Rengar}} range is increased by 125.
+* {{sbc|[[File:Bonetooth Necklace (Red) (12 Trophies) item.png|20px|link=]] 12 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} stealth duration is increased by 5 seconds. 
+* {{sbc|[[File:Bonetooth Necklace (Red) (20 Trophies) item.png|20px|link=]] 20 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} bonus movement speed while stealthed is doubled. 
+
+Scoring a kill or assist on {{ci|Kha'Zix}} during the [[event]], [[The Hunt is On!]], causes this item to upgrade into the {{ii|Head of Kha'Zix}}, which permanently grants the effects of all 20 trophies. 
+}}
+|-|
+Yellow=
+{{User:Emptylord/Template:Ability4|show|
+|name = {{ii|Bonetooth Necklace (Yellow)}}
+|description = {{sbc|Trinket:}} No cost.
+{{sbc|Availability:}} [[Summoner's Rift]]
+
+{{sbc|Unique Active - Bonetooth Totem:}} Places a {{ii|Stealth Ward}} that lasts {{tt|60|0 Trophies}} / {{tt|120|6 Trophies}} / {{tt|180|20 Trophies}} seconds. (''120 second cooldown''). Limit 3 Stealth Wards on the map per player. 
+
+{{sbc|Unique Passive - Mementos of the Hunt:}} Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist.
+* {{sbc|[[File:Bonetooth Necklace (Yellow) (3 Trophies) item.png|20px|link=]] 3 Trophies}} - Rengar gains 25 flat [[movement speed]] while out of combat or while in brush.
+* {{sbc|[[File:Bonetooth Necklace (Yellow) (6 Trophies) item.png|20px|link=]] 6 Trophies}} - {{ais|Unseen Predator|Rengar}} range is increased by 125.
+* {{sbc|[[File:Bonetooth Necklace (Yellow) (12 Trophies) item.png|20px|link=]] 12 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} stealth duration is increased by 5 seconds. 
+* {{sbc|[[File:Bonetooth Necklace (Yellow) (20 Trophies) item.png|20px|link=]] 20 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} bonus movement speed while stealthed is doubled. 
+
+Scoring a kill or assist on {{ci|Kha'Zix}} during the [[event]], [[The Hunt is On!]], causes this item to upgrade into the {{ii|Head of Kha'Zix}}, which permanently grants the effects of all 20 trophies. 
+}}
+|-|
+Green (Crystal Scar)=
+{{User:Emptylord/Template:Ability4|show|
+|name = {{ii|Bonetooth Necklace (Green)}}
+|description = {{sbc|Trinket:}} No cost.
+{{sbc|Availability:}} [[Crystal Scar]]
+
+{{sbc|UNIQUE ACTIVE - SOUL ANCHOR:}} Consumes a charge to instantly revive you at your summoner platform and grants 125% movement speed that decays over 12 seconds. ''Soul Anchor'' starts with 1 charge, and gains additional charges at levels 9 and 14. (Max: 2 charges).
+
+{{sbc|Unique Passive - Mementos of the Hunt:}} Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist.
+* {{sbc|[[File:Bonetooth Necklace (Green) (3 Trophies) item.png|20px|link=]] 3 Trophies}} - Rengar gains 25 flat [[movement speed]] while out of combat or while in brush.
+* {{sbc|[[File:Bonetooth Necklace (Green) (6 Trophies) item.png|20px|link=]] 6 Trophies}} - {{ais|Unseen Predator|Rengar}} range is increased by 125.
+* {{sbc|[[File:Bonetooth Necklace (Green) (12 Trophies) item.png|20px|link=]] 12 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} stealth duration is increased by 5 seconds. 
+* {{sbc|[[File:Bonetooth Necklace (Green) (20 Trophies) item.png|20px|link=]] 20 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} bonus movement speed while stealthed is doubled. 
+
+Scoring a kill or assist on {{ci|Kha'Zix}} during the [[event]], [[The Hunt is On!]], causes this item to upgrade into the {{ii|Head of Kha'Zix}}, which permanently grants the effects of all 20 trophies. 
+}}
+|-|
+Green=
+{{User:Emptylord/Template:Ability4|show|
+|name = {{ii|Bonetooth Necklace (Green)}}
+|description = {{sbc|Trinket:}} No cost.
+{{sbc|Availability:}} [[Howling Abyss]] and [[Twisted Treeline]]
+
+{{sbc|Unique Passive - Mementos of the Hunt:}} Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist.
+* {{sbc|[[File:Bonetooth Necklace (Green) (3 Trophies) item.png|20px|link=]] 3 Trophies}} - Rengar gains 25 flat [[movement speed]] while out of combat or while in brush.
+* {{sbc|[[File:Bonetooth Necklace (Green) (6 Trophies) item.png|20px|link=]] 6 Trophies}} - {{ais|Unseen Predator|Rengar}} range is increased by 125.
+* {{sbc|[[File:Bonetooth Necklace (Green) (12 Trophies) item.png|20px|link=]] 12 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} stealth duration is increased by 5 seconds. 
+* {{sbc|[[File:Bonetooth Necklace (Green) (20 Trophies) item.png|20px|link=]] 20 Trophies}} - {{ais|Thrill of the Hunt|Rengar}} bonus movement speed while stealthed is doubled. 
+
+Scoring a kill or assist on {{ci|Kha'Zix}} during the [[event]], [[The Hunt is On!]], causes this item to upgrade into the {{ii|Head of Kha'Zix}}, which permanently grants the effects of all 20 trophies. 
+}}
+</tabber>
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Rengar]]
+[[de:Rengar]]
+[[es:Rengar]]
+[[fr:Rengar]]
+[[pl:Rengar]]
+[[pt-br:Rengar]]
+[[ru:Rengar]]
+[[zh:雷恩加尔]]

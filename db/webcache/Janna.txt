@@ -1,0 +1,129 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Tailwind
+|icon = Tailwind.png
+|description = The wind aids Janna and her nearby allies, increasing their movement speed by 5%.
+|range=1000
+}}
+|{{Ability2
+|targeting='''Tailwind''' is an [[aura]]-based [[buff]].
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Howling Gale
+|icon = Howling Gale.png
+|description  = {{sbc|Active:}} Janna summons a mighty whirlwind at her current location. On reactivation or after 3 seconds, the storm will fly in the direction it was cast, dealing magic damage to enemies and knocking them into the air for {{fd|0.5}}-{{fd|1.25}} second. The damage done, knock up duration and distance traveled by the whirlwind increase for each second it channels.
+|leveling ={{lcaps|Magic Damage|60|85|110|135|160|(+ 35% AP)}}
+{{lcaps|Additional Damage per second charging|15|20|25|30|35|(+ 10% AP)}}
+{{lcaps|Max Magic Damage|105|145|185|225|265|(+ 65% AP)}}
+|cooldown={{ap|14|13|12|11|10}}
+|cost={{ap|90|105|120|135|150}}
+|costtype=mana
+|range=1100-1700
+}}
+|{{Ability2
+|targeting='''Howling Gale''' is a [[skillshot|charging pass-through linear skillshot]] that knocks airborne all enemies in its path.
+|damagetype=magic
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=*''Howling Gale'' has no cast time and does not interrupt Janna's previous orders.
+*The storm does not interact with enemy units that stand on top of it while it is charging.
+|video=Janna QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Zephyr
+|icon = Zephyr.png
+|description  = {{sbc|Passive:}} Janna is aided by a wind elemental, gaining movement speed and ignoring unit collision.
+|description2 = {{sbc|Active:}} Janna launches the elemental to deal magic damage and slow an enemy's movement speed for 3 seconds (capped at 80% total). She loses the ability's passive benefits while it is on cooldown.
+|leveling = {{lcaps|Movement Speed Bonus|4|6|8|10|12%|(+ 2% AP)}}
+|leveling2 ={{lcaps|Magic Damage|60|115|170|225|280|(+ 50% AP)}}
+{{lcaps|Slow|24|28|32|36|40%|(+ 6% AP)}}
+|cooldown={{ap|12|11|10|9|8}}
+|cost={{ap|40|50|60|70|80}}
+|costtype=mana
+|range=600
+}}
+|{{Ability2
+|targeting='''Zephyr''' is a [[unit-targeted]] ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability
+|additional=
+|video=Janna WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Eye of the Storm
+|icon=Eye of the Storm.png
+|description={{sbc|Active:}} Janna surrounds a target ally champion with a wind shield that absorbs incoming damage for 5 seconds. While the shield persists, the target will also gain an attack damage bonus.
+|description2=This ability can be used on turrets. If a shielded turret kills or assists in a kill of an enemy champion, Janna will be credited for it.
+|leveling ={{lcaps|Shield Strength|80|120|160|200|240|(+ 70% AP)}}
+{{lcaps|Attack Damage Bonus|14|23|32|41|50|(+ 10% AP)}}
+|cooldown=10
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+|range=800
+}}
+|{{Ability2
+|targeting='''Eye of the Storm''' is an [[unit-targeted#Ally-targeted|ally-targeted]] [[shield]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=*''Eye of the Storm'' has no cast time and does not interrupt Janna's previous orders.
+*Allied turrets will benefit from the bonus attack damage when ''Eye of the Storm'' is cast on them. If Janna is in possession of an {{ii|Ardent Censer}}, they will also benefit from the bonus attack speed.
+|video=Janna EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Monsoon
+|icon=Monsoon.png
+|description={{sbc|Active:}} Janna emits a powerful blast of wind, knocking back enemies by 875 range, and then channels, releasing curing winds that heal allies every half-second for 3 seconds. She can reactivate the ability at any time to end the channel prematurely.
+|leveling ={{lcaps|Heal Per Second|100|150|200|(+ {{fd|60%}} AP)}}
+{{lcaps|Max Amount of Healing|300|450|600|(+ 180% AP)}}
+|cooldown={{ap|150|135|120}}
+|cost=100
+|costtype=mana
+|range=725
+}}
+|{{Ability2
+|targeting='''Monsoon''' is a [[channeled]] [[area of effect|point blank area of effect ability]].
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=will block the knock back.
+|additional=
+* ''Monsoon'' can be used to psuedo-stun enemy champions if pushes an enemy into a wall before the knockback travels its full distance.
+|video=Janna RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Janna]]
+[[de:Janna]]
+[[es:Janna]]
+[[fr:Janna]]
+[[pl:Janna]]
+[[pt-br:Janna]]
+[[ru:Janna]]
+[[zh:迦娜]]

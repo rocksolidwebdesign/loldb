@@ -1,0 +1,148 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+
+{{Ability frame|I
+|{{Ability info
+|name = Death Defied
+|icon = DeathDefied.jpg
+|description = Upon dying, Karthus enters a spirit form and becomes invulnerable and untargetable, allowing him to continue casting spells at no cost for 7 seconds.
+}}
+|{{Ability2
+|targeting='''Death Defied''' is a self-targeted [[Death#Post-death events|death]] innate.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Karthus cannot use basic attacks or [[summoner spell]]s while in the ''Death Defied'' state.
+*{{ai|Defile|Karthus}} will automatically be toggled on if Karthus has at least one rank in the ability, and it cannot be toggled off for the duration.
+*''Death Defied'' occupies a low priority for effects that trigger upon death: it will always trigger '''after''' effects such as {{iis|Guardian Angel}} or {{cai|Omen of Death|Yorick}}.
+*Karthus will still benefit from cooldown reduction during ''Death Defied's'' duration.
+*''Death Defied'' will still trigger if Karthus is killed by the [[Nexus Obelisk]].
+|video=Karthus IVideo
+}}
+}}
+ 	
+{{Ability frame|Q
+|{{Ability info
+|name = Lay Waste
+|icon = LayWaste.jpg
+|description = {{sbc|Active:}} Karthus creates a point of unstable magic at the target location that detonates after a {{fd|0.5}} second delay, dealing magic damage to enemies in a '''200'''[http://forums.na.leagueoflegends.com/board/showthread.php?p=48186195#48186195 *]-radius area (the damage is doubled if only one enemy is hit). 
+|leveling ={{lcaps|Magic Damage (Multiple Target)|40|60|80|100|120|(+ 30% AP)}}
+{{lcaps|Magic Damage (Single Target)|80|120|160|200|240|(+ 60% AP)}}
+|cooldown=1
+|cost={{ap|20|26|32|38|44}}
+|costtype=Mana
+|range=875
+}}
+|{{Ability2
+|targeting='''Lay Waste''' is a [[area of effect|ground-targeted area of effect]] ability.
+|damagetype=magic
+|spelleffects=
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+*''Lay Waste'' against a single target applies [[spell effects]] as a single target ability.
+**[[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is applied.
+**{{ii|Rylai's Crystal Scepter}} will apply a 35% slow.
+*''Lay Waste'' hitting multiple targets applies [[spell effects]] as an [[area of effect]] ability. 
+**[[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is reduced to one-third effectiveness.
+**{{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+*''Lay Waste'' grants a small instance of [[sight]] before detonation.
+*''Lay Waste'' hitting a single target lists damage as a [[critical strike]] both in the damage text in game and in the post-game screen, where the damage from Karthus's most powerful Lay Waste will appear in the post-game's "Largest Critical Strike" section of the graphs.
+**{{Pending for test}} Despite this, ''Lay Waste'' can not actually critically strike and, as such, does not scale with Critical Strike Damage even if it hits a single target.
+|video=Karthus QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name = Wall of Pain
+|icon = WallofPain.jpg
+|description = {{sbc|Active:}} Karthus creates a wall of energy between 2 obelisks at target position for 5 seconds. 
+|description2 = Enemies who pass this wall have their movement speed reduced by a large amount and their magic resistance reduced by 15% for 5 seconds. Movement speed gradually recovers over the duration.
+|leveling ={{lcap|Wall Length|800|900|1000|1100|1200}}
+{{lcap|{{tt|Maximum Wall Sight|Estimated}}|1300|1325|1350|1375|1400}}
+|leveling2 ={{lcap|Slow|40|50|60|70|80%}}
+|cooldown=18
+|cost=100
+|costtype=Mana
+|range=1000
+}}
+|{{Ability2
+|targeting='''Wall of Pain''' is a [[area of effect|ground targeted linear area of effect]] ability.
+|damagetype=
+|spelleffects=false
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+*''Wall of Pain'' grants [[sight]] around the pillars of the wall but not the wall itself.
+*''Wall of Pain'' can only affect a given enemy once per cast.
+|video=Karthus WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Defile
+|icon = Defile.jpg
+|description = {{sbc|Toggle Off:}} When Karthus kills a unit, he restores mana.
+|description2= {{sbc|Toggle On:}} Karthus surrounds himself with the souls of his victims, draining his mana to deal magic damage to enemies in range each second.
+|leveling ={{lcap|Mana Restored|20|27|34|41|48}}
+|leveling2={{lcaps|Magic Damage|30|50|70|90|110|(+ 20% AP)}}
+|range=425
+|cost={{ap|30|42|54|66|78}}
+|costtype=Mana per second
+}}
+|{{Ability2
+|targeting='''Defile''' is a [[area of effect|point blank area of effect]] [[toggle]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+*''Defile'' also restores mana to Karthus if he kills an enemy structure.
+|video=Karthus EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Requiem
+|icon = Requiem.jpg
+|description = {{sbc|Active:}} After channeling for 3 seconds, Karthus blasts all enemy champions on the map and deals magic damage.
+|leveling ={{lcaps|Magic Damage|250|400|550|(+ 60% AP)}}
+|cooldown={{ap|200|180|160}}
+|cost={{ap|150|175|200}}
+|costtype=Mana
+|range=Global
+}}
+|{{Ability2
+|targeting='''Requiem''' is an [[auto-targeted]] [[global|global area of effect]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Requiem's'' impending damage is shown to enemies by a large beam of greenish light coming from the sky during the channel.
+**Champions who were untargetable when the channel begins will not have this beam show for them, but will still take damage when it ends (''should they become targetable in the meantime'').
+*Champions who are untargetable when the channel ends do not have any damage dealt to them.
+*If ''Requiem's'' channel is interrupted in some fashion, the ability's cooldown is still applied in full and the mana cost is not refunded.
+|video=Karthus RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Karthus]]
+[[de:Karthus]]
+[[es:Karthus]]
+[[fr:Karthus]]
+[[pl:Karthus]]
+[[pt-br:Karthus]]
+[[ru:Karthus]]
+[[zh:卡尔萨斯]]

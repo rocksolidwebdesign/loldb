@@ -1,0 +1,172 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+==Abilities==
+{{Ability frame|I|
+{{Ability info
+|name=Double Strike
+|icon=Double Strike.png
+|description=Every 4th consecutive autoattack, Master Yi strikes twice. The second strike deals {{as|50% of Master Yi's AD}}, but fully applies on-hit effects and can critically strike.
+|description2=''Double Strike's'' counter resets if Master Yi has not autoattacked in the last 4 seconds.
+}}
+|{{Ability2
+|targeting='''Double Strike''' is an [[on-hit effect]].
+|damagetype=physical
+|spelleffects=
+|onhiteffects=
+Both attacks will trigger [[on-attack effects]] and [[on-hit effects]].
+** Both attacks are classified as a [[melee]].
+** Critical strike chance is calculated on each attack individually.
+** Both attacks can [[Blind|miss]] and be {{ai|Counter Strike|Jax|dodged}}.
+** {{ai|Aegis Protection|Pantheon}} will only block the first hit.
+** {{ai|Riposte|Fiora}} will block both hits.
+|spellshield=Will not block the effect.
+|additional=
+* The first attack functions as the trigger of ''Double Strike's'' on-hit effect and resets ''Double Strike's'' counter. The second attack will generate a stack of ''Double Strike'' if completed. As such, continuous attacking will net an activation of ''Double Strike'' on every 3rd attack.
+* If the target dies to the first hit, ''Double Strike's'' counter is still reset. 
+|video=Master Yi IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Alpha Strike
+|icon=Alpha Strike.png
+|description={{sbc|Active}} Master Yi becomes untargetable and leaps to strike up to 4 enemies, dealing physical damage to each and dealing additional damage to minions and monsters.
+<br><br>Each bounce will target the nearest enemy that has not yet been damaged. Master Yi re-appears at the initial target's location after the effect ends.
+|description2 = ''Alpha Strike'' can critically strike, dealing additional physical damage equal to {{as|60% AD}}. Basic attacks reduce the cooldown of ''Alpha Strike'' by 1 second.
+|leveling=
+{{lcaps|Physical Damage|25|60|95|130|165|(+ 100% AD)}}
+{{lcap|Additional damage to minions & monsters|75|100|125|150|175}}
+|range=600
+|cooldown={{ap|18|17|16|15|14}}
+|cost={{ap|70|80|90|100|110}}
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Alpha Strike''' is a [[blink|targeted blink]] that bounces to nearby enemies before arriving.
+|damagetype=physical
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* If the primary target dies or becomes invulnerable as Master Yi finishes ''Alpha Strike'', he will appear at the cast location.
+* ''Alpha Strike'' counts as movement for the purpose of {{ii|Statikk Shiv}}.
+* ''Alpha Strike's'' critical damage component is effectively {{fd|0.6}}&times; the bonus damage a critical strike would grant to a basic attack. This cuts the normal +100% down to +60%; with {{ii|Infinity Edge}}, it would instead cut +150% down to +90%.
+** The total bonus damage is showed in the ability.
+* ''Alpha Strike'' cooldown reduction counts up when attacking [[Turrets]], but not when under the effect of [[Blind]].
+* The damage is calculated after Master Yi becomes targetable, meaning that bonus AD from auras will be factored. This means he can also take [[tower|tower aggro]] from the damage dealt.
+* Neutral minions will reset to their idle positions when Master Yi is untargetable, but they do not reset their health.
+* {{ii|Sword of the Divine}} does not count critical strikes sourced from abilities toward its 3-crit limit, meaning ''Alpha Strike'' will critically strike against up to 4 units and still have 100% critical strike chance for a second-or-so thereafter.
+* It is possible to cast [[Summoner Spells]] while using ''Alpha Strike'', such as {{si|Smite}}.
+* ''Alpha Strike'' can be used to dodge and avoid skillshots and area of effect abilities. Some dodgeable spells involve the damage instance of {{ai|Time Bomb|Zilean}}, {{ai|Absolute Zero|Nunu}} and {{ai|Requiem|Karthus}}. Being untargetable extends to allies and will dodge e.g. {{ai|Wish|Soraka}}. Since [[V3.13]], {{ai|Alpha Strike|Master Yi}} can be used to dodge targeted abilities, with some exceptions such as {{ci|Fizz}}'s {{ai|Urchin Strike|Fizz}}.
+* ''Alpha Strike'' does not hit enemies in stealth or in the [[Fog of War]].
+|video=Master Yi QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Meditate
+|icon=Meditate.png
+|description={{sbc|Active:}} Master Yi channels for up to 4 seconds, restoring health each second. This healing is increased by 1% for every {{as|1% of his missing health}}. ''Meditate'' also resets the autoattack timer.
+|description2 = While channeling, Master Yi reduces incoming damage (halved against turrets).
+|leveling=
+{{lcaps|Base healing per second|30|50|70|90|110|(+ 30% AP)}}
+{{lcaps|Maximum healing per second|60|100|140|180|220|(+ 60% AP)}}
+{{lcaps|Base total heal|120|200|280|360|440|(+ 120% AP)}}
+|leveling2=
+{{lcap|Damage Reduction|50|55|60|65|70}}%
+|cooldown=35
+|cost=50
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Meditate''' is a self-targeted [[buff]]. 
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* As a channeled ability, it can be interrupted by any form of [[crowd control|hard-CC]].
+* Healing amount depends on the amount of health while the healing tick occurs, not at the casting point of health. As such, Master Yi heals less per second as his current health increases.
+* Although the tooltip show that he heals each second while channeling, the healing tick occurs every {{fd|0.5}} seconds instead, but heals for half of the amount shown in the tooltip with a total of 8 ticks.
+* Damage reduction doesn't affect true damage.
+* Activating Meditate resets Master Yi's autoattack timer.
+|video=Master Yi WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Wuju Style
+|icon=Wuju Style.png
+|cost=No cost
+|costtype=
+|description={{sbc|Passive:}} Master Yi gains {{as|10% of his total AD}} as bonus attack damage.
+|description2={{sbc|Active:}} Autoattacks deal bonus true damage for 5 seconds. Afterwards, the passive bonus is lost until ''Wuju Style'' is off cooldown.
+|leveling2={{lcaps|Bonus True damage|10|15|20|25|30|(+{{ap|10|12.5|15|17.5|20}}% AD)}}
+|cooldown={{ap|18|17|16|15|14}}
+}}
+|{{Ability2
+|targeting='''Wuju Style's''' ''passive'' is a self-targeted [[buff]].
+<br>'''Wuju Style's''' ''active'' is an [[on-hit effect]].
+|damagetype=true
+|spelleffects=
+|onhiteffects=
+The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+* Critical strikes will not interact with ''Wuju Style's'' bonus true damage.
+* The bonus damage will not affect structures. 
+* The true damage will hit through {{ai|Aegis Protection|Pantheon|block}} and {{ai|Riposte|Fiora}}.
+* The true damage will NOT hit through {{ai|Counter Strike|Jax|dodge}} and [[blind]].
+|spellshield=
+|additional=
+* ''Wuju Style'' has no cast time and does not interrupt Master Yi's previous orders.
+* The passive bonus is only lost after the active bonus has expired, meaning the bonus attack damage from the passive will increase the true damage dealt by the active, effectively giving it a {{as|+{{ap|11|13.75|16.5|19.25|22}}% AD Ratio}}.
+|video=Master Yi EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Highlander
+|icon=Highlander.png
+|description={{sbc|Passive:}} Champion kills and assists reduce the current cooldown of Master Yi's basic abilities by 70%.
+|description2={{sbc|Active:}} For 10 seconds, Master Yi gains increased movement speed and attack speed, and becomes immune to all slowing effects. While active, champion kills and assists extend the duration of ''Highlander'' by 4 seconds.
+|leveling2=
+{{lcap|Movement Speed|25|35|45}}%
+{{lcap|Attack Speed|30|55|80}}%
+|cooldown=75
+|cost=100
+|costtype=mana
+}}
+|{{Ability2
+|targeting='''Highlander's''' ''passive'' reduces the remaining cooldowns of Master Yi's basic abilities whenever he scores a kill or assist.
+<br>'''Highlander's''' ''active'' is a self-targeted [[buff]]. 
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Highlander'' has no cast time and does not interrupt Master Yi's previous orders.
+* ''Highlander'' is one of the few abilities granting a multiplicative movement speed bonus; it stacks multiplicatively rather than additively with other movement speed bonuses.
+* The slow immunity of ''Highlander'' also includes those applied by [[Flee]], [[Charm]] and [[Polymorph]], as well as all forms of [[Attack speed#Reducing attack speed|attack speed reduction]].
+* ''Highlander'' will not prevent the application of the {{cis|Sejuani}} "Frost" debuff, as it does not slow prior to being detonated by {{ai|Permafrost|Sejuani}}.
+* Abilities with conditional effects are usually composed of multiple debuffs, and ignoring the movement speed slowing debuff will not ignore the conditional effects. To name a few:
+** Master Yi will still have his attack damage reduced by {{ai|Mocking Shout|Tryndamere}} and {{ai|Chomp|Trundle}}.
+** Master Yi will still be stunned by {{ai|Petrifying Gaze|Cassiopeia}}. 
+|video=Master Yi RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Master Yi]]
+[[de:Master Yi]]
+[[es:Maestro Yi]]
+[[fr:Maître Yi]]
+[[pl:Master Yi]]
+[[pt-br:Master Yi]]
+[[ru:Master Yi]]
+[[zh:易]]

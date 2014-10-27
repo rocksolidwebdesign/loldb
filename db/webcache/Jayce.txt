@@ -1,0 +1,189 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Hextech Capacitor
+|icon = Hextech Capacitor.jpg
+|description = Jayce gains 40 bonus movement speed for {{fd|1.25}} seconds and ignores unit collision each time {{ai|Transform: Mercury Hammer|Jayce}} or {{ai|Transform: Mercury Cannon|Jayce}} is cast.
+}}
+|{{Ability2
+|targeting='''Hextech Capacitor''' is a [[buff|self-buff]] ability.
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = To The Skies!
+|icon = To the Skies!.jpg
+|description = {{sbc|Active:}} Jayce leaps to an enemy and smashes them, dealing physical damage to his target and to enemies around it, and then slowing them for 2 seconds.
+|leveling = {{lc|Physical Damage}} {{ap|20|65|110|155|200}} {{as|(+ 100% bonus AD)}}
+{{lc|Slow}} {{ap|30|35|40|45|50%}}
+|range = 600
+|cooldown = {{ap|16|14|12|10|8}}
+|cost = {{ap|40|45|50|55|60}}
+|costtype = mana
+}}
+{{ability info
+|name = Shock Blast
+|icon = Shock Blast.jpg
+|description = {{sbc|Active:}} Jayce fires an orb of electricity that detonates upon hitting an enemy or reaching the end of its path, dealing physical damage to all enemies in the area of the explosion.
+|description2 = If ''Shock Blast'' is fired through an {{ai|Acceleration Gate|Jayce}} the area of effect, missile speed, range and damage will increase by 40%.
+|leveling = {{lc|Physical Damage}} {{ap|60|115|170|225|280}} {{as|(+ 120% bonus AD)}}
+|leveling2 = {{lc|Accelerated Physical Damage}} {{ap|84|161|238|315|392}} {{as|(+ 168% bonus AD)}}
+|range = 1050 / 1470
+|cooldown = 8
+|cost = {{ap|55|60|65|70|75}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''To The Skies!''' is a [[unit-targeted]] [[dash]].
+'''Shock Blast''' is a [[skillshot|collision linear skillshot]].
+{{lc|Projectile speed}} {{ap|1450|2030}}
+|damagetype  = Physical
+|projectile  = true
+|spelleffects=aoe
+|onhiteffects=
+|spellshield= Will block both abilities' damage and effects.
+|additional=
+*''To the Skies!'' does not follow the target's movements; if the target uses a movement ability or {{si|Flash}}, Jayce will still land at the target's original position.
+**''To the Skies!'' will bring Jayce to a location linearly in front of his target.
+* ''Shock Blast'' briefly reveals [[Fog of War]] in the area where it explodes.
+** ''Shock Blast's'' range increase when used with {{ai|Acceleration Gate|Jayce}} is not affected by when the projectile actually passes through the gate; the boost simply re-targets ''Shock Blast'' to reach a location further along the same path of travel, but further away from Jayce's original position.
+|video=Jayce QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Lightning Field
+|icon = Lightning Field.jpg
+|description = {{sbc|Passive:}} Jayce regenerates mana each time he strikes an enemy while in {{ai|Transform: Mercury Hammer|Jayce|Hammer Stance}}.
+|description2 = {{sbc|Active:}} Jayce is surrounded by an electric field, dealing magic damage over 4 seconds to nearby enemies.
+|leveling = {{lc|Mana per hit}} {{ap|6|8|10|12|14}}
+|leveling2 = {{lc|Magic Damage Per Second}} {{ap|25|42.5|60|77.5|95}} {{as|(+ 25% AP)}}
+{{lc|Total Magic Damage}} {{ap|100|170|240|310|380}} {{as|(+ 100% AP)}}
+|range = 285
+|cooldown = 10
+|cost = 40
+|costtype = mana
+}}
+{{Ability info
+|name = Hyper Charge
+|icon = Hyper Charge.jpg
+|description = {{sbc|Active:}} Jayce gains the max amount of attack speed ({{fd|2.5}} attacks per second) for his next 3 attacks. These attacks deal varied damage depending on rank.
+|leveling = {{lc|Damage Multiplier}} {{ap|70|85|100|115|130%}}
+|cooldown = {{ap|14|12|10|8|6}}
+|cost = 40
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Lightning Field's''' passive is an [[on-hit effect]]. Its active is a [[self-targeted]] [[area of effect#Point blank|point blank area of effect]].
+'''Hyper Charge''' is a [[self-targeted]] [[buff]].
+|damagetype=magic
+|spelleffects=aoe, false
+|spelleffects-aoe=''Lightning Field''
+|spelleffects-false=''Hyper Charge''
+|onhiteffects=
+|spellshield=will not block either ability.
+|additional=
+*''Lightning Field'' and ''Hyper Charge'' have no cast time and do not interrupt Jayce's previous orders.
+* ''Hyper Charge'' will reset Jayce's attack timer on cast.
+** ''Hyper Charge'' will grant Jayce maximum attack speed (2.5) by itself. However, combined with attack speed reductions such as {{cai|Wither|Nasus}}, he may not achieve maximum attack speed.
+** The enhanced attacks can [[critical strike|critically strike]] and will stack with critical strike damage multiplicatively (i.e. at rank 5 a critical strike with no modifiers and ''Hyper Charge'' active will deal 130%{{times}}2 = 260% damage).
+** The buff lasts for 4 seconds, total, regardless of how many attacks were used.
+** The buff will persist even if Jayce switches into {{ai|Transform: Mercury Hammer|Jayce|Hammer Stance}}.
+|video=Jayce WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Thundering Blow
+|icon = Thundering Blow.jpg
+|description = {{sbc|Active:}} Jayce swings his hammer at target enemy, knocking them back over {{fd|0.75}} seconds and dealing magic damage equal to a percentage of their maximum health plus Jayce's bonus attack damage. This damage is capped against monsters.
+|leveling = {{lc|Total Magic Damage}} {{as| {{ap|8|11|14|17|20%}} of target's maximum health}} {{as|(+100% bonus AD)}}
+{{lc|Max Damage to Monsters}} {{ap|200|300|400|500|600}}
+|range = 240
+|cooldown = {{ap|14|13|12|11|10}}
+|cost = {{ap|40|50|60|70|80}}
+|costtype = mana
+}}
+{{Ability info
+|name = Acceleration Gate
+|icon = Acceleration Gate.jpg
+|description = {{sbc|Active:}} Deploys an ''Acceleration Gate'' for 4 seconds, increasing the movement speed of all allies who pass through it for 3 seconds. This bonus fades over the duration.
+|leveling = {{lc|Movement Speed}} {{ap|30|35|40|45|50%}}
+|range = 650 
+|cooldown = 16
+|cost = 50
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Thundering Blow''' is a [[unit-targeted]] [[knockback]].
+'''Acceleration Gate''' is a [[area of effect##Line|linear area of effect]] ability.
+|damagetype=magic
+|spelleffects=single
+|spelleffects-single=''Thundering Blow''
+|onhiteffects=
+|spellshield=will block ''Thundering Blow''.
+|additional=
+** Similarly with {{cai|Headbutt|Alistar}}, the target is "suppressed" for the duration it would take to travel the entire distance of the knock-back, if the target is knocked back near a wall or structure and cannot travel the whole distance.
+* ''Acceleration Gate'' has no cast time and does not interrupt Jayce's previous orders.
+** ''Acceleration Gate'' does not increase the movement speed of pets or minions.
+** ''Acceleration Gate'' reveals [[Fog of War]] in the area where the gate generators are.
+|video=Jayce EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Transform: Mercury Cannon
+|icon = Mercury Cannon.jpg
+|description = {{sbc|Active:}} Transforms the {{ai|Transform: Mercury Hammer|Jayce|Mercury Hammer}} into the ''Mercury Cannon'', gaining new abilities and ranged attacks. Jayce gains 375 range (''500 total range'').
+The next attack in ''Cannon Stance'' reduces the enemy's armor and magic resist for 5 seconds.
+|leveling = {{lc|Armor & Magic Resist Reduction}} {{ap|10|15|20|25%}} 
+|cooldown = 6
+}}
+{{Ability info
+|name = Transform: Mercury Hammer
+|icon = Mercury Hammer.jpg
+|description = {{sbc|Active:}} Transforms the {{ai|Transform: Mercury Cannon|Jayce|Mercury Cannon}} into the ''Mercury Hammer'', gaining new abilities, melee attacks, and bonus armor and magic resist.
+|description2 = The next attack in ''Hammer Stance'' deals additional magic damage.
+|description3 = Jayce begins with one rank in Transform and can increase it at levels 6, 11, and 16 up to 4 ranks.
+|leveling = {{lc|Armor & Magic Resist}} {{ap|5|15|25|35}}
+|leveling2 = {{lc|Bonus Magic Damage}} {{ap|20|60|100|140}}  {{as|(+ 40% AP)}}
+|cooldown = 6
+}}
+|{{Ability2
+|targeting='''Transform''' is a [[Toggle#Ability_types|toggled]] [[Shapeshifter|shapeshift]] ability.
+|damagetype=magic
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Transform'' has no cast time and does not interrupt Jayce's previous orders.
+* ''Transform'' does not count as a spell cast for the purposes of items such as {{ii|Tear of the Goddess}} and {{ii|Sheen}} and abilities such as {{ai|Force Pulse|Kassadin}}.
+* Both of the autoattack modifying buffs from ''Transform'' have no set duraton and will not expire until Jayce lands an autoattack.
+** However, the buffs will not persist if ''Transform'' is used again; for example, ''Hammer Stance's'' bonus magic damage buff will be removed if Jayce switches into Cannon Stance.
+** If the attack is {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Counter Strike|Jax|dodged}}, {{ai|Riposte|Fiora|parried}} or [[blind|misses]] the buff will not be expended.
+* ''Transform: Mercury Cannon's'' [[on-hit effect]] does not affect [[turret]]s or other structures.
+* ''Transform: Mercury Hammer's'' bonus damage can affect [[turret]]s and other structures.
+|video=Jayce RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Jayce]]
+[[de:Jayce]]
+[[es:Jayce]]
+[[fr:Jayce]]
+[[pl:Jayce]]
+[[pt-br:Jayce]]
+[[ru:Jayce]]
+[[zh:杰斯]]

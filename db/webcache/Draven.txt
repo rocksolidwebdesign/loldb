@@ -1,0 +1,148 @@
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = League of Draven
+|icon = LeagueofDraven.jpg
+|description = When Draven catches a {{ai|Spinning Axe|Draven}}, or kills a minion or monster, or destroy a tower, he gains one stack of ''Adoration''. When Draven kills an enemy champion, he consumes all of his ''Adoration'' stacks and gains 50{{plus}}(2{{times}}per stack consumed) gold. Draven loses half of his ''Adoration'' stacks upon death. 
+}}
+|{{Ability2
+|targeting='''League of Draven''' is a passive ability that triggers whenever Draven catches a {{ai|Spinning Axe|Draven}}, kills an unit, or kills an enemy champion.
+|additional=
+*The [[kill|on-kill effect]] will stack additively with similar effects (such as {{ii|Avarice Blade}}).
+*Draven will gain ''Adoration'' on ward kills.
+*Draven will gain ''Adoration'' on {{cai|Noxious Trap|Teemo}} and {{cai|Unholy Covenant|Yorick|ghouls}} kills as well.
+|video=Draven IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Spinning Axe
+|icon = SpinningAxe.jpg
+|description = {{sbc|Active:}} Draven starts spinning his axe, making his next attack within 5.8 seconds deal bonus physical damage equal to a percentage of his total attack damage.
+|description2 = This axe will ricochet off the target high up into the air, landing 2 seconds later at a location determined by Draven's current movement direction and speed. If Draven catches it, ''Spinning Axe'' will be applied to his next attack and he gains a stack of {{ai|League of Draven|Draven|Adoration}}.
+|description3 = Draven can hold up to two ''Spinning Axes'' spinning at once.
+|leveling = {{lc|Bonus Physical Damage}} {{as|{{ap|45|55|65|75|85%}} AD}}
+|cooldown = {{ap|12|11|10|9|8}}
+|cost = 45
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Spinning Axe''' is an [[on-hit]] effect.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+**As with most on-hit physical damage, the bonus damage from Spinning Axe will apply [[life steal]].
+**Critical strikes will not interact with ''Spinning Axe's'' bonus damage.
+**Attacks against structures will refresh the timer on active ''Spinning Axes'', but will not deal bonus damage or cause the axe to bounce.
+**The bonus damage will be negated if the auto attack is {{ai|Counter Strike|Jax|dodged}}, {{ai|Aegis Protection|Pantheon|blocked}}, {{ai|Riposte|Fiora|parried}}, or if the attack [[blind|misses]]. However, the axe will still bounce off.
+**Catching a ''Spinning Axe'' will '''not''' refresh [[Named item effect#Spellblade|Spellblade]] on catch.
+|spellshield=
+|additional=
+*''Spinning Axe's'' landing location is determined by Draven's direction of movement at the time of ''Spinning Axe's'' impact on the target.
+**If Draven is not moving at this time, the ''Spinning Axe'' will bounce back towards his current location, either landing directly on him or to his sides.
+**On the other hand if Draven is moving, the ''Spinning Axe'' will bounce ahead of him, either directly in his path or slightly off to the sides.
+*''Spinning Axe'' will place a visual cue on the ground where it will land. This visual cue is visible to both player teams, although Draven himself will see a more prominent marker (a golden sigil).
+**If there is another Draven on the enemy team, he will be able to catch your axes and you will be able to catch his. Catching the enemy's ''Spinning Axes'' will have the same effect as if you caught one of your own.
+*While Draven can only carry two axes at once, it is possible to have a three axes running at the same time by keeping at least one ''Spinning Axe'' in the air at all times, a.k.a. juggling. 
+|video=Draven QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Blood Rush
+|icon = BloodRush.jpg
+|description = {{sbc|Active:}} Draven gains increased movement speed for {{fd|1.5}} seconds and increased attack speed for 3 seconds. The movement speed bonus decreases rapidly over its duration.
+
+Catching a {{ai|Spinning Axe|Draven}} will refresh ''Blood Rush's'' cooldown.
+|leveling = {{lc|Movement Speed}} {{ap|40|45|50|55|60%}}
+{{lc|Attack Speed}} {{ap|20|25|30|35|40%}}
+|cooldown = 12
+|cost     = 40
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Blood Rush''' is a self-targeted offensive buff.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*Activating ''Blood Rush'' while the effect is already active will refresh the bonus stats. 
+|video=Draven WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Stand Aside
+|icon = StandAside.jpg
+|description = {{sbc|Active:}} Draven throws his axes in a line. Enemies hit take physical damage, are knocked aside, and are slowed for 2 seconds afterwards.
+|leveling = {{lc|Physical Damage}} {{ap|70|105|140|175|210}} {{as|(+ 50% bonus AD)}}
+{{lc|Slow}} {{ap|20|25|30|35|40%}}
+|range = 1050
+|cooldown = {{ap|18|17|16|15|14}}
+|cost     = 70
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Stand Aside''' is a [[skill shot|linear, pass-through skill shot]].
+|damagetype=physical
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=will block the damage, knock-aside and slow.
+|additional=
+*Airborne crowd control effects, such as knock-aside, will interrupt [[dash]] abilities without allowing them to complete their path. This is unlike other forms of crowd control, which will merely affect the target when they arrive. 
+|video=Draven EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Whirling Death
+|icon = WhirlingDeath.jpg
+|description = {{sbc|Active:}} Draven hurls two massive axes in a given direction, dealing physical damage to every enemy struck.<br/>
+Upon reaching the edge of the map, striking an enemy champion or upon the reactivation of ''Whirling Death'', the axes will slowly come to a stop before changing direction and returning to Draven, dealing the same damage to every enemy struck on the way back.<br/>
+''Whirling Death'' deals 8% less damage for each unit hit, down to a minimum of 40%. The damage reduction resets when the axes reverse direction.
+|leveling = {{lc|Physical Damage (one hit)}} {{ap|175|275|375}} {{as|(+ 110% bonus AD)}}
+{{lc|Maximum Physical Damage (two hits)}} {{ap|350|550|750}} {{as|(+ 220% bonus AD)}}
+{{lc|Minimum Physical Damage (one hit)}} {{ap|70|110|150}} {{as|(+ 44% bonus AD)}}
+{{lc|Minimum Physical Damage (two hits)}} {{ap|140|220|300}} {{as|(+ 88% bonus AD)}}
+|cooldown = {{ap|110|100|90}}
+|cost     = 120
+|costtype = mana
+|range    = Global
+}}
+|{{Ability2
+|targeting='''Whirling Death''' is a global linear, pass-through [[skill shot]] that returns to Draven upon reaching the edge of the map or colliding with an enemy champion.
+|damagetype=physical
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block one instance of the damage.
+|additional=
+*''Whirling Death'' grants sight along its path. 
+*"Changing direction" does not occur instantly. Rather, the axes will decelerate and come to complete stop before turning around. With careful timing, it is possible to reactivate the ability and cause an enemy to take two instances of damage instantly. 
+*Upon changing direction, ''Whirling Death's'' damage will reset to the full amount. This is unlike a similar ability, {{ai|Boomerang Blade|Sivir}}, which continues to diminish throughout.
+*If Draven dies before the axe changes direction, it will fizzle upon reaching the edge of the map or striking an enemy champion. If the axe is already in the process of decelerating, it will still fizzle upon coming to a complete stop.
+|video=Draven RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{c-bot}}
+
+[[cs:Draven]]
+[[de:Draven]]
+[[es:Draven]]
+[[fr:Draven]]
+[[pl:Draven]]
+[[pt-br:Draven]]
+[[ru:Draven]]
+[[zh:德莱文]]

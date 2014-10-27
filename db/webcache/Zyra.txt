@@ -1,0 +1,208 @@
+{{C-top}} {{champion info|Zyra}}
+{{C-ref}}
+==Ability Details==
+{{Ability frame|I|
+{{Ability info
+|name = Rise of the Thorns
+|icon = RiseoftheThorns.jpg
+|description = Upon death, Zyra returns to her plant form for up to 8 seconds. After 2 seconds, she gains the ability to cast '''Vengeful Thorn''' using any learned ability.
+|description2 = {{sbc|[[File:RiseoftheThorns.jpg|20px|link=]] '''Vengeful Thorn''' - Active:}} Zyra spits a vengeful thorn in the direction of the cursor, dealing {{ap|80}}{{Plus}}{{as|(20 x ''Zyra's level'')}} true damage to every enemy it passes through.
+|leveling2= {{lc|Missile Speed}} 1900
+{{lc|Missile Width}} 70
+|range= {{tt|1500|Estimated}}
+
+}}
+|{{Ability2
+|targeting='''Rise of the Thorns''' is a [[passive]] ability that triggers on Zyra's death. 
+'''Vengeful Thorn''' is a [[skill shot|linear, pass-through skill shot]].
+|damagetype=True
+|projectile=true
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+* '''Vengeful Thorn''' is [[quick cast]] by default.
+* Zyra's death timer begins when she dies, not when ''Rise of the Thorns'' has finished. In the event that the respawn timer is shorter than the time she spends in ''Rise of the Thorns'', her respawn timer is extended so that she has a minimum respawn time of 2 seconds.
+* Zyra can only fire '''Vengeful Thorn''' with an ability she has ranked. For example, if {{ai|Deadly Bloom|Zyra}} has not been ranked she cannot use the first ability slot or its shortcuts (default: Q) to fire the '''Vengeful Thorn'''.
+|video=Zyra IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Deadly Bloom
+|icon = DeadlyBloom.jpg
+|description = {{sbc|Active:}} After a {{tt|short delay|0.625 seconds}}, thorns sprout from the ground at a target location dealing magic damage to enemies within the area.
+|description2 = {{sbc|{{ai|Rampant Growth|Zyra}}:}} If ''Deadly Bloom'' hits a seed, a [[File:DeadlyBloom.jpg|20px|link=Zyra#Thorn Spitter]] [[Zyra#Thorn Spitter|Thorn Spitter]] grows that lasts for 10 seconds. '''Thorn Spitters''' have a long ranged attack and deal 23{{plus}}({{fd|6.5}}{{times}}''Zyra's level'') {{as|(+ 20% AP)}} magic damage.
+|leveling = {{lc|Magic Damage}} {{ap|70|105|140|175|210}} {{as|(+ 65% AP)}}
+|range = 800
+|cooldown = {{ap|7|6.5|6|5.5|5}}
+|cost = {{ap|75|80|85|90|95}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Deadly Bloom''' is a [[area of effect|ground-targeted area of effect]].
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Zyra QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Rampant Growth
+|icon = RampantGrowth.jpg
+|description = {{sbc|Passive:}} Zyra gains bonus cooldown reduction.
+|description2 = {{sbc|Active:}} Zyra plants a seed at a target location for 30 seconds, granting sight of a small area around it. If one of Zyra's basic abilities hits a seed, a plant will grow that automatically attacks nearby enemies. Extra plants striking the same target deal 50% less damage.
+
+Zyra periodically stores a seed and can hold up to 2 at a time, and can only have 4 seeds placed at any one time. 
+
+After {{fd|1.5}} seconds, enemy champions can step on a seed to destroy it - but will be revealed for 2 seconds. 
+|leveling = {{lc|Cooldown Reduction}} {{ap|2|4|6|8|10%}}
+|range = 850
+|cost = 1
+|costtype = seed
+|customlabel={{tt|Recharge Time|This time factors the innate cooldown reduction of the ability}}
+|custominfo={{ap|16.7|15.4|14.1|12.9|11.7}}
+}}
+|{{Ability2
+|targeting='''Rampant Growth''' is a ground-targeted trap that detonates against a single target.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=Will not block the seed detonation (this is a special case).
+|additional=
+* The true sight can be removed with [[Quicksilver]].
+* '''Seeds''' can be targeted by allied abilities, such as {{ai|Safeguard|Lee Sin}} and {{si|Teleport}}. 
+* '''Seeds''' cannot be targeted by enemies (including towers) and as such will not detonate enemy traps, such as {{ai|Noxious Trap|Teemo}} or {{ai|Bushwhack|Nidalee}}.
+* While only four seeds can be placed at a time, there is no limit for the number of plants grown at the same time. With maximum cooldown reduction and max ranked ''Rampant Growth'', it is possible to have 8 plants active for brief amount of time.
+|video=Zyra WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Grasping Roots
+|icon = GraspingRoots.jpg
+|description = {{sbc|Active:}} Zyra sends vines forward in a line, dealing magic damage and rooting enemies hit for a short duration.
+{{lc|Projectile Speed}} 1150
+|description2 = {{sbc|{{ai|Rampant Growth|Zyra}}:}} If ''Grasping Roots'' hits a seed, a [[File:GraspingRoots.jpg|20px|link=Zyra#Vine Lasher]] [[Zyra#Vine Lasher|Vine Lasher]] grows that lasts for 10 seconds. '''Vine Lasher''' have a short ranged attack that deals 23{{plus}}({{fd|6.5}}{{times}}''Zyra's level'') {{as|(+ 20% AP)}} magic damage and slows enemies hit by 30% for 2 seconds.
+|leveling = {{lc|Magic Damage}} {{ap|60|95|130|165|200}} {{as|(+ 50% AP)}}
+{{lc|Root Duration}} {{ap|0.75|1|1.25|1.5|1.75}}
+|range = 1100
+|cooldown = 12
+|cost = {{ap|70|75|80|85|90}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Grasping Roots''' is a [[skill shot|linear, pass-through skill shot]]. [[Root]] is a form of crowd control that prevents the target from moving, including movement abilities.
+|projectile=true
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the ability.
+|additional=
+|video=Zyra EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Stranglethorns
+|icon = Stranglethorns.jpg
+|description = {{sbc|Active:}} Summons the fury of nature, growing a twisted thicket at the target location which deals magic damage to all enemies in the area as it expands. After 2 seconds, the vines snap upward knocking enemies into the air for 1 second.
+|description2={{sbc|{{ai|Rampant Growth|Zyra}}:}} Plants within the thicket are enraged, increasing their attack speed by 50%.
+|leveling = {{lc|Magic Damage}} {{ap|180|265|350}} {{as|(+ 70% AP)}}
+|range = 700
+|cooldown = {{ap|130|120|110}}
+|cost = {{ap|100|120|140}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Stranglethorns''' is a [[area of effect|ground-targeted area of effect]]. [[Knock up]] is a form of crowd control that makes a target [[airborne]] on the spot, preventing them from moving, attacking or casting abilities. 
+|damagetype=magic
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=Will block the damage '''or''' the knockup, depending on when the spellshield is activated.
+|additional=
+* Plants do not need to be active before ''Stranglethorns'' is cast to gain the bonus attack speed. Plants grown during the 2 seconds prior to the knockup will also be enraged.
+* Plants already grown before the ultimate is cast will have their duration refreshed if they are inside the area of effect.
+|video=Zyra RVideo
+}}
+}}
+
+== Pets ==
+{{Anchor|Thorn Spitter}}
+{{Ability pet
+|name = Thorn Spitter
+|icon = Deadly Bloom.png
+|render = Thorn Spitter.png
+|description = '''Thorn Spitters''' are [[Pet#Minion|static, autonomous minions]]. 
+* Apply [[spell effects]] as a [[damage over time]] ability.
+** [[File:Hextech Revolver item.png|20px|link=Spell vamp]] [[Spell vamp]] is applied.
+** {{ii|Rylai's Crystal Scepter}} will apply a 15% slow.
+* Does not apply [[on-hit effects]].
+* Does not affect/is not affected by {{ai|Counter Strike|Jax}}, {{ai|Riposte|Fiora}}, {{ai|Aegis Protection|Pantheon}} and [[Blind]], because the basic attacks count as spells.
+* Benefits from {{ii|Banner of Command}} and {{ii|Captain}} (although they cannot move).
+* Contrary to popular belief, plants will ''not'' prioritize enemy champions by default. While Zyra has an active plant, her basic attacks against champions will "mark" them as a target (placing a small icon above their head). The mark will fade if Zyra loses sight of a marked enemy. Plants will prioritize:
+** Marked enemy champions. 
+** Zyra's attack target.
+** Unknown default priority, likely the nearest enemy. 
+* Note that plants will often prioritize enemy champions on their first attack, which will occur almost instantly upon being spawned. Their attack priority will kick in on their second attack. 
+* Cannot attack structures.
+* Plants take modified damage from all sources:
+** Auto-attacks from minions and monsters deal 1 damage.
+** Auto-attacks from champions deal 2 damage.
+** Area of effect abilities deal 3 damage.
+** Single target abilities deal 4 damage. 
+** {{cis|Dragon}} attacks deal 4 damage.
+** Turrets deal 6 damage.
+** {{si|Smite}} and {{ai|Consume|Nunu}} deals 6 damage. 
+* {{ci|Baron Nashor}} will ignore plants, as it ignores all non-champion targets.
+* Attacks count as spells in the sense that they proc {{ii|Banshee's Veil}} and other spell shields, such as {{cai|Spell Shield|Sivir}} and {{cai|Shroud of Darkness|Nocturne}} as well as spell on-hit effects such as {{ii|Rylai's Crystal Scepter}} and {{ii|Liandry's Torment}}, but does not count as a stack for {{ii|Manamune}} or {{ii|Archangel's Staff}}
+* Will stop attacking when silenced, due to the nature of its basic attacks.
+|health=6
+|damage= 23 (+{{fd|6.5}}/Zyra's level) {{as|(+20% AP)}}
+|damagetype=Magic
+|range=750
+|armor=N/A
+|mr=N/A
+|attackspeed={{fd|0.8}} ({{fd|1.2}} with {{ai|Stranglethorns|Zyra}})
+|movespeed=Static
+|gold=10 gold
+|exp=0
+}}
+{{Anchor|Vine Lasher}}
+{{Ability pet
+|name = Vine Lasher
+|icon= Grasping Roots.png
+|render=Vine Lasher.png
+|description = '''Vine Lashers''' are functionally identical to [[File:DeadlyBloom.jpg|20px|link=Zyra#Thorn Spitter]] [[Zyra#Thorn Spitter|Thorn Spitter]], except their attacks slow enemies by 30% for 2 seconds. 
+|health=6
+|damage= 23 (+{{fd|6.5}}/Zyra's level) {{as|(+20% AP)}}
+|damagetype=Magic
+|range=400
+|armor=N/A
+|mr=N/A
+|attackspeed={{fd|0.8}} ({{fd|1.2}} with {{ai|Stranglethorns|Zyra}})
+|movespeed=Static
+|gold=10 gold
+|exp=0
+}}
+{{clear}}
+
+== References ==
+{{reflist}}
+{{c-bot}}
+
+[[cs:Zyra]]
+[[de:Zyra]]
+[[es:Zyra]]
+[[fr:Zyra]]
+[[pl:Zyra]]
+[[pt-br:Zyra]]
+[[ru:Zyra]]
+[[zh:婕拉]]

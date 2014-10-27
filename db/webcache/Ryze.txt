@@ -1,0 +1,135 @@
+{{redirect|Ryze|the Riot Games CEO|Ryze (person)}}
+{{C-top}}
+{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Arcane Mastery
+|icon = ArcaneMastery.jpg
+|description = When Ryze uses an ability, all of his other abilities have their cooldown reduced by 1 second.
+}}
+|{{Ability2
+|targeting='''Arcane Mastery''' is a passive ability that triggers whenever Ryze casts an ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*''Arcane Mastery'' does not trigger when using [[summoner spells]] or the active effects of [[item]], and does not reduce their cooldowns.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Overload
+|icon = Overload.jpg
+|description = {{sbc|Passive:}} Ryze gains cooldown reduction.
+|description2 = {{sbc|Active:}} Ryze throws a charge of pure energy at an enemy unit, dealing magic damage.
+|leveling = {{lcap|Cooldown Reduction|2|4|6|8|10%}}
+|leveling2 = {{lcapss|Magic Damage|60|85|110|135|160|(+ 40% AP)|(+ {{fd|6.5}}% of max mana)}}
+|range = 625
+|cooldown = {{ap|3.5}}
+|cost = 60
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Overload''' is a single target ability that passively grants [[cooldown reduction]].
+{{lc|Projectile speed}} 1400
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Ryze QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Rune Prison
+|icon = RunePrison.jpg
+|description = {{sbc|Active:}} Ryze traps an enemy in a cage of magic, dealing magic damage and rooting it for a short time.
+|leveling = {{lcapss|Magic Damage|60|95|130|165|200|(+ 60% AP)|(+ {{fd|4.5}}% of max mana)}}
+{{lcap|Duration|0.75|1|1.25|1.5|1.75}}
+|range = 600
+|cooldown = 14
+|cost = {{ap|60|70|80|90|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Rune Prison''' is a single target ability that deals magic damage to a target enemy unit and [[root]]s it.
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+|video=Ryze WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Spell Flux
+|icon = SpellFlux.jpg
+|description = {{sbc|Active:}} Ryze unleashes an orb of magical power which bounces to enemy units or himself within 200 range, up to 5 times (for a total of 6 hits). 
+<br><br>Against enemies, each bounce deals magic damage and reduces magic resistance for 5 seconds. This reduction does not stack with multiple hits. The orb has no effect on Ryze if it bounces back to himself.
+|leveling = {{lcapss|Magic Damage|50|70|90|110|130|(+ 35% AP)|(+ 1% of max mana)}}
+{{lcapss|Max Magic Damage to One Target|150|210|270|330|390|(+ 105% AP)|(+3% of max mana)}}
+{{lcap|Magic Resist Reduction|12|15|18|21|24}}
+|range = 600
+|cooldown = 14
+|cost = {{ap|60|70|80|90|100}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting= '''Spell Flux''' is a single target [[area of effect#Chain|chain area of effect]] ability that fires a projectile at a target enemy unit, which can bounce up to 5 times between enemy units or Ryze.
+{{lc|Projectile Speed}} {{tt|1000|Estimated}}
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability and prevent it from bouncing to another target.
+|additional=
+* ''Spell Flux'' can bounce to targets in the [[Fog of War]].
+|video=Ryze EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Desperate Power
+|icon = DesperatePower.jpg
+|description = {{sbc|Active:}} Ryze becomes supercharged, gaining spell vamp and 80 bonus flat movement speed, and causing his spells to deal 50% of their damage to other enemies in a 200 unit radius around the original target.
+|leveling = {{lcap|Spell Vamp|15|20|25%}}
+{{lcap|Duration|5|6|7}}
+|cooldown = {{ap|70|60|50}}
+}}
+|{{Ability2
+|targeting = '''Desperate Power''' is a self-[[buff]] ability that also causes Ryze's basic abilities to deal damage in an [[area of effect]] around their targets.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block application of the area of effect damage when they block a spell, but do not block the area of effect damage itself.
+|additional=
+* ''Desperate Power'' has no cast time and does not interrupt Ryze's previous orders.
+* The damage to the primary target still applies spell effects as a single target ability.
+* The bonus damage is not dealt to the primary target of a spell.
+* If ''Desperate Power'' is cast while the projectile of {{ai|Overload|Ryze}} or {{ai|Spell Flux|Ryze}} is in flight, the ability will still gain the increased spell vamp and bonus area of effect damage upon reaching its target.
+|video=Ryze RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Ryze]]
+[[de:Ryze]]
+[[es:Ryze]]
+[[fr:Ryze]]
+[[pl:Ryze]]
+[[pt-br:Ryze]]
+[[ru:Ryze]]
+[[zh:瑞兹]]

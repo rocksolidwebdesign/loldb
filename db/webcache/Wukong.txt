@@ -1,0 +1,147 @@
+{{C-top}} 
+{{champion info|Wukong}}
+'''{{fullname|Wukong}}, {{data Wukong|pst2|title}}''' is a [[champion]] in [[League of Legends]]<ref>[http://gameinfo.na.leagueoflegends.com/en/game-info/champions/monkeyking/ Wukong's profile page] on [[Leagueoflegends.com]]</ref>. <!-- Special Chmapion -->
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Stone Skin
+|icon = Stone Skin.jpg
+|description = Wukong's armor and magic resistance are increased by {{pp|3|4|6|8|1|7|13}} for each visible nearby enemy champion <ref>[http://na.leagueoflegends.com/board/showthread.php?p=23160222#23160222 Stone Skin's Effective]</ref>.
+|range = 1400
+}}
+|{{Ability2
+|targeting='''Stone Skin''' is a self-buff when Wukong can see an enemy champion.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* Decoys of champions such as {{ai|Mirror Image|LeBlanc}} will not affect ''Stone Skin''.
+|video=
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Crushing Blow
+|icon = Crushing Blow.jpg
+|description = {{sbc|Active:}} Wukong's next attack within the next 5 seconds deals bonus physical damage, gains 125 range (''300 total range'') and reduces the enemy's armor by a percentage for 3 seconds. 
+|leveling = {{lc|Bonus Physical Damage}} {{ap|30|60|90|120|150}} {{as|(+ 110% AD)}}
+{{lc|Armor Reduction}} {{ap|10|15|20|25|30%}}
+|cooldown = {{ap|9|8|7|6|5}}
+|cost = 40
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Crushing Blow''' is a one-use [[on-hit]] effect.
+|damagetype=Physical
+|spelleffects=
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+* As with most on-hit physical damage, the bonus damage from this ability will apply [[life steal]].
+* This will trigger upon structures but not wards.
+* Critical strikes will not interact with the bonus damage from ''Crushing Blow''.
+* Crushing Blow ignore the {{ai|Counter Strike|Jax|dodge}}, {{Pending for test}} {{ai|Riposte|Fiora|parry}}, {{ai|Aegis Protection|Pantheon|block}} Block the damage of Crushing Blow but no the armor reduction and [[blind]] has yet to be tested.
+|spellshield=Will block the damage and debuff.
+|additional=
+* This has no cast time and resets Wukong's attack timer.
+* Performing an action after the animation is played, but before dealing damage will start the attack timer, and you must wait before you attack again, although the buff is not lost.
+|video=Wukong QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Decoy
+|icon = Decoy.jpg
+|description = {{sbc|Active:}} Wukong becomes stealthed for {{ap|1.5}} seconds and leaves behind a decoy of himself.
+|description2 = {{sbc|Decoy:}} The decoy is uncontrollable and cannot move or attack. After {{ap|1.5}} seconds, it will vanish, dealing magic damage in a radius of '''175'''.
+|leveling2 = {{lc|Magic Damage}} {{ap|70|115|160|205|250}} {{as|(+ 60% AP)}}
+|cooldown = {{ap|18|16|14|12|10}}
+|cost = {{ap|50|55|60|65|70}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Decoy''' is a self-buff and a delayed [[area of effect]].
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+* Has no cast time.
+* Because the decoy is stopped and won't attack, it is possible to bluff this ability by stopping Wukong.
+** The decoy is left in the stop position, but instantly. Because the transition frames from movement animation to stop animation are missing, an experienced enemy can tell the difference.
+* The decoy counts as a champion for purposes of being targeted, such as {{cai|Ace in the Hole|Caitlyn}}.
+* If the decoy is killed before it vanishes, it will not deal any damage.
+|video=Wukong WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Nimbus Strike
+|icon = Nimbus Strike.jpg
+|description = {{sbc|Active:}} Wukong dashes on a cloud toward a target enemy and sends out images to attack up to two additional enimies within '''187.5''' range of the target, dealing physical damage to each enemy struck. 
+|description2 = Upon hitting his target, he gains an attack speed bonus for 4 seconds.
+|leveling = {{lc|Physical Damage}} {{ap|60|105|150|195|240}} {{as|(+ 80% Bonus AD)}}
+|leveling2 = {{lc|Attack Speed Bonus}} {{ap|30|35|40|45|50%}}
+|range = 625
+|cooldown = 8
+|cost = {{ap|45|50|55|60|65}}
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Nimbus Strike''' is a [[dash|single target dash]] that damages up to two additional nearby enemies.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the damage.
+|additional=
+|video=Wukong EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Cyclone
+|icon = Cyclone.jpg
+|description = {{sbc|Active:}} Wukong's staff grows outward as he spins around for up to 4 seconds, dealing physical damage per second to enemies around him and gaining a 5% movement speed bonus per half second. 
+|description2 = Enemies are knocked up into the air the first time they are hit by the spin. Wukong cannot attack or use other basic abilities while spinning, but can deactivate it early.
+|leveling = {{lc|Physical Damage per second}} {{ap|20|110|200}} {{ability scaling|(+ 110% AD)}}
+{{lc|Maximum Physical Damage}} {{ap|80|440|800}} {{ability scaling|(+ 440% AD)}}
+|range = 162.5
+|cooldown = {{ap|120|105|90}}
+|cost = 100
+|costtype = mana
+}}
+|{{Ability2
+|targeting='''Cyclone''' is a point-blank area of effect and a self-buff.
+|damagetype=physical
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block one second of damage.
+|additional=
+* While spinning, summoner spells and item actives can still be used, with the exception of [[Named item effect#Crescent|Crescent]], the active portion of {{ii|Tiamat}} and {{ii|Ravenous Hydra}}.
+|video=Wukong RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Crystal Scar]] and [[Twisted Treeline]]
+*{{ai|Stone Skin|Wukong}}
+**Bonus armor and magic resistance reduced to {{ap|2|4|6}} from {{ap|4|6|8}}.
+*{{ai|Cyclone|Wukong}}
+**Cooldown increased to {{ap|120|110|100}} seconds from {{ap|120|105|90}} seconds.
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Wukong]]
+[[de:Wukong]]
+[[es:Wukong]]
+[[fr:Wukong]]
+[[pl:Wukong]]
+[[pt-br:Wukong]]
+[[ru:Wukong]]
+[[zh:孙悟空]]

@@ -1,0 +1,129 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}} 
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name=Adrenaline Rush
+|icon=AdrenalineRush.jpg
+|description= Dr. Mundo regains {{as|{{ap|0.3}}% of his maximum health}} each second.
+}}
+|{{Ability2
+|targeting='''Adrenaline Rush''' is a self-[[buff]] ability that is permanently active.
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name=Infected Cleaver
+|icon=InfectedCleaver.jpg
+|description={{sbc|Active:}} Dr. Mundo hurls his cleaver in a line. The first enemy it hits takes magic damage equal to a percentage of its current health and is slowed by 40% for 2 seconds. In addition, Dr. Mundo is healed for an amount equal to half the health cost. ''Infected Cleaver'' has a minimum damage threshold, and a maximum damage cap versus monsters and minions.
+|leveling={{lc|Magic Damage}} {{as|{{ap|15|18|21|23|25%}} of target's current health}} 
+{{lc|Minimum Damage}} {{ap|80|130|180|230|280}}
+{{lc|Max Damage versus Monsters}} {{ap|300|400|500|600|700}}
+|cooldown=4
+|cost={{ap|50|60|70|80|90}}
+|costtype= Health
+|range=1000
+}}
+|{{Ability2
+|targeting='''Infected Cleaver''' is a [[skill shot|colliding, linear skill shot]].
+*'''Projectile speed:''' 2000
+*'''Missile width:''' 60
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=Will block the damage and slow, but Dr. Mundo will still restore health.
+|additional=
+*As with all abilities that cost health, ''Infected Cleaver'' can be cast at any health value but will not reduce Dr. Mundo's health below 1. This makes ''Infected Cleaver'' effectively free-to-cast at 1 health.
+|video=Dr. Mundo QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name=Burning Agony
+|icon=BurningAgony.jpg
+|description={{sbc|Toggle:}} While active, Dr. Mundo deals magic damage each second to nearby enemies and reduces the duration of crowd control effects on himself.
+|leveling={{lc|Magic Damage per second}} {{ap|35|50|65|80|95}} {{as|(+ 20% AP)}}
+{{lc|Crowd Control Reduction}} {{ap|10|15|20|25|30%}}
+|range={{ap|162.5}}
+|cooldown=4
+|cost={{ap|10|15|20|25|30}}
+|costtype= Health per second
+}}
+|{{Ability2
+|targeting='''Burning Agony''' is a [[area of effect|point blank area of effect]] ability.
+|spelleffects=area of effect
+|onhiteffects=
+|spellshield=
+|damagetype=magic
+|additional=
+*''Burning Agony'' has no cast time and does not interrupt Dr. Mundo's previous orders.
+*As with all abilities that cost health, ''Burning Agony'' can be used at any health value but will not reduce Dr. Mundo's health below 1. This makes ''Burning Agony'' effectively free-to-cast at 1 health.<!--Pretty sure that you cannot activate ''Burning Agony'' when your current health is below the value of the health cost, but I'll give it the benefit of the doubt since I can't remember for sure if this is the case-->
+*[[Named item effect#Tenacity|Tenacity]] stacks multiplicatively. ''Burning Agony'' together with 35% Tenacity from items will grant Dr. Mundo 41.5 / 44.75 / 48 / 51.25 / 54.5% crowd control reduction. Dr. Mundo can achieve 59.05% with Tenacity from items and the {{mi|Tenacious}} mastery, and 85.67% for a few seconds with the use of {{si|Cleanse}}.
+|video=Dr. Mundo WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name=Masochism
+|icon=Masochism.jpg
+|description={{sbc|Active:}} For 5 seconds, Dr. Mundo gains bonus attack damage plus additional attack damage for every 1% of his missing health.
+|leveling={{lc|Attack Damage}} {{ap|40|55|70|85|100}} + {{ap|0.4|0.55|0.7|0.85|1}} per 1% of missing health
+|cooldown=7
+|cost={{ap|25|35|45|55|65}}
+|costtype= Health
+}}
+|{{Ability2
+|targeting='''Masochism''' is a self-[[buff]] ability. 
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|damagetype=
+|additional=
+*''Masochism'' has no cast time and does not interrupt Dr. Mundo's previous orders.
+*As with all abilities that cost health, ''Masochism'' can be used at any health value but will not reduce Dr. Mundo's health below 1. This makes Masochism effectively free-to-cast at 1 health.
+*The amount of attack damage granted will adjust over the duration as Dr. Mundo gains or loses health. 
+*''Masochism'' grants up to {{ap|80|110|140|170|200}} attack damage, making it the highest, non-ultimate attack damage [[buff|steroid]] in the game.
+|video=Dr. Mundo EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name=Sadism
+|icon=Sadism.jpg
+|description={{sbc|Active:}} Dr. Mundo regenerates a percentage of his maximum health over a period of 12 seconds. During this time his movement speed is increased.
+|leveling={{lc|Heal}} {{as|{{ap|40|50|60%}} of maximum health}}
+{{lc|Movement Speed}} {{ap|15|25|35%}}
+|cooldown=75
+|cost=20%
+|costtype= of current Health
+}}
+|{{Ability2
+|targeting='''Sadism''' is a self-[[buff]] ability.
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|damagetype=
+|additional=
+*''Sadism'' has no cast time and does not interrupt Dr. Mundo's previous orders.
+*''Sadism'' will be considered [[health regeneration|health regeneration per 5 seconds]] with regards to the statistics panel.
+*''Sadism'' will continue its healing effect through pseudo-death effects and while in stasis, such as {{ii|Zhonya's Hourglass}}, {{cai|Chrono Shift|Zilean}} and {{ii|Guardian Angel}}.
+|video=Dr. Mundo RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Dr. Mundo]]
+[[de:Dr. Mundo]]
+[[es:Dr. Mundo]]
+[[fr:Dr. Mundo]]
+[[pl:Dr Mundo]]
+[[ru:Dr. Mundo]]
+[[zh:蒙多医生]]

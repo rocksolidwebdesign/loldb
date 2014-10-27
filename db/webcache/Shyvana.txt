@@ -1,0 +1,146 @@
+{{C-top}}{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+Shyvana's abilities have no cost related to them, and the use of her abilities is only limited by cooldowns. Instead she uses '''FURY''' as her secondary resource.
+
+'''FURY''' is only needed as a requirement for the use of her ultimate {{ai|Dragon's Descent|Shyvana}}, which allows her to change form if she has '''100 FURY''' and remain in that state for as long as she has '''FURY'''. Shyvana won't generate '''FURY''' unless she has at least one point in {{ai|Dragon's Descent|Shyvana}}, and once she puts the first point on the skill she will gain '''100 FURY''' immediately. Any gained '''FURY''' cannot be lost except by depletion during [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form'''.
+
+{{Ability frame|I
+|{{Ability info
+|name=Dragonborn
+|icon=Dragonborn.png
+|description=Shyvana gains {{pp|4|5|10|15|20|1|6|11|16}} armor and magic resist (doubled in [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''').
+}}
+|{{Ability2
+|targeting='''Dragonborn''' is a [[self-buff]] ability.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name=Twin Bite
+|icon=Twin Bite.png
+|description={{sbc|Active:}} Shyvana's next autoattack will strike twice in one swift movement. The second attack will deal physical damage equal to a percentage of her total attack damage. Both attacks will trigger on-hit effects.
+|description2= {{sbc|[[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''':}} ''Twin Bite'' will damage all units in front of Shyvana when she uses her next autottack instead of just her target. Each unit hit will both trigger on-hit effects and grant '''FURY''' twice.
+|description3= Shyvana's autoattacks against non-structures reduce the cooldown of ''Twin Bite'' by {{fd|0.5}} seconds.
+|leveling={{lc|Second Strike Physical Damage}} {{as|{{ap|80|85|90|95|100%}} AD}}
+|cooldown={{ap|10|9|8|7|6}}
+}}
+|{{Ability2
+|targeting='''Twin Bite''' is an [[on-hit effect]] ability.
+<br>In [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''', it becomes a [[area of effect|conic area of effect]] ability.
+|damagetype=physical
+|spelleffects=
+|onhiteffects=
+The triggering attack(s) will apply other [[on-hit effects]] and can [[critical strike|critically strike]] as normal.
+** The second hit will trigger [[on-hit effects]] itself, but cannot critically strike.
+** Critical strikes for ''Twin Bite'' in [[File:Dragon's Descent.png|20px|link=]] ''Dragon Form'' are calculated per cast, not per unit hit.
+** The bonus damage from ''Twin Bite'' is effective against structures.
+** ''Twin Bite's'' damage is negated {{ai|Aegis Protection|Pantheon|block}}, [[blind]], {{ai|Counter Strike|Jax|dodge}} and {{ai|Riposte|Fiora|parry}}.
+|spellshield=will block the entire enhanced autoattack.
+|additional=
+* Twin Bite resets Shyvana's attack timer on cast.
+* Twin Bites flat cooldown reduction is not effective against structures.
+* The only exception to [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''' ''Twin Bite'' applying on-hit effects to all affected targets is {{ii|Tiamat}} and {{iis|Ravenous Hydra}} passive effect [[Named item effect#Cleave|Cleave]], as it has an internal cooldown of {{fd|0.05}} seconds when triggered on different targets. This is a special case to prevent abuse.
+* With 40% [[cooldown reduction]] and {{fd|2.5}} [[attack speed]], ''Twin Bite'' has a minimum cooldown of {{fd|1.6}} seconds.
+|video=Shyvana QVideo
+}}
+}}
+
+{{Ability frame|W
+|{{Ability info
+|name=Burnout
+|icon=Burnout.png
+|description={{sbc|Active:}} Shyvana surrounds herself in flame for 3 seconds, dealing magic damage to enemies within {{fd|162.5}} range each second and gaining bonus movement speed. The bonus movement speed decreases by 15% of its original value per second. 
+|description2= {{sbc|[[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''':}} Shyvana now scorches the earth where she walks, leaving a trail of fire for 5 seconds that will continually deal the same magic damage per second to enemies that pass over it.
+|description3=Shyvana's autoattacks extend the duration of ''Burnout'' by 1 second, to a maximum of 4 extra seconds. 
+|leveling=
+{{lcaps|Magic Damage per Second|20|35|50|65|80|(+ 20% bonus AD)}}
+{{lcaps|Minimum Magic Damage|60|105|150|195|240|(+ 60% bonus AD)}}
+{{lcap|Initial Movement Speed Bonus|30|35|40|45|50%}}
+|leveling3=
+{{lcaps|Maximum Magic Damage|140|245|350|455|560|(+ 140% bonus AD)}}
+|cooldown=12
+}}
+|{{Ability2
+|targeting='''Burnout''' is a [[self-buff]], [[area of effect|point blank area of effect]] ability with a [[area of effect|persistent ground targeted area of effect]] component in [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form'''.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will not block the ability.
+|additional=
+* ''Burnout'' has no cast time and does not interrupt Shyvana's previous orders.
+* Attacks against structures will increase ''Burnout's'' duration.
+|video=Shyvana WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name=Flame Breath
+|icon=Flame Breath.png
+|description={{sbc|Active:}} Shyvana unleashes a fireball that travels in a line, dealing magic damage and marking enemies hit for 5 seconds. Basic attacks against marked enemies deal bonus magic damage equal to {{as|2% of their maximum health}} (max. 100 vs. [[monster]]s).
+|description2= {{sbc|[[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''':}} ''Flame Breath'' engulfs all units in a cone in front of Shyvana.
+|leveling={{lcaps|Magic Damage|60|100|140|180|220|(+ 60% AP)}}
+|cooldown={{ap|12|11|10|9|8}}
+|range=925
+}}
+|{{Ability2
+|targeting=''Flame Breath'' is a [[skill shot|pass-through linear skill shot]].
+<br>While in [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''', it is a [[skill shot|pass-through conic skill shot]].
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the ability.
+|additional=
+* ''Flame Breath's'' mark damage will not apply spell effects or life steal.
+|video=Shyvana EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name=Dragon's Descent
+|icon=Dragon's Descent.png
+|description={{sbc|Passive:}} While in '''Human Form''', Shyvana passively generates '''FURY''' every {{fd|1.5}} seconds. Shyvana's basic attacks generate '''2 FURY''', even in [[File:Dragon's Descent.png|20px|link=]] '''Dragon Form''' or against structures. 
+|description2={{sbc|Active:}} Shyvana transforms into a dragon and dashes to a target location. Enemies along her path take magic damage and are pushed toward her target location. 
+|description3= While in [[File:Dragon's Descent.png|20px|link=]] ''Dragon Form'', Shyvana's '''FURY''' decays at a rate of 5 per second. Once her '''FURY''' is depleted, she will return to her normal state. ''Dragon's Descent'' has no cooldown or initial cost but can only be activated when Shyvana has '''100 FURY'''.
+|leveling={{lcap|Fury gained per {{fd|1.5}} seconds|1|2|3}}
+|leveling2={{lcaps|Magic Damage|175|300|425|(+ 70% AP)}}
+|range=1000
+|cost=5
+|costtype=fury per second
+}}
+|{{Ability2
+|targeting='''Dragon's Descent''' is a shapeshift [[dash]] ability.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the knockback.
+|additional=
+* Unlike many other ultimate dash abilities such as {{cai|Unstoppable Force|Malphite}} and {{cai|Onslaught of Shadows|Hecarim}}, Shyvana is not immune to crowd control during the dash.
+* ''Dragon's Descent'' has an effective duration of 20 seconds when not attacking. When permanently attacking at {{fd|2.5}} attack speed, it has an indefinite effective duration.
+* ''Dragon's Descent'' has an effective cooldown of {{ap|150|75|50}} seconds when not attacking. When permanently attacking at {{fd|2.5}} attack speed, it has an effective cooldown of about {{ap|17.65|15.8|14.3}} seconds.
+|video=Shyvana RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Shyvana]]
+[[de:Shyvana]]
+[[es:Shyvana]]
+[[fr:Shyvana]]
+[[pl:Shyvana]]
+[[pt-br:Shyvana]]
+[[ru:Shyvana]]
+[[zh:希瓦娜]]

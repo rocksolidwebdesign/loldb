@@ -1,0 +1,166 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I
+|{{Ability info
+|name = Transcendent
+|icon = Transcendent.jpg
+|description  = Each of Syndra's abilities gain an extra effect at maximum rank.
+}}
+|{{Ability2
+|targeting='''Transcendent''' is a self-targeting [[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+*The earliest possible champion level required for ''Transcendent'' to take effect is level 9, as this is the lowest level at which a basic ability can reach rank 5.
+*Syndra's abilities gain additional visual effects when they reach rank 5. {{ai|Dark Sphere|Syndra}} will cause fractures to appear in the earth when it is used, and {{ai|Scatter the Weak|Syndra}} gains a wider cone. Her spells will also gain a colored tint - classic Syndra has red outlines while {{csi|Syndra|Justicar}} gains a orange glow.
+|video=
+}}
+}}
+
+{{Ability frame|Q
+|{{Ability info
+|name = Dark Sphere
+|icon = DarkSphere.jpg
+|description = {{sbc|Active:}} Conjures a ''Dark Sphere'' at a target location, dealing magic damage. The ''Sphere'' lasts for up to 6 seconds and can be manipulated by Syndra's other abilities.
+|description2 = {{sbc|{{ai|Transcendent|Syndra}} Bonus:}} ''Dark Sphere'' now deals {{tt|{{fd|264.5}} {{as|(+ 69% AP)}}|15% increased damage}} magic damage against champions.
+|leveling = {{lcaps|Magic Damage|70|110|150|190|230|(+ 60% AP)}}
+|cooldown=4
+|cost={{ap|40|50|60|70|80}}
+|costtype=Mana
+|range=800
+}}
+|{{Ability2
+|targeting='''Dark Sphere''' is a [[Area of effect#Ground targeted|ground targeted area of effect]] spell.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage.
+|additional=
+*''Dark Sphere'' has no cast time and does not interrupt Syndra's previous orders.
+*''Dark Sphere'' can be conjured inside terrain, but can't be thrown with {{ai|Force of Will|Syndra}}.
+|video=Syndra QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Force of Will
+|icon = false
+|description = {{MiniAbility|icon=ForceofWill.jpg|description={{sbc|First Active:}} Grabs a {{ai|Dark Sphere|Syndra}}, enemy minion or neutral monster for 5 seconds. If a '''Dark Sphere''' is grabbed, its duration is refreshed. If a minion or monster is grabbed, it becomes untargetable, invulnerable, and disabled until released.}}
+|description2= {{MiniAbility|icon=ForceofWill2.jpg|description={{sbc|Second Active:}} Throws the grasped {{ai|Dark Sphere|Syndra}} or enemy at a target area. The thrown unit, if it is an enemy, and any enemies struck take magic damage and are [[slow]]ed for {{fd|1.5}} seconds. This ability also provides vision through [[Fog of War]] or [[brush]]es before it lands.
+}}
+|description3 = {{sbc|{{ai|Transcendent|Syndra}} Bonus:}} Increases the slowing duration to 2 seconds.
+|leveling2 = {{lcaps|Magic Damage|80|120|160|200|240|(+ 70% AP)}}
+{{lcap|Slow|25|30|35|40|45%}}
+|cooldown={{ap|12|11|10|9|8}}
+|cost={{ap|60|70|80|90|100}}
+|costtype=Mana
+|range={{ap|{{tt|925|First Active}}|{{tt|950|Second Active}}}}
+}}
+|{{Ability2
+|targeting='''Force of Will''' is a minion or monster targeted spell. Its second cast is a [[Area of effect#Ground targeted|ground targeted area of effect]] spell.
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the damage and slow.
+|additional=
+*''Force of Will'' has no cast time and does not interrupt Syndra's previous orders.
+*Thrown objects grant a brief instance of [[sight]] when they land.
+*Syndra '''cannot''' grab any of the following units:
+**{{ci|Baron Nashor}}
+**{{ci|Dragon}}
+**[[Champions]]
+**{{ii|Stealth Ward|Wards}} or {{ai|Jack In The Box|Shaco|traps}}
+**[[File:WukongSquare.png|20px|link=Wukong#Decoy]] [[Wukong#Decoy|Champion clones]]
+*Any enemy {{si|Teleport|Teleports}} on a grabbed target will be cancelled when the unit goes into stasis, going on full cooldown.
+**Casting {{si|Teleport}} on Syndra herself will cause her to cancel ''Force of Will'' and drop anything she is holding.
+*Enemy [[pet]]s that passively have an effect on their surroundings will continue to affect the area around them while they are being held. For example, {{cai|Summon Tibbers|Annie|Tibbers}} will continue to inflict burn damage on surrounding units while in stasis.
+*Grabbing a {{ai|Dark Sphere|Syndra}} will cause the duration on it to refresh, but only on the first cast, not when it is thrown.
+*''Force of Will'' has additional effects when targeting the {{ci|Ancient Golem}} and {{ci|Lizard Elder}}. Throwing the former will refund 10 [[mana]] to Syndra upon cast and will reduce the cooldown of ''Force of Will'' by 1 second, while throwing the latter will apply the {{bi|Blessing of the Lizard Elder}} burn to any affected units in the area of effect.
+|video=Syndra WVideo
+}}
+}}
+
+{{Ability frame|E
+|{{Ability info
+|name = Scatter the Weak
+|icon = ScattertheWeak.jpg
+|description = {{sbc|Active:}} [[Knock back]] enemies and {{ai|Dark Sphere|Syndra|Dark Spheres}}, dealing magic damage to them and any enemies with which they collide. 
+|description2 = The distance of the knockback increases depending on how close the affected units are to Syndra upon cast. '''Dark Spheres''' that are knocked back also [[stun]] all enemies in their path for {{fd|1.5}} seconds.
+|description3={{sbc|{{ai|Transcendent|Syndra}} Bonus:}} Spell width increased by 50%.
+|leveling ={{lc|Magic Damage}} {{ap|70|115|160|205|250}} {{as|(+ 40% AP)}}
+|cooldown={{ap|18|16.5|15|13.5|12}}
+|cost=50
+|costtype=Mana
+|range=700
+}}
+|{{Ability2
+|targeting='''Scatter the Weak''' is a [[area of effect|conic area of effect]] spell.
+{{lc|Dark Sphere Launch Range}} {{tt|1100|Estimated}}
+{{lc|Missile Speed}} 2500
+|damagetype=magic
+|projectile=true
+|spelleffects=area
+|onhiteffects=
+|spellshield=will block the knockback and the stun of a launched {{ai|Dark Sphere|Syndra}}.
+|additional=
+*Launched {{ai|Dark Sphere|Syndra|Dark Spheres}} that successfully strike an enemy will grant [[sight]] on that enemy for the duration of the stun.
+*Spheres knocked back by ''Scatter the Weak'' travel do not travel a set distance. The closer a ''Sphere'' is to Syndra, the further it will travel when hit by ''Scatter the Weak'', however every sphere hit will travel to the same distance from Syndra. 
+|video=Syndra EVideo
+}}
+}}
+
+{{Ability frame|R
+|{{Ability info
+|name = Unleashed Power
+|icon = UnleashedPower.jpg
+|description = {{sbc|Active:}} Draws upon Syndra's full cataclysmic power, harnessing the three {{ai|Dark Sphere|Syndra}} orbiting Syndra, in addition to '''Dark Spheres''' previously created to deal magic damage to her target per sphere. ''Unleashed Power'' will use the three spheres that orbit Syndra, ensuring a minimum damage.
+|description2 = All '''Dark Spheres''' remain on the ground for 6 seconds after ''Unleashed Power'' is used.
+|description3= {{sbc|{{ai|Transcendent|Syndra}} Bonus:}} Cast range increased by 75.
+|leveling ={{lc|Damage per Sphere}} {{ap|90|135|180}} {{as|(+ 20% AP)}}
+{{lc|Minimum Damage (3 spheres)}} {{ap|270|405|540}} {{as|(+ 60% AP)}}
+{{lc|Maximum Damage (7 spheres)}} {{ap|630|975|1260}} {{as|(+ 140% AP)}}
+|cooldown={{ap|100|90|80}}
+|cost=100
+|costtype=Mana
+|range=675 / 750
+}}
+|{{Ability2
+|targeting='''Unleashed Power''' is a single targeted ability.
+|damagetype=magic
+|projectile=true
+|spelleffects=single
+|onhiteffects=
+|spellshield=will only block the damage of a single sphere.
+|additional=
+*''Unleashed Power'' has a brief cast time before it activates, but Syndra does not have to remain in place while the spheres apply their damage. She can walk away as soon as the casting has completed, as the spheres only begin dealing their damage after the casting time. 
+*Each one of the sphere hits is considered a single-target spell. For this reason, each hit will proc {{ii|Muramana}} once.
+*Casting ''Unleashed Power'' on a target that becomes [[untargetable]] while the spheres are in flight will cause all spheres to be deal no damage and be destroyed.
+*''Unleashed Power'' refreshes the duration of all active spheres upon cast.
+|video=Syndra RVideo
+}}
+}}
+
+==Map-Specific Differences==
+;[[Twisted Treeline]]
+* {{ai|Scatter the Weak|Syndra}}
+** Cooldown is {{ap|20|18.5|17|15.5|14}} instead of {{ap|18|16.5|15|13.5|12}}.
+* {{ai|Unleashed Power|Syndra}}
+** Cooldown is {{ap|120|105|90}} instead of {{ap|100|90|80}}.
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Syndra]]
+[[de:Syndra]]
+[[es:Syndra]]
+[[fr:Syndra]]
+[[pl:Syndra]]
+[[pt-br:Syndra]]
+[[ru:Syndra]]
+[[zh:辛德拉]]

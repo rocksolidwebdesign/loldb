@@ -1,0 +1,168 @@
+{{C-top}} 
+{{champion info|{{PAGENAME}}}} {{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Unseen Threat
+|icon = Unseen Threat.png
+|description  = When Kha'Zix is not visible to the enemy team, he gains ''Unseen Threat''. ''Unseen Threat'' lasts until consumed and has no internal cooldown.
+|description2 = ''Unseen Threat'' causes his next basic attack against an enemy champion to deal {{pp18|15|20|25|35|45|55|65|75|85|95|110|125|140|150|160|170|180|190}} (''10{{plus}}{{ap|{{tt|5|Damage increase at levels 1-5}}|{{tt|10|Damage increase at levels 6-10}}|{{tt|15|Damage increase at levels 11-13}}|{{tt|10|Damage increase at levels 14-18}}}} at each level'') {{as|(+ 50% AP)}} bonus magic damage and slow by 25% for 2 seconds.
+}}
+|{{Ability2
+|targeting='''Unseen Threat''' is an [[on-hit effect]].
+|damagetype=magic
+|spelleffects=single
+|onhiteffects=The triggering attack will apply other [[on-hit effects]] and can critically strike as normal.
+** Critical strikes do not interact with the bonus damage of ''Unseen Threat''.
+** {{Pending for test}} ''Unseen Threat's'' interaction with {{ai|Counter Strike|Jax|dodge}}, {{ai|Aegis Protection|Pantheon|block}}, {{ai|Riposte|Fiora|parry}}, and [[blind]] has yet to be tested.
+|spellshield=will block the on-hit effect.
+|additional=
+* ''Unseen Threat's'' damage will cause {{iis|Muramana}} bonus damage to trigger twice with one autoattack.
+|video=Kha'Zix IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Taste Their Fear
+|icon = Taste Their Fear.png
+|description  = {{sbc|Passive:}} Kha'Zix marks enemies that are isolated from their allies. Enemy champions are marked as isolated when they have no allies (''allied champions, minions or turrets'') within 500 units.
+|description2 = {{sbc|Active:}} Kha'Zix slashes, dealing physical damage to a single enemy. If the target was isolated, the damage dealt is increased by 30%.
+|leveling2 =
+{{lcaps|Physical damage|70|95|120|145|170|(+ 120% bonus AD)}}
+{{lcaps|Damage to Isolated Target|91|123.5|156|188.5|221|(+ 156% bonus AD)}}
+|range    = 325 (''375 when {{ai|Evolved Enlarged Claws|Kha'Zix|evolved}}'')
+|cooldown = {{ap|3.5}}
+|cost     = 25
+|costtype = mana
+}}
+{{Ability info
+|name = Evolved Enlarged Claws
+|icon = Evolved Enlarged Claws.png
+|description  = Increases by 50 the range of both {{ai|Taste Their Fear|Kha'Zix}} (''375 total range'') and Kha'Zix's basic attacks (''175 total range'').
+|description2 = Additionally, {{ai|Taste Their Fear|Kha'Zix}} now deals an additional (10{{times}}''Kha'Zix's level'') {{as|(+ {{fd|104%}} bonus AD)}} bonus physical damage to isolated targets.
+|leveling = 
+{{lcaps|Physical Damage to Isolated Targets|91|123.5|156|188.5|221|{{as|(+ {{fd|260%}} bonus AD)}}| (+10 {{times}} ''Kha'Zix's level'') }}
+}}
+|{{Ability2
+|targeting = '''Taste Their Fear''' is a single target ability.
+|damagetype   = physical
+|spelleffects = single
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional =
+|video=Kha'Zix QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Void Spike
+|icon = Void Spike.png
+|description  = {{sbc|Active:}} Kha'Zix fires a cluster of spikes in a line that explode on contact with an enemy, dealing physical damage to all nearby enemies and slowing them by 20% for 2 seconds. Monsters take 20% extra damage.
+|description2 = Kha'Zix is healed if he is within the explosion radius.
+|leveling  =
+{{lcaps|Physical Damage|80|110|140|170|200|(+ 100% bonus AD)}}
+{{lcaps|Physical Damage vs Monsters|96|132|168|204|240|(+ 120% bonus AD)}}
+|leveling2 =
+{{lcaps|Heal|40|70|100|130|160|(+ 50% AP)}}
+|cooldown  = 8
+|cost      = {{ap|55|60|65|70|75}}
+|costtype  = mana
+|range     = 1000
+}}
+{{Ability info
+|name = Evolved Spike Racks
+|icon = Evolved Spike Racks.png
+|description = Enhances {{ai|Void Spike|Kha'Zix}} to fire three spikes in a cone, increases the slow to 50% and grants vision of champions hit for 2 seconds. Multiple explosions upon the same enemy do not deal extra damage, and the vision does not apply to stealthed units. Being within multiple explosions does not heal Kha'Zix for an extra amount.
+}}
+|{{Ability2
+|targeting = '''Void Spike''' is a linear, colliding skill shot that deals damage in an area of effect.
+|damagetype   = physical
+|projectile   = true
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = will block the ability.
+|additional =
+|video=Kha'Zix WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Leap
+|icon = Leap.png
+|description = {{sbc|Active:}} Kha'Zix leaps to an area, dealing physical damage to nearby enemies upon landing.
+|leveling = {{lcaps|Physical Damage|65|100|135|170|205|(+ 20% bonus AD)}}
+|cooldown = {{ap|22|20|18|16|14}}
+|cost     = 50
+|costtype = mana
+|range    = 600 (''900 when {{ai|Evolved Wings|Kha'Zix|evolved}}'')
+}}
+{{Ability info
+|name = Evolved Wings
+|icon = Evolved Wings.png
+|description = Increases {{ais|Leap|Kha'Zix}} range by 300 (''900 total range''), and causes kills and assists scored by Kha'Zix to refresh ''Leap's'' cooldown.
+|range = 900
+}}
+|{{Ability2
+|targeting = '''Leap''' is a ground-targeted dash ability that deals area of effect damage.
+|damagetype   = physical
+|spelleffects = area of effect
+|onhiteffects =
+|spellshield  = will block the damage.
+|additional =
+* Kha'Zix can still use summoner spells and item actives while he is in the air.
+* ''Leap's'' speed depends on the distance of the jump. Melee range jumps are near instantaneous while long range jumps leave Kha'Zix in the air for significantly longer.
+* Kha'Zix is still targetable while jumping and is considered to be on the ground for the purposes of skillshots such as {{cai|Enchanted Crystal Arrow|Ashe}} and {{cai|Mystic Shot|Ezreal}}
+** Crowd control effects, like [[stun|stuns]] and [[snare|snares]], will take effect upon landing.
+** Knock-up effects like {{cai|Pulverize|Alistar}} and {{cai|Howling Gale|Janna}} will cancel the jump and knock Kha'Zix into the air at his current location
+** Knock-back effects, like {{cai|Headbutt|Alistar}} and {{cai|Monsoon|Janna}}, pulls like {{cai|Rocket Grab|Blitzcrank}} and {{cai|Death Sentence|Thresh}}, and throws like {{cai|Fling|Singed}} and {{cai|Rolling Thunder|Volibear}} will all cancel the jump and then complete their effects as normal.
+|video=Kha'Zix EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Void Assault
+|icon = Void Assault.png
+|description  = {{sbc|Passive:}} Each rank of ''Void Assault'' allows Kha'Zix to evolve one of his abilities, granting it an additional effect.
+|description2 = {{sbc|Active:}} Kha'Zix enters stealth for 1 second, acquiring {{ai|Unseen Threat|Kha'Zix}}, gaining 40% bonus movement speed and ignores unit collision while stealthed. 
+After leaving stealth for 2 seconds, ''Void Assault'' can be cast a second time within 15 seconds at no cost.
+|cooldown = {{ap|100|90|80}}
+|cost = 100
+|costtype = mana
+}}
+{{Ability info
+|name = Evolved Active Camouflage
+|icon = Evolved Active Camouflage.png
+|description = Allows {{ai|Void Assault|Kha'Zix}} to be cast up to three times and the stealth duration is increased by 1 second (''total 2 seconds'').
+}}
+|{{Ability2
+|targeting = '''Void Assault''' is a [[buff|self-buff]] ability.
+|damagetype   =
+|spelleffects =
+|onhiteffects =
+|spellshield  =
+|additional =
+* ''Void Assault'' has no cast time and does not interrupt Kha'Zix's previous orders.
+* Each ranking of ''Void Assault'' will bring up a secondary selection menu that allows Kha'Zix to choose the ability to next evolve. Selecting one will cause Kha'Zix to begin channeling, receiving the evolution when it ends. He may not evolve an ability more than once.
+* Although the evolution is represented as a channel, applying hard [[crowd control]] to Kha'Zix as he is evolving will not cancel the process as it does for most channeled spells. Even if Kha'Zix is killed partway through the channel, he will still receive the evolution buff.
+* If Kha'Zix emerges victorious in the [[The Hunt is On!]] [[event]], he will receive a fourth evolution point to spend on his final unevolved ability. This is the only way through which he may evolve all of his abilities at once.
+|video=Kha'Zix RVideo
+}}
+}}
+
+== References ==
+{{Reflist}}
+{{C-bot}}
+
+[[cs:Kha'Zix]]
+[[de:Kha'Zix]]
+[[es:Kha'Zix]]
+[[fr:Kha'Zix]]
+[[pl:Kha'Zix]]
+[[pt-br:Kha'Zix]]
+[[ru:Kha'Zix]]
+[[zh:卡'兹克]]

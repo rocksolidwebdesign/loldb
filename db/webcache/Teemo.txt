@@ -1,0 +1,140 @@
+{{C-top}}{{champion info|Teemo}}{{C-ref}}
+
+== Abilities ==
+{{Ability frame|I|
+{{Ability info
+|name = Camouflage
+|icon = Camouflage.jpg
+|description = If Teemo stands still and takes no action for 2 seconds, he becomes [[stealth]]ed. 
+Taking any action or being moved will break his camouflage, giving Teemo the [[File:BlindMonk BlindingStrike.jpg|20px|link=Teemo#Element of Surprise]] '''Element of Surprise''', 40% bonus attack speed for 3 seconds.
+}}
+|{{Ability2
+|targeting='''Camouflage''' is a passive ability.
+<br>'''Element of Surprise''' is a self-[[buff]].
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Camouflage'' will not trigger as long as Teemo is taking damage.
+* Once stealthed taking damage will not deactivate the stealth.
+* Forced movement effects like {{cai|Pulverize|Alistar}}, {{cai|Crystallize|Anivia}} and {{cai|Pillar of Ice|Trundle}} will count as movement and deactivate the stealth.
+|video=Teemo IVideo
+}}
+}}
+
+{{Ability frame|Q|
+{{Ability info
+|name = Blinding Dart
+|icon = Blinding Dart.jpg
+|description = {{sbc|Active:}} Teemo shoots a dart at an enemy, dealing magic damage and [[blind]]ing them for a few seconds.
+|leveling = {{lcaps|Magic Damage|80|125|170|215|260|(+ 80% AP)}}
+{{lcap|Blind Duration|1.5|1.75|2|2.25|2.5}}
+|range = 580
+|cooldown = 8
+|cost = {{ap|70|80|90|100|110}}
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Blinding Dart''' is a single target ability. 
+|damagetype=magic
+|projectile=true
+|spelleffects=single target
+|onhiteffects=
+|spellshield=Will block the ability. 
+|additional=
+|video=Teemo QVideo
+}}
+}}
+
+{{Ability frame|W|
+{{Ability info
+|name = Move Quick
+|icon = Move Quick.jpg
+|description  = {{sbc|Passive:}} Teemo gains increased movement speed. Damage from champions and structures will disable this bonus for 5 seconds.
+|description2 = {{sbc|Active:}} For 3 seconds, Teemo doubles his passive movement speed bonus. While active, ''Move Quick's'' bonus cannot be disabled via champion or structure damage.
+|leveling = {{lcap|Passive Movement Speed|10|14|18|22|26%}}
+|leveling2 = {{lcap|Active Movement Speed|20|28|36|44|52%}}
+|cooldown = 17
+|cost = 40
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Move Quick's''' active and passive are self-buffs.
+|damagetype=
+|spelleffects=
+|onhiteffects=
+|spellshield=
+|additional=
+* ''Move Quick's'' active cooldown starts when the ability is first activated, not when the effect ends.
+* When ''Move Quick's'' active buff expires Teemo will not regain the passive effect if he was damaged at any point during the buff's duration.
+|video=Teemo WVideo
+}}
+}}
+
+{{Ability frame|E|
+{{Ability info
+|name = Toxic Shot
+|icon = Toxic Shot.jpg
+|description = {{sbc|Passive:}} Teemo's auto-attacks deal bonus magic damage and poison his target, causing them to take additional magic damage over 4 seconds. Subsequent attacks only refresh the duration.
+|leveling = {{lcaps|Magic Damage on Hit|10|20|30|40|50|(+ 30% AP)}}
+{{lcaps|Magic Damage per Second|6|12|18|24|30|(+ 10% AP)}}
+{{lcaps|Total Magic Damage Over Time|24|48|72|96|120|(+ 40% AP)}}
+{{lcaps|Total damage for one hit|34|68|102|136|170|(+ 70% AP)}}
+}}
+|{{Ability2
+|targeting='''Toxic Shot''' adds an [[on-hit effect]] to Teemo's basic attacks. 
+|damagetype=magic 
+|spelleffects=false
+|onhiteffects=
+|additional=
+* ''Toxic Shot's'' damage over time is considered a poison for the purpose of {{cai|Twin Fang|Cassiopeia}}.
+|pet=
+|video=Teemo EVideo
+}}
+}}
+
+{{Ability frame|R|
+{{Ability info
+|name = Noxious Trap
+|icon = Noxious Trap.jpg
+|description = {{sbc|Active:}} Teemo places a mushroom trap on the ground, which [[stealth]]s and arms after 1 second. While armed, the traps grant [[vision]] in a {{ap|212.5}} radius. If an enemy comes within '''60'''-range of the trap, it will detonate, [[slow]]ing and dealing damage over 4 seconds to nearby enemies within '''200'''-radius.
+|description2 = ''Noxious Traps'' have a 10 minute duration. Teemo generates a new trap periodically, affected by cooldown reduction, and can only store up to 3 traps at once.
+|leveling = {{lcaps|Magic Damage per Second|50|81.25|112.5|(+ {{fd|12.5}}% AP)}}
+{{lcaps|Total Magic Damage|200|325|450|(+ 50% AP)}}
+{{lcap|Slow|30|40|50%}}
+|leveling2 = {{lcap|Charge Receive Time|35|31|27}}
+|range = 230
+|cooldown = 1
+|cost = {{ap|75|100|125}}
+|costtype = mana 
+}}
+|{{Ability2
+|targeting='''Noxious Trap''' is a [[area of effect|ground-targeted area of effect]] 
+|damagetype=magic
+|spelleffects=area
+|onhiteffects=
+|spellshield=Will block the ability and prevent the trap from affecting nearby units.
+|quicksilver=Will remove the damage over time and the slow
+|additional=
+* Each mushroom has 100 health and can only be destroyed by auto-attacks.
+* Turrets will reveal, but not attack, traps within their sight radius.
+* ''Noxious Trap's'' damage over time effect does not stack.  Enemies who detonate multiple traps will only have the duration refreshed per trap they detonate.
+* ''Noxious Trap's'' damage over time effect counts as a poison for the purpose of {{cai|Twin Fang|Cassiopeia}}
+* ''Noxious Trap's'' damage is determined at detonation, not at the time of being placed which means any ability power Teemo gains or loses will affect all active shrooms.
+|video=Teemo RVideo
+}}
+}}
+
+== References ==
+{{reflist}}
+{{C-bot}}
+
+[[cs:Teemo]]
+[[de:Teemo]]
+[[es:Teemo]]
+[[fr:Teemo]]
+[[pl:Teemo]]
+[[pt-br:Teemo]]
+[[ru:Teemo]]
+[[zh:提莫]]
